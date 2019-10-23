@@ -31,11 +31,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2edeploy "k8s.io/kubernetes/test/e2e/framework/deployment"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
-	"k8s.io/kubernetes/test/e2e/storage/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2edeploy "github.com/divinerapier/learn-kubernetes/test/e2e/framework/deployment"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils"
 )
 
 /*

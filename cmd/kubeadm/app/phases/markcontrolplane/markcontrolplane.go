@@ -21,8 +21,8 @@ import (
 
 	"k8s.io/api/core/v1"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/apiclient"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/apiclient"
 )
 
 // MarkControlPlane taints the control-plane and sets the control-plane label

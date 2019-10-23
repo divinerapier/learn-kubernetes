@@ -27,7 +27,7 @@ import (
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/kubernetes/pkg/controller/testutil"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/testutil"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	clienttesting "k8s.io/client-go/testing"

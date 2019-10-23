@@ -5,7 +5,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["ioutils.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/util/ioutils",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/ioutils",
 )
 
 filegroup(

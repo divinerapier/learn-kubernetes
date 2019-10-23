@@ -30,10 +30,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	corelisters "k8s.io/client-go/listers/core/v1"
 	kcache "k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/controller/volume/attachdetach/cache"
-	"k8s.io/kubernetes/pkg/controller/volume/attachdetach/util"
-	"k8s.io/kubernetes/pkg/volume"
-	volutil "k8s.io/kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 // DesiredStateOfWorldPopulator periodically verifies that the pods in the

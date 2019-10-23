@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["fuzzer.go"],
-    importpath = "k8s.io/kubernetes/pkg/apis/scheduling/fuzzer",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/scheduling/fuzzer",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/apis/scheduling:go_default_library",

@@ -11,7 +11,7 @@ go_library(
         "zz_generated.deepcopy.go",
         "zz_generated.defaults.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/apis/output/v1alpha1",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/output/v1alpha1",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm/v1beta2:go_default_library",

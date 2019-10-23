@@ -20,18 +20,18 @@ import (
 	"fmt"
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 
 	corev1 "k8s.io/api/core/v1"
 	policy "k8s.io/api/policy/v1beta1"
 	"k8s.io/apimachinery/pkg/util/errors"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/apparmor"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/capabilities"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/group"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/seccomp"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/selinux"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/sysctl"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/user"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/apparmor"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/capabilities"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/group"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/seccomp"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/selinux"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/sysctl"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/user"
 )
 
 type simpleStrategyFactory struct{}

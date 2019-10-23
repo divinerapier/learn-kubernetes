@@ -22,9 +22,9 @@ import (
 	"sync"
 
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager/errors"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager/errors"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
 )
 
 var _ State = &stateCheckpoint{}

@@ -24,7 +24,7 @@ import (
 	"github.com/pkg/errors"
 
 	"k8s.io/apimachinery/pkg/util/version"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
 )
 
 func TestGetStaticPodDirectory(t *testing.T) {

@@ -31,12 +31,12 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/master/ports"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
-	testutils "k8s.io/kubernetes/test/utils"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 
 	"github.com/onsi/ginkgo"
 )

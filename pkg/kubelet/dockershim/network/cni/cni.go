@@ -31,11 +31,11 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
 	"k8s.io/klog"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network"
-	"k8s.io/kubernetes/pkg/util/bandwidth"
-	utilslice "k8s.io/kubernetes/pkg/util/slice"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/bandwidth"
+	utilslice "github.com/divinerapier/learn-kubernetes/pkg/util/slice"
 	utilexec "k8s.io/utils/exec"
 )
 

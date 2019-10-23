@@ -22,11 +22,11 @@ import (
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
 	"k8s.io/apiserver/pkg/registry/rest"
 	"k8s.io/apiserver/pkg/storage"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/printers"
-	printersinternal "k8s.io/kubernetes/pkg/printers/internalversion"
-	printerstorage "k8s.io/kubernetes/pkg/printers/storage"
-	"k8s.io/kubernetes/pkg/registry/core/configmap"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/printers"
+	printersinternal "github.com/divinerapier/learn-kubernetes/pkg/printers/internalversion"
+	printerstorage "github.com/divinerapier/learn-kubernetes/pkg/printers/storage"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/configmap"
 )
 
 // REST implements a RESTStorage for ConfigMap

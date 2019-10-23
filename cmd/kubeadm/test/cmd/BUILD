@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["util.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/test/cmd",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test/cmd",
     deps = [
         "//vendor/github.com/pkg/errors:go_default_library",
         "//vendor/github.com/spf13/cobra:go_default_library",

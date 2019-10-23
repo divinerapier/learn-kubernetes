@@ -12,7 +12,7 @@ go_library(
         "events.go",
         "validation.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/core/validation",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/service:go_default_library",

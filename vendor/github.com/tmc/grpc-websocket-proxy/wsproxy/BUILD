@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "websocket_proxy.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/tmc/grpc-websocket-proxy/wsproxy",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/tmc/grpc-websocket-proxy/wsproxy",
     importpath = "github.com/tmc/grpc-websocket-proxy/wsproxy",
     visibility = ["//visibility:public"],
     deps = [

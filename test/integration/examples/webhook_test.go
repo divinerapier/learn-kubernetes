@@ -27,10 +27,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	auditinternal "k8s.io/apiserver/pkg/apis/audit"
 	"k8s.io/apiserver/pkg/authorization/authorizer"
-	"k8s.io/kubernetes/cmd/kube-apiserver/app/options"
-	"k8s.io/kubernetes/pkg/master"
-	"k8s.io/kubernetes/pkg/master/reconcilers"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/options"
+	"github.com/divinerapier/learn-kubernetes/pkg/master"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/reconcilers"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 func TestWebhookLoopback(t *testing.T) {

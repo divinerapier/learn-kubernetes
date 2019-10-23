@@ -11,7 +11,7 @@ go_library(
         "log_metrics_provider.go",
         "stats_provider.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/stats",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/stats",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/apis/stats/v1alpha1:go_default_library",

@@ -27,9 +27,9 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	certutil "k8s.io/client-go/util/cert"
 	"k8s.io/client-go/util/keyutil"
-	kubeconfigutil "k8s.io/kubernetes/cmd/kubeadm/app/util/kubeconfig"
-	pkiutil "k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
-	testutil "k8s.io/kubernetes/cmd/kubeadm/test"
+	kubeconfigutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/kubeconfig"
+	pkiutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
+	testutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test"
 )
 
 func TestPKICertificateReadWriter(t *testing.T) {

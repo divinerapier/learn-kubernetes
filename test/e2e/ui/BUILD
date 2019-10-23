@@ -6,7 +6,7 @@ go_library(
         "dashboard.go",
         "framework.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/ui",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/ui",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1:go_default_library",

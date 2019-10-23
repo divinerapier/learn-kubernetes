@@ -10,7 +10,7 @@ go_library(
         "plan.go",
         "upgrade.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/cmd/upgrade",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/upgrade",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",

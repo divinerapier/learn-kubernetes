@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["configfiles.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/configfiles",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/configfiles",
     deps = [
         "//pkg/kubelet/apis/config:go_default_library",
         "//pkg/kubelet/apis/config/scheme:go_default_library",

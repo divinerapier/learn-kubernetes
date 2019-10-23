@@ -24,9 +24,9 @@ import (
 	"github.com/vmware/govmomi/object"
 
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	"k8s.io/kubernetes/test/e2e/storage/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils"
 )
 
 var _ = utils.SIGDescribe("Node Unregister [Feature:vsphere] [Slow] [Disruptive]", func() {

@@ -11,7 +11,7 @@ go_library(
         "rules.go",
         "structtag.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/staticcheck",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/staticcheck",
     importpath = "honnef.co/go/tools/staticcheck",
     visibility = ["//visibility:public"],
     deps = [

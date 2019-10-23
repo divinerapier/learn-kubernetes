@@ -25,11 +25,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/informers"
 	clientsetfake "k8s.io/client-go/kubernetes/fake"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/priorities"
-	"k8s.io/kubernetes/pkg/scheduler/framework/plugins/migration"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
-	"k8s.io/kubernetes/pkg/util/parsers"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/plugins/migration"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/parsers"
 )
 
 func TestImageLocalityPriority(t *testing.T) {

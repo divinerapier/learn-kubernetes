@@ -6,7 +6,7 @@ go_library(
         "interop.go",
         "zsyscall_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Microsoft/hcsshim/internal/interop",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Microsoft/hcsshim/internal/interop",
     importpath = "github.com/Microsoft/hcsshim/internal/interop",
     visibility = ["//vendor/github.com/Microsoft/hcsshim:__subpackages__"],
     deps = select({

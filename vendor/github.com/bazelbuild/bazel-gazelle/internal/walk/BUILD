@@ -6,7 +6,7 @@ go_library(
         "config.go",
         "walk.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/bazelbuild/bazel-gazelle/internal/walk",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/bazelbuild/bazel-gazelle/internal/walk",
     importpath = "github.com/bazelbuild/bazel-gazelle/internal/walk",
     visibility = ["//vendor/github.com/bazelbuild/bazel-gazelle:__subpackages__"],
     deps = [

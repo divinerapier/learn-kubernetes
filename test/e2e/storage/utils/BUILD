@@ -14,7 +14,7 @@ go_library(
         "local.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/storage/utils",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils",
     deps = [
         "//staging/src/k8s.io/api/apps/v1:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

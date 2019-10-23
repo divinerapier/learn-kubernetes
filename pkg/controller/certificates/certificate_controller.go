@@ -36,7 +36,7 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
-	"k8s.io/kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 )
 
 type CertificateController struct {

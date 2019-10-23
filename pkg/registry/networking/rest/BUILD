@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["storage_settings.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/networking/rest",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/networking/rest",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/networking:go_default_library",

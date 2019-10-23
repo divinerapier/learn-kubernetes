@@ -35,9 +35,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apimachinery/pkg/util/json"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 func doRoundTrip(t *testing.T, internalVersion schema.GroupVersion, externalVersion schema.GroupVersion, kind string) {

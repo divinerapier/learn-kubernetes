@@ -30,7 +30,7 @@ import (
 	versionutil "k8s.io/apimachinery/pkg/util/version"
 	pkgversion "k8s.io/component-base/version"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
 )
 
 const (

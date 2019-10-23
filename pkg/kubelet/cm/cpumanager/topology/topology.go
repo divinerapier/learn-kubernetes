@@ -23,7 +23,7 @@ import (
 
 	cadvisorapi "github.com/google/cadvisor/info/v1"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
 )
 
 // NUMANodeInfo is a map from NUMANode ID to a list of CPU IDs associated with

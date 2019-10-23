@@ -39,7 +39,7 @@ go_library(
         "variant_parser.go",
     ],
     cgo = True,
-    importmap = "k8s.io/kubernetes/vendor/github.com/godbus/dbus",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/godbus/dbus",
     importpath = "github.com/godbus/dbus",
     visibility = ["//visibility:public"],
 )

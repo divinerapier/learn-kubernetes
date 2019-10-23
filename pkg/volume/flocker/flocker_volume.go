@@ -22,8 +22,8 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 type volumeManager interface {

@@ -28,5 +28,5 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["tail.go"],
-    importpath = "k8s.io/kubernetes/pkg/util/tail",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/tail",
 )

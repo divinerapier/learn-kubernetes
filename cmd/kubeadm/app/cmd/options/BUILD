@@ -9,7 +9,7 @@ go_library(
         "generic.go",
         "token.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/cmd/options",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm/v1beta2:go_default_library",

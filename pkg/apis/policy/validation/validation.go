@@ -26,13 +26,13 @@ import (
 	unversionedvalidation "k8s.io/apimachinery/pkg/apis/meta/v1/validation"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	appsvalidation "k8s.io/kubernetes/pkg/apis/apps/validation"
-	core "k8s.io/kubernetes/pkg/apis/core"
-	apivalidation "k8s.io/kubernetes/pkg/apis/core/validation"
-	"k8s.io/kubernetes/pkg/apis/policy"
-	"k8s.io/kubernetes/pkg/security/apparmor"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/seccomp"
-	psputil "k8s.io/kubernetes/pkg/security/podsecuritypolicy/util"
+	appsvalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/apps/validation"
+	core "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	apivalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/policy"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/apparmor"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/seccomp"
+	psputil "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/util"
 )
 
 func ValidatePodDisruptionBudget(pdb *policy.PodDisruptionBudget) field.ErrorList {

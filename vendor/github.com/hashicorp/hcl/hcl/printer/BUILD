@@ -6,7 +6,7 @@ go_library(
         "nodes.go",
         "printer.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/hashicorp/hcl/hcl/printer",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/hashicorp/hcl/hcl/printer",
     importpath = "github.com/hashicorp/hcl/hcl/printer",
     visibility = ["//visibility:public"],
     deps = [

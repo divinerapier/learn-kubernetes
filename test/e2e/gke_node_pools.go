@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os/exec"
 
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
 
 	"github.com/onsi/ginkgo"
 )

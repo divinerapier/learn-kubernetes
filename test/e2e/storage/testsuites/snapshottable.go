@@ -27,10 +27,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/dynamic"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
-	"k8s.io/kubernetes/test/e2e/framework/volume"
-	"k8s.io/kubernetes/test/e2e/storage/testpatterns"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/volume"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/testpatterns"
 )
 
 // snapshot CRD api group

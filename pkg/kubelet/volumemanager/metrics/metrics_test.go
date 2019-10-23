@@ -22,11 +22,11 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k8stypes "k8s.io/apimachinery/pkg/types"
-	"k8s.io/kubernetes/pkg/kubelet/volumemanager/cache"
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/volumemanager/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
 
-	volumetesting "k8s.io/kubernetes/pkg/volume/testing"
-	"k8s.io/kubernetes/pkg/volume/util"
+	volumetesting "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 func TestMetricCollection(t *testing.T) {

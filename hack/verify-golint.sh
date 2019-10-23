@@ -31,7 +31,7 @@ PATH="${GOBIN}:${PATH}"
 
 # Install golint from vendor
 echo 'installing golint from vendor'
-go install k8s.io/kubernetes/vendor/golang.org/x/lint/golint
+go install github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/lint/golint
 
 
 cd "${KUBE_ROOT}"
@@ -41,11 +41,11 @@ failure_file="${KUBE_ROOT}/hack/.golint_failures"
 kube::util::check-file-in-alphabetical-order "${failure_file}"
 
 export IFS=$'\n'
-# NOTE: when "go list -e ./..." is run within GOPATH, it turns the k8s.io/kubernetes
+# NOTE: when "go list -e ./..." is run within GOPATH, it turns the github.com/divinerapier/learn-kubernetes
 # as the prefix, however if we run it outside it returns the full path of the file
 # with a leading underscore. We'll need to support both scenarios for all_packages.
 all_packages=()
-while IFS='' read -r line; do all_packages+=("$line"); done < <(go list -e ./... | grep -vE "/(third_party|vendor|staging/src/k8s.io/client-go/pkg|generated|clientset_generated)" | sed -e 's|^k8s.io/kubernetes/||' -e "s|^_\(${KUBE_ROOT}/\)\{0,1\}||")
+while IFS='' read -r line; do all_packages+=("$line"); done < <(go list -e ./... | grep -vE "/(third_party|vendor|staging/src/k8s.io/client-go/pkg|generated|clientset_generated)" | sed -e 's|^github.com/divinerapier/learn-kubernetes/||' -e "s|^_\(${KUBE_ROOT}/\)\{0,1\}||")
 failing_packages=()
 while IFS='' read -r line; do failing_packages+=("$line"); done < <(cat "$failure_file")
 unset IFS

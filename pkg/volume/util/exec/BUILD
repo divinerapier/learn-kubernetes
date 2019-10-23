@@ -6,7 +6,7 @@ go_library(
         "exec_mount.go",
         "exec_mount_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/util/exec",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/util/exec",
     visibility = ["//visibility:public"],
     deps = select({
         "@io_bazel_rules_go//go/platform:android": [

@@ -21,7 +21,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/cache"
 )
 
 const (

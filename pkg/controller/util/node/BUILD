@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["controller_utils.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/util/node",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/util/node",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/v1/pod:go_default_library",

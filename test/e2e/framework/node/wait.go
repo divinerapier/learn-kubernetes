@@ -26,9 +26,9 @@ import (
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
-	"k8s.io/kubernetes/test/e2e/system"
-	testutils "k8s.io/kubernetes/test/utils"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/system"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 const sleepTime = 20 * time.Second

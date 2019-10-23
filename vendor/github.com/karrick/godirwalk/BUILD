@@ -14,7 +14,7 @@ go_library(
         "withNamlen.go",
         "withoutNamlen.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/karrick/godirwalk",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/karrick/godirwalk",
     importpath = "github.com/karrick/godirwalk",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/pkg/errors:go_default_library"],

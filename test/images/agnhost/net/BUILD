@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "k8s.io/kubernetes/test/images/agnhost/net",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/agnhost/net",
     deps = [
         "//test/images/agnhost/net/common:go_default_library",
         "//test/images/agnhost/net/nat:go_default_library",

@@ -27,7 +27,7 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	kubeadm "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadm "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
 )
 
 func init() {

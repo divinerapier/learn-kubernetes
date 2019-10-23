@@ -12,7 +12,7 @@ go_library(
         "kubelet.go",
         "transport.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/certificate",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/certificate",
     deps = [
         "//pkg/kubelet/apis/config:go_default_library",
         "//pkg/kubelet/metrics:go_default_library",

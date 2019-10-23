@@ -29,15 +29,15 @@ import (
 	corev1client "k8s.io/client-go/kubernetes/typed/core/v1"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/retry"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	"k8s.io/kubernetes/pkg/registry/core/rangeallocation"
-	"k8s.io/kubernetes/pkg/registry/core/service/ipallocator"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/rangeallocation"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/ipallocator"
 	netutil "k8s.io/utils/net"
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 // Repair is a controller loop that periodically examines all service ClusterIP allocations

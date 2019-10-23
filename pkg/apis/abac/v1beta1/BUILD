@@ -17,7 +17,7 @@ go_library(
         "zz_generated.deepcopy.go",
         "zz_generated.defaults.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/abac/v1beta1",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/abac/v1beta1",
     deps = [
         "//pkg/apis/abac:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1:go_default_library",

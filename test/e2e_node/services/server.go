@@ -31,7 +31,7 @@ import (
 
 	"k8s.io/klog"
 
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 )
 
 var serverStartTimeout = flag.Duration("server-start-timeout", time.Second*120, "Time to wait for each server to become healthy.")

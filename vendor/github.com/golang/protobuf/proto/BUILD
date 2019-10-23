@@ -20,7 +20,7 @@ go_library(
         "text.go",
         "text_parser.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/golang/protobuf/proto",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/golang/protobuf/proto",
     importpath = "github.com/golang/protobuf/proto",
     visibility = ["//visibility:public"],
 )

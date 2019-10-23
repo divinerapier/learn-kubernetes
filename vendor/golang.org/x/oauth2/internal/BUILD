@@ -8,7 +8,7 @@ go_library(
         "token.go",
         "transport.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/oauth2/internal",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/oauth2/internal",
     importpath = "golang.org/x/oauth2/internal",
     visibility = ["//visibility:public"],
     deps = ["//vendor/golang.org/x/net/context/ctxhttp:go_default_library"],

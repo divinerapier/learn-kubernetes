@@ -18,7 +18,7 @@ go_library(
         "util.go",
         "validation.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/go-ozzo/ozzo-validation",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/go-ozzo/ozzo-validation",
     importpath = "github.com/go-ozzo/ozzo-validation",
     visibility = ["//visibility:public"],
 )

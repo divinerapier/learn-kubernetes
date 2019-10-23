@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["junit.go"],
-    importpath = "k8s.io/kubernetes/test/utils/junit",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/utils/junit",
 )
 
 filegroup(

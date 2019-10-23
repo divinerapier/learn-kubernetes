@@ -25,10 +25,10 @@ import (
 	k8stypes "k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/controller/volume/attachdetach/cache"
-	volumetesting "k8s.io/kubernetes/pkg/volume/testing"
-	"k8s.io/kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/cache"
+	volumetesting "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 func TestFindAndAddActivePods_FindAndRemoveDeletedPods(t *testing.T) {

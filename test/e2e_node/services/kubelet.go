@@ -33,13 +33,13 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	cliflag "k8s.io/component-base/cli/flag"
 	kubeletconfigv1beta1 "k8s.io/kubelet/config/v1beta1"
-	"k8s.io/kubernetes/cmd/kubelet/app/options"
-	"k8s.io/kubernetes/pkg/features"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubeletconfigcodec "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/codec"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e_node/builder"
-	"k8s.io/kubernetes/test/e2e_node/remote"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubelet/app/options"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubeletconfigcodec "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/codec"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e_node/builder"
+	"github.com/divinerapier/learn-kubernetes/test/e2e_node/remote"
 )
 
 // TODO(random-liu): Replace this with standard kubelet launcher.

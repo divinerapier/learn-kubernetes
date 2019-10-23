@@ -25,10 +25,10 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager/cache"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager/operationexecutor"
-	"k8s.io/kubernetes/pkg/util/goroutinemap"
-	"k8s.io/kubernetes/pkg/util/goroutinemap/exponentialbackoff"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/operationexecutor"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/goroutinemap"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/goroutinemap/exponentialbackoff"
 )
 
 // Reconciler runs a periodic loop to reconcile the desired state of the world

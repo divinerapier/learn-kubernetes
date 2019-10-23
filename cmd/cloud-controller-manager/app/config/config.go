@@ -22,8 +22,8 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/record"
-	ccmconfig "k8s.io/kubernetes/cmd/cloud-controller-manager/app/apis/config"
-	"k8s.io/kubernetes/pkg/controller"
+	ccmconfig "github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 )
 
 // Config is the main context object for the cloud controller manager.

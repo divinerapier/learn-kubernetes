@@ -11,7 +11,7 @@ go_library(
         "doc.go",
         "logs.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/routes",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/routes",
     deps = ["//vendor/github.com/emicklei/go-restful:go_default_library"],
 )
 

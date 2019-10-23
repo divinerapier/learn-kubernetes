@@ -24,7 +24,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["cfssl_signer.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/certificates/signer",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/certificates/signer",
     deps = [
         "//pkg/controller/certificates:go_default_library",
         "//staging/src/k8s.io/api/certificates/v1beta1:go_default_library",

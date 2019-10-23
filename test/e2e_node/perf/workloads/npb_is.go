@@ -23,7 +23,7 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
 )
 
 // npbISWorkload defines a workload to run the integer sort (IS) workload

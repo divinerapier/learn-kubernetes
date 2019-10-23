@@ -25,9 +25,9 @@ import (
 	"k8s.io/klog"
 
 	"k8s.io/client-go/tools/remotecommand"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
 
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker"
 )
 
 // ExecHandler knows how to execute a command in a running Docker container.

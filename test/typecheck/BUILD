@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "k8s.io/kubernetes/test/typecheck",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/typecheck",
     deps = [
         "//third_party/go-srcimporter:go_default_library",
         "//vendor/golang.org/x/crypto/ssh/terminal:go_default_library",

@@ -21,9 +21,9 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/security/apparmor"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/apparmor"
 )
 
 // ContainerVisitor is called with each container spec, and returns true

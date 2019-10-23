@@ -25,7 +25,7 @@ import (
 
 	discoveryv1alpha1 "k8s.io/api/discovery/v1alpha1"
 	"k8s.io/klog"
-	endpointslicecontroller "k8s.io/kubernetes/pkg/controller/endpointslice"
+	endpointslicecontroller "github.com/divinerapier/learn-kubernetes/pkg/controller/endpointslice"
 )
 
 func startEndpointSliceController(ctx ControllerContext) (http.Handler, bool, error) {

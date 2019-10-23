@@ -11,7 +11,7 @@ go_library(
         "realfile.go",
         "realfs.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/fs",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/fs",
     importpath = "sigs.k8s.io/kustomize/pkg/fs",
     visibility = ["//visibility:public"],
     deps = ["//vendor/sigs.k8s.io/kustomize/pkg/constants:go_default_library"],

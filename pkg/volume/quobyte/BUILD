@@ -13,7 +13,7 @@ go_library(
         "quobyte.go",
         "quobyte_util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/quobyte",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/quobyte",
     deps = [
         "//pkg/util/mount:go_default_library",
         "//pkg/volume:go_default_library",

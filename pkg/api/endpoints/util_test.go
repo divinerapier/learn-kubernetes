@@ -22,7 +22,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"k8s.io/apimachinery/pkg/types"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 func podRef(uid string) *api.ObjectReference {

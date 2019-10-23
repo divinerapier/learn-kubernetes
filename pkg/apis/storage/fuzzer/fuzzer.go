@@ -21,8 +21,8 @@ import (
 	fuzz "github.com/google/gofuzz"
 
 	runtimeserializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/storage"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/storage"
 )
 
 // Funcs returns the fuzzer functions for the storage api group.

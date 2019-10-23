@@ -29,10 +29,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	"k8s.io/kubernetes/pkg/features"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	evictionapi "k8s.io/kubernetes/pkg/kubelet/eviction/api"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	evictionapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/eviction/api"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 func quantityMustParse(value string) *resource.Quantity {

@@ -26,7 +26,7 @@ go_library(
         "level3float64.go",
         "sgemm.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/blas/gonum",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/blas/gonum",
     importpath = "gonum.org/v1/gonum/blas/gonum",
     visibility = ["//visibility:public"],
     deps = [

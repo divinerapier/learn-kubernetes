@@ -33,9 +33,9 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/metadata"
 	restclient "k8s.io/client-go/rest"
-	"k8s.io/kubernetes/pkg/controller/namespace"
-	"k8s.io/kubernetes/test/integration/etcd"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/namespace"
+	"github.com/divinerapier/learn-kubernetes/test/integration/etcd"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 func TestNamespaceCondition(t *testing.T) {

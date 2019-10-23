@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["storage_policy.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/policy/rest",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/policy/rest",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/policy:go_default_library",

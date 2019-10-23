@@ -27,10 +27,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/informers"
 	kcache "k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/controller/volume/attachdetach/cache"
-	controllervolumetesting "k8s.io/kubernetes/pkg/controller/volume/attachdetach/testing"
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/cache"
+	controllervolumetesting "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
 )
 
 func Test_NewAttachDetachController_Positive(t *testing.T) {

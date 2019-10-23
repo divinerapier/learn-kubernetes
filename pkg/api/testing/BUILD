@@ -14,7 +14,7 @@ go_library(
         "fuzzer.go",
         "pod_specs.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/api/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/api/testing",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/admissionregistration/fuzzer:go_default_library",

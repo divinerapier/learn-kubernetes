@@ -29,9 +29,9 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	storagelisters "k8s.io/client-go/listers/storage/v1"
 	"k8s.io/client-go/tools/reference"
-	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	"k8s.io/kubernetes/pkg/features"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	v1helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	volumeutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 const (

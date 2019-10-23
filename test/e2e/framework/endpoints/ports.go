@@ -32,7 +32,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 )
 
 // ServiceStartTimeout is how long to wait for a service endpoint to be resolvable.

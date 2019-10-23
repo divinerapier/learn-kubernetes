@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"sync"
 
-	"k8s.io/kubernetes/test/images/resource-consumer/common"
+	"github.com/divinerapier/learn-kubernetes/test/images/resource-consumer/common"
 )
 
 var port = flag.Int("port", 8080, "Port number.")

@@ -10,7 +10,7 @@ go_library(
         "trieval.go",
         "width.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/text/width",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/text/width",
     importpath = "golang.org/x/text/width",
     visibility = ["//visibility:public"],
     deps = ["//vendor/golang.org/x/text/transform:go_default_library"],

@@ -6,7 +6,7 @@ go_library(
         "nvidia.go",
         "types.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/google/cadvisor/accelerators",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/google/cadvisor/accelerators",
     importpath = "github.com/google/cadvisor/accelerators",
     visibility = ["//visibility:public"],
     deps = [

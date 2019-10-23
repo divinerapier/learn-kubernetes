@@ -11,7 +11,7 @@ go_library(
         "customresourcedefinition.go",
         "interface.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiextensions-apiserver/pkg/client/informers/internalversion/apiextensions/internalversion",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiextensions-apiserver/pkg/client/informers/internalversion/apiextensions/internalversion",
     importpath = "k8s.io/apiextensions-apiserver/pkg/client/informers/internalversion/apiextensions/internalversion",
     deps = [
         "//staging/src/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions:go_default_library",

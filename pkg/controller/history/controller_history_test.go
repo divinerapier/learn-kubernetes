@@ -27,9 +27,9 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/api/resource"

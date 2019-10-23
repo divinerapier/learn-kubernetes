@@ -22,7 +22,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"k8s.io/kubernetes/pkg/scheduler/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
 )
 
 func produceConfig(keys []string, producersMap map[string]ConfigProducer, args ConfigProducerArgs) (*config.Plugins, []config.PluginConfig, error) {

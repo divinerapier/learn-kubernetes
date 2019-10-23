@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["metrics.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/dockershim/network/metrics",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/metrics",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/component-base/metrics:go_default_library",

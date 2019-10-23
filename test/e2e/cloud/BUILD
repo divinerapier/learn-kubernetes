@@ -6,7 +6,7 @@ go_library(
         "framework.go",
         "nodes.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/cloud",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/cloud",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/api/errors:go_default_library",

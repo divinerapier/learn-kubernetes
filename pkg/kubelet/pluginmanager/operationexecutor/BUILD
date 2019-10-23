@@ -6,7 +6,7 @@ go_library(
         "operation_executor.go",
         "operation_generator.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/pluginmanager/operationexecutor",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/operationexecutor",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/pluginmanager/cache:go_default_library",

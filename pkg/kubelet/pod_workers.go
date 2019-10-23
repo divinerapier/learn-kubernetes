@@ -29,12 +29,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/klog"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/events"
-	"k8s.io/kubernetes/pkg/kubelet/eviction"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/kubelet/util/format"
-	"k8s.io/kubernetes/pkg/kubelet/util/queue"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/events"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/eviction"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/format"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/queue"
 )
 
 // OnCompleteFunc is a function that is invoked when an operation completes.

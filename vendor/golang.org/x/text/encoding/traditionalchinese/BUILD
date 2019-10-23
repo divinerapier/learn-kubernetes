@@ -6,7 +6,7 @@ go_library(
         "big5.go",
         "tables.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/text/encoding/traditionalchinese",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/text/encoding/traditionalchinese",
     importpath = "golang.org/x/text/encoding/traditionalchinese",
     visibility = ["//visibility:public"],
     deps = [

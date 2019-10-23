@@ -28,10 +28,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/uuid"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	"k8s.io/kubernetes/test/e2e/framework/providers/gce"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/gce"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
 )
 
 var _ = SIGDescribe("Multi-AZ Cluster Volumes [sig-storage]", func() {

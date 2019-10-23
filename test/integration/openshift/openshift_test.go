@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	genericapiserver "k8s.io/apiserver/pkg/server"
-	"k8s.io/kubernetes/pkg/master"
+	"github.com/divinerapier/learn-kubernetes/pkg/master"
 )
 
 // This test references methods that OpenShift uses to customize the master on startup, that

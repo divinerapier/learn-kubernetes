@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["testapi.go"],
-    importpath = "k8s.io/kubernetes/pkg/api/testapi",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/api/testapi",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/admission:go_default_library",

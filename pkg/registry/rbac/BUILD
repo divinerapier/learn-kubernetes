@@ -12,7 +12,7 @@ go_library(
         "escalation_check.go",
         "helpers.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/rbac",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/rbac",
     deps = [
         "//pkg/apis/rbac:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/api/meta:go_default_library",

@@ -38,8 +38,8 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/controller/history"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/history"
 
 	"k8s.io/klog"
 )

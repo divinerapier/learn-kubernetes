@@ -24,10 +24,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/api/v1/resource"
-	"k8s.io/kubernetes/pkg/fieldpath"
-	"k8s.io/kubernetes/pkg/volume"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/v1/resource"
+	"github.com/divinerapier/learn-kubernetes/pkg/fieldpath"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumeutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 	utilstrings "k8s.io/utils/strings"
 )
 

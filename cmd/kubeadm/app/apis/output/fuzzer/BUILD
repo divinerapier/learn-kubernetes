@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["fuzzer.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/apis/output/fuzzer",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/output/fuzzer",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm/v1beta2:go_default_library",
         "//cmd/kubeadm/app/apis/output:go_default_library",

@@ -8,7 +8,7 @@ go_library(
         "recovery.go",
         "service.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/sys/windows/svc/mgr",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/sys/windows/svc/mgr",
     importpath = "golang.org/x/sys/windows/svc/mgr",
     visibility = ["//visibility:public"],
     deps = select({

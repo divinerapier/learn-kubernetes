@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["fuzzer.go"],
-    importpath = "k8s.io/kubernetes/pkg/apis/discovery/fuzzer",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/discovery/fuzzer",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core:go_default_library",

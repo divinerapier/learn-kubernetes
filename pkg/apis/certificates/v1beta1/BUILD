@@ -15,7 +15,7 @@ go_library(
         "zz_generated.conversion.go",
         "zz_generated.defaults.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/certificates/v1beta1",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/certificates/v1beta1",
     deps = [
         "//pkg/apis/certificates:go_default_library",
         "//staging/src/k8s.io/api/certificates/v1beta1:go_default_library",

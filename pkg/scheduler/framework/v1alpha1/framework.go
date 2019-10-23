@@ -30,10 +30,10 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/scheduler/apis/config"
-	"k8s.io/kubernetes/pkg/scheduler/metrics"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
-	schedutil "k8s.io/kubernetes/pkg/scheduler/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/metrics"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
+	schedutil "github.com/divinerapier/learn-kubernetes/pkg/scheduler/util"
 )
 
 const (

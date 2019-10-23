@@ -47,7 +47,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["doc.go"],
-    importpath = "k8s.io/kubernetes/pkg/client/tests",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/client/tests",
 )
 
 filegroup(

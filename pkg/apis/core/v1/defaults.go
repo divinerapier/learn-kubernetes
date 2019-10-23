@@ -22,11 +22,11 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/intstr"
-	"k8s.io/kubernetes/pkg/util/parsers"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/parsers"
 	utilpointer "k8s.io/utils/pointer"
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 	utilnet "k8s.io/utils/net"
 )
 

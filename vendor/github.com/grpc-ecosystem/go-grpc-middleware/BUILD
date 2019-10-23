@@ -7,7 +7,7 @@ go_library(
         "doc.go",
         "wrappers.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/grpc-ecosystem/go-grpc-middleware",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/grpc-ecosystem/go-grpc-middleware",
     importpath = "github.com/grpc-ecosystem/go-grpc-middleware",
     visibility = ["//visibility:public"],
     deps = [

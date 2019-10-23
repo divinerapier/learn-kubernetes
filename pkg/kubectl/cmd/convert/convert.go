@@ -32,8 +32,8 @@ import (
 	"k8s.io/kubectl/pkg/util/i18n"
 	"k8s.io/kubectl/pkg/util/templates"
 	"k8s.io/kubectl/pkg/validation"
-	scheme "k8s.io/kubernetes/pkg/api/legacyscheme"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	scheme "github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 var (

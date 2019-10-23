@@ -32,8 +32,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/test/e2e/framework"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 const (

@@ -8,7 +8,7 @@ go_library(
         "picker.go",
         "roundrobin_balanced.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/clientv3/balancer/picker",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/clientv3/balancer/picker",
     importpath = "github.com/coreos/etcd/clientv3/balancer/picker",
     visibility = ["//visibility:public"],
     deps = [

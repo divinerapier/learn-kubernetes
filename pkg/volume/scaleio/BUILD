@@ -38,7 +38,7 @@ go_library(
         "sio_util.go",
         "sio_volume.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/scaleio",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/scaleio",
     deps = [
         "//pkg/util/mount:go_default_library",
         "//pkg/volume:go_default_library",

@@ -11,7 +11,7 @@ go_library(
         "mixin.go",
         "schema.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/go-openapi/analysis",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/go-openapi/analysis",
     importpath = "github.com/go-openapi/analysis",
     visibility = ["//visibility:public"],
     deps = [

@@ -19,8 +19,8 @@ package validation
 import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/features"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 // ValidateConditionalService validates conditionally valid fields.

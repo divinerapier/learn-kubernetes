@@ -250,7 +250,7 @@ produceJUnitXMLReport() {
 
   if ! command -v gotestsum >/dev/null 2>&1; then
     kube::log::error "gotestsum not found; please install with " \
-      "go install k8s.io/kubernetes/vendor/gotest.tools/gotestsum"
+      "go install github.com/divinerapier/learn-kubernetes/vendor/gotest.tools/gotestsum"
     return
   fi
   gotestsum --junitfile "${junit_xml_filename}" --raw-command cat "${junit_filename_prefix}"*.stdout
@@ -308,7 +308,7 @@ runTests() {
   #                            https://github.com/golang/go/issues/16540
   cover_ignore_dirs="vendor/k8s.io/code-generator/cmd/generator|vendor/k8s.io/client-go/1.4/rest"
   for path in ${cover_ignore_dirs//|/ }; do
-      echo -e "skipped\tk8s.io/kubernetes/${path}"
+      echo -e "skipped\tgithub.com/divinerapier/learn-kubernetes/${path}"
   done
 
   printf "%s\n" "${@}" \

@@ -21,12 +21,12 @@ import (
 	"testing"
 
 	"github.com/spf13/cobra"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/certs"
-	certstestutil "k8s.io/kubernetes/cmd/kubeadm/app/util/certs"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
-	testutil "k8s.io/kubernetes/cmd/kubeadm/test"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/certs"
+	certstestutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/certs"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
+	testutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test"
 )
 
 type testCertsData struct {

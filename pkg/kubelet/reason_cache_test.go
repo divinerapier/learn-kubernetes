@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/types"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
 )
 
 func TestReasonCache(t *testing.T) {

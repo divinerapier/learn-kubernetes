@@ -20,8 +20,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/kubernetes/cmd/cloud-controller-manager/app/apis/config"
-	"k8s.io/kubernetes/cmd/cloud-controller-manager/app/apis/config/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/apis/config"
+	"github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/apis/config/v1alpha1"
 )
 
 var (

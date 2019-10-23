@@ -8,7 +8,7 @@ go_library(
         "rest.go",
         "wait.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/job",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/job",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/controller/job:go_default_library",

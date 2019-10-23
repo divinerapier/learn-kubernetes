@@ -36,7 +36,7 @@ go_library(
         "triband.go",
         "vector.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/mat",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/mat",
     importpath = "gonum.org/v1/gonum/mat",
     visibility = ["//visibility:public"],
     deps = [

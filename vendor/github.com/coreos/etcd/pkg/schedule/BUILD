@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "schedule.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/pkg/schedule",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/pkg/schedule",
     importpath = "github.com/coreos/etcd/pkg/schedule",
     visibility = ["//visibility:public"],
 )

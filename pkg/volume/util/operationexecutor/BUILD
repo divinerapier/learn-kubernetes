@@ -13,7 +13,7 @@ go_library(
         "operation_executor.go",
         "operation_generator.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/util/operationexecutor",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/util/operationexecutor",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/kubelet/events:go_default_library",

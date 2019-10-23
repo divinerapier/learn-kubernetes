@@ -9,7 +9,7 @@ package simple
 import (
 	"math"
 
-	"k8s.io/kubernetes/third_party/forked/gonum/graph"
+	"github.com/divinerapier/learn-kubernetes/third_party/forked/gonum/graph"
 )
 
 // Node is a simple graph node.

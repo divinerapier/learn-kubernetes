@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
 
 	"github.com/onsi/ginkgo"
 )

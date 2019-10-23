@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "floats.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/floats",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/floats",
     importpath = "gonum.org/v1/gonum/floats",
     visibility = ["//visibility:public"],
     deps = ["//vendor/gonum.org/v1/gonum/internal/asm/f64:go_default_library"],

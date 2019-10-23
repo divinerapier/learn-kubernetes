@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["consume_cpu.go"],
-    importpath = "k8s.io/kubernetes/test/images/resource-consumer/consume-cpu",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/resource-consumer/consume-cpu",
     deps = ["//vendor/bitbucket.org/bertimus9/systemstat:go_default_library"],
 )
 

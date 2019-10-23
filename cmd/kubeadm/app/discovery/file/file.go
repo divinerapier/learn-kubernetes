@@ -29,8 +29,8 @@ import (
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 	bootstrapapi "k8s.io/cluster-bootstrap/token/api"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeconfigutil "k8s.io/kubernetes/cmd/kubeadm/app/util/kubeconfig"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeconfigutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/kubeconfig"
 )
 
 // RetrieveValidatedConfigInfo connects to the API Server and makes sure it can talk

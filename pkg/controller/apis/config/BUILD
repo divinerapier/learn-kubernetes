@@ -8,7 +8,7 @@ go_library(
         "types.go",
         "zz_generated.deepcopy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/apis/config",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/apis/config",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/controller/certificates/signer/config:go_default_library",

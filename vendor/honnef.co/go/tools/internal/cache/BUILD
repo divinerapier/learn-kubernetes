@@ -7,7 +7,7 @@ go_library(
         "default.go",
         "hash.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/internal/cache",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/internal/cache",
     importpath = "honnef.co/go/tools/internal/cache",
     visibility = ["//vendor/honnef.co/go/tools:__subpackages__"],
     deps = ["//vendor/honnef.co/go/tools/internal/renameio:go_default_library"],

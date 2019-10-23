@@ -38,13 +38,13 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
-	e2esset "k8s.io/kubernetes/test/e2e/framework/statefulset"
-	"k8s.io/kubernetes/test/e2e/storage/utils"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
+	e2esset "github.com/divinerapier/learn-kubernetes/test/e2e/framework/statefulset"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 type localTestConfig struct {

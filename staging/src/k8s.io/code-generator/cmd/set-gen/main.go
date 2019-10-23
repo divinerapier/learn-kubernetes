@@ -41,7 +41,7 @@ func main() {
 
 	// Override defaults.
 	arguments.GoHeaderFilePath = filepath.Join(args.DefaultSourceTree(), util.BoilerplatePath())
-	arguments.InputDirs = []string{"k8s.io/kubernetes/pkg/util/sets/types"}
+	arguments.InputDirs = []string{"github.com/divinerapier/learn-kubernetes/pkg/util/sets/types"}
 	arguments.OutputPackagePath = "k8s.io/apimachinery/pkg/util/sets"
 
 	if err := arguments.Execute(

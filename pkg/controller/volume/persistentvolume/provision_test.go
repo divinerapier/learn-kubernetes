@@ -26,9 +26,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	corelisters "k8s.io/client-go/listers/core/v1"
 	"k8s.io/client-go/tools/cache"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	pvtesting "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/testing"
-	pvutil "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/util"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	pvtesting "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/testing"
+	pvutil "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/util"
 )
 
 var class1Parameters = map[string]string{

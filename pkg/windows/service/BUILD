@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["service.go"],
-    importpath = "k8s.io/kubernetes/pkg/windows/service",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/windows/service",
     deps = select({
         "@io_bazel_rules_go//go/platform:windows": [
             "//staging/src/k8s.io/apiserver/pkg/server:go_default_library",

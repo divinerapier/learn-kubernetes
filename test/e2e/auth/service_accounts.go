@@ -30,10 +30,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/plugin/pkg/admission/serviceaccount"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/serviceaccount"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 
 	"github.com/onsi/ginkgo"
 )

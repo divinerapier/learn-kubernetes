@@ -15,7 +15,7 @@ go_library(
         "http.go",
         "sources.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/config",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/config",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/legacyscheme:go_default_library",

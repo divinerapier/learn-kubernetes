@@ -27,9 +27,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	componentbaseconfig "k8s.io/component-base/config"
-	apivalidation "k8s.io/kubernetes/pkg/apis/core/validation"
-	kubefeatures "k8s.io/kubernetes/pkg/features"
-	kubeproxyconfig "k8s.io/kubernetes/pkg/proxy/apis/config"
+	apivalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
+	kubefeatures "github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubeproxyconfig "github.com/divinerapier/learn-kubernetes/pkg/proxy/apis/config"
 )
 
 // Validate validates the configuration of kube-proxy

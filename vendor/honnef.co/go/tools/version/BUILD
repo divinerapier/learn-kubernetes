@@ -7,7 +7,7 @@ go_library(
         "buildinfo111.go",
         "version.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/version",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/version",
     importpath = "honnef.co/go/tools/version",
     visibility = ["//visibility:public"],
 )

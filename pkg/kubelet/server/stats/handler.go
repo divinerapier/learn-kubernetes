@@ -31,10 +31,10 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	"k8s.io/kubernetes/pkg/kubelet/cm"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/volume"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
 )
 
 // Provider hosts methods required by stats handlers.

@@ -23,11 +23,11 @@ import (
 
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/predicates"
-	"k8s.io/kubernetes/pkg/scheduler/framework/plugins/migration"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
-	st "k8s.io/kubernetes/pkg/scheduler/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/predicates"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/plugins/migration"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
+	st "github.com/divinerapier/learn-kubernetes/pkg/scheduler/testing"
 )
 
 var (

@@ -26,11 +26,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/core/validation"
-	"k8s.io/kubernetes/pkg/securitycontext"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/securitycontext"
 )
 
 func noDefault(*core.Pod) error { return nil }

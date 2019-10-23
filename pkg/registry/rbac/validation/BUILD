@@ -31,7 +31,7 @@ go_library(
         "policy_comparator.go",
         "rule.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/rbac/validation",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/rbac/validation",
     deps = [
         "//pkg/apis/rbac:go_default_library",
         "//pkg/apis/rbac/v1:go_default_library",

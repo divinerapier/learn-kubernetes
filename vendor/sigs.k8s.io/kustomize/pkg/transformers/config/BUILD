@@ -9,7 +9,7 @@ go_library(
         "namebackreferences.go",
         "transformerconfig.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/transformers/config",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/transformers/config",
     importpath = "sigs.k8s.io/kustomize/pkg/transformers/config",
     visibility = ["//visibility:public"],
     deps = [

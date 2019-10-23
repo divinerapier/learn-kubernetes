@@ -17,7 +17,7 @@ limitations under the License.
 package e2e_kubeadm
 
 import (
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"

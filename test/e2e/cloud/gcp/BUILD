@@ -13,7 +13,7 @@ go_library(
         "resize_nodes.go",
         "restart.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/cloud/gcp",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/cloud/gcp",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core:go_default_library",

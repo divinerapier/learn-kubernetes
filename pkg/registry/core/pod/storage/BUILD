@@ -49,7 +49,7 @@ go_library(
         "eviction.go",
         "storage.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/pod/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/pod/storage",
     deps = [
         "//pkg/api/pod:go_default_library",
         "//pkg/apis/core:go_default_library",

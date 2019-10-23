@@ -27,9 +27,9 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/sets"
 	clientset "k8s.io/client-go/kubernetes"
-	dockermetrics "k8s.io/kubernetes/pkg/kubelet/dockershim/metrics"
-	kubeletmetrics "k8s.io/kubernetes/pkg/kubelet/metrics"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
+	dockermetrics "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/metrics"
+	kubeletmetrics "github.com/divinerapier/learn-kubernetes/pkg/kubelet/metrics"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
 
 	"github.com/prometheus/common/model"
 )

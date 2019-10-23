@@ -31,10 +31,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/tools/record"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	"k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/events"
-	"k8s.io/kubernetes/pkg/kubelet/util/sliceutils"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/events"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/sliceutils"
 )
 
 // StatsProvider is an interface for fetching stats used during image garbage

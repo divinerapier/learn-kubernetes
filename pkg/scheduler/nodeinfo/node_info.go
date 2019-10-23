@@ -26,9 +26,9 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/klog"
-	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	"k8s.io/kubernetes/pkg/features"
-	priorityutil "k8s.io/kubernetes/pkg/scheduler/algorithm/priorities/util"
+	v1helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	priorityutil "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities/util"
 )
 
 var (

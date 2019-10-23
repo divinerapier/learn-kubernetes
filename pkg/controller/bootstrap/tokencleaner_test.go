@@ -28,7 +28,7 @@ import (
 	coreinformers "k8s.io/client-go/informers/core/v1"
 	"k8s.io/client-go/kubernetes/fake"
 	core "k8s.io/client-go/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 func init() {

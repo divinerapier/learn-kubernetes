@@ -10,7 +10,7 @@ go_library(
         "token.go",
         "version.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Azure/go-autorest/autorest/adal",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Azure/go-autorest/autorest/adal",
     importpath = "github.com/Azure/go-autorest/autorest/adal",
     visibility = ["//visibility:public"],
     deps = [

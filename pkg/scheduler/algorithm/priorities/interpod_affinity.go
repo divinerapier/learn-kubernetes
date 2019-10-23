@@ -23,11 +23,11 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/util/workqueue"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/predicates"
-	priorityutil "k8s.io/kubernetes/pkg/scheduler/algorithm/priorities/util"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
-	schedutil "k8s.io/kubernetes/pkg/scheduler/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/predicates"
+	priorityutil "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities/util"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
+	schedutil "github.com/divinerapier/learn-kubernetes/pkg/scheduler/util"
 
 	"k8s.io/klog"
 )

@@ -6,7 +6,7 @@ go_library(
         "metrics.go",
         "node_lifecycle_controller.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/nodelifecycle",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/nodelifecycle",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core:go_default_library",

@@ -32,7 +32,7 @@ import (
 	"google.golang.org/grpc"
 	"k8s.io/client-go/tools/record"
 	registerapi "k8s.io/kubelet/pkg/apis/pluginregistration/v1"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/cache"
 )
 
 const (

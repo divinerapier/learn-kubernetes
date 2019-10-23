@@ -38,8 +38,8 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/component-base/metrics/prometheus/ratelimiter"
 	"k8s.io/kubectl/pkg/scheme"
-	"k8s.io/kubernetes/pkg/controller"
-	jobutil "k8s.io/kubernetes/pkg/controller/job"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	jobutil "github.com/divinerapier/learn-kubernetes/pkg/controller/job"
 )
 
 // Controller watches for changes of Jobs API objects. Triggered by Job creation

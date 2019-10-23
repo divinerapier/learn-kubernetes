@@ -10,7 +10,7 @@ go_library(
         "parser.go",
         "productionstable.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/internal/parser",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/internal/parser",
     importpath = "gonum.org/v1/gonum/graph/formats/dot/internal/parser",
     visibility = ["//vendor/gonum.org/v1/gonum/graph/formats/dot:__subpackages__"],
     deps = [

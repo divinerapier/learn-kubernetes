@@ -14,7 +14,7 @@ go_library(
         "maintenance_client_adapter.go",
         "watch_client_adapter.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/proxy/grpcproxy/adapter",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/proxy/grpcproxy/adapter",
     importpath = "github.com/coreos/etcd/proxy/grpcproxy/adapter",
     visibility = ["//visibility:public"],
     deps = [

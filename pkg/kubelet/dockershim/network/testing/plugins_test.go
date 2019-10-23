@@ -23,10 +23,10 @@ import (
 	"testing"
 
 	utilsets "k8s.io/apimachinery/pkg/util/sets"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network"
-	sysctltest "k8s.io/kubernetes/pkg/util/sysctl/testing"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network"
+	sysctltest "github.com/divinerapier/learn-kubernetes/pkg/util/sysctl/testing"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

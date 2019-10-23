@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["provider.go"],
-    importmap = "k8s.io/kubernetes/vendor/github.com/aws/aws-sdk-go/aws/credentials/processcreds",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/aws/aws-sdk-go/aws/credentials/processcreds",
     importpath = "github.com/aws/aws-sdk-go/aws/credentials/processcreds",
     visibility = ["//visibility:public"],
     deps = [

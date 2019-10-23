@@ -7,7 +7,7 @@ go_library(
         "doc.go",
         "lint.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/simple",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/simple",
     importpath = "honnef.co/go/tools/simple",
     visibility = ["//visibility:public"],
     deps = [

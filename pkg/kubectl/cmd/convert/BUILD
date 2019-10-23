@@ -6,7 +6,7 @@ go_library(
         "convert.go",
         "import_known_versions.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubectl/cmd/convert",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubectl/cmd/convert",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/legacyscheme:go_default_library",

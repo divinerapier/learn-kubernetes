@@ -38,10 +38,10 @@ limitations under the License.
 //       "SelectorRegexp": "k8s[.]io",
 //       "AllowedPrefixes": [
 //         "k8s.io/gengo/examples",
-//         "k8s.io/kubernetes/third_party"
+//         "github.com/divinerapier/learn-kubernetes/third_party"
 //       ],
 //       "ForbiddenPrefixes": [
-//         "k8s.io/kubernetes/pkg/third_party/deprecated"
+//         "github.com/divinerapier/learn-kubernetes/pkg/third_party/deprecated"
 //       ]
 //     },
 //     {
@@ -78,9 +78,9 @@ func main() {
 	// Override defaults.
 	arguments.GoHeaderFilePath = filepath.Join(args.DefaultSourceTree(), util.BoilerplatePath())
 	arguments.InputDirs = []string{
-		"k8s.io/kubernetes/pkg/...",
-		"k8s.io/kubernetes/cmd/...",
-		"k8s.io/kubernetes/plugin/...",
+		"github.com/divinerapier/learn-kubernetes/pkg/...",
+		"github.com/divinerapier/learn-kubernetes/cmd/...",
+		"github.com/divinerapier/learn-kubernetes/plugin/...",
 	}
 	pflag.CommandLine.BoolVar(&arguments.IncludeTestFiles, "include-test-files", false, "If true, include *_test.go files.")
 

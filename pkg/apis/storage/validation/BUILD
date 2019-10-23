@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["validation.go"],
-    importpath = "k8s.io/kubernetes/pkg/apis/storage/validation",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/storage/validation",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/apis/core/helper:go_default_library",

@@ -21,8 +21,8 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/features"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
 )
 
 var (

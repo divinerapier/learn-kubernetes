@@ -31,9 +31,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	clientset "k8s.io/client-go/kubernetes"
 	clientscheme "k8s.io/client-go/kubernetes/scheme"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/apiclient"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/apiclient"
 )
 
 const (

@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["tcp.go"],
-    importpath = "k8s.io/kubernetes/pkg/probe/tcp",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/probe/tcp",
     deps = [
         "//pkg/probe:go_default_library",
         "//vendor/k8s.io/klog:go_default_library",

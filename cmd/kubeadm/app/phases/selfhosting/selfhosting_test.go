@@ -25,8 +25,8 @@ import (
 	"github.com/pkg/errors"
 
 	apps "k8s.io/api/apps/v1"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util"
 )
 
 const (

@@ -25,9 +25,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
-	apivalidation "k8s.io/kubernetes/pkg/apis/core/validation"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling"
+	apivalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 func ValidateScale(scale *autoscaling.Scale) field.ErrorList {

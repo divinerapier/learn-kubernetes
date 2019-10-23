@@ -29,7 +29,7 @@ import (
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 // TestPodAdmission verifies various scenarios involving pod/namespace/global node label selectors

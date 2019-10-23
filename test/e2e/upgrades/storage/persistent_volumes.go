@@ -19,10 +19,10 @@ package storage
 import (
 	v1 "k8s.io/api/core/v1"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
-	"k8s.io/kubernetes/test/e2e/upgrades"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/upgrades"
 
 	"github.com/onsi/ginkgo"
 )

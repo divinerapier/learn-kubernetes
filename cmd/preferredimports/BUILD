@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["preferredimports.go"],
-    importpath = "k8s.io/kubernetes/cmd/preferredimports",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/preferredimports",
     deps = ["//vendor/golang.org/x/crypto/ssh/terminal:go_default_library"],
 )
 

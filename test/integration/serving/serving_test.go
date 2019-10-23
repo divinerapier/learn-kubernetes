@@ -32,11 +32,11 @@ import (
 	"k8s.io/apiserver/pkg/server/options"
 	"k8s.io/cloud-provider"
 	"k8s.io/cloud-provider/fake"
-	cloudctrlmgrtesting "k8s.io/kubernetes/cmd/cloud-controller-manager/app/testing"
-	kubeapiservertesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	kubectrlmgrtesting "k8s.io/kubernetes/cmd/kube-controller-manager/app/testing"
-	kubeschedulertesting "k8s.io/kubernetes/cmd/kube-scheduler/app/testing"
-	"k8s.io/kubernetes/test/integration/framework"
+	cloudctrlmgrtesting "github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/testing"
+	kubeapiservertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	kubectrlmgrtesting "github.com/divinerapier/learn-kubernetes/cmd/kube-controller-manager/app/testing"
+	kubeschedulertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-scheduler/app/testing"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 type componentTester interface {

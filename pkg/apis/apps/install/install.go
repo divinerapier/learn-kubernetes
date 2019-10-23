@@ -21,11 +21,11 @@ package install
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/apis/apps"
-	"k8s.io/kubernetes/pkg/apis/apps/v1"
-	"k8s.io/kubernetes/pkg/apis/apps/v1beta1"
-	"k8s.io/kubernetes/pkg/apis/apps/v1beta2"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/apps"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/apps/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/apps/v1beta1"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/apps/v1beta2"
 )
 
 func init() {

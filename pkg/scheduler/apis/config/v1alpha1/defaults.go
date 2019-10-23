@@ -24,9 +24,9 @@ import (
 	componentbaseconfigv1alpha1 "k8s.io/component-base/config/v1alpha1"
 	kubeschedulerconfigv1alpha1 "k8s.io/kube-scheduler/config/v1alpha1"
 
-	// this package shouldn't really depend on other k8s.io/kubernetes code
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/master/ports"
+	// this package shouldn't really depend on other github.com/divinerapier/learn-kubernetes code
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
 )
 
 func addDefaultingFuncs(scheme *runtime.Scheme) error {

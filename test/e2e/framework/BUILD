@@ -26,7 +26,7 @@ go_library(
         "test_context.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/framework",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/v1/pod:go_default_library",

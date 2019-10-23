@@ -42,9 +42,9 @@ import (
 	corelisters "k8s.io/client-go/listers/core/v1"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/controller/history"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/history"
 )
 
 type invariantFunc func(set *apps.StatefulSet, spc *fakeStatefulPodControl) error

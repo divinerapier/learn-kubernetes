@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["checks.go"],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiserver/pkg/storage/etcd3/preflight",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiserver/pkg/storage/etcd3/preflight",
     importpath = "k8s.io/apiserver/pkg/storage/etcd3/preflight",
 )
 

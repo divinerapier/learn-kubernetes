@@ -23,9 +23,9 @@ import (
 	"k8s.io/klog"
 
 	"k8s.io/apimachinery/pkg/api/resource"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	"k8s.io/kubernetes/pkg/kubelet/cm"
-	evictionapi "k8s.io/kubernetes/pkg/kubelet/eviction/api"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm"
+	evictionapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/eviction/api"
 )
 
 const (

@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["disruption.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/disruption",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/disruption",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/controller:go_default_library",

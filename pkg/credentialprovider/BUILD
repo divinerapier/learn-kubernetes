@@ -15,7 +15,7 @@ go_library(
         "plugins.go",
         "provider.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/credentialprovider",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/credentialprovider",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/util/sets:go_default_library",
         "//vendor/k8s.io/klog:go_default_library",

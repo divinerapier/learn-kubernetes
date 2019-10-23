@@ -31,9 +31,9 @@ import (
 	"k8s.io/client-go/informers"
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
-	"k8s.io/kubernetes/pkg/controller/nodeipam"
-	"k8s.io/kubernetes/pkg/controller/nodeipam/ipam"
-	"k8s.io/kubernetes/test/integration/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam/ipam"
+	"github.com/divinerapier/learn-kubernetes/test/integration/util"
 )
 
 func setupAllocator(apiURL string, config *Config, clusterCIDR, serviceCIDR *net.IPNet, subnetMaskSize int) (*clientset.Clientset, util.ShutdownFunc, error) {

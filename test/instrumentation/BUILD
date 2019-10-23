@@ -9,7 +9,7 @@ go_library(
         "main.go",
         "metric.go",
     ],
-    importpath = "k8s.io/kubernetes/test/instrumentation",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/instrumentation",
     visibility = ["//visibility:private"],
     deps = [
         "//staging/src/k8s.io/component-base/metrics:go_default_library",

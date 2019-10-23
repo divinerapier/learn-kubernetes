@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["fuzzer.go"],
-    importpath = "k8s.io/kubernetes/pkg/apis/networking/fuzzer",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/networking/fuzzer",
     deps = [
         "//pkg/apis/networking:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/runtime/serializer:go_default_library",

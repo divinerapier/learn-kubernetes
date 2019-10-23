@@ -49,19 +49,19 @@ import (
 	"k8s.io/client-go/tools/remotecommand"
 	utiltesting "k8s.io/client-go/util/testing"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
 	"k8s.io/utils/pointer"
 
 	// Do some initialization to decode the query parameters correctly.
-	_ "k8s.io/kubernetes/pkg/apis/core/install"
-	"k8s.io/kubernetes/pkg/kubelet/cm"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/server/portforward"
-	remotecommandserver "k8s.io/kubernetes/pkg/kubelet/server/remotecommand"
-	"k8s.io/kubernetes/pkg/kubelet/server/stats"
-	"k8s.io/kubernetes/pkg/kubelet/server/streaming"
-	"k8s.io/kubernetes/pkg/volume"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/core/install"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/portforward"
+	remotecommandserver "github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/remotecommand"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/stats"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/streaming"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
 )
 
 const (

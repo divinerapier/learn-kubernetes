@@ -32,7 +32,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/replicationcontroller/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/replicationcontroller/storage",
     deps = [
         "//pkg/apis/autoscaling:go_default_library",
         "//pkg/apis/autoscaling/v1:go_default_library",

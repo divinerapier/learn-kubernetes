@@ -28,8 +28,8 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
 )
 
 const etcdImage = "3.3.17-0"

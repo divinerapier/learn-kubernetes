@@ -28,9 +28,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apiserver/pkg/authentication/serviceaccount"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/seccomp"
-	"k8s.io/kubernetes/test/e2e/framework/auth"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/seccomp"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/auth"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
 
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["testing.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/testing",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/features:go_default_library",

@@ -35,13 +35,13 @@ import (
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
 	csitrans "k8s.io/csi-translation-lib"
 	csitranslationplugins "k8s.io/csi-translation-lib/plugins"
-	"k8s.io/kubernetes/pkg/controller"
-	controllervolumetesting "k8s.io/kubernetes/pkg/controller/volume/attachdetach/testing"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/awsebs"
-	"k8s.io/kubernetes/pkg/volume/util/operationexecutor"
-	volumetypes "k8s.io/kubernetes/pkg/volume/util/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	controllervolumetesting "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/awsebs"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/operationexecutor"
+	volumetypes "github.com/divinerapier/learn-kubernetes/pkg/volume/util/types"
 )
 
 func TestSyncHandler(t *testing.T) {

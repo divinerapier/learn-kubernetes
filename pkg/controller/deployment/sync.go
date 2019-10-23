@@ -27,9 +27,9 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/controller"
-	deploymentutil "k8s.io/kubernetes/pkg/controller/deployment/util"
-	labelsutil "k8s.io/kubernetes/pkg/util/labels"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	deploymentutil "github.com/divinerapier/learn-kubernetes/pkg/controller/deployment/util"
+	labelsutil "github.com/divinerapier/learn-kubernetes/pkg/util/labels"
 )
 
 // syncStatusOnly only updates Deployments Status and doesn't take any mutating actions.

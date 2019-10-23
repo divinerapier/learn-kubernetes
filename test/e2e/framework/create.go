@@ -34,8 +34,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/tools/cache"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	"k8s.io/kubernetes/test/e2e/framework/testfiles"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/testfiles"
 )
 
 // LoadFromManifests loads .yaml or .json manifest files and returns

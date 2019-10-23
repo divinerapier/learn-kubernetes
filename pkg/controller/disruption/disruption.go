@@ -47,8 +47,8 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/controller"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 
 	"k8s.io/klog"
 )

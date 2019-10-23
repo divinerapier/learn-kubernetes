@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["logger.go"],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/log",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log",
     visibility = ["//visibility:public"],
     deps = [
         "//test/e2e/framework/ginkgowrapper:go_default_library",

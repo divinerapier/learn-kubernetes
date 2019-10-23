@@ -10,7 +10,7 @@ go_library(
         "pkg.go",
         "single.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/gophercloud/gophercloud/pagination",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/gophercloud/gophercloud/pagination",
     importpath = "github.com/gophercloud/gophercloud/pagination",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/gophercloud/gophercloud:go_default_library"],

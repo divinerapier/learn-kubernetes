@@ -33,7 +33,7 @@ go_library(
         "certs.go",
         "doc.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/certs",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/certs",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",
         "//cmd/kubeadm/app/constants:go_default_library",

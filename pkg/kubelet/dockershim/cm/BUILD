@@ -13,7 +13,7 @@ go_library(
         "container_manager_unsupported.go",
         "container_manager_windows.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/dockershim/cm",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/cm",
     deps = select({
         "@io_bazel_rules_go//go/platform:android": [
             "//pkg/kubelet/dockershim/libdocker:go_default_library",

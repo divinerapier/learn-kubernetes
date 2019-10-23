@@ -11,7 +11,7 @@ go_library(
         "vm.go",
         "vm_instructions.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/net/bpf",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/net/bpf",
     importpath = "golang.org/x/net/bpf",
     visibility = ["//visibility:public"],
 )

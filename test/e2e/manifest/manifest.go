@@ -29,7 +29,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	utilyaml "k8s.io/apimachinery/pkg/util/yaml"
 	scheme "k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/kubernetes/test/e2e/framework/testfiles"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/testfiles"
 )
 
 // PodFromManifest reads a .json/yaml file and returns the pod in it.

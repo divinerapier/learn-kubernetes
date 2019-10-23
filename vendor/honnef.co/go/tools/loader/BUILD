@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["loader.go"],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/loader",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/loader",
     importpath = "honnef.co/go/tools/loader",
     visibility = ["//visibility:public"],
     deps = [

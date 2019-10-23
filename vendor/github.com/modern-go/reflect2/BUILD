@@ -35,7 +35,7 @@ go_library(
         "unsafe_struct.go",
         "unsafe_type.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/modern-go/reflect2",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/modern-go/reflect2",
     importpath = "github.com/modern-go/reflect2",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/modern-go/concurrent:go_default_library"],

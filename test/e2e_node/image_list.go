@@ -28,10 +28,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	internalapi "k8s.io/cri-api/pkg/apis"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	commontest "k8s.io/kubernetes/test/e2e/common"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/framework/gpu"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	commontest "github.com/divinerapier/learn-kubernetes/test/e2e/common"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/gpu"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 const (

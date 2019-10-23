@@ -29,9 +29,9 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/client-go/util/workqueue"
-	priorityutil "k8s.io/kubernetes/pkg/scheduler/algorithm/priorities/util"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
-	schedutil "k8s.io/kubernetes/pkg/scheduler/util"
+	priorityutil "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities/util"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
+	schedutil "github.com/divinerapier/learn-kubernetes/pkg/scheduler/util"
 )
 
 // PredicateMetadata interface represents anything that can access a predicate metadata.

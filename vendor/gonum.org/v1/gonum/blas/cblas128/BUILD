@@ -9,7 +9,7 @@ go_library(
         "conv_symmetric.go",
         "doc.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/blas/cblas128",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/blas/cblas128",
     importpath = "gonum.org/v1/gonum/blas/cblas128",
     visibility = ["//visibility:public"],
     deps = [

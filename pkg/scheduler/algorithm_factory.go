@@ -27,12 +27,12 @@ import (
 	appslisters "k8s.io/client-go/listers/apps/v1"
 	corelisters "k8s.io/client-go/listers/core/v1"
 	policylisters "k8s.io/client-go/listers/policy/v1beta1"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/predicates"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/priorities"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
-	"k8s.io/kubernetes/pkg/scheduler/volumebinder"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/predicates"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/volumebinder"
 
 	"k8s.io/klog"
 )

@@ -28,12 +28,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
-	"k8s.io/kubernetes/test/e2e/storage/testsuites"
-	"k8s.io/kubernetes/test/e2e/storage/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/testsuites"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils"
 )
 
 var _ = utils.SIGDescribe("Mounted flexvolume volume expand [Slow] [Feature:ExpandInUsePersistentVolumes]", func() {

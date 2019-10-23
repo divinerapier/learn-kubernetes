@@ -14,7 +14,7 @@ go_library(
         "zap_journal.go",
         "zap_raft.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/pkg/logutil",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/pkg/logutil",
     importpath = "github.com/coreos/etcd/pkg/logutil",
     visibility = ["//visibility:public"],
     deps = [

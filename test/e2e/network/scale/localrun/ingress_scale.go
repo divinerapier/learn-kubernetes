@@ -32,10 +32,10 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	gcecloud "k8s.io/legacy-cloud-providers/gce"
 
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/framework/ingress"
-	"k8s.io/kubernetes/test/e2e/framework/providers/gce"
-	"k8s.io/kubernetes/test/e2e/network/scale"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/ingress"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/gce"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/network/scale"
 )
 
 var (

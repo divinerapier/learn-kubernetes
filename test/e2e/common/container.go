@@ -24,8 +24,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/uuid"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/test/e2e/framework"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 )
 
 const (

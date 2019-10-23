@@ -11,7 +11,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/admissionregistration/validatingwebhookconfiguration",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/admissionregistration/validatingwebhookconfiguration",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/admissionregistration:go_default_library",

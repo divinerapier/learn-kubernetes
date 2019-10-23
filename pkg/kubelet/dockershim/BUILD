@@ -33,7 +33,7 @@ go_library(
         "security_context.go",
         "selinux_util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/dockershim",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/credentialprovider:go_default_library",

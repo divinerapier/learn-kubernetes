@@ -22,9 +22,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer/json"
 	"k8s.io/apimachinery/pkg/runtime/serializer/versioning"
 	"k8s.io/apimachinery/pkg/runtime/serializer/yaml"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
 	// Init the api v1 package
-	_ "k8s.io/kubernetes/pkg/scheduler/api/v1"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api/v1"
 )
 
 // Version is the string that represents the current external default version.

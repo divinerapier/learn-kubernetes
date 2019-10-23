@@ -36,9 +36,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 	watchtools "k8s.io/client-go/tools/watch"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/serviceaccount"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
 )
 
 // ControllerClientBuilder allows you to get clients and configs for controllers

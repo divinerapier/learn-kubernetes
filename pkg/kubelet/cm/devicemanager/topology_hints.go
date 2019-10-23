@@ -20,8 +20,8 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager/bitmask"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager/bitmask"
 )
 
 // GetTopologyHints implements the TopologyManager HintProvider Interface which

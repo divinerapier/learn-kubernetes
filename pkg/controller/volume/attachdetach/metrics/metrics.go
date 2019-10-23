@@ -26,10 +26,10 @@ import (
 	"k8s.io/component-base/metrics"
 	"k8s.io/component-base/metrics/legacyregistry"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/controller/volume/attachdetach/cache"
-	"k8s.io/kubernetes/pkg/controller/volume/attachdetach/util"
-	"k8s.io/kubernetes/pkg/volume"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumeutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 const pluginNameNotAvailable = "N/A"

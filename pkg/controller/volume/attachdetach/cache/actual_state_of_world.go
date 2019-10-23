@@ -30,9 +30,9 @@ import (
 
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/util"
-	"k8s.io/kubernetes/pkg/volume/util/operationexecutor"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/operationexecutor"
 )
 
 // ActualStateOfWorld defines a set of thread-safe operations supported on

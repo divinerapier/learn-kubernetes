@@ -17,7 +17,7 @@ limitations under the License.
 package topologymanager
 
 import (
-	"k8s.io/kubernetes/pkg/kubelet/lifecycle"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/lifecycle"
 )
 
 type restrictedPolicy struct{}

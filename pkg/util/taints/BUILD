@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["taints.go"],
-    importpath = "k8s.io/kubernetes/pkg/util/taints",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/taints",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/apis/core/helper:go_default_library",

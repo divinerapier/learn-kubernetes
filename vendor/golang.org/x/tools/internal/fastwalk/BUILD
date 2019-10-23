@@ -11,7 +11,7 @@ go_library(
         "fastwalk_portable.go",
         "fastwalk_unix.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/tools/internal/fastwalk",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/tools/internal/fastwalk",
     importpath = "golang.org/x/tools/internal/fastwalk",
     visibility = ["//vendor/golang.org/x/tools:__subpackages__"],
 )

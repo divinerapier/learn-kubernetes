@@ -51,7 +51,7 @@ go_library(
         "rest.go",
         "storage.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/service/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/storage",
     deps = [
         "//pkg/api/service:go_default_library",
         "//pkg/apis/core:go_default_library",

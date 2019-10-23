@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["https.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/discovery/https",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/discovery/https",
     deps = [
         "//cmd/kubeadm/app/discovery/file:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/net:go_default_library",

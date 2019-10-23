@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["ingress_scale.go"],
-    importpath = "k8s.io/kubernetes/test/e2e/network/scale/localrun",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/network/scale/localrun",
     visibility = ["//visibility:private"],
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

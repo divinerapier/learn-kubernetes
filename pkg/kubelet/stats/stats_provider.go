@@ -23,13 +23,13 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	internalapi "k8s.io/cri-api/pkg/apis"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	"k8s.io/kubernetes/pkg/kubelet/cadvisor"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	kubepod "k8s.io/kubernetes/pkg/kubelet/pod"
-	"k8s.io/kubernetes/pkg/kubelet/server/stats"
-	"k8s.io/kubernetes/pkg/kubelet/stats/pidlimit"
-	"k8s.io/kubernetes/pkg/kubelet/status"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cadvisor"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	kubepod "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/stats"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/stats/pidlimit"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/status"
 )
 
 // NewCRIStatsProvider returns a StatsProvider that provides the node stats

@@ -19,7 +19,7 @@ package options
 import (
 	"github.com/spf13/pflag"
 
-	poautosclerconfig "k8s.io/kubernetes/pkg/controller/podautoscaler/config"
+	poautosclerconfig "github.com/divinerapier/learn-kubernetes/pkg/controller/podautoscaler/config"
 )
 
 // HPAControllerOptions holds the HPAController options.

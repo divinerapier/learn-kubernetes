@@ -13,7 +13,7 @@ go_library(
         "visitor.go",
         "zz_generated.deepcopy.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiextensions-apiserver/pkg/apiserver/schema",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiextensions-apiserver/pkg/apiserver/schema",
     importpath = "k8s.io/apiextensions-apiserver/pkg/apiserver/schema",
     visibility = ["//visibility:public"],
     deps = [

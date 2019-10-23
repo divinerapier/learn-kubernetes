@@ -17,7 +17,7 @@ limitations under the License.
 package state
 
 import (
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
 )
 
 // ContainerCPUAssignments type used in cpu manger state

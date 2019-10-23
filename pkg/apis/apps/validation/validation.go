@@ -28,9 +28,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/apimachinery/pkg/util/validation"
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	"k8s.io/kubernetes/pkg/apis/apps"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	apivalidation "k8s.io/kubernetes/pkg/apis/core/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/apps"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	apivalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
 )
 
 // ValidateStatefulSetName can be used to check whether the given StatefulSet name is valid.

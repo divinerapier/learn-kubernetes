@@ -20,9 +20,9 @@ import (
 	"errors"
 	"os"
 
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/uploadconfig"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/uploadconfig"
 )
 
 // NewUpdateClusterStatus creates a kubeadm workflow phase for update-cluster-status

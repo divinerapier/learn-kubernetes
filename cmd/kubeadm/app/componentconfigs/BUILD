@@ -9,7 +9,7 @@ go_library(
         "scheme.go",
         "validation.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/componentconfigs",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/componentconfigs",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",

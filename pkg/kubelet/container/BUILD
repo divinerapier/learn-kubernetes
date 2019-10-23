@@ -15,7 +15,7 @@ go_library(
         "runtime_cache_fake.go",
         "sync_result.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/container",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/legacyscheme:go_default_library",

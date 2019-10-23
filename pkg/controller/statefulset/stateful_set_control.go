@@ -26,7 +26,7 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/record"
-	"k8s.io/kubernetes/pkg/controller/history"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/history"
 )
 
 // StatefulSetControl implements the control logic for updating StatefulSets and their children Pods. It is implemented

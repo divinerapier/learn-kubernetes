@@ -35,7 +35,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/client-go/dynamic"
-	"k8s.io/kubernetes/cmd/kube-apiserver/app/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/options"
 )
 
 // Only add kinds to this list when this a virtual resource with get and create verbs that doesn't actually

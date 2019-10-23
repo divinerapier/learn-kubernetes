@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["admission.go"],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/defaulttolerationseconds",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/defaulttolerationseconds",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/scheduler/api:go_default_library",

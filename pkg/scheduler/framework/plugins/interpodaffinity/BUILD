@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["interpod_affinity.go"],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/framework/plugins/interpodaffinity",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/plugins/interpodaffinity",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/scheduler/algorithm:go_default_library",

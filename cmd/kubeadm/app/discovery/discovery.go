@@ -23,12 +23,12 @@ import (
 
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 	"k8s.io/klog"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmapiv1beta2 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
-	"k8s.io/kubernetes/cmd/kubeadm/app/discovery/file"
-	"k8s.io/kubernetes/cmd/kubeadm/app/discovery/https"
-	"k8s.io/kubernetes/cmd/kubeadm/app/discovery/token"
-	kubeconfigutil "k8s.io/kubernetes/cmd/kubeadm/app/util/kubeconfig"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmapiv1beta2 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/discovery/file"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/discovery/https"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/discovery/token"
+	kubeconfigutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/kubeconfig"
 )
 
 // TokenUser defines token user

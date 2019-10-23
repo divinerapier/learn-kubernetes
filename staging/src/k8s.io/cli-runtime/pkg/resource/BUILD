@@ -16,7 +16,7 @@ go_library(
         "selector.go",
         "visitor.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/cli-runtime/pkg/resource",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/cli-runtime/pkg/resource",
     importpath = "k8s.io/cli-runtime/pkg/resource",
     visibility = ["//visibility:public"],
     deps = [

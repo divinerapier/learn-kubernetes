@@ -14,7 +14,7 @@ go_library(
         "namespace.go",
         "zsyscall_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Microsoft/hcsshim/internal/hns",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Microsoft/hcsshim/internal/hns",
     importpath = "github.com/Microsoft/hcsshim/internal/hns",
     visibility = ["//vendor/github.com/Microsoft/hcsshim:__subpackages__"],
     deps = [

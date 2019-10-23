@@ -13,7 +13,7 @@ go_library(
         "config.go",
         "doc.go",
     ],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/imagepolicy",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/imagepolicy",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/core:go_default_library",

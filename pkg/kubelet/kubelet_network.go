@@ -22,7 +22,7 @@ import (
 	"k8s.io/api/core/v1"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
 	"k8s.io/klog"
-	utiliptables "k8s.io/kubernetes/pkg/util/iptables"
+	utiliptables "github.com/divinerapier/learn-kubernetes/pkg/util/iptables"
 )
 
 const (

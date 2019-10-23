@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["endpoint.go"],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/clientv3/balancer/resolver/endpoint",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/clientv3/balancer/resolver/endpoint",
     importpath = "github.com/coreos/etcd/clientv3/balancer/resolver/endpoint",
     visibility = ["//visibility:public"],
     deps = ["//vendor/google.golang.org/grpc/resolver:go_default_library"],

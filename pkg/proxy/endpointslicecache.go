@@ -28,7 +28,7 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/klog"
-	utilproxy "k8s.io/kubernetes/pkg/proxy/util"
+	utilproxy "github.com/divinerapier/learn-kubernetes/pkg/proxy/util"
 	utilnet "k8s.io/utils/net"
 )
 

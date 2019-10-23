@@ -38,10 +38,10 @@ import (
 	"k8s.io/client-go/rest"
 	core "k8s.io/client-go/testing"
 	"k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/controller"
-	quota "k8s.io/kubernetes/pkg/quota/v1"
-	"k8s.io/kubernetes/pkg/quota/v1/generic"
-	"k8s.io/kubernetes/pkg/quota/v1/install"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	quota "github.com/divinerapier/learn-kubernetes/pkg/quota/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/quota/v1/generic"
+	"github.com/divinerapier/learn-kubernetes/pkg/quota/v1/install"
 )
 
 func getResourceList(cpu, memory string) v1.ResourceList {

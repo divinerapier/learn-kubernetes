@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["util.go"],
-    importpath = "k8s.io/kubernetes/test/integration/statefulset",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/integration/statefulset",
     visibility = ["//visibility:public"],
     deps = [
         #"//pkg/api:go_default_library",

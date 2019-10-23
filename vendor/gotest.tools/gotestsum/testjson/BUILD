@@ -9,7 +9,7 @@ go_library(
         "pkgpathprefix.go",
         "summary.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gotest.tools/gotestsum/testjson",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gotest.tools/gotestsum/testjson",
     importpath = "gotest.tools/gotestsum/testjson",
     visibility = ["//visibility:public"],
     deps = [

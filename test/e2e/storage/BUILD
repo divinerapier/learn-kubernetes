@@ -28,7 +28,7 @@ go_library(
         "volume_provisioning.go",
         "volumes.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/storage",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/v1/pod:go_default_library",

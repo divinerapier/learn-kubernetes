@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["volume_binding.go"],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/framework/plugins/volumebinding",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/plugins/volumebinding",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/scheduler/algorithm/predicates:go_default_library",

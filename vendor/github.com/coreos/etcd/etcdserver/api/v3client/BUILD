@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "v3client.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/etcdserver/api/v3client",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/etcdserver/api/v3client",
     importpath = "github.com/coreos/etcd/etcdserver/api/v3client",
     visibility = ["//visibility:public"],
     deps = [

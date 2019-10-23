@@ -46,11 +46,11 @@ import (
 	"k8s.io/client-go/informers"
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
-	"k8s.io/kubernetes/pkg/controller"
-	serviceaccountcontroller "k8s.io/kubernetes/pkg/controller/serviceaccount"
-	"k8s.io/kubernetes/pkg/serviceaccount"
-	serviceaccountadmission "k8s.io/kubernetes/plugin/pkg/admission/serviceaccount"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	serviceaccountcontroller "github.com/divinerapier/learn-kubernetes/pkg/controller/serviceaccount"
+	"github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
+	serviceaccountadmission "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/serviceaccount"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 const (

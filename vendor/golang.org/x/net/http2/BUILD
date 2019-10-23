@@ -22,7 +22,7 @@ go_library(
         "writesched_priority.go",
         "writesched_random.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/net/http2",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/net/http2",
     importpath = "golang.org/x/net/http2",
     visibility = ["//visibility:public"],
     deps = [

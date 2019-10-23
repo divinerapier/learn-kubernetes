@@ -22,8 +22,8 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/kubernetes/test/e2e/framework/volume"
-	"k8s.io/kubernetes/test/e2e/storage/testsuites"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/volume"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/testsuites"
 )
 
 func TestDriverParameter(t *testing.T) {

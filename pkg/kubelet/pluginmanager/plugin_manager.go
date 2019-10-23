@@ -22,12 +22,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/config"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager/cache"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager/metrics"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager/operationexecutor"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager/pluginwatcher"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager/reconciler"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/operationexecutor"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/pluginwatcher"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/reconciler"
 )
 
 // PluginManager runs a set of asynchronous loops that figure out which plugins

@@ -25,7 +25,7 @@ import (
 	"k8s.io/apiserver/pkg/authentication/user"
 	"k8s.io/apiserver/pkg/authorization/authorizer"
 	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
-	"k8s.io/kubernetes/pkg/apis/rbac"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/rbac"
 )
 
 // EscalationAllowed checks if the user associated with the context is a superuser

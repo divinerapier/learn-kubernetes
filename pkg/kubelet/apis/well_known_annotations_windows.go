@@ -20,7 +20,7 @@ package apis
 
 import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 const (

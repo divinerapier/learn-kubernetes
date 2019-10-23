@@ -30,7 +30,7 @@ go_library(
         "legacyprovider.go",
         "node_ipam_controller.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/nodeipam",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam",
     deps = [
         "//pkg/controller/nodeipam/ipam:go_default_library",
         "//pkg/controller/nodeipam/ipam/sync:go_default_library",

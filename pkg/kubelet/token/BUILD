@@ -17,7 +17,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["token_manager.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/token",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/token",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/authentication/v1:go_default_library",

@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["peer-finder.go"],
-    importpath = "k8s.io/kubernetes/test/images/pets/peer-finder",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/pets/peer-finder",
     deps = ["//staging/src/k8s.io/apimachinery/pkg/util/sets:go_default_library"],
 )
 

@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["validation.go"],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/validation",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/validation",
     deps = [
         "//plugin/pkg/admission/resourcequota/apis/resourcequota:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/validation/field:go_default_library",

@@ -28,9 +28,9 @@ import (
 	"github.com/spf13/cobra"
 	"k8s.io/apimachinery/pkg/util/version"
 	"k8s.io/klog"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/upgrade"
-	etcdutil "k8s.io/kubernetes/cmd/kubeadm/app/util/etcd"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/upgrade"
+	etcdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/etcd"
 )
 
 type planFlags struct {

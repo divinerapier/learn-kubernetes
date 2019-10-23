@@ -26,7 +26,7 @@ go_library(
         "watch.go",
         "webhook.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/apimachinery",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/apimachinery",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/apis/rbac/v1:go_default_library",

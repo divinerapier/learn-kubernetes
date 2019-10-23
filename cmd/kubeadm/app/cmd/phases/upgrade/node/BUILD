@@ -7,7 +7,7 @@ go_library(
         "data.go",
         "kubeletconfig.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/upgrade/node",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/upgrade/node",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",

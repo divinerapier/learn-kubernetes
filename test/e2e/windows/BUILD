@@ -18,7 +18,7 @@ go_library(
         "utils.go",
         "volumes.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/windows",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/windows",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/apis/config:go_default_library",

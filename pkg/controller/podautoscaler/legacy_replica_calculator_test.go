@@ -34,8 +34,8 @@ import (
 	restclient "k8s.io/client-go/rest"
 	core "k8s.io/client-go/testing"
 	"k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/controller/podautoscaler/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/podautoscaler/metrics"
 
 	heapster "k8s.io/heapster/metrics/api/v1/types"
 	metricsapi "k8s.io/metrics/pkg/apis/metrics/v1alpha1"

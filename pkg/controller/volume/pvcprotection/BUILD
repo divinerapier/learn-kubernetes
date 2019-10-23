@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["pvc_protection_controller.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/volume/pvcprotection",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/pvcprotection",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/controller/volume/protectionutil:go_default_library",

@@ -37,13 +37,13 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
 	volumehelpers "k8s.io/cloud-provider/volume/helpers"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
-	"k8s.io/kubernetes/test/e2e/storage/testsuites"
-	"k8s.io/kubernetes/test/e2e/storage/utils"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/testsuites"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 const (

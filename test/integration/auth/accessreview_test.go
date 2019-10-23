@@ -30,9 +30,9 @@ import (
 	"k8s.io/apiserver/pkg/authorization/authorizer"
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 // Inject into master an authorizer that uses user info.

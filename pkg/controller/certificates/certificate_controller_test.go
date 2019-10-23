@@ -25,7 +25,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 )
 
 // TODO flesh this out to cover things like not being able to find the csr in the cache, not

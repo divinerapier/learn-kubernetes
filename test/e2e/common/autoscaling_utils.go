@@ -30,15 +30,15 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/framework/replicaset"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
-	testutils "k8s.io/kubernetes/test/utils"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/replicaset"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 
 	"github.com/onsi/ginkgo"
 	scaleclient "k8s.io/client-go/scale"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 const (

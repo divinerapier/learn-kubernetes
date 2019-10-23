@@ -21,10 +21,10 @@ import (
 	"path/filepath"
 
 	"k8s.io/apimachinery/pkg/runtime/serializer"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubeletscheme "k8s.io/kubernetes/pkg/kubelet/apis/config/scheme"
-	utilcodec "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/codec"
-	utilfs "k8s.io/kubernetes/pkg/util/filesystem"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubeletscheme "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config/scheme"
+	utilcodec "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/codec"
+	utilfs "github.com/divinerapier/learn-kubernetes/pkg/util/filesystem"
 )
 
 // Loader loads configuration from a storage layer

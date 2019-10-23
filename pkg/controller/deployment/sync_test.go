@@ -28,8 +28,8 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	testclient "k8s.io/client-go/testing"
 	"k8s.io/client-go/tools/record"
-	"k8s.io/kubernetes/pkg/controller"
-	deploymentutil "k8s.io/kubernetes/pkg/controller/deployment/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	deploymentutil "github.com/divinerapier/learn-kubernetes/pkg/controller/deployment/util"
 )
 
 func intOrStrP(val int) *intstr.IntOrString {

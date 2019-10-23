@@ -5,7 +5,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["manifest.go"],
-    importpath = "k8s.io/kubernetes/test/utils/image",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/utils/image",
     deps = [
         "//vendor/gopkg.in/yaml.v2:go_default_library",
     ],

@@ -28,8 +28,8 @@ import (
 	"k8s.io/klog"
 
 	"k8s.io/api/core/v1"
-	iptablesproxy "k8s.io/kubernetes/pkg/proxy/iptables"
-	utiliptables "k8s.io/kubernetes/pkg/util/iptables"
+	iptablesproxy "github.com/divinerapier/learn-kubernetes/pkg/proxy/iptables"
+	utiliptables "github.com/divinerapier/learn-kubernetes/pkg/util/iptables"
 )
 
 // HostportSyncer takes a list of PodPortMappings and implements hostport all at once

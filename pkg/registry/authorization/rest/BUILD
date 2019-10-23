@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["storage_authorization.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/authorization/rest",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/authorization/rest",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/authorization:go_default_library",

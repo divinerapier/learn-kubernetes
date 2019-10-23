@@ -26,7 +26,7 @@ go_library(
         "walker.go",
         "ws_token.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/aws/aws-sdk-go/internal/ini",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/aws/aws-sdk-go/internal/ini",
     importpath = "github.com/aws/aws-sdk-go/internal/ini",
     visibility = ["//vendor/github.com/aws/aws-sdk-go:__subpackages__"],
     deps = ["//vendor/github.com/aws/aws-sdk-go/aws/awserr:go_default_library"],

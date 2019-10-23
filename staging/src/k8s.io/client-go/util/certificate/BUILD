@@ -31,7 +31,7 @@ go_library(
         "certificate_manager.go",
         "certificate_store.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/client-go/util/certificate",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/client-go/util/certificate",
     importpath = "k8s.io/client-go/util/certificate",
     deps = [
         "//staging/src/k8s.io/api/certificates/v1beta1:go_default_library",

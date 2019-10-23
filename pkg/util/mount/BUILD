@@ -14,7 +14,7 @@ go_library(
         "mount_unsupported.go",
         "mount_windows.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/mount",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/mount",
     visibility = ["//visibility:public"],
     deps = [
         "//vendor/k8s.io/klog:go_default_library",

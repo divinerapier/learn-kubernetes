@@ -20,9 +20,9 @@ import (
 	"k8s.io/api/core/v1"
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	kubefeatures "k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpumanager"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager"
+	kubefeatures "github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager"
 )
 
 type InternalContainerLifecycle interface {

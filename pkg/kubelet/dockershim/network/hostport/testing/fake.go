@@ -19,7 +19,7 @@ package testing
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network/hostport"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/hostport"
 )
 
 type fakeSyncer struct{}

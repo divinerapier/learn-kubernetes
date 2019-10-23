@@ -15,7 +15,7 @@ go_library(
         "cinder_util.go",
         "doc.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/cinder",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/cinder",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/util/mount:go_default_library",

@@ -42,8 +42,8 @@ import (
 	// Initialize all known client auth plugins.
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 	"k8s.io/client-go/util/keyutil"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/serviceaccount"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
 )
 
 // Config contains the data on how to authenticate a request to the Kube API Server

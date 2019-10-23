@@ -32,9 +32,9 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/dynamic"
 	clientset "k8s.io/client-go/kubernetes"
-	kubeapiservertesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/test/integration/framework"
+	kubeapiservertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 func TestDynamicClient(t *testing.T) {

@@ -34,11 +34,11 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/client-go/informers"
 	nodev1beta1listers "k8s.io/client-go/listers/node/v1beta1"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	node "k8s.io/kubernetes/pkg/apis/node"
-	nodev1beta1 "k8s.io/kubernetes/pkg/apis/node/v1beta1"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/util/tolerations"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	node "github.com/divinerapier/learn-kubernetes/pkg/apis/node"
+	nodev1beta1 "github.com/divinerapier/learn-kubernetes/pkg/apis/node/v1beta1"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/tolerations"
 )
 
 // PluginName indicates name of admission plugin.

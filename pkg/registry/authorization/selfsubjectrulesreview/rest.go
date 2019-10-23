@@ -26,7 +26,7 @@ import (
 	"k8s.io/apiserver/pkg/authorization/authorizer"
 	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
 	"k8s.io/apiserver/pkg/registry/rest"
-	authorizationapi "k8s.io/kubernetes/pkg/apis/authorization"
+	authorizationapi "github.com/divinerapier/learn-kubernetes/pkg/apis/authorization"
 )
 
 // REST implements a RESTStorage for selfsubjectrulesreview.

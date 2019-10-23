@@ -36,11 +36,11 @@ import (
 	keyutil "k8s.io/client-go/util/keyutil"
 	bootstraputil "k8s.io/cluster-bootstrap/token/util"
 	"k8s.io/klog"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	nodebootstraptokenphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/bootstraptoken/node"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/apiclient"
-	cryptoutil "k8s.io/kubernetes/cmd/kubeadm/app/util/crypto"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	nodebootstraptokenphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/bootstraptoken/node"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/apiclient"
+	cryptoutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/crypto"
 )
 
 const (

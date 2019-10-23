@@ -27,12 +27,12 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 	clientset "k8s.io/client-go/kubernetes"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/images"
-	kubeadmutil "k8s.io/kubernetes/cmd/kubeadm/app/util"
-	etcdutil "k8s.io/kubernetes/cmd/kubeadm/app/util/etcd"
-	staticpodutil "k8s.io/kubernetes/cmd/kubeadm/app/util/staticpod"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/images"
+	kubeadmutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util"
+	etcdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/etcd"
+	staticpodutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/staticpod"
 )
 
 const (

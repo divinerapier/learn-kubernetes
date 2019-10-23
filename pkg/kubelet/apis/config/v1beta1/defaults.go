@@ -22,10 +22,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	kruntime "k8s.io/apimachinery/pkg/runtime"
 	kubeletconfigv1beta1 "k8s.io/kubelet/config/v1beta1"
-	// TODO: Cut references to k8s.io/kubernetes, eventually there should be none from this package
-	"k8s.io/kubernetes/pkg/kubelet/qos"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/master/ports"
+	// TODO: Cut references to github.com/divinerapier/learn-kubernetes, eventually there should be none from this package
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/qos"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
 	utilpointer "k8s.io/utils/pointer"
 )
 

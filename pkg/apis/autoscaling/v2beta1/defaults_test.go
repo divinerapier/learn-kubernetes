@@ -24,11 +24,11 @@ import (
 	"k8s.io/api/core/v1"
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
-	_ "k8s.io/kubernetes/pkg/apis/autoscaling/install"
-	. "k8s.io/kubernetes/pkg/apis/autoscaling/v2beta1"
-	_ "k8s.io/kubernetes/pkg/apis/core/install"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling/install"
+	. "github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling/v2beta1"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/core/install"
 	utilpointer "k8s.io/utils/pointer"
 )
 

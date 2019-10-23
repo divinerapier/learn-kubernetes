@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["abac.go"],
-    importpath = "k8s.io/kubernetes/pkg/auth/authorizer/abac",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/auth/authorizer/abac",
     deps = [
         "//pkg/apis/abac:go_default_library",
         "//pkg/apis/abac/latest:go_default_library",

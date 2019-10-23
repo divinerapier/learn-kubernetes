@@ -22,7 +22,7 @@ import (
 	dockertypes "github.com/docker/docker/api/types"
 	"github.com/stretchr/testify/assert"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker"
 )
 
 func TestContainerStats(t *testing.T) {

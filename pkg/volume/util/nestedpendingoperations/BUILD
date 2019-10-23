@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["nestedpendingoperations.go"],
-    importpath = "k8s.io/kubernetes/pkg/volume/util/nestedpendingoperations",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/util/nestedpendingoperations",
     deps = [
         "//pkg/util/goroutinemap/exponentialbackoff:go_default_library",
         "//pkg/volume/util/types:go_default_library",

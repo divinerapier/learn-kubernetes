@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/kubernetes/pkg/util/ipset"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/ipset"
 )
 
 // FakeIPSet is a no-op implementation of ipset Interface

@@ -29,9 +29,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/kubernetes"
-	kubeapiservertesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	"k8s.io/kubernetes/pkg/kubelet/util/manager"
-	"k8s.io/kubernetes/test/integration/framework"
+	kubeapiservertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/manager"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 func TestWatchBasedManager(t *testing.T) {

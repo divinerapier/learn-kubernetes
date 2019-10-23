@@ -31,20 +31,20 @@ import (
 
 	"k8s.io/api/core/v1"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager/errors"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/cm"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network/cni"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network/hostport"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network/kubenet"
-	"k8s.io/kubernetes/pkg/kubelet/server/streaming"
-	"k8s.io/kubernetes/pkg/kubelet/util/cache"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager/errors"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/cm"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/cni"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/hostport"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/kubenet"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/streaming"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/cache"
 
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/metrics"
 )
 
 const (
@@ -82,6 +82,9 @@ const (
 )
 
 // CRIService includes all methods necessary for a CRI server.
+//
+// https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/
+// CRI 抽象接口，将 kubernetes 与特定的容器解耦，允许使用 docker 之外的容器运行时。
 type CRIService interface {
 	runtimeapi.RuntimeServiceServer
 	runtimeapi.ImageServiceServer

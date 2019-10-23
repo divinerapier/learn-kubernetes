@@ -28,8 +28,8 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/watch"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 
 	"github.com/onsi/ginkgo"
 )

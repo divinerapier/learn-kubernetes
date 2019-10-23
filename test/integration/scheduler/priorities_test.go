@@ -27,11 +27,11 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/scheduler/algorithmprovider"
-	st "k8s.io/kubernetes/pkg/scheduler/testing"
-	testutils "k8s.io/kubernetes/test/utils"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithmprovider"
+	st "github.com/divinerapier/learn-kubernetes/pkg/scheduler/testing"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 // This file tests the scheduler priority functions.

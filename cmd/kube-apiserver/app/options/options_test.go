@@ -32,10 +32,10 @@ import (
 	audittruncate "k8s.io/apiserver/plugin/pkg/audit/truncate"
 	restclient "k8s.io/client-go/rest"
 	cliflag "k8s.io/component-base/cli/flag"
-	kapi "k8s.io/kubernetes/pkg/apis/core"
-	kubeoptions "k8s.io/kubernetes/pkg/kubeapiserver/options"
-	kubeletclient "k8s.io/kubernetes/pkg/kubelet/client"
-	"k8s.io/kubernetes/pkg/master/reconcilers"
+	kapi "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	kubeoptions "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/options"
+	kubeletclient "github.com/divinerapier/learn-kubernetes/pkg/kubelet/client"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/reconcilers"
 )
 
 func TestAddFlags(t *testing.T) {

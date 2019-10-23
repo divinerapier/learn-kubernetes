@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["types.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/checkpointmanager/testing/example_checkpoint_formats/v1",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager/testing/example_checkpoint_formats/v1",
     visibility = ["//visibility:public"],
     deps = ["//pkg/kubelet/checkpointmanager/checksum:go_default_library"],
 )

@@ -74,40 +74,40 @@ import (
 	"k8s.io/client-go/informers"
 	corev1client "k8s.io/client-go/kubernetes/typed/core/v1"
 	discoveryclient "k8s.io/client-go/kubernetes/typed/discovery/v1alpha1"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/features"
-	kubeoptions "k8s.io/kubernetes/pkg/kubeapiserver/options"
-	kubeletclient "k8s.io/kubernetes/pkg/kubelet/client"
-	"k8s.io/kubernetes/pkg/master/reconcilers"
-	"k8s.io/kubernetes/pkg/master/tunneler"
-	"k8s.io/kubernetes/pkg/routes"
-	"k8s.io/kubernetes/pkg/serviceaccount"
-	nodeutil "k8s.io/kubernetes/pkg/util/node"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubeoptions "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/options"
+	kubeletclient "github.com/divinerapier/learn-kubernetes/pkg/kubelet/client"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/reconcilers"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/tunneler"
+	"github.com/divinerapier/learn-kubernetes/pkg/routes"
+	"github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
+	nodeutil "github.com/divinerapier/learn-kubernetes/pkg/util/node"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"k8s.io/klog"
 
 	// RESTStorage installers
-	admissionregistrationrest "k8s.io/kubernetes/pkg/registry/admissionregistration/rest"
-	appsrest "k8s.io/kubernetes/pkg/registry/apps/rest"
-	auditregistrationrest "k8s.io/kubernetes/pkg/registry/auditregistration/rest"
-	authenticationrest "k8s.io/kubernetes/pkg/registry/authentication/rest"
-	authorizationrest "k8s.io/kubernetes/pkg/registry/authorization/rest"
-	autoscalingrest "k8s.io/kubernetes/pkg/registry/autoscaling/rest"
-	batchrest "k8s.io/kubernetes/pkg/registry/batch/rest"
-	certificatesrest "k8s.io/kubernetes/pkg/registry/certificates/rest"
-	coordinationrest "k8s.io/kubernetes/pkg/registry/coordination/rest"
-	corerest "k8s.io/kubernetes/pkg/registry/core/rest"
-	discoveryrest "k8s.io/kubernetes/pkg/registry/discovery/rest"
-	eventsrest "k8s.io/kubernetes/pkg/registry/events/rest"
-	extensionsrest "k8s.io/kubernetes/pkg/registry/extensions/rest"
-	networkingrest "k8s.io/kubernetes/pkg/registry/networking/rest"
-	noderest "k8s.io/kubernetes/pkg/registry/node/rest"
-	policyrest "k8s.io/kubernetes/pkg/registry/policy/rest"
-	rbacrest "k8s.io/kubernetes/pkg/registry/rbac/rest"
-	schedulingrest "k8s.io/kubernetes/pkg/registry/scheduling/rest"
-	settingsrest "k8s.io/kubernetes/pkg/registry/settings/rest"
-	storagerest "k8s.io/kubernetes/pkg/registry/storage/rest"
+	admissionregistrationrest "github.com/divinerapier/learn-kubernetes/pkg/registry/admissionregistration/rest"
+	appsrest "github.com/divinerapier/learn-kubernetes/pkg/registry/apps/rest"
+	auditregistrationrest "github.com/divinerapier/learn-kubernetes/pkg/registry/auditregistration/rest"
+	authenticationrest "github.com/divinerapier/learn-kubernetes/pkg/registry/authentication/rest"
+	authorizationrest "github.com/divinerapier/learn-kubernetes/pkg/registry/authorization/rest"
+	autoscalingrest "github.com/divinerapier/learn-kubernetes/pkg/registry/autoscaling/rest"
+	batchrest "github.com/divinerapier/learn-kubernetes/pkg/registry/batch/rest"
+	certificatesrest "github.com/divinerapier/learn-kubernetes/pkg/registry/certificates/rest"
+	coordinationrest "github.com/divinerapier/learn-kubernetes/pkg/registry/coordination/rest"
+	corerest "github.com/divinerapier/learn-kubernetes/pkg/registry/core/rest"
+	discoveryrest "github.com/divinerapier/learn-kubernetes/pkg/registry/discovery/rest"
+	eventsrest "github.com/divinerapier/learn-kubernetes/pkg/registry/events/rest"
+	extensionsrest "github.com/divinerapier/learn-kubernetes/pkg/registry/extensions/rest"
+	networkingrest "github.com/divinerapier/learn-kubernetes/pkg/registry/networking/rest"
+	noderest "github.com/divinerapier/learn-kubernetes/pkg/registry/node/rest"
+	policyrest "github.com/divinerapier/learn-kubernetes/pkg/registry/policy/rest"
+	rbacrest "github.com/divinerapier/learn-kubernetes/pkg/registry/rbac/rest"
+	schedulingrest "github.com/divinerapier/learn-kubernetes/pkg/registry/scheduling/rest"
+	settingsrest "github.com/divinerapier/learn-kubernetes/pkg/registry/settings/rest"
+	storagerest "github.com/divinerapier/learn-kubernetes/pkg/registry/storage/rest"
 )
 
 const (
@@ -365,7 +365,7 @@ func (c completedConfig) New(delegationTarget genericapiserver.DelegationTarget)
 	// The order here is preserved in discovery.
 	// If resources with identical names exist in more than one of these groups (e.g. "deployments.apps"" and "deployments.extensions"),
 	// the order of this list determines which group an unqualified resource name (e.g. "deployments") should prefer.
-	// This priority order is used for local discovery, but it ends up aggregated in `k8s.io/kubernetes/cmd/kube-apiserver/app/aggregator.go
+	// This priority order is used for local discovery, but it ends up aggregated in `github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/aggregator.go
 	// with specific priorities.
 	// TODO: describe the priority all the way down in the RESTStorageProviders and plumb it back through the various discovery
 	// handlers that we have.

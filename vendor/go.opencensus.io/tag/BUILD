@@ -13,7 +13,7 @@ go_library(
         "profile_not19.go",
         "validate.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/go.opencensus.io/tag",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.opencensus.io/tag",
     importpath = "go.opencensus.io/tag",
     visibility = ["//visibility:public"],
 )

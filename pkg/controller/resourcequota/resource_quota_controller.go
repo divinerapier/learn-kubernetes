@@ -40,8 +40,8 @@ import (
 	corelisters "k8s.io/client-go/listers/core/v1"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
-	"k8s.io/kubernetes/pkg/controller"
-	quota "k8s.io/kubernetes/pkg/quota/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	quota "github.com/divinerapier/learn-kubernetes/pkg/quota/v1"
 )
 
 // NamespacedResourcesFunc knows how to discover namespaced resources.

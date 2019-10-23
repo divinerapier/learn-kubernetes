@@ -22,8 +22,8 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/conversion"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
-	core "k8s.io/kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling"
+	core "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 func addConversionFuncs(scheme *runtime.Scheme) error {

@@ -19,7 +19,7 @@ package options
 import (
 	"github.com/spf13/pflag"
 
-	kubectrlmgrconfig "k8s.io/kubernetes/pkg/controller/apis/config"
+	kubectrlmgrconfig "github.com/divinerapier/learn-kubernetes/pkg/controller/apis/config"
 )
 
 // CloudProviderOptions holds the cloudprovider options.

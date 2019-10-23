@@ -19,9 +19,9 @@ package images
 import (
 	"fmt"
 
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeadmutil "k8s.io/kubernetes/cmd/kubeadm/app/util"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeadmutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util"
 )
 
 // GetGenericImage generates and returns a platform agnostic image (backed by manifest list)

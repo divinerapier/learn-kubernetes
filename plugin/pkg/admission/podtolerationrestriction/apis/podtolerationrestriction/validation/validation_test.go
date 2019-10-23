@@ -17,8 +17,8 @@ limitations under the License.
 package validation
 
 import (
-	api "k8s.io/kubernetes/pkg/apis/core"
-	internalapi "k8s.io/kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	internalapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction"
 	"testing"
 )
 

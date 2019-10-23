@@ -24,7 +24,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/scale"
-	"k8s.io/kubernetes/pkg/controller/disruption"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/disruption"
 
 	"net/http"
 

@@ -6,7 +6,7 @@ go_library(
         "ipset.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/ipset",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/ipset",
     visibility = ["//visibility:public"],
     deps = [
         "//vendor/k8s.io/klog:go_default_library",

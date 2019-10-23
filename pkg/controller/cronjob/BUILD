@@ -14,7 +14,7 @@ go_library(
         "injection.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/cronjob",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/cronjob",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//staging/src/k8s.io/api/batch/v1:go_default_library",

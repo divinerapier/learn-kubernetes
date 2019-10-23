@@ -22,7 +22,7 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
 )
 
 // StatelessPreBindExample is an example of a simple plugin that has no state

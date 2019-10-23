@@ -16,7 +16,7 @@ go_library(
         "server_others.go",
         "server_windows.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kube-proxy/app",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kube-proxy/app",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/features:go_default_library",

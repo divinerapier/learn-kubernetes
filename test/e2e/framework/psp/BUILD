@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["psp.go"],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/psp",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/psp",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/security/podsecuritypolicy/seccomp:go_default_library",

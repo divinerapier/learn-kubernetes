@@ -32,7 +32,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["controller_history.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/history",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/history",
     deps = [
         "//pkg/util/hash:go_default_library",
         "//staging/src/k8s.io/api/apps/v1:go_default_library",

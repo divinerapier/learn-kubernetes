@@ -29,9 +29,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
 	scaleclient "k8s.io/client-go/scale"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	testutils "k8s.io/kubernetes/test/utils"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 // RcByNamePort returns a ReplicationController with specified name and port

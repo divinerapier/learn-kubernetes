@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["fake_manager.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/prober/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/prober/testing",
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/types:go_default_library",

@@ -8,7 +8,7 @@ go_library(
         "scheduler_binder_cache.go",
         "scheduler_binder_fake.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/volume/scheduling",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/scheduling",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core/v1/helper:go_default_library",

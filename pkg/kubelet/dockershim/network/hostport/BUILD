@@ -14,7 +14,7 @@ go_library(
         "hostport_manager.go",
         "hostport_syncer.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/dockershim/network/hostport",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/hostport",
     deps = [
         "//pkg/proxy/iptables:go_default_library",
         "//pkg/util/conntrack:go_default_library",

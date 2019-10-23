@@ -10,7 +10,7 @@ go_library(
         "stripmeta.go",
         "structuredmerge.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiserver/pkg/endpoints/handlers/fieldmanager",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiserver/pkg/endpoints/handlers/fieldmanager",
     importpath = "k8s.io/apiserver/pkg/endpoints/handlers/fieldmanager",
     visibility = ["//visibility:public"],
     deps = [

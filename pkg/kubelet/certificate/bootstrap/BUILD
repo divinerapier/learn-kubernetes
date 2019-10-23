@@ -24,7 +24,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["bootstrap.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/certificate/bootstrap",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/certificate/bootstrap",
     deps = [
         "//staging/src/k8s.io/api/certificates/v1beta1:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/types:go_default_library",

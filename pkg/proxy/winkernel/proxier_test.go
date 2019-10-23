@@ -22,8 +22,8 @@ import (
 	"k8s.io/api/core/v1"
 	discovery "k8s.io/api/discovery/v1alpha1"
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/kubernetes/pkg/proxy"
-	"k8s.io/kubernetes/pkg/proxy/healthcheck"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy/healthcheck"
 
 	"net"
 	"strings"

@@ -20,14 +20,14 @@ import (
 	"fmt"
 
 	// ensure the core apis are installed
-	_ "k8s.io/kubernetes/pkg/apis/core/install"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/core/install"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	"k8s.io/kubernetes/pkg/kubelet/apis/config/scheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config/scheme"
 )
 
 // EncodeKubeletConfig encodes an internal KubeletConfiguration to an external YAML representation

@@ -3,7 +3,7 @@ package expansion
 import (
 	"testing"
 
-	api "k8s.io/kubernetes/pkg/apis/core"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 func TestMapReference(t *testing.T) {

@@ -29,12 +29,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"k8s.io/apimachinery/pkg/util/clock"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network"
-	nettest "k8s.io/kubernetes/pkg/kubelet/dockershim/network/testing"
-	"k8s.io/kubernetes/pkg/kubelet/util/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	containertest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network"
+	nettest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/cache"
 )
 
 // newTestNetworkPlugin returns a mock plugin that implements network.NetworkPlugin

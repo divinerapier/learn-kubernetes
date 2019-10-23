@@ -32,10 +32,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
-	"k8s.io/kubernetes/pkg/controller"
-	quota "k8s.io/kubernetes/pkg/quota/v1"
-	"k8s.io/kubernetes/pkg/quota/v1/evaluator/core"
-	"k8s.io/kubernetes/pkg/quota/v1/generic"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	quota "github.com/divinerapier/learn-kubernetes/pkg/quota/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/quota/v1/evaluator/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/quota/v1/generic"
 )
 
 type eventType int

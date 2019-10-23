@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["kubemark.go"],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/providers/kubemark",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/kubemark",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubemark:go_default_library",

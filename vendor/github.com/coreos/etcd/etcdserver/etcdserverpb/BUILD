@@ -8,7 +8,7 @@ go_library(
         "raft_internal_stringer.go",
         "rpc.pb.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/etcdserver/etcdserverpb",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/etcdserver/etcdserverpb",
     importpath = "github.com/coreos/etcd/etcdserver/etcdserverpb",
     visibility = ["//visibility:public"],
     deps = [

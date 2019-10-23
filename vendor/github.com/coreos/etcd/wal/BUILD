@@ -12,7 +12,7 @@ go_library(
         "util.go",
         "wal.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/wal",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/wal",
     importpath = "github.com/coreos/etcd/wal",
     visibility = ["//visibility:public"],
     deps = [

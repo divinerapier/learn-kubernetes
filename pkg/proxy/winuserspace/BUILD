@@ -15,7 +15,7 @@ go_library(
         "roundrobin.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/proxy/winuserspace",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/proxy/winuserspace",
     deps = [
         "//pkg/apis/core/v1/helper:go_default_library",
         "//pkg/proxy:go_default_library",

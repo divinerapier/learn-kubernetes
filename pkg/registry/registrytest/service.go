@@ -25,7 +25,7 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
 	"k8s.io/apiserver/pkg/registry/rest"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 func NewServiceRegistry() *ServiceRegistry {

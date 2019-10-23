@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/priorities"
-	"k8s.io/kubernetes/pkg/scheduler/api"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
 )
 
 func TestAlgorithmNameValidation(t *testing.T) {

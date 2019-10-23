@@ -21,7 +21,7 @@ go_library(
         "task_manager.go",
         "virtual_device.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/vmware/govmomi/simulator/esx",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/vmware/govmomi/simulator/esx",
     importpath = "github.com/vmware/govmomi/simulator/esx",
     visibility = ["//visibility:public"],
     deps = [

@@ -27,11 +27,11 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/component-base/metrics"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/features"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/prober/results"
-	"k8s.io/kubernetes/pkg/kubelet/status"
-	"k8s.io/kubernetes/pkg/kubelet/util/format"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/prober/results"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/status"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/format"
 )
 
 // ProberResults stores the cumulative number of a probe by result as prometheus metrics.

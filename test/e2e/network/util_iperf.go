@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 )
 
 // IPerfResults is a struct that stores some IPerfResult

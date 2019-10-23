@@ -32,10 +32,10 @@ import (
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 	schedulingv1listers "k8s.io/client-go/listers/scheduling/v1"
-	"k8s.io/kubernetes/pkg/apis/core"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/scheduling"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/scheduling"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 const (

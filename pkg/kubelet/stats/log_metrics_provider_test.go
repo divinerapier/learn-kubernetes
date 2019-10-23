@@ -19,7 +19,7 @@ package stats
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
 )
 
 type fakeLogMetrics struct {

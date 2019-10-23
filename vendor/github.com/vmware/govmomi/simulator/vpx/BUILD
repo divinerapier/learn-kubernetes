@@ -11,7 +11,7 @@ go_library(
         "setting.go",
         "task_manager.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/vmware/govmomi/simulator/vpx",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/vmware/govmomi/simulator/vpx",
     importpath = "github.com/vmware/govmomi/simulator/vpx",
     visibility = ["//visibility:public"],
     deps = [

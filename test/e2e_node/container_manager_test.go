@@ -32,8 +32,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/uuid"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/test/e2e/framework"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"

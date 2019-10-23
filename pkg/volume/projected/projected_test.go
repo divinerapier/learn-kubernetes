@@ -35,12 +35,12 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
 	clitesting "k8s.io/client-go/testing"
-	pkgauthenticationv1 "k8s.io/kubernetes/pkg/apis/authentication/v1"
-	pkgcorev1 "k8s.io/kubernetes/pkg/apis/core/v1"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/emptydir"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
-	"k8s.io/kubernetes/pkg/volume/util"
+	pkgauthenticationv1 "github.com/divinerapier/learn-kubernetes/pkg/apis/authentication/v1"
+	pkgcorev1 "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/emptydir"
+	volumetest "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 func TestCollectDataWithSecret(t *testing.T) {

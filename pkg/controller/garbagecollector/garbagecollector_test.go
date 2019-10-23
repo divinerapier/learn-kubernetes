@@ -28,7 +28,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	_ "k8s.io/kubernetes/pkg/apis/core/install"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/core/install"
 
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/meta"
@@ -47,8 +47,8 @@ import (
 	"k8s.io/client-go/metadata/metadatainformer"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/util/workqueue"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 )
 
 type testRESTMapper struct {

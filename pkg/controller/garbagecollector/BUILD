@@ -18,7 +18,7 @@ go_library(
         "patch.go",
         "uid_cache.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/garbagecollector",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/garbagecollector",
     deps = [
         "//pkg/controller:go_default_library",
         "//pkg/controller/garbagecollector/metaonly:go_default_library",

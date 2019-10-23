@@ -6,7 +6,7 @@ go_library(
         "ast.go",
         "doc.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/ast",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/ast",
     importpath = "gonum.org/v1/gonum/graph/formats/dot/ast",
     visibility = ["//visibility:public"],
 )

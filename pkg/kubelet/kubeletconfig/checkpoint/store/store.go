@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
 )
 
 // Store saves checkpoints and information about which is the assigned and last-known-good checkpoint to a storage layer

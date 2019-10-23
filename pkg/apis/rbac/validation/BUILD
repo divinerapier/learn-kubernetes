@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["validation.go"],
-    importpath = "k8s.io/kubernetes/pkg/apis/rbac/validation",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/rbac/validation",
     deps = [
         "//pkg/apis/core/validation:go_default_library",
         "//pkg/apis/rbac:go_default_library",

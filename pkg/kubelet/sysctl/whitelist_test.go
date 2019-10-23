@@ -19,7 +19,7 @@ package sysctl
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/sysctl"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/sysctl"
 )
 
 func TestNewWhitelist(t *testing.T) {

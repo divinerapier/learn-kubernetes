@@ -25,9 +25,9 @@ import (
 	"k8s.io/api/core/v1"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	kubefeatures "k8s.io/kubernetes/pkg/features"
-	kubeletapis "k8s.io/kubernetes/pkg/kubelet/apis"
-	"k8s.io/kubernetes/pkg/securitycontext"
+	kubefeatures "github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubeletapis "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis"
+	"github.com/divinerapier/learn-kubernetes/pkg/securitycontext"
 )
 
 // applyPlatformSpecificContainerConfig applies platform specific configurations to runtimeapi.ContainerConfig.

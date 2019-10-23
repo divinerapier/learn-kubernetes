@@ -33,11 +33,11 @@ import (
 
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
-	kubeletstatsv1alpha1 "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	dockermetrics "k8s.io/kubernetes/pkg/kubelet/dockershim/metrics"
-	"k8s.io/kubernetes/pkg/master/ports"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
-	e2emetrics "k8s.io/kubernetes/test/e2e/framework/metrics"
+	kubeletstatsv1alpha1 "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	dockermetrics "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
+	e2emetrics "github.com/divinerapier/learn-kubernetes/test/e2e/framework/metrics"
 )
 
 const (

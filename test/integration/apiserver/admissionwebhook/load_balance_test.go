@@ -38,8 +38,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
-	kubeapiservertesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	"k8s.io/kubernetes/test/integration/framework"
+	kubeapiservertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 const (

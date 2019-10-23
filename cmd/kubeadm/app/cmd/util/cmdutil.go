@@ -23,8 +23,8 @@ import (
 
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
 )
 
 // SubCmdRunE returns a function that handles a case where a subcommand must be specified

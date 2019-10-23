@@ -13,7 +13,7 @@ go_library(
         "gobindata_util.go",
         "main.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/generated",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/generated",
     deps = [
         "//vendor/k8s.io/klog:go_default_library",
     ],

@@ -23,7 +23,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["markcontrolplane.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/markcontrolplane",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/markcontrolplane",
     deps = [
         "//cmd/kubeadm/app/constants:go_default_library",
         "//cmd/kubeadm/app/util/apiclient:go_default_library",

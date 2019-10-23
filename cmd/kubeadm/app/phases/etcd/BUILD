@@ -23,7 +23,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["local.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/etcd",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/etcd",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",
         "//cmd/kubeadm/app/constants:go_default_library",

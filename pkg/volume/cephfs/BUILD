@@ -12,7 +12,7 @@ go_library(
         "cephfs.go",
         "doc.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/cephfs",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/cephfs",
     deps = [
         "//pkg/util/mount:go_default_library",
         "//pkg/volume:go_default_library",

@@ -33,11 +33,11 @@ import (
 
 	certutil "k8s.io/client-go/util/cert"
 	"k8s.io/client-go/util/keyutil"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	certstestutil "k8s.io/kubernetes/cmd/kubeadm/app/util/certs"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
-	testutil "k8s.io/kubernetes/cmd/kubeadm/test"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	certstestutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/certs"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
+	testutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test"
 )
 
 func createTestCSR(t *testing.T) (*x509.CertificateRequest, crypto.Signer) {

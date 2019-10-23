@@ -14,7 +14,7 @@ go_library(
         "tableprinter.go",
         "tabwriter.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/printers",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/printers",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/api/meta:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1:go_default_library",

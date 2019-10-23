@@ -37,7 +37,7 @@ retry() {
 
 export PATH=${GOPATH}/bin:${PWD}/third_party/etcd:/usr/local/go/bin:${PATH}
 
-go install k8s.io/kubernetes/vendor/gotest.tools/gotestsum
+go install github.com/divinerapier/learn-kubernetes/vendor/gotest.tools/gotestsum
 
 # Enable the Go race detector.
 export KUBE_RACE=-race
@@ -52,7 +52,7 @@ export KUBE_KEEP_VERBOSE_TEST_OUTPUT=y
 export KUBE_INTEGRATION_TEST_MAX_CONCURRENCY=4
 export LOG_LEVEL=4
 
-cd "${GOPATH}/src/k8s.io/kubernetes"
+cd "${GOPATH}/src/github.com/divinerapier/learn-kubernetes"
 
 make generated_files
 go install ./cmd/...

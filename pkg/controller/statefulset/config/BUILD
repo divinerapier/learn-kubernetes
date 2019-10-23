@@ -7,7 +7,7 @@ go_library(
         "types.go",
         "zz_generated.deepcopy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/statefulset/config",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/statefulset/config",
     visibility = ["//visibility:public"],
 )
 

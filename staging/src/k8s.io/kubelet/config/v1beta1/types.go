@@ -652,7 +652,7 @@ type KubeletConfiguration struct {
 	IPTablesDropBit *int32 `json:"iptablesDropBit,omitempty"`
 	// featureGates is a map of feature names to bools that enable or disable alpha/experimental
 	// features. This field modifies piecemeal the built-in default values from
-	// "k8s.io/kubernetes/pkg/features/kube_features.go".
+	// "github.com/divinerapier/learn-kubernetes/pkg/features/kube_features.go".
 	// Dynamic Kubelet Config (beta): If dynamically updating this field, consider the
 	// documentation for the features you are enabling or disabling. While we
 	// encourage feature developers to make it possible to dynamically enable

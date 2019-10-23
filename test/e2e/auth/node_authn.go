@@ -21,13 +21,13 @@ import (
 
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/pkg/master/ports"
-	"k8s.io/kubernetes/test/e2e/framework"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
 )
 
 var _ = SIGDescribe("[Feature:NodeAuthenticator]", func() {

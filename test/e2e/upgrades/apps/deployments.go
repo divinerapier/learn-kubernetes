@@ -22,13 +22,13 @@ import (
 	appsv1 "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	deploymentutil "k8s.io/kubernetes/pkg/controller/deployment/util"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2edeploy "k8s.io/kubernetes/test/e2e/framework/deployment"
-	"k8s.io/kubernetes/test/e2e/upgrades"
+	deploymentutil "github.com/divinerapier/learn-kubernetes/pkg/controller/deployment/util"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2edeploy "github.com/divinerapier/learn-kubernetes/test/e2e/framework/deployment"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/upgrades"
 
 	"github.com/onsi/ginkgo"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 const (

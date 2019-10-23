@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["timeout.go"],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Microsoft/hcsshim/internal/timeout",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Microsoft/hcsshim/internal/timeout",
     importpath = "github.com/Microsoft/hcsshim/internal/timeout",
     visibility = ["//vendor/github.com/Microsoft/hcsshim:__subpackages__"],
 )

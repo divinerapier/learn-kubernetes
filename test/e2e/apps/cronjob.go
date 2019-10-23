@@ -31,11 +31,11 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/scheme"
-	batchinternal "k8s.io/kubernetes/pkg/apis/batch"
-	"k8s.io/kubernetes/pkg/controller/job"
-	"k8s.io/kubernetes/test/e2e/framework"
-	jobutil "k8s.io/kubernetes/test/e2e/framework/job"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	batchinternal "github.com/divinerapier/learn-kubernetes/pkg/apis/batch"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/job"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	jobutil "github.com/divinerapier/learn-kubernetes/test/e2e/framework/job"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 const (

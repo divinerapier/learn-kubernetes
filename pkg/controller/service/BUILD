@@ -7,7 +7,7 @@ go_library(
         "doc.go",
         "patch.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/service",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/service",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	v1 "k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/controller"
-	hashutil "k8s.io/kubernetes/pkg/util/hash"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	hashutil "github.com/divinerapier/learn-kubernetes/pkg/util/hash"
 )
 
 var podSpec = `

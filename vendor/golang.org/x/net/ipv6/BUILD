@@ -66,7 +66,7 @@ go_library(
         "zsys_solaris.go",
     ],
     cgo = True,
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/net/ipv6",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/net/ipv6",
     importpath = "golang.org/x/net/ipv6",
     visibility = ["//visibility:public"],
     deps = [

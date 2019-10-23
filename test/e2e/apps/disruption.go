@@ -31,8 +31,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/util/retry"
-	"k8s.io/kubernetes/test/e2e/framework"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 // schedulingTimeout is longer specifically because sometimes we need to wait

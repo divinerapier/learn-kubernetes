@@ -19,7 +19,7 @@ package testsuites
 import (
 	"testing"
 
-	"k8s.io/kubernetes/test/e2e/framework/volume"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/volume"
 )
 
 // getSizeRangesIntersection takes two instances of storage size ranges and determines the

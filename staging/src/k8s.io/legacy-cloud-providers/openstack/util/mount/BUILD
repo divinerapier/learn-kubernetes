@@ -8,7 +8,7 @@ go_library(
         "mount_unsupported.go",
         "mount_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/legacy-cloud-providers/openstack/util/mount",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/legacy-cloud-providers/openstack/util/mount",
     importpath = "k8s.io/legacy-cloud-providers/openstack/util/mount",
     visibility = ["//visibility:public"],
     deps = select({

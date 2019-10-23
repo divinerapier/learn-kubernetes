@@ -27,10 +27,10 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utiltesting "k8s.io/client-go/util/testing"
-	"k8s.io/kubernetes/pkg/kubelet/configmap"
-	kubepod "k8s.io/kubernetes/pkg/kubelet/pod"
-	podtest "k8s.io/kubernetes/pkg/kubelet/pod/testing"
-	"k8s.io/kubernetes/pkg/kubelet/secret"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/configmap"
+	kubepod "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pod"
+	podtest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pod/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/secret"
 )
 
 func TestGetVolumeExec(t *testing.T) {

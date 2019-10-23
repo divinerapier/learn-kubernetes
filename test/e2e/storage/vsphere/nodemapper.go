@@ -28,7 +28,7 @@ import (
 	"github.com/vmware/govmomi/vim25/mo"
 	"github.com/vmware/govmomi/vim25/types"
 	v1 "k8s.io/api/core/v1"
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 
 	neturl "net/url"
 )

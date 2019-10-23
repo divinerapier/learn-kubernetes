@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["aws_credentials.go"],
-    importpath = "k8s.io/kubernetes/pkg/credentialprovider/aws",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/credentialprovider/aws",
     deps = [
         "//pkg/credentialprovider:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/wait:go_default_library",

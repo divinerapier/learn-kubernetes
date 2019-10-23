@@ -6,7 +6,7 @@ go_library(
         "handlers.go",
         "stats.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/google.golang.org/grpc/stats",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/google.golang.org/grpc/stats",
     importpath = "google.golang.org/grpc/stats",
     visibility = ["//visibility:public"],
     deps = ["//vendor/google.golang.org/grpc/metadata:go_default_library"],

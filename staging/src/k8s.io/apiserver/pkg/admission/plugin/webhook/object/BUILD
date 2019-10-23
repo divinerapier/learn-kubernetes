@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "matcher.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiserver/pkg/admission/plugin/webhook/object",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiserver/pkg/admission/plugin/webhook/object",
     importpath = "k8s.io/apiserver/pkg/admission/plugin/webhook/object",
     visibility = ["//visibility:public"],
     deps = [

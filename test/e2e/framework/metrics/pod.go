@@ -19,7 +19,7 @@ package metrics
 import (
 	"time"
 
-	e2eperftype "k8s.io/kubernetes/test/e2e/perftype"
+	e2eperftype "github.com/divinerapier/learn-kubernetes/test/e2e/perftype"
 )
 
 // LatencyMetric is a struct for dashboard metrics.

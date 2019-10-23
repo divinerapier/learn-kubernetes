@@ -33,15 +33,15 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/diff"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	apps "k8s.io/kubernetes/pkg/apis/apps"
-	"k8s.io/kubernetes/pkg/apis/core"
-	corefuzzer "k8s.io/kubernetes/pkg/apis/core/fuzzer"
-	corev1 "k8s.io/kubernetes/pkg/apis/core/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	apps "github.com/divinerapier/learn-kubernetes/pkg/apis/apps"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	corefuzzer "github.com/divinerapier/learn-kubernetes/pkg/apis/core/fuzzer"
+	corev1 "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1"
 	utilpointer "k8s.io/utils/pointer"
 
 	// enforce that all types are installed
-	_ "k8s.io/kubernetes/pkg/api/testapi"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
 )
 
 func TestPodLogOptions(t *testing.T) {

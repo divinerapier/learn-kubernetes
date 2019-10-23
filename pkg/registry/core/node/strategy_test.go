@@ -23,15 +23,15 @@ import (
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/util/diff"
-	apitesting "k8s.io/kubernetes/pkg/api/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	apitesting "github.com/divinerapier/learn-kubernetes/pkg/api/testing"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 
 	// install all api groups for testing
-	_ "k8s.io/kubernetes/pkg/api/testapi"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
 )
 
 func TestMatchNode(t *testing.T) {

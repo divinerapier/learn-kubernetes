@@ -18,7 +18,7 @@ package generic
 
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	quota "k8s.io/kubernetes/pkg/quota/v1"
+	quota "github.com/divinerapier/learn-kubernetes/pkg/quota/v1"
 )
 
 // implements a basic configuration

@@ -16,7 +16,7 @@ go_library(
         "pod_update.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/types",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types",
     deps = [
         "//pkg/apis/scheduling:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

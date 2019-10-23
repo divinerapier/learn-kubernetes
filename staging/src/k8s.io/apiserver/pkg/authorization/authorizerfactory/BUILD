@@ -22,7 +22,7 @@ go_library(
         "builtin.go",
         "delegating.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiserver/pkg/authorization/authorizerfactory",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiserver/pkg/authorization/authorizerfactory",
     importpath = "k8s.io/apiserver/pkg/authorization/authorizerfactory",
     deps = [
         "//staging/src/k8s.io/apiserver/pkg/authentication/user:go_default_library",

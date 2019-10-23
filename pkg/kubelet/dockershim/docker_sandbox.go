@@ -30,12 +30,12 @@ import (
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager/errors"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"
-	"k8s.io/kubernetes/pkg/kubelet/qos"
-	"k8s.io/kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager/errors"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/qos"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 const (

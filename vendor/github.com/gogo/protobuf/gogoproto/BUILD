@@ -7,7 +7,7 @@ go_library(
         "gogo.pb.go",
         "helper.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/gogo/protobuf/gogoproto",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/gogo/protobuf/gogoproto",
     importpath = "github.com/gogo/protobuf/gogoproto",
     visibility = ["//visibility:public"],
     deps = [

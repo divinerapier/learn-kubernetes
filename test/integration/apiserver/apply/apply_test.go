@@ -39,8 +39,8 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	"k8s.io/kubernetes/pkg/master"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/master"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 	"sigs.k8s.io/yaml"
 )
 

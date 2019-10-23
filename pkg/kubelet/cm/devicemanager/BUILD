@@ -11,7 +11,7 @@ go_library(
         "topology_hints.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/cm/devicemanager",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/devicemanager",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core/v1/helper:go_default_library",

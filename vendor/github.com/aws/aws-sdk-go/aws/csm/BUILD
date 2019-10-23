@@ -10,7 +10,7 @@ go_library(
         "metric_exception.go",
         "reporter.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/aws/aws-sdk-go/aws/csm",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/aws/aws-sdk-go/aws/csm",
     importpath = "github.com/aws/aws-sdk-go/aws/csm",
     visibility = ["//visibility:public"],
     deps = [

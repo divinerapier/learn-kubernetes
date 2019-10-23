@@ -28,12 +28,12 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/util/sets"
 	clientset "k8s.io/client-go/kubernetes"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
-	testutils "k8s.io/kubernetes/test/utils"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 
 	"github.com/onsi/ginkgo"
 )

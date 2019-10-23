@@ -10,7 +10,7 @@ go_library(
         "version.go",
         "winstats.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/winstats",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/winstats",
     visibility = ["//visibility:public"],
     deps = select({
         "@io_bazel_rules_go//go/platform:windows": [

@@ -27,7 +27,7 @@ import (
 	"k8s.io/client-go/tools/events"
 	"k8s.io/client-go/tools/leaderelection"
 	"k8s.io/client-go/tools/record"
-	kubeschedulerconfig "k8s.io/kubernetes/pkg/scheduler/apis/config"
+	kubeschedulerconfig "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
 )
 
 // Config has all the context to run a Scheduler

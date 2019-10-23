@@ -22,9 +22,9 @@ import (
 	batchv1 "k8s.io/api/batch/v1"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/pkg/util/slice"
-	"k8s.io/kubernetes/test/e2e/framework"
-	jobutil "k8s.io/kubernetes/test/e2e/framework/job"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/slice"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	jobutil "github.com/divinerapier/learn-kubernetes/test/e2e/framework/job"
 
 	"github.com/onsi/ginkgo"
 )

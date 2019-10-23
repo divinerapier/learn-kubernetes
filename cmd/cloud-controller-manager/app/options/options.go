@@ -35,17 +35,17 @@ import (
 	"k8s.io/client-go/tools/record"
 	cliflag "k8s.io/component-base/cli/flag"
 	"k8s.io/klog"
-	ccmconfig "k8s.io/kubernetes/cmd/cloud-controller-manager/app/apis/config"
-	ccmconfigscheme "k8s.io/kubernetes/cmd/cloud-controller-manager/app/apis/config/scheme"
-	ccmconfigv1alpha1 "k8s.io/kubernetes/cmd/cloud-controller-manager/app/apis/config/v1alpha1"
-	cloudcontrollerconfig "k8s.io/kubernetes/cmd/cloud-controller-manager/app/config"
-	cmoptions "k8s.io/kubernetes/cmd/controller-manager/app/options"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/master/ports"
+	ccmconfig "github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/apis/config"
+	ccmconfigscheme "github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/apis/config/scheme"
+	ccmconfigv1alpha1 "github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/apis/config/v1alpha1"
+	cloudcontrollerconfig "github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/config"
+	cmoptions "github.com/divinerapier/learn-kubernetes/cmd/controller-manager/app/options"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
 
 	// add the kubernetes feature gates
-	_ "k8s.io/kubernetes/pkg/features"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 const (

@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	utiltest "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/test"
-	utilfs "k8s.io/kubernetes/pkg/util/filesystem"
+	utiltest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/test"
+	utilfs "github.com/divinerapier/learn-kubernetes/pkg/util/filesystem"
 )
 
 const (

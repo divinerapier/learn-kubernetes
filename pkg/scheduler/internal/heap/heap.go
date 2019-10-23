@@ -25,7 +25,7 @@ import (
 	"fmt"
 
 	"k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/scheduler/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/metrics"
 )
 
 // KeyFunc is a function type to get the key from an object.

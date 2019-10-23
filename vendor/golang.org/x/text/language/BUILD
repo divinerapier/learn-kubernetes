@@ -13,7 +13,7 @@ go_library(
         "tables.go",
         "tags.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/text/language",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/text/language",
     importpath = "golang.org/x/text/language",
     visibility = ["//visibility:public"],
     deps = [

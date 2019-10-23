@@ -31,9 +31,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/version"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2esset "k8s.io/kubernetes/test/e2e/framework/statefulset"
-	"k8s.io/kubernetes/test/e2e/framework/testfiles"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2esset "github.com/divinerapier/learn-kubernetes/test/e2e/framework/statefulset"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/testfiles"
 )
 
 const cassandraManifestPath = "test/e2e/testing-manifests/statefulset/cassandra"

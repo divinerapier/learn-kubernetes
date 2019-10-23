@@ -24,15 +24,15 @@ import (
 
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	certsphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/certs"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/controlplane"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/copycerts"
-	kubeconfigphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/kubeconfig"
-	kubeconfigutil "k8s.io/kubernetes/cmd/kubeadm/app/util/kubeconfig"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	certsphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/certs"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/controlplane"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/copycerts"
+	kubeconfigphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/kubeconfig"
+	kubeconfigutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/kubeconfig"
 )
 
 var controlPlanePrepareExample = cmdutil.Examples(`

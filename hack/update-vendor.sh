@@ -156,8 +156,8 @@ for repo in $(kube::util::list_staging_repos); do
 done
 
 if [[ ! -f go.mod ]]; then
-  kube::log::status "go.mod: initialize k8s.io/kubernetes"
-  go mod init "k8s.io/kubernetes"
+  kube::log::status "go.mod: initialize github.com/divinerapier/learn-kubernetes"
+  go mod init "github.com/divinerapier/learn-kubernetes"
   rm -f Godeps/Godeps.json # remove after initializing
 fi
 
@@ -191,7 +191,7 @@ for repo in $(kube::util::list_staging_repos); do
   pushd "staging/src/k8s.io/${repo}" >/dev/null 2>&1
     echo "=== propagating to ${repo}" >> "${LOG_FILE}"
     # copy root go.mod, changing module name
-    sed "s#module k8s.io/kubernetes#module k8s.io/${repo}#" < "${KUBE_ROOT}/go.mod" > "${KUBE_ROOT}/staging/src/k8s.io/${repo}/go.mod"
+    sed "s#module github.com/divinerapier/learn-kubernetes#module k8s.io/${repo}#" < "${KUBE_ROOT}/go.mod" > "${KUBE_ROOT}/staging/src/k8s.io/${repo}/go.mod"
     # remove `require` directives for staging components (will get re-added as needed by `go list`)
     kube::util::list_staging_repos | xargs -n 1 -I {} echo "-droprequire k8s.io/{}"   | xargs -L 100 go mod edit
     # rewrite `replace` directives for staging components to point to peer directories
@@ -267,11 +267,11 @@ for repo in $(tsort "${TMP_DIR}/tidy_deps.txt"); do
 
     go mod tidy -v >>"${LOG_FILE}" 2>&1
 
-    # disallow transitive dependencies on k8s.io/kubernetes
+    # disallow transitive dependencies on github.com/divinerapier/learn-kubernetes
     loopback_deps=()
-    kube::util::read-array loopback_deps < <(go list all 2>/dev/null | grep k8s.io/kubernetes/ || true)
+    kube::util::read-array loopback_deps < <(go list all 2>/dev/null | grep github.com/divinerapier/learn-kubernetes/ || true)
     if [[ -n ${loopback_deps[*]:+"${loopback_deps[*]}"} ]]; then
-      kube::log::error "Disallowed ${repo} -> k8s.io/kubernetes dependencies exist via the following imports:
+      kube::log::error "Disallowed ${repo} -> github.com/divinerapier/learn-kubernetes dependencies exist via the following imports:
 $(go mod why "${loopback_deps[@]}")"
       exit 1
     fi

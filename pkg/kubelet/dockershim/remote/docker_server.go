@@ -22,8 +22,8 @@ import (
 	"google.golang.org/grpc"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim"
-	"k8s.io/kubernetes/pkg/kubelet/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util"
 )
 
 // maxMsgSize use 16MB as the default message size limit.

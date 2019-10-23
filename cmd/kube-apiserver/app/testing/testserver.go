@@ -34,8 +34,8 @@ import (
 	"k8s.io/apiserver/pkg/storage/storagebackend"
 	"k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
-	"k8s.io/kubernetes/cmd/kube-apiserver/app"
-	"k8s.io/kubernetes/cmd/kube-apiserver/app/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/options"
 )
 
 // TearDownFunc is to be called to tear down a test server.

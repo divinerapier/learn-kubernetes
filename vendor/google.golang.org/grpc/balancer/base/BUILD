@@ -6,7 +6,7 @@ go_library(
         "balancer.go",
         "base.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/google.golang.org/grpc/balancer/base",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/google.golang.org/grpc/balancer/base",
     importpath = "google.golang.org/grpc/balancer/base",
     visibility = ["//visibility:public"],
     deps = [

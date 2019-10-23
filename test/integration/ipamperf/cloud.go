@@ -25,8 +25,8 @@ import (
 	"github.com/GoogleCloudPlatform/k8s-cloud-provider/pkg/cloud/meta"
 	beta "google.golang.org/api/compute/v0.beta"
 	ga "google.golang.org/api/compute/v1"
-	"k8s.io/kubernetes/pkg/controller/nodeipam/ipam/cidrset"
-	"k8s.io/kubernetes/test/integration/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam/ipam/cidrset"
+	"github.com/divinerapier/learn-kubernetes/test/integration/util"
 )
 
 // implemntation note:

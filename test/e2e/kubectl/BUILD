@@ -12,7 +12,7 @@ go_library(
         "kubectl.go",
         "portforward.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/kubectl",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/kubectl",
     deps = [
         "//pkg/controller:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

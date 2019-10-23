@@ -40,17 +40,17 @@ import (
 	etcd3testing "k8s.io/apiserver/pkg/storage/etcd3/testing"
 	"k8s.io/apiserver/pkg/util/dryrun"
 
-	"k8s.io/kubernetes/pkg/api/service"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	endpointstore "k8s.io/kubernetes/pkg/registry/core/endpoint/storage"
-	podstore "k8s.io/kubernetes/pkg/registry/core/pod/storage"
-	"k8s.io/kubernetes/pkg/registry/core/service/ipallocator"
-	"k8s.io/kubernetes/pkg/registry/core/service/portallocator"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/service"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	endpointstore "github.com/divinerapier/learn-kubernetes/pkg/registry/core/endpoint/storage"
+	podstore "github.com/divinerapier/learn-kubernetes/pkg/registry/core/pod/storage"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/ipallocator"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/portallocator"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/registrytest"
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 // TODO(wojtek-t): Cleanup this file.

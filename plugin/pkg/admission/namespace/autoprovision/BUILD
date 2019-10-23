@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["admission.go"],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/namespace/autoprovision",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/namespace/autoprovision",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

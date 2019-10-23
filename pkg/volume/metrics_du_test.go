@@ -26,8 +26,8 @@ import (
 
 	"golang.org/x/sys/unix"
 	utiltesting "k8s.io/client-go/util/testing"
-	. "k8s.io/kubernetes/pkg/volume"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
+	. "github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumetest "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
 )
 
 func getExpectedBlockSize(path string) int64 {

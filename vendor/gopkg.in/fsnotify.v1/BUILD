@@ -12,7 +12,7 @@ go_library(
         "open_mode_darwin.go",
         "windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gopkg.in/fsnotify.v1",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gopkg.in/fsnotify.v1",
     importpath = "gopkg.in/fsnotify.v1",
     visibility = ["//visibility:public"],
     deps = select({

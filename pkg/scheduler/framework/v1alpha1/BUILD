@@ -9,7 +9,7 @@ go_library(
         "registry.go",
         "waiting_pods_map.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/scheduler/apis/config:go_default_library",

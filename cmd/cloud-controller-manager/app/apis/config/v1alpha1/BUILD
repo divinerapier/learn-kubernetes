@@ -11,7 +11,7 @@ go_library(
         "zz_generated.deepcopy.go",
         "zz_generated.defaults.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/cloud-controller-manager/app/apis/config/v1alpha1",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/apis/config/v1alpha1",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/cloud-controller-manager/app/apis/config:go_default_library",

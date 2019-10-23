@@ -17,7 +17,7 @@ limitations under the License.
 package disruption
 
 import (
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 	"testing"
 )
 

@@ -22,11 +22,11 @@ import (
 	v1 "k8s.io/api/core/v1"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/klog"
-	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	"k8s.io/kubernetes/pkg/features"
-	priorityutil "k8s.io/kubernetes/pkg/scheduler/algorithm/priorities/util"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	v1helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	priorityutil "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities/util"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 // ResourceAllocationPriority contains information to calculate resource allocation priority.

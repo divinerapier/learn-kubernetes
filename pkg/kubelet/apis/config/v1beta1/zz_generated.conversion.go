@@ -27,7 +27,7 @@ import (
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	v1beta1 "k8s.io/kubelet/config/v1beta1"
-	config "k8s.io/kubernetes/pkg/kubelet/apis/config"
+	config "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
 )
 
 func init() {

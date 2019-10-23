@@ -6,7 +6,7 @@ go_library(
         "base_endpoint.go",
         "choose_version.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/gophercloud/gophercloud/openstack/utils",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/gophercloud/gophercloud/openstack/utils",
     importpath = "github.com/gophercloud/gophercloud/openstack/utils",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/gophercloud/gophercloud:go_default_library"],

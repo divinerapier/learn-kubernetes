@@ -47,9 +47,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 	utiltesting "k8s.io/client-go/util/testing"
 	"k8s.io/client-go/util/workqueue"
-	"k8s.io/kubernetes/pkg/controller"
-	. "k8s.io/kubernetes/pkg/controller/testutil"
-	"k8s.io/kubernetes/pkg/securitycontext"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	. "github.com/divinerapier/learn-kubernetes/pkg/controller/testutil"
+	"github.com/divinerapier/learn-kubernetes/pkg/securitycontext"
 )
 
 func testNewReplicaSetControllerFromClient(client clientset.Interface, stopCh chan struct{}, burstReplicas int) (*ReplicaSetController, informers.SharedInformerFactory) {

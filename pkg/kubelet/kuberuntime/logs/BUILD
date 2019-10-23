@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["logs.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/kuberuntime/logs",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kuberuntime/logs",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/util/tail:go_default_library",

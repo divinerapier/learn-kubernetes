@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["test_utils.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/testutil",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/testutil",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/core:go_default_library",

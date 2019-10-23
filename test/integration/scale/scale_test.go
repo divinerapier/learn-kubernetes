@@ -31,8 +31,8 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/kubernetes"
-	apitesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	"k8s.io/kubernetes/test/integration/framework"
+	apitesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 type subresourceTest struct {

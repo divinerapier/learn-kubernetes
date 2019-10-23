@@ -146,10 +146,10 @@ bin() {
   fi
   for SRC in "$@";
   do
-  docker run --rm -it -v "${TARGET}:${TARGET}:Z" -v "${KUBE_ROOT}":/go/src/k8s.io/kubernetes:Z \
+  docker run --rm -it -v "${TARGET}:${TARGET}:Z" -v "${KUBE_ROOT}":/go/src/github.com/divinerapier/learn-kubernetes:Z \
         golang:"${GOLANG_VERSION}" \
         /bin/bash -c "\
-                cd /go/src/k8s.io/kubernetes/test/images/${SRC_DIR} && \
+                cd /go/src/github.com/divinerapier/learn-kubernetes/test/images/${SRC_DIR} && \
                 CGO_ENABLED=0 ${arch_prefix} GOARCH=${ARCH} go build -a -installsuffix cgo --ldflags '-w' -o ${TARGET}/${SRC} ./$(dirname "${SRC}")"
   done
 }

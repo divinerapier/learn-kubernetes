@@ -40,12 +40,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
-	"k8s.io/kubernetes/test/e2e/storage/utils"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 const (

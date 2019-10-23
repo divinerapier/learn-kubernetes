@@ -8,7 +8,7 @@ go_library(
         "handler.go",
         "plugin.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/google/cadvisor/container/crio",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/google/cadvisor/container/crio",
     importpath = "github.com/google/cadvisor/container/crio",
     visibility = ["//visibility:public"],
     deps = [

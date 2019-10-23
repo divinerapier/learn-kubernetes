@@ -31,14 +31,14 @@ import (
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	volevents "k8s.io/kubernetes/pkg/controller/volume/events"
-	"k8s.io/kubernetes/pkg/kubelet/events"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
-	"k8s.io/kubernetes/test/e2e/framework/volume"
-	"k8s.io/kubernetes/test/e2e/storage/testpatterns"
-	"k8s.io/kubernetes/test/e2e/storage/utils"
+	volevents "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/events"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/events"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/volume"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/testpatterns"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils"
 )
 
 const (

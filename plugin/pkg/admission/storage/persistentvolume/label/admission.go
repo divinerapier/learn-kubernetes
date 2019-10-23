@@ -31,10 +31,10 @@ import (
 	cloudvolume "k8s.io/cloud-provider/volume"
 	volumehelpers "k8s.io/cloud-provider/volume/helpers"
 	"k8s.io/klog"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	k8s_api_v1 "k8s.io/kubernetes/pkg/apis/core/v1"
-	persistentvolume "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/util"
-	kubeapiserveradmission "k8s.io/kubernetes/pkg/kubeapiserver/admission"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	k8s_api_v1 "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1"
+	persistentvolume "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/util"
+	kubeapiserveradmission "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/admission"
 )
 
 const (

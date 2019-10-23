@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["links.go"],
-    importpath = "k8s.io/kubernetes/cmd/linkcheck",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/linkcheck",
     deps = [
         "//vendor/github.com/mvdan/xurls:go_default_library",
         "//vendor/github.com/spf13/pflag:go_default_library",

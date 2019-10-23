@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["fake.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/dockershim/network/hostport/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/hostport/testing",
     deps = ["//pkg/kubelet/dockershim/network/hostport:go_default_library"],
 )
 

@@ -20,8 +20,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
-	"k8s.io/kubernetes/pkg/apis/node"
-	"k8s.io/kubernetes/pkg/registry/node/runtimeclass"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/node"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/node/runtimeclass"
 )
 
 // REST implements a RESTStorage for RuntimeClass against etcd

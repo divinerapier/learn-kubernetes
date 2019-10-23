@@ -22,10 +22,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	"k8s.io/apiserver/pkg/storage/names"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/apis/storage"
-	storageutil "k8s.io/kubernetes/pkg/apis/storage/util"
-	"k8s.io/kubernetes/pkg/apis/storage/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/storage"
+	storageutil "github.com/divinerapier/learn-kubernetes/pkg/apis/storage/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/storage/validation"
 )
 
 // storageClassStrategy implements behavior for StorageClass objects

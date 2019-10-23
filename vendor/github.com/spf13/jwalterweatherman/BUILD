@@ -7,7 +7,7 @@ go_library(
         "log_counter.go",
         "notepad.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/spf13/jwalterweatherman",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/spf13/jwalterweatherman",
     importpath = "github.com/spf13/jwalterweatherman",
     visibility = ["//visibility:public"],
 )

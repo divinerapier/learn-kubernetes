@@ -32,7 +32,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["util.go"],
-    importpath = "k8s.io/kubernetes/test/integration/deployment",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/integration/deployment",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/controller/deployment:go_default_library",

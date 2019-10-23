@@ -12,7 +12,7 @@ go_library(
         "well_known_annotations_windows.go",
         "well_known_labels.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/apis",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis",
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/sets:go_default_library",

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["util.go"],
-    importpath = "k8s.io/kubernetes/pkg/api/resourcequota",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/api/resourcequota",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core:go_default_library",

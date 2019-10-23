@@ -7,7 +7,7 @@ go_library(
         "pool.go",
         "settings.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/google.golang.org/api/internal",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/google.golang.org/api/internal",
     importpath = "google.golang.org/api/internal",
     visibility = ["//visibility:public"],
     deps = [

@@ -24,9 +24,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	"k8s.io/apiserver/pkg/storage/names"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/apis/discovery"
-	"k8s.io/kubernetes/pkg/apis/discovery/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/discovery"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/discovery/validation"
 )
 
 // endpointSliceStrategy implements verification logic for Replication.

@@ -33,10 +33,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/runtime/serializer/protobuf"
 	"k8s.io/apimachinery/pkg/util/diff"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	_ "k8s.io/kubernetes/pkg/apis/extensions"
-	_ "k8s.io/kubernetes/pkg/apis/extensions/v1beta1"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/extensions"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/extensions/v1beta1"
 )
 
 func TestUniversalDeserializer(t *testing.T) {

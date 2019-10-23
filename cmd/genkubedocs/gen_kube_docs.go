@@ -22,13 +22,13 @@ import (
 
 	"github.com/spf13/cobra/doc"
 	"github.com/spf13/pflag"
-	"k8s.io/kubernetes/cmd/genutils"
-	apiservapp "k8s.io/kubernetes/cmd/kube-apiserver/app"
-	cmapp "k8s.io/kubernetes/cmd/kube-controller-manager/app"
-	proxyapp "k8s.io/kubernetes/cmd/kube-proxy/app"
-	schapp "k8s.io/kubernetes/cmd/kube-scheduler/app"
-	kubeadmapp "k8s.io/kubernetes/cmd/kubeadm/app/cmd"
-	kubeletapp "k8s.io/kubernetes/cmd/kubelet/app"
+	"github.com/divinerapier/learn-kubernetes/cmd/genutils"
+	apiservapp "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app"
+	cmapp "github.com/divinerapier/learn-kubernetes/cmd/kube-controller-manager/app"
+	proxyapp "github.com/divinerapier/learn-kubernetes/cmd/kube-proxy/app"
+	schapp "github.com/divinerapier/learn-kubernetes/cmd/kube-scheduler/app"
+	kubeadmapp "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd"
+	kubeletapp "github.com/divinerapier/learn-kubernetes/cmd/kubelet/app"
 )
 
 func main() {

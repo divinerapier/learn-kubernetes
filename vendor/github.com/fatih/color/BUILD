@@ -6,7 +6,7 @@ go_library(
         "color.go",
         "doc.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/fatih/color",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/fatih/color",
     importpath = "github.com/fatih/color",
     visibility = ["//visibility:public"],
     deps = [

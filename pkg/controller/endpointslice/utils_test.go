@@ -32,7 +32,7 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	k8stesting "k8s.io/client-go/testing"
 	"k8s.io/client-go/tools/cache"
-	endpointutil "k8s.io/kubernetes/pkg/controller/util/endpoint"
+	endpointutil "github.com/divinerapier/learn-kubernetes/pkg/controller/util/endpoint"
 	utilpointer "k8s.io/utils/pointer"
 )
 

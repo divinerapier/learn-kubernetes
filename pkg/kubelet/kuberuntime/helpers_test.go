@@ -29,8 +29,8 @@ import (
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
 	runtimetesting "k8s.io/cri-api/pkg/apis/testing"
-	"k8s.io/kubernetes/pkg/features"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
 )
 
 func TestStableKey(t *testing.T) {

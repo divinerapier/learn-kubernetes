@@ -37,11 +37,11 @@ import (
 	"k8s.io/apiserver/pkg/registry/rest"
 	apistorage "k8s.io/apiserver/pkg/storage"
 	"k8s.io/apiserver/pkg/storage/names"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/api/pod"
-	"k8s.io/kubernetes/pkg/apis/apps"
-	"k8s.io/kubernetes/pkg/apis/apps/validation"
-	corevalidation "k8s.io/kubernetes/pkg/apis/core/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/apps"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/apps/validation"
+	corevalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
 )
 
 // rsStrategy implements verification logic for ReplicaSets.

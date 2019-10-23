@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["ttl_controller.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/ttl",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/ttl",
     deps = [
         "//pkg/controller:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

@@ -23,12 +23,12 @@ import (
 	"path/filepath"
 
 	"k8s.io/klog"
-	kubeadmapiv1beta2 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/initsystem"
-	utilruntime "k8s.io/kubernetes/cmd/kubeadm/app/util/runtime"
+	kubeadmapiv1beta2 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/initsystem"
+	utilruntime "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/runtime"
 	utilsexec "k8s.io/utils/exec"
 )
 

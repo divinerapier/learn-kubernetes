@@ -15,7 +15,7 @@ go_library(
         "oom_linux.go",
         "oom_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/oom",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/oom",
     deps = select({
         "@io_bazel_rules_go//go/platform:linux": [
             "//pkg/kubelet/cm/util:go_default_library",

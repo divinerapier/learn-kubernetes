@@ -24,9 +24,9 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	corelisters "k8s.io/client-go/listers/core/v1"
 	"k8s.io/klog"
-	internalcache "k8s.io/kubernetes/pkg/scheduler/internal/cache"
-	internalqueue "k8s.io/kubernetes/pkg/scheduler/internal/queue"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	internalcache "github.com/divinerapier/learn-kubernetes/pkg/scheduler/internal/cache"
+	internalqueue "github.com/divinerapier/learn-kubernetes/pkg/scheduler/internal/queue"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 // CacheComparer is an implementation of the Scheduler's cache comparer.

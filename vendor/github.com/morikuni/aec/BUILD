@@ -8,7 +8,7 @@ go_library(
         "builder.go",
         "sgr.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/morikuni/aec",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/morikuni/aec",
     importpath = "github.com/morikuni/aec",
     visibility = ["//visibility:public"],
 )

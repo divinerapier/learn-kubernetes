@@ -24,9 +24,9 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 	utiltesting "k8s.io/client-go/util/testing"
-	"k8s.io/kubernetes/pkg/util/mount"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/mount"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumetest "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
 
 	flockerapi "github.com/clusterhq/flocker-go"
 	"github.com/stretchr/testify/assert"

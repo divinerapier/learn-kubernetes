@@ -22,7 +22,7 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/kubernetes/pkg/apis/admissionregistration"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/admissionregistration"
 )
 
 func strPtr(s string) *string { return &s }

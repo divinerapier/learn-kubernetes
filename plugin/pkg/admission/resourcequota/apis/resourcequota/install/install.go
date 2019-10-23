@@ -21,9 +21,9 @@ package install
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	resourcequotaapi "k8s.io/kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota"
-	resourcequotav1alpha1 "k8s.io/kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/v1alpha1"
-	resourcequotav1beta1 "k8s.io/kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/v1beta1"
+	resourcequotaapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota"
+	resourcequotav1alpha1 "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/v1alpha1"
+	resourcequotav1beta1 "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/v1beta1"
 )
 
 // Install registers the API group and adds types to a scheme

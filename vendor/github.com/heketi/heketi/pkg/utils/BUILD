@@ -7,7 +7,7 @@ go_library(
         "jsonutils.go",
         "statusgroup.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/heketi/heketi/pkg/utils",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/heketi/heketi/pkg/utils",
     importpath = "github.com/heketi/heketi/pkg/utils",
     visibility = ["//visibility:public"],
 )

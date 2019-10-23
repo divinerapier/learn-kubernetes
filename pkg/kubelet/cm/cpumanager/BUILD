@@ -11,7 +11,7 @@ go_library(
         "policy_none.go",
         "policy_static.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/cm/cpumanager",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core/v1/helper/qos:go_default_library",

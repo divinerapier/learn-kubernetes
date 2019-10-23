@@ -9,7 +9,7 @@ go_library(
         "shiftjis.go",
         "tables.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/text/encoding/japanese",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/text/encoding/japanese",
     importpath = "golang.org/x/text/encoding/japanese",
     visibility = ["//visibility:public"],
     deps = [

@@ -36,8 +36,8 @@ import (
 	kuberuntime "k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/diff"
 	componentbaseconfig "k8s.io/component-base/config"
-	kubeproxyconfig "k8s.io/kubernetes/pkg/proxy/apis/config"
-	"k8s.io/kubernetes/pkg/util/configz"
+	kubeproxyconfig "github.com/divinerapier/learn-kubernetes/pkg/proxy/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/configz"
 )
 
 // This test verifies that NewProxyServer does not crash when CleanupAndExit is true.

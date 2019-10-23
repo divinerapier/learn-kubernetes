@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/kubernetes/pkg/scheduler/apis/config"
-	"k8s.io/kubernetes/pkg/scheduler/apis/config/scheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config/scheme"
 )
 
 func TestDecodeInto(t *testing.T) {

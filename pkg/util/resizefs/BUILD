@@ -6,7 +6,7 @@ go_library(
         "resizefs_linux.go",
         "resizefs_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/resizefs",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/resizefs",
     visibility = ["//visibility:public"],
     deps = select({
         "@io_bazel_rules_go//go/platform:android": [

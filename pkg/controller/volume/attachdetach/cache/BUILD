@@ -12,7 +12,7 @@ go_library(
         "actual_state_of_world.go",
         "desired_state_of_world.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/volume/attachdetach/cache",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/cache",
     deps = [
         "//pkg/volume:go_default_library",
         "//pkg/volume/util:go_default_library",

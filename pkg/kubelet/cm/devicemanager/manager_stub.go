@@ -18,12 +18,12 @@ package devicemanager
 
 import (
 	v1 "k8s.io/api/core/v1"
-	podresourcesapi "k8s.io/kubernetes/pkg/kubelet/apis/podresources/v1alpha1"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager"
-	"k8s.io/kubernetes/pkg/kubelet/config"
-	"k8s.io/kubernetes/pkg/kubelet/lifecycle"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager/cache"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	podresourcesapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/podresources/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/lifecycle"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/cache"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 // ManagerStub provides a simple stub implementation for the Device Manager.

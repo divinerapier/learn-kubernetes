@@ -16,7 +16,7 @@ go_library(
         "runasany.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/security/podsecuritypolicy/group",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/group",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/security/podsecuritypolicy/util:go_default_library",

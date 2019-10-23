@@ -8,7 +8,7 @@ go_library(
         "stats_posix.go",
         "util.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/lint/lintutil",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/lint/lintutil",
     importpath = "honnef.co/go/tools/lint/lintutil",
     visibility = ["//visibility:public"],
     deps = [

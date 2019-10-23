@@ -13,7 +13,7 @@ go_library(
         "generic.go",
         "pleg.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/pleg",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pleg",
     deps = [
         "//pkg/kubelet/container:go_default_library",
         "//pkg/kubelet/metrics:go_default_library",

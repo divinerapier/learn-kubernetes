@@ -21,7 +21,7 @@ go_library(
         "gen_kube_docs.go",
         "postprocessing.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/genkubedocs",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/genkubedocs",
     deps = [
         "//cmd/genutils:go_default_library",
         "//cmd/kube-apiserver/app:go_default_library",

@@ -26,13 +26,13 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/flowcontrol"
 	internalapi "k8s.io/cri-api/pkg/apis"
-	"k8s.io/kubernetes/pkg/credentialprovider"
-	"k8s.io/kubernetes/pkg/kubelet/cm"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/images"
-	"k8s.io/kubernetes/pkg/kubelet/lifecycle"
-	proberesults "k8s.io/kubernetes/pkg/kubelet/prober/results"
-	"k8s.io/kubernetes/pkg/kubelet/util/logreduction"
+	"github.com/divinerapier/learn-kubernetes/pkg/credentialprovider"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/images"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/lifecycle"
+	proberesults "github.com/divinerapier/learn-kubernetes/pkg/kubelet/prober/results"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/logreduction"
 )
 
 const (

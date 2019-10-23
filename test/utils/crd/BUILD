@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["crd_util.go"],
-    importpath = "k8s.io/kubernetes/test/utils/crd",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/utils/crd",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1:go_default_library",

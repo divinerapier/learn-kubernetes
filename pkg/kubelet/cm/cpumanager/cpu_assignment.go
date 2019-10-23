@@ -22,8 +22,8 @@ import (
 
 	"k8s.io/klog"
 
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/topology"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/topology"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
 )
 
 type cpuAccumulator struct {

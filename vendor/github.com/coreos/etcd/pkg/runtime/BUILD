@@ -6,7 +6,7 @@ go_library(
         "fds_linux.go",
         "fds_other.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/pkg/runtime",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/pkg/runtime",
     importpath = "github.com/coreos/etcd/pkg/runtime",
     visibility = ["//visibility:public"],
 )

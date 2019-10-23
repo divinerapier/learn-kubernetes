@@ -36,12 +36,12 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	clientsetscheme "k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/klog"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/features"
-	"k8s.io/kubernetes/cmd/kubeadm/app/images"
-	kubeadmutil "k8s.io/kubernetes/cmd/kubeadm/app/util"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/apiclient"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/features"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/images"
+	kubeadmutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/apiclient"
 	utilsnet "k8s.io/utils/net"
 )
 

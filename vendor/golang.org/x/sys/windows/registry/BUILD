@@ -9,7 +9,7 @@ go_library(
         "value.go",
         "zsyscall_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/sys/windows/registry",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/sys/windows/registry",
     importpath = "golang.org/x/sys/windows/registry",
     visibility = ["//visibility:public"],
     deps = select({

@@ -18,7 +18,7 @@ package group
 
 import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 // runAsAny implements the GroupStrategy interface.

@@ -16,7 +16,7 @@ go_library(
         "zz_generated.deepcopy.go",
         "zz_generated.defaults.go",
     ],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/v1beta1",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/v1beta1",
     deps = [
         "//plugin/pkg/admission/resourcequota/apis/resourcequota:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

@@ -27,9 +27,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/controller/nodeipam/ipam"
-	"k8s.io/kubernetes/pkg/controller/testutil"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam/ipam"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/testutil"
 	"k8s.io/legacy-cloud-providers/gce"
 	netutils "k8s.io/utils/net"
 )

@@ -8,7 +8,7 @@ go_library(
         "reconciler.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/endpointslice",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/endpointslice",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/v1/pod:go_default_library",

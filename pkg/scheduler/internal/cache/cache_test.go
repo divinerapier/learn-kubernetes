@@ -30,9 +30,9 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	"k8s.io/kubernetes/pkg/features"
-	priorityutil "k8s.io/kubernetes/pkg/scheduler/algorithm/priorities/util"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	priorityutil "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities/util"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 func deepEqualWithoutGeneration(t *testing.T, testcase int, actual *nodeInfoListItem, expected *schedulernodeinfo.NodeInfo) {

@@ -25,7 +25,7 @@ import (
 	dockercontainer "github.com/docker/docker/api/types/container"
 
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	knetwork "k8s.io/kubernetes/pkg/kubelet/dockershim/network"
+	knetwork "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network"
 )
 
 // applySandboxSecurityContext updates docker sandbox options according to security context.

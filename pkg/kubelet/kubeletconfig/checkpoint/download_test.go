@@ -28,7 +28,7 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	fakeclient "k8s.io/client-go/kubernetes/fake"
 	"k8s.io/client-go/tools/cache"
-	utiltest "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/test"
+	utiltest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/test"
 )
 
 func TestNewRemoteConfigSource(t *testing.T) {

@@ -29,9 +29,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	versionutil "k8s.io/apimachinery/pkg/util/version"
 	clientsetfake "k8s.io/client-go/kubernetes/fake"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	etcdutil "k8s.io/kubernetes/cmd/kubeadm/app/util/etcd"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	etcdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/etcd"
 )
 
 type fakeVersionGetter struct {

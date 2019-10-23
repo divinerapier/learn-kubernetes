@@ -10,7 +10,7 @@ go_library(
         "sink.go",
         "util.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/google.golang.org/grpc/internal/binarylog",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/google.golang.org/grpc/internal/binarylog",
     importpath = "google.golang.org/grpc/internal/binarylog",
     visibility = ["//vendor/google.golang.org/grpc:__subpackages__"],
     deps = [

@@ -6,7 +6,7 @@ go_library(
         "hashed.go",
         "keymutex.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/utils/keymutex",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/utils/keymutex",
     importpath = "k8s.io/utils/keymutex",
     visibility = ["//visibility:public"],
 )

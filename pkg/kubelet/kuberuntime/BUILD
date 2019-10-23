@@ -29,7 +29,7 @@ go_library(
         "legacy.go",
         "security_context.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/kuberuntime",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kuberuntime",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/credentialprovider:go_default_library",

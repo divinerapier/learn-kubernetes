@@ -27,11 +27,11 @@ import (
 
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/kubernetes/pkg/kubelet/cm"
-	"k8s.io/kubernetes/pkg/kubelet/config"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/util/mount"
-	utilnode "k8s.io/kubernetes/pkg/util/node"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/config"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/mount"
+	utilnode "github.com/divinerapier/learn-kubernetes/pkg/util/node"
 	utilpath "k8s.io/utils/path"
 )
 

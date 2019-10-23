@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "secret.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/secret",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/secret",
     deps = [
         "//pkg/util/mount:go_default_library",
         "//pkg/volume:go_default_library",

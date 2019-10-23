@@ -6,7 +6,7 @@ go_library(
         "gcexportdata.go",
         "importer.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/tools/go/gcexportdata",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/tools/go/gcexportdata",
     importpath = "golang.org/x/tools/go/gcexportdata",
     visibility = ["//visibility:public"],
     deps = ["//vendor/golang.org/x/tools/go/internal/gcimporter:go_default_library"],

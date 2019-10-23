@@ -25,7 +25,7 @@ import (
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	v1alpha1 "k8s.io/kube-controller-manager/config/v1alpha1"
-	config "k8s.io/kubernetes/pkg/controller/replication/config"
+	config "github.com/divinerapier/learn-kubernetes/pkg/controller/replication/config"
 )
 
 func init() {

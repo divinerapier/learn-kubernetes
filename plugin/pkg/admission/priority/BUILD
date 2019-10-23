@@ -31,7 +31,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["admission.go"],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/priority",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/priority",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/apis/scheduling:go_default_library",

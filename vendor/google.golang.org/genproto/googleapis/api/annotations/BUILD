@@ -9,7 +9,7 @@ go_library(
         "http.pb.go",
         "resource.pb.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/google.golang.org/genproto/googleapis/api/annotations",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/google.golang.org/genproto/googleapis/api/annotations",
     importpath = "google.golang.org/genproto/googleapis/api/annotations",
     visibility = ["//visibility:public"],
     deps = [

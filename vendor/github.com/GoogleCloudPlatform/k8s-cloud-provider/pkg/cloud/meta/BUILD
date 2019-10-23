@@ -9,7 +9,7 @@ go_library(
         "method.go",
         "service.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/GoogleCloudPlatform/k8s-cloud-provider/pkg/cloud/meta",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/GoogleCloudPlatform/k8s-cloud-provider/pkg/cloud/meta",
     importpath = "github.com/GoogleCloudPlatform/k8s-cloud-provider/pkg/cloud/meta",
     visibility = ["//visibility:public"],
     deps = [

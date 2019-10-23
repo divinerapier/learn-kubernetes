@@ -21,8 +21,8 @@ package install
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	internalapi "k8s.io/kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction"
-	versionedapi "k8s.io/kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction/v1alpha1"
+	internalapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction"
+	versionedapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction/v1alpha1"
 )
 
 // Install registers the API group and adds types to a scheme

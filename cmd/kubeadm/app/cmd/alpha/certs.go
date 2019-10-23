@@ -26,17 +26,17 @@ import (
 	"github.com/spf13/cobra"
 
 	"k8s.io/apimachinery/pkg/util/duration"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmscheme "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/scheme"
-	kubeadmapiv1beta2 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/certs/renewal"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/copycerts"
-	configutil "k8s.io/kubernetes/cmd/kubeadm/app/util/config"
-	kubeconfigutil "k8s.io/kubernetes/cmd/kubeadm/app/util/kubeconfig"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmscheme "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/scheme"
+	kubeadmapiv1beta2 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/certs/renewal"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/copycerts"
+	configutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/config"
+	kubeconfigutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/kubeconfig"
 )
 
 var (

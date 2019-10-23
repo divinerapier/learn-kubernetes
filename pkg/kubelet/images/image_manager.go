@@ -26,9 +26,9 @@ import (
 	"k8s.io/klog"
 
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/events"
-	"k8s.io/kubernetes/pkg/util/parsers"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/events"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/parsers"
 )
 
 // imageManager provides the functionalities for image pulling.

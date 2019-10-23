@@ -8,7 +8,7 @@ go_library(
         "server.go",
         "stats.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/etcdserver/stats",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/etcdserver/stats",
     importpath = "github.com/coreos/etcd/etcdserver/stats",
     visibility = ["//visibility:public"],
     deps = [

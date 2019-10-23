@@ -9,7 +9,7 @@ go_library(
         "polling.go",
         "watch.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/hpcloud/tail/watch",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/hpcloud/tail/watch",
     importpath = "github.com/hpcloud/tail/watch",
     visibility = ["//visibility:public"],
     deps = [

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["cleaner.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/certificates/cleaner",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/certificates/cleaner",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/certificates/v1beta1:go_default_library",

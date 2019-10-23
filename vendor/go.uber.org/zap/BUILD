@@ -21,7 +21,7 @@ go_library(
         "time.go",
         "writer.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/go.uber.org/zap",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.uber.org/zap",
     importpath = "go.uber.org/zap",
     visibility = ["//visibility:public"],
     deps = [

@@ -6,7 +6,7 @@ go_library(
         "json6902.go",
         "strategicmerge.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/patch",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/patch",
     importpath = "sigs.k8s.io/kustomize/pkg/patch",
     visibility = ["//visibility:public"],
     deps = ["//vendor/sigs.k8s.io/kustomize/pkg/gvk:go_default_library"],

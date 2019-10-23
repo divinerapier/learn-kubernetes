@@ -21,7 +21,7 @@ import (
 	cadvisorapi "github.com/google/cadvisor/info/v1"
 	cadvisorapiv2 "github.com/google/cadvisor/info/v2"
 	"github.com/stretchr/testify/mock"
-	"k8s.io/kubernetes/pkg/kubelet/cadvisor"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cadvisor"
 )
 
 // Mock cadvisor.Interface implementation.

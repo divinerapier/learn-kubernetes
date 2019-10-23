@@ -26,13 +26,13 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/checkpoint"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/events"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/kubelet/util/format"
-	"k8s.io/kubernetes/pkg/util/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/events"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/format"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/config"
 )
 
 // PodConfigNotificationMode describes how changes are sent to the update channel.

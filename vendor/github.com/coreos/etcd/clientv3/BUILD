@@ -23,7 +23,7 @@ go_library(
         "utils.go",
         "watch.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/clientv3",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/clientv3",
     importpath = "github.com/coreos/etcd/clientv3",
     visibility = ["//visibility:public"],
     deps = [

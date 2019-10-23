@@ -32,12 +32,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	kubepod "k8s.io/kubernetes/pkg/kubelet/pod"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/kubelet/util/format"
-	statusutil "k8s.io/kubernetes/pkg/util/pod"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	kubepod "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pod"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/format"
+	statusutil "github.com/divinerapier/learn-kubernetes/pkg/util/pod"
 )
 
 // A wrapper around v1.PodStatus that includes a version to enforce that stale pod statuses are

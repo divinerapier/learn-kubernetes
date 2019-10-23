@@ -31,8 +31,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	clientset "k8s.io/client-go/kubernetes"
-	e2ekubelet "k8s.io/kubernetes/test/e2e/framework/kubelet"
-	"k8s.io/kubernetes/test/e2e/system"
+	e2ekubelet "github.com/divinerapier/learn-kubernetes/test/e2e/framework/kubelet"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/system"
 )
 
 // ResourceConstraint is a struct to hold constraints.

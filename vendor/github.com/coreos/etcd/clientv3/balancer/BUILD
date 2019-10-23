@@ -6,7 +6,7 @@ go_library(
         "balancer.go",
         "utils.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/clientv3/balancer",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/clientv3/balancer",
     importpath = "github.com/coreos/etcd/clientv3/balancer",
     visibility = ["//visibility:public"],
     deps = [

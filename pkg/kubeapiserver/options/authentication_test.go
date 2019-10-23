@@ -29,7 +29,7 @@ import (
 	"k8s.io/apiserver/pkg/authentication/authenticatorfactory"
 	"k8s.io/apiserver/pkg/authentication/request/headerrequest"
 	apiserveroptions "k8s.io/apiserver/pkg/server/options"
-	kubeauthenticator "k8s.io/kubernetes/pkg/kubeapiserver/authenticator"
+	kubeauthenticator "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/authenticator"
 )
 
 func TestAuthenticationValidate(t *testing.T) {

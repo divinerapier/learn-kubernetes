@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["exec.go"],
-    importpath = "k8s.io/kubernetes/pkg/probe/exec",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/probe/exec",
     deps = [
         "//pkg/kubelet/util/ioutils:go_default_library",
         "//pkg/probe:go_default_library",

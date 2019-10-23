@@ -7,7 +7,7 @@ go_library(
         "sort.go",
         "zero.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/google/go-cmp/cmp/internal/value",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/google/go-cmp/cmp/internal/value",
     importpath = "github.com/google/go-cmp/cmp/internal/value",
     visibility = ["//vendor/github.com/google/go-cmp/cmp:__subpackages__"],
 )

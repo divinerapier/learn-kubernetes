@@ -20,7 +20,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["validation.go"],
-    importpath = "k8s.io/kubernetes/pkg/apis/scheduling/validation",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/scheduling/validation",
     deps = [
         "//pkg/apis/core/validation:go_default_library",
         "//pkg/apis/scheduling:go_default_library",

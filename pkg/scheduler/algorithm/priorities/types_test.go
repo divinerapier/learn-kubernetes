@@ -21,8 +21,8 @@ import (
 
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 // EmptyPriorityMetadataProducer should return a no-op PriorityMetadataProducer type.

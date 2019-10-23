@@ -10,7 +10,7 @@ go_library(
         "packages.go",
         "visit.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/tools/go/packages",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/tools/go/packages",
     importpath = "golang.org/x/tools/go/packages",
     visibility = ["//visibility:public"],
     deps = [

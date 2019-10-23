@@ -23,10 +23,10 @@ import (
 	batchv1beta1 "k8s.io/api/batch/v1beta1"
 
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	_ "k8s.io/kubernetes/pkg/apis/batch/install"
-	. "k8s.io/kubernetes/pkg/apis/batch/v1beta1"
-	_ "k8s.io/kubernetes/pkg/apis/core/install"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/batch/install"
+	. "github.com/divinerapier/learn-kubernetes/pkg/apis/batch/v1beta1"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/core/install"
 	utilpointer "k8s.io/utils/pointer"
 )
 

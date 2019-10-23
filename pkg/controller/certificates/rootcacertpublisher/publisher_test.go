@@ -25,7 +25,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 )
 
 func TestConfigMapCreation(t *testing.T) {

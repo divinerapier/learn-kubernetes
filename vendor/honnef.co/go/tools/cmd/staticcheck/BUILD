@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["staticcheck.go"],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/cmd/staticcheck",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/cmd/staticcheck",
     importpath = "honnef.co/go/tools/cmd/staticcheck",
     visibility = ["//visibility:private"],
     deps = [

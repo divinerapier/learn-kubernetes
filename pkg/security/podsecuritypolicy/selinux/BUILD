@@ -14,7 +14,7 @@ go_library(
         "runasany.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/security/podsecuritypolicy/selinux",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/selinux",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/apis/core/v1:go_default_library",

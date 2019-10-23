@@ -9,7 +9,7 @@ go_library(
         "utils.go",
         "workloads.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e_node/perf/workloads",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e_node/perf/workloads",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/apis/config:go_default_library",

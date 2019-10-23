@@ -7,7 +7,7 @@ go_library(
         "credentials_notgo19.go",
         "option.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/google.golang.org/api/option",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/google.golang.org/api/option",
     importpath = "google.golang.org/api/option",
     visibility = ["//visibility:public"],
     deps = [

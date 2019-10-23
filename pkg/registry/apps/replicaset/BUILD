@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/apps/replicaset",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/apps/replicaset",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/api/pod:go_default_library",

@@ -22,14 +22,14 @@ import (
 
 	"k8s.io/api/scheduling/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
 
 	apiv1 "k8s.io/api/core/v1"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
 	// enforce that all types are installed
-	_ "k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/pkg/features"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 func roundTrip(t *testing.T, obj runtime.Object) runtime.Object {

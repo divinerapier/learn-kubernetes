@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["walk.go"],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/tools/internal/gopathwalk",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/tools/internal/gopathwalk",
     importpath = "golang.org/x/tools/internal/gopathwalk",
     visibility = ["//vendor/golang.org/x/tools:__subpackages__"],
     deps = ["//vendor/golang.org/x/tools/internal/fastwalk:go_default_library"],

@@ -14,7 +14,7 @@ go_library(
         "fake.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/proxy/ipvs/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/proxy/ipvs/testing",
     deps = [
         "//pkg/util/ipset:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/sets:go_default_library",

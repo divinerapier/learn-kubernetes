@@ -23,10 +23,10 @@ import (
 
 	cadvisorapi "github.com/google/cadvisor/info/v1"
 	v1 "k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/topology"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager/bitmask"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/topology"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager/bitmask"
 )
 
 func topologyHintLessThan(a topologymanager.TopologyHint, b topologymanager.TopologyHint) bool {

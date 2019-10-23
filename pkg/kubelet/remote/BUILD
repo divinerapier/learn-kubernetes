@@ -14,7 +14,7 @@ go_library(
         "remote_runtime.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/remote",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/remote",
     deps = [
         "//pkg/kubelet/util:go_default_library",
         "//pkg/kubelet/util/logreduction:go_default_library",

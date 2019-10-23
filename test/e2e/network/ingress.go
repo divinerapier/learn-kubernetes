@@ -34,11 +34,11 @@ import (
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apiserver/pkg/authentication/serviceaccount"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/framework/auth"
-	"k8s.io/kubernetes/test/e2e/framework/ingress"
-	"k8s.io/kubernetes/test/e2e/framework/providers/gce"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/auth"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/ingress"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/gce"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
 
 	"github.com/onsi/ginkgo"
 )

@@ -27,7 +27,7 @@ import (
 	"golang.org/x/sys/unix"
 
 	"k8s.io/apimachinery/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/volume/util/fsquota"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/fsquota"
 )
 
 // FSInfo linux returns (available bytes, byte capacity, byte usage, total inodes, inodes free, inode usage, error)

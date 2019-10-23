@@ -6,7 +6,7 @@ go_library(
         "cloner.go",
         "repospec.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/git",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/git",
     importpath = "sigs.k8s.io/kustomize/pkg/git",
     visibility = ["//visibility:public"],
     deps = [

@@ -27,8 +27,8 @@ import (
 
 	"k8s.io/klog"
 
-	"k8s.io/kubernetes/test/e2e_node/builder"
-	"k8s.io/kubernetes/test/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e_node/builder"
+	"github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 // ConformanceRemote contains the specific functions in the node conformance test suite.

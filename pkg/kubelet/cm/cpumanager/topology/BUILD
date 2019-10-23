@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "topology.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/topology",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/topology",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/cm/cpuset:go_default_library",

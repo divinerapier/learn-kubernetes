@@ -1,8 +1,8 @@
 # gazelle gets confused by our staging/ directory, prepending an extra
-# "k8s.io/kubernetes/staging/src" to the importpath.
+# "github.com/divinerapier/learn-kubernetes/staging/src" to the importpath.
 # Using this directive ensures that it sets the correct importpath.
 # gazelle:prefix
-# gazelle:importmap_prefix k8s.io/kubernetes/vendor
+# gazelle:importmap_prefix github.com/divinerapier/learn-kubernetes/vendor
 
 filegroup(
     name = "package-srcs",

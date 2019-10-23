@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["mock_cni.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/dockershim/network/cni/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/cni/testing",
     deps = [
         "//vendor/github.com/containernetworking/cni/libcni:go_default_library",
         "//vendor/github.com/containernetworking/cni/pkg/types:go_default_library",

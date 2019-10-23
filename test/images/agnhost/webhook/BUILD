@@ -15,7 +15,7 @@ go_library(
         "pods.go",
         "scheme.go",
     ],
-    importpath = "k8s.io/kubernetes/test/images/agnhost/webhook",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/agnhost/webhook",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/admission/v1:go_default_library",

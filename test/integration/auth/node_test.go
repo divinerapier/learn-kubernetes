@@ -39,9 +39,9 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/scheme"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	kubeapiservertesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/test/integration/framework"
+	kubeapiservertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 	"k8s.io/utils/pointer"
 )
 

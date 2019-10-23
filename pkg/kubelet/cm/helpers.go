@@ -18,7 +18,7 @@ package cm
 
 import (
 	"k8s.io/api/core/v1"
-	evictionapi "k8s.io/kubernetes/pkg/kubelet/eviction/api"
+	evictionapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/eviction/api"
 )
 
 // hardEvictionReservation returns a resourcelist that includes reservation of resources based on hard eviction thresholds.

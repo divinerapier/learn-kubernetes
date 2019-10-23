@@ -7,7 +7,7 @@ go_library(
         "netns_linux.go",
         "netns_unspecified.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/vishvananda/netns",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/vishvananda/netns",
     importpath = "github.com/vishvananda/netns",
     visibility = ["//visibility:public"],
 )

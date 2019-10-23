@@ -1,6 +1,6 @@
 package simple
 
-import "k8s.io/kubernetes/third_party/forked/gonum/graph"
+import "github.com/divinerapier/learn-kubernetes/third_party/forked/gonum/graph"
 
 // edgeHolder represents a set of edges, with no more than one edge to or from a particular neighbor node
 type edgeHolder interface {

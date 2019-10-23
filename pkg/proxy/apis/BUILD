@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["well_known_labels.go"],
-    importpath = "k8s.io/kubernetes/pkg/proxy/apis",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/proxy/apis",
 )
 
 filegroup(

@@ -6,7 +6,7 @@ go_library(
         "config.go",
         "main.go",
     ],
-    importpath = "k8s.io/kubernetes/test/images/agnhost/crd-conversion-webhook",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/agnhost/crd-conversion-webhook",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/client-go/kubernetes:go_default_library",

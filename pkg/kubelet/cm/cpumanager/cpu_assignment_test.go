@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/topology"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/topology"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
 )
 
 func TestCPUAccumulatorFreeSockets(t *testing.T) {

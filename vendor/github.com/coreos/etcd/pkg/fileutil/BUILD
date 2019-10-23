@@ -22,7 +22,7 @@ go_library(
         "sync_darwin.go",
         "sync_linux.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/pkg/fileutil",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/pkg/fileutil",
     importpath = "github.com/coreos/etcd/pkg/fileutil",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/coreos/pkg/capnslog:go_default_library"],

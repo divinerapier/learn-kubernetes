@@ -14,7 +14,7 @@ go_library(
         "report_text.go",
         "report_value.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/google/go-cmp/cmp",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/google/go-cmp/cmp",
     importpath = "github.com/google/go-cmp/cmp",
     visibility = ["//visibility:public"],
     deps = [

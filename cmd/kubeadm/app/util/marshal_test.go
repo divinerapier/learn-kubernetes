@@ -27,8 +27,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
-	kubeadmapiv1beta2 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
+	kubeadmapiv1beta2 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
 )
 
 var files = map[string][]byte{

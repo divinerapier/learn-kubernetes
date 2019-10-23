@@ -20,8 +20,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
-	"k8s.io/kubernetes/pkg/apis/auditregistration"
-	auditstrategy "k8s.io/kubernetes/pkg/registry/auditregistration/auditsink"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/auditregistration"
+	auditstrategy "github.com/divinerapier/learn-kubernetes/pkg/registry/auditregistration/auditsink"
 )
 
 // REST implements a RESTStorage for audit sink against etcd

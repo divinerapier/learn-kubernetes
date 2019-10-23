@@ -8,7 +8,7 @@ go_library(
         "implements.go",
         "unused.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/unused",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/unused",
     importpath = "honnef.co/go/tools/unused",
     visibility = ["//visibility:public"],
     deps = [

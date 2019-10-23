@@ -6,7 +6,7 @@ go_library(
         "extender.go",
         "generic_scheduler.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/core",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/core",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/v1/pod:go_default_library",

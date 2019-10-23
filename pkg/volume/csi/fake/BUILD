@@ -6,7 +6,7 @@ go_library(
         "fake_client.go",
         "fake_closer.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/csi/fake",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/csi/fake",
     visibility = ["//visibility:public"],
     deps = [
         "//vendor/github.com/container-storage-interface/spec/lib/go/csi:go_default_library",

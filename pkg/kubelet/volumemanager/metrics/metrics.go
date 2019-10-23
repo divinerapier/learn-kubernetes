@@ -22,9 +22,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/volumemanager/cache"
-	"k8s.io/kubernetes/pkg/volume"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/volumemanager/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumeutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 const (

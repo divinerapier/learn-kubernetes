@@ -12,7 +12,7 @@ go_library(
         "interfaces.go",
         "resources.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/quota/v1",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/quota/v1",
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/api/resource:go_default_library",

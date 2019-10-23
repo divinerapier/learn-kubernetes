@@ -22,10 +22,10 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
-	instrumentation "k8s.io/kubernetes/test/e2e/instrumentation/common"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
+	instrumentation "github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/common"
 
 	"github.com/onsi/ginkgo"
 	"k8s.io/apimachinery/pkg/util/wait"

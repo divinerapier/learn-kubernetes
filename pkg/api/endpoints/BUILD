@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["util.go"],
-    importpath = "k8s.io/kubernetes/pkg/api/endpoints",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/api/endpoints",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/util/hash:go_default_library",

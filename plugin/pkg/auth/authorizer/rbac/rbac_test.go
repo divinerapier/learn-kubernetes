@@ -26,9 +26,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apiserver/pkg/authentication/user"
 	"k8s.io/apiserver/pkg/authorization/authorizer"
-	rbacv1helpers "k8s.io/kubernetes/pkg/apis/rbac/v1"
-	rbacregistryvalidation "k8s.io/kubernetes/pkg/registry/rbac/validation"
-	"k8s.io/kubernetes/plugin/pkg/auth/authorizer/rbac/bootstrappolicy"
+	rbacv1helpers "github.com/divinerapier/learn-kubernetes/pkg/apis/rbac/v1"
+	rbacregistryvalidation "github.com/divinerapier/learn-kubernetes/pkg/registry/rbac/validation"
+	"github.com/divinerapier/learn-kubernetes/plugin/pkg/auth/authorizer/rbac/bootstrappolicy"
 )
 
 func newRule(verbs, apiGroups, resources, nonResourceURLs string) rbacv1.PolicyRule {

@@ -20,8 +20,8 @@ import (
 	apimachineryvalidation "k8s.io/apimachinery/pkg/api/validation"
 	unversionedvalidation "k8s.io/apimachinery/pkg/apis/meta/v1/validation"
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	apivalidation "k8s.io/kubernetes/pkg/apis/core/validation"
-	"k8s.io/kubernetes/pkg/apis/settings"
+	apivalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/settings"
 )
 
 // ValidatePodPresetName can be used to check whether the given PodPreset name is valid.

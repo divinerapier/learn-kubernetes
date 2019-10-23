@@ -26,7 +26,7 @@ import (
 	"testing"
 
 	certutil "k8s.io/client-go/util/cert"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
 )
 
 func TestCertListOrder(t *testing.T) {

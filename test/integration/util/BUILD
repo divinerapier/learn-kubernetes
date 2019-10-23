@@ -11,7 +11,7 @@ go_library(
         "cloud.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/test/integration/util",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/integration/util",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/scheduler:go_default_library",

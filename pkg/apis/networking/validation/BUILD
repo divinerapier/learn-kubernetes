@@ -31,7 +31,7 @@ go_library(
         "conditional_validation.go",
         "validation.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/networking/validation",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/networking/validation",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/apis/core/validation:go_default_library",

@@ -21,7 +21,7 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/record"
-	kubectrlmgrconfig "k8s.io/kubernetes/pkg/controller/apis/config"
+	kubectrlmgrconfig "github.com/divinerapier/learn-kubernetes/pkg/controller/apis/config"
 )
 
 // Config is the main context object for the controller manager.

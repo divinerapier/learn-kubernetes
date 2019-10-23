@@ -24,9 +24,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/diff"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/networking"
-	"k8s.io/kubernetes/pkg/features"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/networking"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 func TestValidateNetworkPolicySCTP(t *testing.T) {

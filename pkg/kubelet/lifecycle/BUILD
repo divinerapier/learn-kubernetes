@@ -15,7 +15,7 @@ go_library(
         "interfaces.go",
         "predicate.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/lifecycle",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/lifecycle",
     deps = [
         "//pkg/apis/core/v1/helper:go_default_library",
         "//pkg/kubelet/container:go_default_library",

@@ -33,9 +33,9 @@ import (
 	"k8s.io/apiserver/pkg/storage"
 	etcd3testing "k8s.io/apiserver/pkg/storage/etcd3/testing"
 	"k8s.io/client-go/kubernetes/fake"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/policy"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/policy"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/registrytest"
 )
 
 func TestEviction(t *testing.T) {

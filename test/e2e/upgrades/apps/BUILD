@@ -14,7 +14,7 @@ go_library(
         "replicasets.go",
         "statefulset.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/upgrades/apps",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/upgrades/apps",
     deps = [
         "//pkg/controller:go_default_library",
         "//pkg/controller/deployment/util:go_default_library",

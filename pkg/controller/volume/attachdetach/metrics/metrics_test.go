@@ -25,11 +25,11 @@ import (
 	k8stypes "k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/controller/volume/attachdetach/cache"
-	controllervolumetesting "k8s.io/kubernetes/pkg/controller/volume/attachdetach/testing"
-	volumetesting "k8s.io/kubernetes/pkg/volume/testing"
-	"k8s.io/kubernetes/pkg/volume/util/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/cache"
+	controllervolumetesting "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/testing"
+	volumetesting "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/types"
 )
 
 func TestVolumesInUseMetricCollection(t *testing.T) {

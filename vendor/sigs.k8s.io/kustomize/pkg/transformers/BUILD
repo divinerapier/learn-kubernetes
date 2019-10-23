@@ -14,7 +14,7 @@ go_library(
         "refvars.go",
         "transformer.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/transformers",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/transformers",
     importpath = "sigs.k8s.io/kustomize/pkg/transformers",
     visibility = ["//visibility:public"],
     deps = [

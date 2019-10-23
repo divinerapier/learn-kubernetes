@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["conntrack.go"],
-    importpath = "k8s.io/kubernetes/pkg/util/conntrack",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/conntrack",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

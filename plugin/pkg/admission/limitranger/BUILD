@@ -12,7 +12,7 @@ go_library(
         "admission.go",
         "interfaces.go",
     ],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/limitranger",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/limitranger",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

@@ -26,12 +26,12 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/api/v1/pod"
-	v1resource "k8s.io/kubernetes/pkg/api/v1/resource"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	evictionapi "k8s.io/kubernetes/pkg/kubelet/eviction/api"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	volumeutils "k8s.io/kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	v1resource "github.com/divinerapier/learn-kubernetes/pkg/api/v1/resource"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	evictionapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/eviction/api"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	volumeutils "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 const (

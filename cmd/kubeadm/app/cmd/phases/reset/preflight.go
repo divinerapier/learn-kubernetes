@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	"k8s.io/kubernetes/cmd/kubeadm/app/preflight"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/preflight"
 )
 
 // NewPreflightPhase creates a kubeadm workflow phase implements preflight checks for reset

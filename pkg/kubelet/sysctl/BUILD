@@ -13,7 +13,7 @@ go_library(
         "runtime.go",
         "whitelist.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/sysctl",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/sysctl",
     deps = [
         "//pkg/apis/core/validation:go_default_library",
         "//pkg/apis/policy/validation:go_default_library",

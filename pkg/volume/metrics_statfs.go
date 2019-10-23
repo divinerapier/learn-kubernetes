@@ -19,7 +19,7 @@ package volume
 import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/pkg/volume/util/fs"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/fs"
 )
 
 var _ MetricsProvider = &metricsStatFS{}

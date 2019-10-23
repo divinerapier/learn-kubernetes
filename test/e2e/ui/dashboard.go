@@ -25,9 +25,9 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	utilnet "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
-	testutils "k8s.io/kubernetes/test/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 
 	"github.com/onsi/ginkgo"
 )

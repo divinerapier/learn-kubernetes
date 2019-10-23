@@ -52,9 +52,9 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/util/retry"
-	kubeapiservertesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	"k8s.io/kubernetes/test/integration/etcd"
-	"k8s.io/kubernetes/test/integration/framework"
+	kubeapiservertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	"github.com/divinerapier/learn-kubernetes/test/integration/etcd"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 const (

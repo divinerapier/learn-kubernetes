@@ -6,7 +6,7 @@ go_library(
         "safeopen.go",
         "zsyscall_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Microsoft/hcsshim/internal/safefile",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Microsoft/hcsshim/internal/safefile",
     importpath = "github.com/Microsoft/hcsshim/internal/safefile",
     visibility = ["//vendor/github.com/Microsoft/hcsshim:__subpackages__"],
     deps = [

@@ -16,7 +16,7 @@ go_library(
         "framework.go",
         "horizontal_pod_autoscaling.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/autoscaling",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/autoscaling",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//staging/src/k8s.io/api/apps/v1:go_default_library",

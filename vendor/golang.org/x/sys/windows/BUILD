@@ -24,7 +24,7 @@ go_library(
         "types_windows_amd64.go",
         "zsyscall_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/sys/windows",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/sys/windows",
     importpath = "golang.org/x/sys/windows",
     visibility = ["//visibility:public"],
 )

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["charset.go"],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/net/html/charset",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/net/html/charset",
     importpath = "golang.org/x/net/html/charset",
     visibility = ["//visibility:public"],
     deps = [

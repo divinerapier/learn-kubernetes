@@ -32,7 +32,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/autoscaling/horizontalpodautoscaler/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/autoscaling/horizontalpodautoscaler/storage",
     deps = [
         "//pkg/apis/autoscaling:go_default_library",
         "//pkg/printers:go_default_library",

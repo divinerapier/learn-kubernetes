@@ -20,9 +20,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/klog"
-	stats "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	"k8s.io/kubernetes/pkg/kubelet/metrics"
-	serverstats "k8s.io/kubernetes/pkg/kubelet/server/stats"
+	stats "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/metrics"
+	serverstats "github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/stats"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"math"
 
 	"k8s.io/klog"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
 )
 
 // FunctionShape represents shape of scoring function.

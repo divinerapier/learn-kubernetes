@@ -7,7 +7,7 @@ go_library(
         "register.go",
         "zz_generated.conversion.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/node/v1beta1",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/node/v1beta1",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core:go_default_library",

@@ -27,9 +27,9 @@ import (
 
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	"k8s.io/kubernetes/pkg/kubelet/cm"
-	statstest "k8s.io/kubernetes/pkg/kubelet/server/stats/testing"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm"
+	statstest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/stats/testing"
 )
 
 func TestSummaryProvider(t *testing.T) {

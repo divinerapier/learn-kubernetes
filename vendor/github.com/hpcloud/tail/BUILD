@@ -7,7 +7,7 @@ go_library(
         "tail_posix.go",
         "tail_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/hpcloud/tail",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/hpcloud/tail",
     importpath = "github.com/hpcloud/tail",
     visibility = ["//visibility:public"],
     deps = [

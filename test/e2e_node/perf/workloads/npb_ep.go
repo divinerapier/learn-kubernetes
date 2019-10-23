@@ -24,8 +24,8 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpumanager"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager"
 )
 
 // npbEPWorkload defines a workload to run the Embarrassingly Parallel (EP) workload

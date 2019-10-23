@@ -25,9 +25,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
 	"k8s.io/apiserver/pkg/storage/names"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/apis/admissionregistration"
-	"k8s.io/kubernetes/pkg/apis/admissionregistration/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/admissionregistration"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/admissionregistration/validation"
 )
 
 // validatingWebhookConfigurationStrategy implements verification logic for validatingWebhookConfiguration.

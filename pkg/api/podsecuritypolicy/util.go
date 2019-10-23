@@ -18,8 +18,8 @@ package podsecuritypolicy
 
 import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/apis/policy"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/policy"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 // DropDisabledFields removes disabled fields from the pod security policy spec.

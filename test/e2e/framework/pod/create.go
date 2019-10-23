@@ -24,8 +24,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/uuid"
 	clientset "k8s.io/client-go/kubernetes"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 var (

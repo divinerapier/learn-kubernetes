@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "k8s.io/kubernetes/test/images/agnhost/inclusterclient",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/agnhost/inclusterclient",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/client-go/kubernetes:go_default_library",

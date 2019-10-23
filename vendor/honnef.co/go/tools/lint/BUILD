@@ -7,7 +7,7 @@ go_library(
         "runner.go",
         "stats.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/lint",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/lint",
     importpath = "honnef.co/go/tools/lint",
     visibility = ["//visibility:public"],
     deps = [

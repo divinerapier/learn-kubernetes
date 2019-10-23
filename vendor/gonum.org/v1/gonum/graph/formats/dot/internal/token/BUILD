@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "token.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/internal/token",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/internal/token",
     importpath = "gonum.org/v1/gonum/graph/formats/dot/internal/token",
     visibility = ["//vendor/gonum.org/v1/gonum/graph/formats/dot:__subpackages__"],
 )

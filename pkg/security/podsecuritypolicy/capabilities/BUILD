@@ -13,7 +13,7 @@ go_library(
         "doc.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/security/podsecuritypolicy/capabilities",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/capabilities",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

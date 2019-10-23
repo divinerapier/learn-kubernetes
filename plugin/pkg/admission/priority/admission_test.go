@@ -30,11 +30,11 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/client-go/informers"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/scheduling"
-	v1 "k8s.io/kubernetes/pkg/apis/scheduling/v1"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/features"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/scheduling"
+	v1 "github.com/divinerapier/learn-kubernetes/pkg/apis/scheduling/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 func addPriorityClasses(ctrl *Plugin, priorityClasses []*scheduling.PriorityClass) error {

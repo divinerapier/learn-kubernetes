@@ -29,9 +29,9 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
 	"k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/status"
-	utillog "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/log"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/status"
+	utillog "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/log"
 )
 
 const (

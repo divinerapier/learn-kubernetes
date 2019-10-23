@@ -32,11 +32,11 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/tools/record"
-	"k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/kubelet/checkpoint"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/securitycontext"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/securitycontext"
 )
 
 const (

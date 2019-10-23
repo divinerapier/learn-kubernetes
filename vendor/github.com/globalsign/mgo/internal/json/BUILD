@@ -12,7 +12,7 @@ go_library(
         "stream.go",
         "tags.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/globalsign/mgo/internal/json",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/globalsign/mgo/internal/json",
     importpath = "github.com/globalsign/mgo/internal/json",
     visibility = ["//vendor/github.com/globalsign/mgo:__subpackages__"],
 )

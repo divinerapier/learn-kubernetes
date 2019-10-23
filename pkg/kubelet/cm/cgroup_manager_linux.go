@@ -34,8 +34,8 @@ import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/sets"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	kubefeatures "k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/kubelet/metrics"
+	kubefeatures "github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/metrics"
 )
 
 // libcontainerCgroupManagerType defines how to interface with libcontainer

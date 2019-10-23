@@ -28,8 +28,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeadmutil "k8s.io/kubernetes/cmd/kubeadm/app/util"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeadmutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util"
 )
 
 func TestMarkControlPlane(t *testing.T) {

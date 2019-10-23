@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/kubernetes/test/e2e/common"
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/common"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 
 	"github.com/onsi/ginkgo"
 )

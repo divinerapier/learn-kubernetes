@@ -26,8 +26,8 @@ import (
 	csipbv1 "github.com/container-storage-interface/spec/lib/go/csi"
 	api "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/csi/fake"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/csi/fake"
 )
 
 type fakeCsiDriverClient struct {

@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["admission.go"],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/deny",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/deny",
     deps = [
         "//staging/src/k8s.io/apiserver/pkg/admission:go_default_library",
         "//vendor/k8s.io/klog:go_default_library",

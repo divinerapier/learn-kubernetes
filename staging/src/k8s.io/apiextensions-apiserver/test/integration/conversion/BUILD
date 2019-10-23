@@ -35,7 +35,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["webhook.go"],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiextensions-apiserver/test/integration/conversion",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiextensions-apiserver/test/integration/conversion",
     importpath = "k8s.io/apiextensions-apiserver/test/integration/conversion",
     visibility = ["//visibility:public"],
     deps = [

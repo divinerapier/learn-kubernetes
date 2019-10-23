@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker"
 )
 
 func TestRemoveImage(t *testing.T) {

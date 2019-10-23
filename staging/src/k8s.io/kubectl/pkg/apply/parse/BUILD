@@ -13,7 +13,7 @@ go_library(
         "util.go",
         "visitor.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kubectl/pkg/apply/parse",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kubectl/pkg/apply/parse",
     importpath = "k8s.io/kubectl/pkg/apply/parse",
     visibility = ["//visibility:public"],
     deps = [

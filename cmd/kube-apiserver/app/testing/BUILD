@@ -9,7 +9,7 @@ go_library(
     name = "go_default_library",
     srcs = ["testserver.go"],
     data = glob(["testdata/**"]),
-    importpath = "k8s.io/kubernetes/cmd/kube-apiserver/app/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing",
     deps = [
         "//cmd/kube-apiserver/app:go_default_library",
         "//cmd/kube-apiserver/app/options:go_default_library",

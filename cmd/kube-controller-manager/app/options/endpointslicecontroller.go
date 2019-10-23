@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"github.com/spf13/pflag"
 
-	endpointsliceconfig "k8s.io/kubernetes/pkg/controller/endpointslice/config"
+	endpointsliceconfig "github.com/divinerapier/learn-kubernetes/pkg/controller/endpointslice/config"
 )
 
 const (

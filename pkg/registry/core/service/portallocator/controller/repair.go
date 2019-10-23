@@ -29,10 +29,10 @@ import (
 	corev1client "k8s.io/client-go/kubernetes/typed/core/v1"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/retry"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/registry/core/rangeallocation"
-	"k8s.io/kubernetes/pkg/registry/core/service/portallocator"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/rangeallocation"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/portallocator"
 )
 
 // See ipallocator/controller/repair.go; this is a copy for ports.

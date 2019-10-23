@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["admission.go"],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/noderestriction",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/noderestriction",
     deps = [
         "//pkg/api/pod:go_default_library",
         "//pkg/apis/authentication:go_default_library",

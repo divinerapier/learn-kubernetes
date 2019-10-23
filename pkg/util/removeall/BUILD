@@ -19,7 +19,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["removeall.go"],
-    importpath = "k8s.io/kubernetes/pkg/util/removeall",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/removeall",
     deps = ["//pkg/util/mount:go_default_library"],
 )
 

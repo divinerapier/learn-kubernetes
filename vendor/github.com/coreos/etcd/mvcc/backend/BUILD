@@ -13,7 +13,7 @@ go_library(
         "read_tx.go",
         "tx_buffer.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/mvcc/backend",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/mvcc/backend",
     importpath = "github.com/coreos/etcd/mvcc/backend",
     visibility = ["//visibility:public"],
     deps = [

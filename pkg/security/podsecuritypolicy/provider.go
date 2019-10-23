@@ -24,12 +24,12 @@ import (
 	policy "k8s.io/api/policy/v1beta1"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	podutil "k8s.io/kubernetes/pkg/api/pod"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/core/pods"
-	"k8s.io/kubernetes/pkg/features"
-	psputil "k8s.io/kubernetes/pkg/security/podsecuritypolicy/util"
-	"k8s.io/kubernetes/pkg/securitycontext"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/pod"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/pods"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	psputil "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/securitycontext"
 )
 
 // simpleProvider is the default implementation of Provider.

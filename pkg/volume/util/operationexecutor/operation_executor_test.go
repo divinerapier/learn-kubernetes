@@ -26,9 +26,9 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/uuid"
 	csitrans "k8s.io/csi-translation-lib"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/util/hostutil"
-	volumetypes "k8s.io/kubernetes/pkg/volume/util/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/hostutil"
+	volumetypes "github.com/divinerapier/learn-kubernetes/pkg/volume/util/types"
 )
 
 const (

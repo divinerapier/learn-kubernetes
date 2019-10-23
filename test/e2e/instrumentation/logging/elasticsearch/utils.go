@@ -24,11 +24,11 @@ import (
 
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/fields"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
-	"k8s.io/kubernetes/test/e2e/instrumentation/logging/utils"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/logging/utils"
 )
 
 const (

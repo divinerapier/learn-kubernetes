@@ -24,11 +24,11 @@ import (
 	"time"
 
 	clientset "k8s.io/client-go/kubernetes"
-	kubeletstatsv1alpha1 "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2ekubelet "k8s.io/kubernetes/test/e2e/framework/kubelet"
-	e2eperf "k8s.io/kubernetes/test/e2e/framework/perf"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	kubeletstatsv1alpha1 "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2ekubelet "github.com/divinerapier/learn-kubernetes/test/e2e/framework/kubelet"
+	e2eperf "github.com/divinerapier/learn-kubernetes/test/e2e/framework/perf"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 
 	"github.com/onsi/ginkgo"
 )

@@ -26,10 +26,10 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/clock"
 	"k8s.io/client-go/tools/record"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	"k8s.io/kubernetes/pkg/kubelet/container"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	statstest "k8s.io/kubernetes/pkg/kubelet/server/stats/testing"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	containertest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container/testing"
+	statstest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/stats/testing"
 )
 
 var zero time.Time

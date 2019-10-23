@@ -23,8 +23,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	podresourcesapi "k8s.io/kubernetes/pkg/kubelet/apis/podresources/v1alpha1"
-	"k8s.io/kubernetes/pkg/kubelet/util"
+	podresourcesapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/podresources/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util"
 )
 
 // GetClient returns a client for the PodResourcesLister grpc service

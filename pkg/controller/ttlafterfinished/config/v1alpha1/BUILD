@@ -10,7 +10,7 @@ go_library(
         "zz_generated.conversion.go",
         "zz_generated.deepcopy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/ttlafterfinished/config/v1alpha1",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/ttlafterfinished/config/v1alpha1",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/controller/ttlafterfinished/config:go_default_library",

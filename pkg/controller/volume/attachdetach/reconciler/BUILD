@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["reconciler.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/volume/attachdetach/reconciler",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/reconciler",
     deps = [
         "//pkg/controller/volume/attachdetach/cache:go_default_library",
         "//pkg/controller/volume/attachdetach/metrics:go_default_library",

@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"k8s.io/component-base/featuregate"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
 )
 
 func TestKnownFeatures(t *testing.T) {

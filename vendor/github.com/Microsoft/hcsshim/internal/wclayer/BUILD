@@ -26,7 +26,7 @@ go_library(
         "wclayer.go",
         "zsyscall_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Microsoft/hcsshim/internal/wclayer",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Microsoft/hcsshim/internal/wclayer",
     importpath = "github.com/Microsoft/hcsshim/internal/wclayer",
     visibility = ["//vendor/github.com/Microsoft/hcsshim:__subpackages__"],
     deps = [

@@ -28,7 +28,7 @@ import (
 	"k8s.io/component-base/logs"
 	_ "k8s.io/component-base/metrics/prometheus/restclient"
 	_ "k8s.io/component-base/metrics/prometheus/version" // for version metric registration
-	"k8s.io/kubernetes/cmd/kubelet/app"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubelet/app"
 )
 
 func main() {

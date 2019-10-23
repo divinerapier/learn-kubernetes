@@ -24,7 +24,7 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
 )
 
 func TestCacheOperations(t *testing.T) {

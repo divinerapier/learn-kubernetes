@@ -27,8 +27,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
 	"k8s.io/klog"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/metrics"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/metrics"
 )
 
 // GenericPLEG is an extremely simple generic PLEG that relies solely on

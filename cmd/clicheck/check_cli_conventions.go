@@ -22,7 +22,7 @@ import (
 	"os"
 
 	cmdsanity "k8s.io/kubectl/pkg/cmd/util/sanity"
-	"k8s.io/kubernetes/pkg/kubectl/cmd"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubectl/cmd"
 )
 
 func main() {

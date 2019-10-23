@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["uploadconfig.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/uploadconfig",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/uploadconfig",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",
         "//cmd/kubeadm/app/constants:go_default_library",

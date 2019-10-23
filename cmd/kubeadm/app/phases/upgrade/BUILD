@@ -12,7 +12,7 @@ go_library(
         "staticpods.go",
         "versiongetter.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/upgrade",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/upgrade",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",

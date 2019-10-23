@@ -17,10 +17,10 @@ limitations under the License.
 package defaults
 
 import (
-	"k8s.io/kubernetes/pkg/scheduler"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/priorities"
-	"k8s.io/kubernetes/pkg/scheduler/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/core"
 )
 
 func init() {

@@ -9,7 +9,7 @@ go_library(
         "state_file.go",
         "state_mem.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/state",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/state",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/checkpointmanager:go_default_library",

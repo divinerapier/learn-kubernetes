@@ -30,12 +30,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/clock"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apiserver/pkg/admission"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	k8s_api_v1 "k8s.io/kubernetes/pkg/apis/core/v1"
-	"k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	"k8s.io/kubernetes/pkg/apis/core/v1/helper/qos"
-	quota "k8s.io/kubernetes/pkg/quota/v1"
-	"k8s.io/kubernetes/pkg/quota/v1/generic"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	k8s_api_v1 "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper/qos"
+	quota "github.com/divinerapier/learn-kubernetes/pkg/quota/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/quota/v1/generic"
 )
 
 // the name used for object count quota

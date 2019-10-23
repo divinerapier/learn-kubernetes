@@ -39,17 +39,17 @@ import (
 	"k8s.io/apiserver/pkg/util/dryrun"
 	"k8s.io/klog"
 
-	apiservice "k8s.io/kubernetes/pkg/api/service"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/core/helper"
-	"k8s.io/kubernetes/pkg/apis/core/validation"
-	registry "k8s.io/kubernetes/pkg/registry/core/service"
-	"k8s.io/kubernetes/pkg/registry/core/service/ipallocator"
-	"k8s.io/kubernetes/pkg/registry/core/service/portallocator"
+	apiservice "github.com/divinerapier/learn-kubernetes/pkg/api/service"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
+	registry "github.com/divinerapier/learn-kubernetes/pkg/registry/core/service"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/ipallocator"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/portallocator"
 	netutil "k8s.io/utils/net"
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 // REST adapts a service registry into apiserver's RESTStorage model.

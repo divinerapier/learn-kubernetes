@@ -18,7 +18,7 @@ limitations under the License.
 
 package app
 
-import "k8s.io/kubernetes/pkg/volume"
+import "github.com/divinerapier/learn-kubernetes/pkg/volume"
 
 func appendLegacyProviderVolumes(allPlugins []volume.VolumePlugin) []volume.VolumePlugin {
 	// no-op when we didn't compile in support for these

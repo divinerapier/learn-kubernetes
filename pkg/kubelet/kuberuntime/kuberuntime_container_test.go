@@ -28,9 +28,9 @@ import (
 
 	"k8s.io/api/core/v1"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	"k8s.io/kubernetes/pkg/kubelet/lifecycle"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	containertest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/lifecycle"
 )
 
 // TestRemoveContainer tests removing the container and its corresponding container logs.

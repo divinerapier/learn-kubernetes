@@ -15,7 +15,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["heap.go"],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/internal/heap",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/internal/heap",
     deps = [
         "//pkg/scheduler/metrics:go_default_library",
         "//staging/src/k8s.io/client-go/tools/cache:go_default_library",

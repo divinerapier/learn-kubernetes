@@ -42,7 +42,7 @@ go_library(
         "reader.go",
         "util.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiserver/pkg/audit/policy",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiserver/pkg/audit/policy",
     importpath = "k8s.io/apiserver/pkg/audit/policy",
     deps = [
         "//staging/src/k8s.io/api/auditregistration/v1alpha1:go_default_library",

@@ -25,12 +25,12 @@ import (
 	"k8s.io/apiserver/pkg/authorization/union"
 	"k8s.io/apiserver/plugin/pkg/authorizer/webhook"
 	versionedinformers "k8s.io/client-go/informers"
-	"k8s.io/kubernetes/pkg/auth/authorizer/abac"
-	"k8s.io/kubernetes/pkg/auth/nodeidentifier"
-	"k8s.io/kubernetes/pkg/kubeapiserver/authorizer/modes"
-	"k8s.io/kubernetes/plugin/pkg/auth/authorizer/node"
-	"k8s.io/kubernetes/plugin/pkg/auth/authorizer/rbac"
-	"k8s.io/kubernetes/plugin/pkg/auth/authorizer/rbac/bootstrappolicy"
+	"github.com/divinerapier/learn-kubernetes/pkg/auth/authorizer/abac"
+	"github.com/divinerapier/learn-kubernetes/pkg/auth/nodeidentifier"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/authorizer/modes"
+	"github.com/divinerapier/learn-kubernetes/plugin/pkg/auth/authorizer/node"
+	"github.com/divinerapier/learn-kubernetes/plugin/pkg/auth/authorizer/rbac"
+	"github.com/divinerapier/learn-kubernetes/plugin/pkg/auth/authorizer/rbac/bootstrappolicy"
 )
 
 // Config contains the data on how to authorize a request to the Kube API Server
@@ -67,7 +67,7 @@ func (config Config) New() (authorizer.Authorizer, authorizer.RuleResolver, erro
 	)
 
 	for _, authorizationMode := range config.AuthorizationModes {
-		// Keep cases in sync with constant list in k8s.io/kubernetes/pkg/kubeapiserver/authorizer/modes/modes.go.
+		// Keep cases in sync with constant list in github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/authorizer/modes/modes.go.
 		switch authorizationMode {
 		case modes.ModeNode:
 			graph := node.NewGraph()

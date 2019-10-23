@@ -432,7 +432,7 @@ var _ = metrics.NewCounter(
 			src: `
 package test
 import "k8s.io/component-base/metrics"
-import "k8s.io/kubernetes/utils"
+import "github.com/divinerapier/learn-kubernetes/utils"
 var _ = metrics.NewCounter(
 		&metrics.CounterOpts{
 			Name:           utils.getMetricName(),

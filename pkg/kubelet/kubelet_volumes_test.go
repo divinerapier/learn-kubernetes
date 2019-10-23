@@ -26,9 +26,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"
 	core "k8s.io/client-go/testing"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
-	"k8s.io/kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumetest "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 func TestListVolumesForPod(t *testing.T) {

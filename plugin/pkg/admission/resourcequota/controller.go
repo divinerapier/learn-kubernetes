@@ -35,9 +35,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apiserver/pkg/admission"
 	"k8s.io/client-go/util/workqueue"
-	quota "k8s.io/kubernetes/pkg/quota/v1"
-	"k8s.io/kubernetes/pkg/quota/v1/generic"
-	resourcequotaapi "k8s.io/kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota"
+	quota "github.com/divinerapier/learn-kubernetes/pkg/quota/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/quota/v1/generic"
+	resourcequotaapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota"
 )
 
 // Evaluator is used to see if quota constraints are satisfied.

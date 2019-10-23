@@ -32,8 +32,8 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	listers "k8s.io/client-go/listers/core/v1"
 	restclient "k8s.io/client-go/rest"
-	"k8s.io/kubernetes/pkg/controller/ttl"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/ttl"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 func createClientAndInformers(t *testing.T, server *httptest.Server) (*clientset.Clientset, informers.SharedInformerFactory) {

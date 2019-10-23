@@ -35,9 +35,9 @@ import (
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/util/retry"
 
-	//svc "k8s.io/kubernetes/pkg/api/v1/service"
-	"k8s.io/kubernetes/pkg/controller/statefulset"
-	"k8s.io/kubernetes/test/integration/framework"
+	//svc "github.com/divinerapier/learn-kubernetes/pkg/api/v1/service"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/statefulset"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 const (

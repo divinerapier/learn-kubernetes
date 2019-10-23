@@ -15,7 +15,7 @@ go_library(
         "retry.go",
         "send.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/google.golang.org/api/gensupport",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/google.golang.org/api/gensupport",
     importpath = "google.golang.org/api/gensupport",
     visibility = ["//visibility:public"],
     deps = ["//vendor/google.golang.org/api/googleapi:go_default_library"],

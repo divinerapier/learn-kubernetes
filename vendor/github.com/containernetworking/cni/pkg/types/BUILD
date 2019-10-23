@@ -6,7 +6,7 @@ go_library(
         "args.go",
         "types.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/containernetworking/cni/pkg/types",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/containernetworking/cni/pkg/types",
     importpath = "github.com/containernetworking/cni/pkg/types",
     visibility = ["//visibility:public"],
 )

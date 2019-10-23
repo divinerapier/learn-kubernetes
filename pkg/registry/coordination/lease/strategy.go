@@ -22,9 +22,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	"k8s.io/apiserver/pkg/storage/names"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/apis/coordination"
-	"k8s.io/kubernetes/pkg/apis/coordination/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/coordination"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/coordination/validation"
 )
 
 // leaseStrategy implements verification logic for Leases.

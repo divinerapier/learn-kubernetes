@@ -9,7 +9,7 @@ go_library(
         "matchers.go",
         "patricia.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/soheilhy/cmux",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/soheilhy/cmux",
     importpath = "github.com/soheilhy/cmux",
     visibility = ["//visibility:public"],
     deps = [

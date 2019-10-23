@@ -13,7 +13,7 @@ go_library(
         "kubenet_linux.go",
         "kubenet_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/dockershim/network/kubenet",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/kubenet",
     deps = select({
         "@io_bazel_rules_go//go/platform:android": [
             "//pkg/kubelet/apis/config:go_default_library",

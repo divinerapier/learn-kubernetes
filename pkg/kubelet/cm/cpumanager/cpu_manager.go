@@ -28,12 +28,12 @@ import (
 	"k8s.io/klog"
 
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/state"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/topology"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/status"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/state"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/topology"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/status"
 )
 
 // ActivePodsFunc is a function that returns a list of pods to reconcile.

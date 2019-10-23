@@ -34,14 +34,14 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/events"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/scheduler"
-	schedulerconfig "k8s.io/kubernetes/pkg/scheduler/apis/config"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler"
+	schedulerconfig "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 
 	// Install "DefaultProvider" algorithprovider
-	_ "k8s.io/kubernetes/pkg/scheduler/algorithmprovider/defaults"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithmprovider/defaults"
 )
 
 type testContext struct {

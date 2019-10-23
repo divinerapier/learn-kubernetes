@@ -34,8 +34,8 @@ import (
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/cache"
 	watchtools "k8s.io/client-go/tools/watch"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 func noopNormalization(output []string) []string {

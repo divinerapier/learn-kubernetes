@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "encoding.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/encoding",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/encoding",
     importpath = "gonum.org/v1/gonum/graph/encoding",
     visibility = ["//visibility:public"],
     deps = ["//vendor/gonum.org/v1/gonum/graph:go_default_library"],

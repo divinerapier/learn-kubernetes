@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["hcserror.go"],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Microsoft/hcsshim/internal/hcserror",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Microsoft/hcsshim/internal/hcserror",
     importpath = "github.com/Microsoft/hcsshim/internal/hcserror",
     visibility = ["//vendor/github.com/Microsoft/hcsshim:__subpackages__"],
 )

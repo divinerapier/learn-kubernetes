@@ -224,7 +224,7 @@ func resolveSymlink(basePath string, info os.FileInfo) (os.FileInfo, error) {
 	return resolvedInfo, nil
 }
 
-// TODO: This is copied from k8s.io/kubernetes/pkg/security/apparmor.getLoadedProfiles.
+// TODO: This is copied from github.com/divinerapier/learn-kubernetes/pkg/security/apparmor.getLoadedProfiles.
 //       Refactor that method to expose it in a reusable way, and delete this version.
 func getLoadedProfiles() (map[string]bool, error) {
 	profilesPath := path.Join(apparmorfs, "profiles")

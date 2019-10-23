@@ -15,7 +15,7 @@ go_library(
         "procfs_linux.go",
         "procfs_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/procfs",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/procfs",
     deps = select({
         "@io_bazel_rules_go//go/platform:linux": [
             "//staging/src/k8s.io/apimachinery/pkg/util/errors:go_default_library",

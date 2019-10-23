@@ -36,8 +36,8 @@ import (
 	intstrutil "k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/apimachinery/pkg/util/wait"
 	appsclient "k8s.io/client-go/kubernetes/typed/apps/v1"
-	"k8s.io/kubernetes/pkg/controller"
-	labelsutil "k8s.io/kubernetes/pkg/util/labels"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	labelsutil "github.com/divinerapier/learn-kubernetes/pkg/util/labels"
 	"k8s.io/utils/integer"
 )
 

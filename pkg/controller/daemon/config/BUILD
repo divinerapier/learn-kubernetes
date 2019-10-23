@@ -7,7 +7,7 @@ go_library(
         "types.go",
         "zz_generated.deepcopy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/daemon/config",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/daemon/config",
     visibility = ["//visibility:public"],
 )
 

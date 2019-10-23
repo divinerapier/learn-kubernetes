@@ -11,7 +11,7 @@ go_library(
         "policy_single_numa_node.go",
         "topology_manager.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/cm/topologymanager",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/cm/cpumanager/topology:go_default_library",

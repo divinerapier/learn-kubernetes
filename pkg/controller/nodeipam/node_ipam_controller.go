@@ -34,7 +34,7 @@ import (
 	corelisters "k8s.io/client-go/listers/core/v1"
 	cloudprovider "k8s.io/cloud-provider"
 	"k8s.io/component-base/metrics/prometheus/ratelimiter"
-	"k8s.io/kubernetes/pkg/controller/nodeipam/ipam"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam/ipam"
 )
 
 const (

@@ -13,7 +13,7 @@ go_library(
         "types.go",
         "zz_generated.deepcopy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/policy",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/policy",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1:go_default_library",

@@ -11,7 +11,7 @@ go_library(
         "doc.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/watch/json",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/watch/json",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/runtime:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/watch:go_default_library",

@@ -16,7 +16,7 @@ go_library(
         "version_parser.go",
         "wrappers.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/component-base/metrics",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/component-base/metrics",
     importpath = "k8s.io/component-base/metrics",
     visibility = ["//visibility:public"],
     deps = [

@@ -25,13 +25,13 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	cadvisortest "k8s.io/kubernetes/pkg/kubelet/cadvisor/testing"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	"k8s.io/kubernetes/pkg/kubelet/leaky"
-	serverstats "k8s.io/kubernetes/pkg/kubelet/server/stats"
-	statustest "k8s.io/kubernetes/pkg/kubelet/status/testing"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	cadvisortest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cadvisor/testing"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	containertest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/leaky"
+	serverstats "github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/stats"
+	statustest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/status/testing"
 )
 
 func TestRemoveTerminatedContainerInfo(t *testing.T) {

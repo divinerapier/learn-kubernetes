@@ -32,11 +32,11 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 	certutil "k8s.io/client-go/util/cert"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmscheme "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/scheme"
-	"k8s.io/kubernetes/cmd/kubeadm/app/componentconfigs"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/apiclient"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmscheme "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/scheme"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/componentconfigs"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/apiclient"
 )
 
 // FetchInitConfigurationFromCluster fetches configuration from a ConfigMap in the cluster

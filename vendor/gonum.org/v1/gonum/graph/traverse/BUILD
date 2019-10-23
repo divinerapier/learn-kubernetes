@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "traverse.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/traverse",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/traverse",
     importpath = "gonum.org/v1/gonum/graph/traverse",
     visibility = ["//visibility:public"],
     deps = [

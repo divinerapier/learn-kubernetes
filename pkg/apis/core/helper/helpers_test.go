@@ -22,7 +22,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 func TestSemantic(t *testing.T) {

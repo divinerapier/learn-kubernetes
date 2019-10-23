@@ -63,42 +63,42 @@ import (
 	"k8s.io/component-base/version"
 	"k8s.io/component-base/version/verflag"
 	kubeletconfigv1beta1 "k8s.io/kubelet/config/v1beta1"
-	"k8s.io/kubernetes/cmd/kubelet/app/options"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/capabilities"
-	"k8s.io/kubernetes/pkg/credentialprovider"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/kubelet"
-	kubeletconfiginternal "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubeletscheme "k8s.io/kubernetes/pkg/kubelet/apis/config/scheme"
-	kubeletconfigvalidation "k8s.io/kubernetes/pkg/kubelet/apis/config/validation"
-	"k8s.io/kubernetes/pkg/kubelet/cadvisor"
-	kubeletcertificate "k8s.io/kubernetes/pkg/kubelet/certificate"
-	"k8s.io/kubernetes/pkg/kubelet/certificate/bootstrap"
-	"k8s.io/kubernetes/pkg/kubelet/cm"
-	"k8s.io/kubernetes/pkg/kubelet/config"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim"
-	dockerremote "k8s.io/kubernetes/pkg/kubelet/dockershim/remote"
-	"k8s.io/kubernetes/pkg/kubelet/eviction"
-	evictionapi "k8s.io/kubernetes/pkg/kubelet/eviction/api"
-	dynamickubeletconfig "k8s.io/kubernetes/pkg/kubelet/kubeletconfig"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/configfiles"
-	"k8s.io/kubernetes/pkg/kubelet/server"
-	"k8s.io/kubernetes/pkg/kubelet/server/streaming"
-	"k8s.io/kubernetes/pkg/kubelet/stats/pidlimit"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/util/configz"
-	utilfs "k8s.io/kubernetes/pkg/util/filesystem"
-	utilflag "k8s.io/kubernetes/pkg/util/flag"
-	"k8s.io/kubernetes/pkg/util/flock"
-	"k8s.io/kubernetes/pkg/util/mount"
-	nodeutil "k8s.io/kubernetes/pkg/util/node"
-	"k8s.io/kubernetes/pkg/util/oom"
-	"k8s.io/kubernetes/pkg/util/rlimit"
-	"k8s.io/kubernetes/pkg/volume/util/hostutil"
-	"k8s.io/kubernetes/pkg/volume/util/subpath"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubelet/app/options"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/capabilities"
+	"github.com/divinerapier/learn-kubernetes/pkg/credentialprovider"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet"
+	kubeletconfiginternal "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubeletscheme "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config/scheme"
+	kubeletconfigvalidation "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cadvisor"
+	kubeletcertificate "github.com/divinerapier/learn-kubernetes/pkg/kubelet/certificate"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/certificate/bootstrap"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/config"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim"
+	dockerremote "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/remote"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/eviction"
+	evictionapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/eviction/api"
+	dynamickubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/configfiles"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/streaming"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/stats/pidlimit"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/configz"
+	utilfs "github.com/divinerapier/learn-kubernetes/pkg/util/filesystem"
+	utilflag "github.com/divinerapier/learn-kubernetes/pkg/util/flag"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/flock"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/mount"
+	nodeutil "github.com/divinerapier/learn-kubernetes/pkg/util/node"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/oom"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/rlimit"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/hostutil"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/subpath"
 	"k8s.io/utils/exec"
 )
 
@@ -265,13 +265,13 @@ HTTP server: The kubelet can also listen for HTTP and respond to a simple API
 				return
 			}
 
-			// run the kubelet
+			// start to serve, run the kubelet server
 			klog.V(5).Infof("KubeletConfiguration: %#v", kubeletServer.KubeletConfiguration)
 			if err := Run(kubeletServer, kubeletDeps, stopCh); err != nil {
 				klog.Fatal(err)
 			}
 		},
-	}
+	} // cmd end
 
 	// keep cleanFlagSet separate, so Cobra doesn't pollute it with the global flags
 	kubeletFlags.AddFlags(cleanFlagSet)
@@ -408,6 +408,7 @@ func UnsecuredDependencies(s *options.KubeletServer) (*kubelet.Dependencies, err
 func Run(s *options.KubeletServer, kubeDeps *kubelet.Dependencies, stopCh <-chan struct{}) error {
 	// To help debugging, immediately log version
 	klog.Infof("Version: %+v", version.Get())
+	// initForOS => initForOnlyWindows
 	if err := initForOS(s.KubeletFlags.WindowsService); err != nil {
 		return fmt.Errorf("failed OS init: %v", err)
 	}

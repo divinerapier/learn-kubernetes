@@ -29,7 +29,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog"
 	registerapi "k8s.io/kubelet/pkg/apis/pluginregistration/v1"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/cache"
 )
 
 var (

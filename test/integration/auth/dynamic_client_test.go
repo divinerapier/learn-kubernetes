@@ -29,12 +29,12 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	"k8s.io/kubernetes/cmd/kube-apiserver/app/options"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/features"
-	kubeoptions "k8s.io/kubernetes/pkg/kubeapiserver/options"
-	"k8s.io/kubernetes/pkg/master"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/options"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubeoptions "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/options"
+	"github.com/divinerapier/learn-kubernetes/pkg/master"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 func TestDynamicClientBuilder(t *testing.T) {

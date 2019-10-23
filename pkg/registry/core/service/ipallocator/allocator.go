@@ -23,8 +23,8 @@ import (
 	"math/big"
 	"net"
 
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/registry/core/service/allocator"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/allocator"
 	"k8s.io/utils/integer"
 	utilnet "k8s.io/utils/net"
 )

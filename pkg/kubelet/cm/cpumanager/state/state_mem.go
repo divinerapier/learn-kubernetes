@@ -20,7 +20,7 @@ import (
 	"sync"
 
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
 )
 
 type stateMemory struct {

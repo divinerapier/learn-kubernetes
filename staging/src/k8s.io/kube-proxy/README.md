@@ -13,4 +13,4 @@ HEAD of this repo will match HEAD of k8s.io/apiserver, k8s.io/apimachinery, and 
 ## Where does it come from?
 
 `kube-proxy` is synced from https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/kube-proxy.
-Code changes are made in that location, merged into `k8s.io/kubernetes` and later synced here.
+Code changes are made in that location, merged into `github.com/divinerapier/learn-kubernetes` and later synced here.

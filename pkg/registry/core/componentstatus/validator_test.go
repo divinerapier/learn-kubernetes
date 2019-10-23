@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/probe"
+	"github.com/divinerapier/learn-kubernetes/pkg/probe"
 )
 
 func matchError(data []byte) error {

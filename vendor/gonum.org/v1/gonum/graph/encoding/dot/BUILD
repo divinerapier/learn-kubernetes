@@ -7,7 +7,7 @@ go_library(
         "doc.go",
         "encode.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/encoding/dot",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/encoding/dot",
     importpath = "gonum.org/v1/gonum/graph/encoding/dot",
     visibility = ["//visibility:public"],
     deps = [

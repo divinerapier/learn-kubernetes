@@ -20,11 +20,11 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeconfigphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/kubeconfig"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeconfigphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/kubeconfig"
 )
 
 var (

@@ -27,7 +27,7 @@ go_library(
         "util.go",
         "volume.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/flexvolume",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/flexvolume",
     deps = [
         "//pkg/util/filesystem:go_default_library",
         "//pkg/util/mount:go_default_library",

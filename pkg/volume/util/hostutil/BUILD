@@ -9,7 +9,7 @@ go_library(
         "hostutil_unsupported.go",
         "hostutil_windows.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/util/hostutil",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/util/hostutil",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/util/mount:go_default_library",

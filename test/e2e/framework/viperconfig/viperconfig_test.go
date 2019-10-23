@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"k8s.io/kubernetes/test/e2e/framework/config"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/config"
 )
 
 func TestViperConfig(t *testing.T) {

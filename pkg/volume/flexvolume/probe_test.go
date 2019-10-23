@@ -23,8 +23,8 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/stretchr/testify/assert"
-	utilfs "k8s.io/kubernetes/pkg/util/filesystem"
-	"k8s.io/kubernetes/pkg/volume"
+	utilfs "github.com/divinerapier/learn-kubernetes/pkg/util/filesystem"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
 	"k8s.io/utils/exec"
 )
 

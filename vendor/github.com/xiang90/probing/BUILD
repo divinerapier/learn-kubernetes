@@ -7,7 +7,7 @@ go_library(
         "server.go",
         "status.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/xiang90/probing",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/xiang90/probing",
     importpath = "github.com/xiang90/probing",
     visibility = ["//visibility:public"],
 )

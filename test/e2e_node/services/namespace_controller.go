@@ -24,7 +24,7 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/metadata"
 	restclient "k8s.io/client-go/rest"
-	namespacecontroller "k8s.io/kubernetes/pkg/controller/namespace"
+	namespacecontroller "github.com/divinerapier/learn-kubernetes/pkg/controller/namespace"
 )
 
 const (

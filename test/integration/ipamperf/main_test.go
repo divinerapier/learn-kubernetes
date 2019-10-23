@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/controller/nodeipam/ipam"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam/ipam"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 var (

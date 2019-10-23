@@ -6,7 +6,7 @@ go_library(
         "pod.go",
         "resources.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/util/format",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/format",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

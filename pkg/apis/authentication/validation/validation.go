@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	"k8s.io/kubernetes/pkg/apis/authentication"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/authentication"
 )
 
 // ValidateTokenRequest validates a TokenRequest.

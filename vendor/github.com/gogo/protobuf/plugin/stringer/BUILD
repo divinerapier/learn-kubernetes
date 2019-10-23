@@ -6,7 +6,7 @@ go_library(
         "stringer.go",
         "stringertest.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/gogo/protobuf/plugin/stringer",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/gogo/protobuf/plugin/stringer",
     importpath = "github.com/gogo/protobuf/plugin/stringer",
     visibility = ["//visibility:public"],
     deps = [

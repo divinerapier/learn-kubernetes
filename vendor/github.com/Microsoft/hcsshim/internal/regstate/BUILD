@@ -6,7 +6,7 @@ go_library(
         "regstate.go",
         "zsyscall_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Microsoft/hcsshim/internal/regstate",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Microsoft/hcsshim/internal/regstate",
     importpath = "github.com/Microsoft/hcsshim/internal/regstate",
     visibility = ["//vendor/github.com/Microsoft/hcsshim:__subpackages__"],
     deps = [

@@ -27,9 +27,9 @@ import (
 
 	"github.com/onsi/ginkgo"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/test/e2e/common"
-	"k8s.io/kubernetes/test/e2e/framework"
-	instrumentation "k8s.io/kubernetes/test/e2e/instrumentation/common"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/common"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	instrumentation "github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/common"
 
 	gcm "google.golang.org/api/monitoring/v3"
 )

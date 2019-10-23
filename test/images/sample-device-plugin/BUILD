@@ -5,7 +5,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["sampledeviceplugin.go"],
-    importpath = "k8s.io/kubernetes/test/images/sample-device-plugin",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/sample-device-plugin",
     visibility = ["//visibility:private"],
     deps = [
         "//pkg/kubelet/cm/devicemanager:go_default_library",

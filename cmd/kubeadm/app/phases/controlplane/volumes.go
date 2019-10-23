@@ -24,9 +24,9 @@ import (
 
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	staticpodutil "k8s.io/kubernetes/cmd/kubeadm/app/util/staticpod"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	staticpodutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/staticpod"
 )
 
 const (

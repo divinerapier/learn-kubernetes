@@ -17,7 +17,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["controller-manager.go"],
-    importpath = "k8s.io/kubernetes/cmd/kube-controller-manager",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kube-controller-manager",
     deps = [
         "//cmd/kube-controller-manager/app:go_default_library",
         "//staging/src/k8s.io/component-base/logs:go_default_library",

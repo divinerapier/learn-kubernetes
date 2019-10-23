@@ -19,7 +19,7 @@ package ipvs
 import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	utilversion "k8s.io/apimachinery/pkg/util/version"
-	utilipset "k8s.io/kubernetes/pkg/util/ipset"
+	utilipset "github.com/divinerapier/learn-kubernetes/pkg/util/ipset"
 
 	"fmt"
 	"strings"

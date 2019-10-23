@@ -40,12 +40,12 @@ import (
 	storagelisters "k8s.io/client-go/listers/storage/v1"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/pkg/controller"
-	pvtesting "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/testing"
-	pvutil "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/util"
-	vol "k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/util/recyclerclient"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	pvtesting "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/testing"
+	pvutil "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/util"
+	vol "github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/recyclerclient"
 )
 
 // This is a unit test framework for persistent volume controller.

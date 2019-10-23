@@ -21,10 +21,10 @@ import (
 	"math"
 	"time"
 
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	instrumentation "k8s.io/kubernetes/test/e2e/instrumentation/common"
-	"k8s.io/kubernetes/test/e2e/instrumentation/logging/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	instrumentation "github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/common"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/logging/utils"
 
 	"github.com/onsi/ginkgo"
 )

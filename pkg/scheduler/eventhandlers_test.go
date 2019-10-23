@@ -24,7 +24,7 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	fakecache "k8s.io/kubernetes/pkg/scheduler/internal/cache/fake"
+	fakecache "github.com/divinerapier/learn-kubernetes/pkg/scheduler/internal/cache/fake"
 )
 
 func TestSkipPodUpdate(t *testing.T) {

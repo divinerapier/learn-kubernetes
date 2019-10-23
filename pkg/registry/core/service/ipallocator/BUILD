@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["allocator.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/service/ipallocator",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/ipallocator",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/registry/core/service/allocator:go_default_library",

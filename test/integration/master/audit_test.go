@@ -40,9 +40,9 @@ import (
 	auditv1beta1 "k8s.io/apiserver/pkg/apis/audit/v1beta1"
 	"k8s.io/client-go/kubernetes"
 	clientset "k8s.io/client-go/kubernetes"
-	kubeapiservertesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	"k8s.io/kubernetes/test/integration/framework"
-	"k8s.io/kubernetes/test/utils"
+	kubeapiservertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/test/utils"
 
 	jsonpatch "github.com/evanphx/json-patch"
 )

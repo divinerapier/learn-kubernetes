@@ -18,8 +18,8 @@ package winuserspace
 
 import (
 	"k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/proxy"
-	proxyconfig "k8s.io/kubernetes/pkg/proxy/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy"
+	proxyconfig "github.com/divinerapier/learn-kubernetes/pkg/proxy/config"
 	"net"
 )
 

@@ -9,7 +9,7 @@ go_library(
         "kubecloudshared.go",
         "servicecontroller.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/controller-manager/app/options",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/controller-manager/app/options",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/client/leaderelectionconfig:go_default_library",

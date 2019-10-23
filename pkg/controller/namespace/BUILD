@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "namespace_controller.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/namespace",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/namespace",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/controller:go_default_library",

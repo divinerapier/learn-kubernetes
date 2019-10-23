@@ -7,7 +7,7 @@ go_library(
         "csi_objects.go",
         "in_tree.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/storage/drivers",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/storage/drivers",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

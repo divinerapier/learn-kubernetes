@@ -14,7 +14,7 @@ go_library(
         "pv_controller_base.go",
         "volume_host.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/volume/persistentvolume",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume",
     deps = [
         "//pkg/apis/core/v1/helper:go_default_library",
         "//pkg/controller:go_default_library",

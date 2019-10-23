@@ -23,12 +23,12 @@ import (
 
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/kubernetes/pkg/kubelet/checkpoint"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	"k8s.io/kubernetes/pkg/kubelet/configmap"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/secret"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/configmap"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/secret"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 // Manager stores and manages access to pods, maintaining the mappings

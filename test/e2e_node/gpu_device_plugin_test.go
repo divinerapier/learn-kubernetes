@@ -23,10 +23,10 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	kubeletmetrics "k8s.io/kubernetes/pkg/kubelet/metrics"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/framework/gpu"
-	"k8s.io/kubernetes/test/e2e/framework/metrics"
+	kubeletmetrics "github.com/divinerapier/learn-kubernetes/pkg/kubelet/metrics"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/gpu"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/metrics"
 
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"

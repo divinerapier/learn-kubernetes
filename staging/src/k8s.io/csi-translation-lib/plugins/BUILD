@@ -10,7 +10,7 @@ go_library(
         "in_tree_volume.go",
         "openstack_cinder.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/csi-translation-lib/plugins",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/csi-translation-lib/plugins",
     importpath = "k8s.io/csi-translation-lib/plugins",
     visibility = ["//visibility:public"],
     deps = [

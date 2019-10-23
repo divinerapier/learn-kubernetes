@@ -8,7 +8,7 @@ go_library(
         "flags.go",
         "kubelet.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/kubelet",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/kubelet",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",

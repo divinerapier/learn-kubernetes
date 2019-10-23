@@ -28,7 +28,7 @@ go_library(
         "error_channel.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/util",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/util",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/scheduler/apis/extender/v1:go_default_library",

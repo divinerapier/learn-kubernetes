@@ -8,7 +8,7 @@ go_library(
         "tokencleaner.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/bootstrap",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/bootstrap",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core:go_default_library",

@@ -29,8 +29,8 @@ import (
 	"github.com/spf13/pflag"
 
 	morereporters "github.com/onsi/ginkgo/reporters"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2econfig "k8s.io/kubernetes/test/e2e/framework/config"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2econfig "github.com/divinerapier/learn-kubernetes/test/e2e/framework/config"
 )
 
 func init() {

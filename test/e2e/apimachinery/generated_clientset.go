@@ -29,10 +29,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 
 	"github.com/onsi/ginkgo"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 func testingPod(name, value string) v1.Pod {

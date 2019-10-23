@@ -32,7 +32,7 @@ import (
 	"github.com/spf13/pflag"
 
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/credentialprovider"
+	"github.com/divinerapier/learn-kubernetes/pkg/credentialprovider"
 	"k8s.io/legacy-cloud-providers/azure/auth"
 	"sigs.k8s.io/yaml"
 )

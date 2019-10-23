@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["format.go"],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/lint/lintutil/format",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/lint/lintutil/format",
     importpath = "honnef.co/go/tools/lint/lintutil/format",
     visibility = ["//visibility:public"],
     deps = ["//vendor/honnef.co/go/tools/lint:go_default_library"],

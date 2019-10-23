@@ -20,8 +20,8 @@ import (
 	"context"
 
 	rbacv1 "k8s.io/api/rbac/v1"
-	"k8s.io/kubernetes/pkg/apis/rbac"
-	rbacv1helpers "k8s.io/kubernetes/pkg/apis/rbac/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/rbac"
+	rbacv1helpers "github.com/divinerapier/learn-kubernetes/pkg/apis/rbac/v1"
 )
 
 func ConfirmNoEscalationInternal(ctx context.Context, ruleResolver AuthorizationRuleResolver, inRules []rbac.PolicyRule) error {

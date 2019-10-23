@@ -33,12 +33,12 @@ import (
 	internalapi "k8s.io/cri-api/pkg/apis"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
 	"k8s.io/klog"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	"k8s.io/kubernetes/pkg/kubelet/cadvisor"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/kuberuntime"
-	"k8s.io/kubernetes/pkg/kubelet/server/stats"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cadvisor"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kuberuntime"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/stats"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 var (

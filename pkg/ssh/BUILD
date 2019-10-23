@@ -20,7 +20,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["ssh.go"],
-    importpath = "k8s.io/kubernetes/pkg/ssh",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/ssh",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/util/net:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/runtime:go_default_library",

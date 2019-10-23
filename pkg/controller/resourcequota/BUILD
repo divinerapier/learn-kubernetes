@@ -13,7 +13,7 @@ go_library(
         "resource_quota_controller.go",
         "resource_quota_monitor.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/resourcequota",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/resourcequota",
     deps = [
         "//pkg/controller:go_default_library",
         "//pkg/quota/v1:go_default_library",

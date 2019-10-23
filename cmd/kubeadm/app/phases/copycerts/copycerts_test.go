@@ -30,11 +30,11 @@ import (
 	fakeclient "k8s.io/client-go/kubernetes/fake"
 	certutil "k8s.io/client-go/util/cert"
 	keyutil "k8s.io/client-go/util/keyutil"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/certs"
-	cryptoutil "k8s.io/kubernetes/cmd/kubeadm/app/util/crypto"
-	testutil "k8s.io/kubernetes/cmd/kubeadm/test"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/certs"
+	cryptoutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/crypto"
+	testutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test"
 )
 
 func TestGetDataFromInitConfig(t *testing.T) {

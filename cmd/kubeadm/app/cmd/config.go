@@ -31,20 +31,20 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	clientset "k8s.io/client-go/kubernetes"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmscheme "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/scheme"
-	kubeadmapiv1beta2 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	phaseutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
-	"k8s.io/kubernetes/cmd/kubeadm/app/componentconfigs"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/features"
-	"k8s.io/kubernetes/cmd/kubeadm/app/images"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/uploadconfig"
-	configutil "k8s.io/kubernetes/cmd/kubeadm/app/util/config"
-	kubeconfigutil "k8s.io/kubernetes/cmd/kubeadm/app/util/kubeconfig"
-	utilruntime "k8s.io/kubernetes/cmd/kubeadm/app/util/runtime"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmscheme "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/scheme"
+	kubeadmapiv1beta2 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	phaseutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/componentconfigs"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/features"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/images"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/uploadconfig"
+	configutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/config"
+	kubeconfigutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/kubeconfig"
+	utilruntime "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/runtime"
 	utilsexec "k8s.io/utils/exec"
 )
 
@@ -97,7 +97,7 @@ func NewCmdConfigPrint(out io.Writer) *cobra.Command {
 		Short: "Print configuration",
 		Long: dedent.Dedent(`
 			This command prints configurations for subcommands provided.
-			For details, see: https://godoc.org/k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2`),
+			For details, see: https://godoc.org/github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2`),
 		RunE: cmdutil.SubCmdRunE("print"),
 	}
 	cmd.AddCommand(NewCmdConfigPrintInitDefaults(out))

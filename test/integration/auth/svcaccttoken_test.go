@@ -42,11 +42,11 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/keyutil"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	"k8s.io/kubernetes/pkg/apis/core"
-	serviceaccountgetter "k8s.io/kubernetes/pkg/controller/serviceaccount"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/serviceaccount"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	serviceaccountgetter "github.com/divinerapier/learn-kubernetes/pkg/controller/serviceaccount"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 const ecdsaPrivateKey = `-----BEGIN EC PRIVATE KEY-----

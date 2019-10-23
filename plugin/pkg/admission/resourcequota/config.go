@@ -23,9 +23,9 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
-	resourcequotaapi "k8s.io/kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota"
-	"k8s.io/kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/install"
-	resourcequotav1beta1 "k8s.io/kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/v1beta1"
+	resourcequotaapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota"
+	"github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/install"
+	resourcequotav1beta1 "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota/v1beta1"
 )
 
 var (

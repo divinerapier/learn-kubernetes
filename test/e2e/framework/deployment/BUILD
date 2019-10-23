@@ -9,7 +9,7 @@ go_library(
         "logging.go",
         "wait.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/deployment",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/deployment",
     deps = [
         "//pkg/controller/deployment/util:go_default_library",
         "//staging/src/k8s.io/api/apps/v1:go_default_library",

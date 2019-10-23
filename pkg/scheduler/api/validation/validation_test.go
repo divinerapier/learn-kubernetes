@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/scheduler/api"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
 )
 
 func TestValidatePolicy(t *testing.T) {

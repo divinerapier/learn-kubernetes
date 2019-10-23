@@ -15,8 +15,8 @@
 		{
 			"SelectorRegexp": "k8s[.]io/kubernetes",
 			"AllowedPrefixes": [
-				"k8s.io/kubernetes/pkg/cloudprovider/providers",
-				"k8s.io/kubernetes/pkg/util/mount"
+				"github.com/divinerapier/learn-kubernetes/pkg/cloudprovider/providers",
+				"github.com/divinerapier/learn-kubernetes/pkg/util/mount"
 			],
 			"ForbiddenPrefixes": []
 		}

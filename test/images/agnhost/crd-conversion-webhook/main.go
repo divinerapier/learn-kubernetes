@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/test/images/agnhost/crd-conversion-webhook/converter"
+	"github.com/divinerapier/learn-kubernetes/test/images/agnhost/crd-conversion-webhook/converter"
 )
 
 var (

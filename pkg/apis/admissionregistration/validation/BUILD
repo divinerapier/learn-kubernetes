@@ -20,7 +20,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["validation.go"],
-    importpath = "k8s.io/kubernetes/pkg/apis/admissionregistration/validation",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/admissionregistration/validation",
     deps = [
         "//pkg/apis/admissionregistration:go_default_library",
         "//pkg/apis/admissionregistration/v1:go_default_library",

@@ -39,9 +39,9 @@ import (
 	"k8s.io/apiserver/pkg/storage/storagebackend"
 	"k8s.io/apiserver/pkg/storage/value"
 	"k8s.io/client-go/kubernetes"
-	kubeapiservertesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	"k8s.io/kubernetes/test/integration"
-	"k8s.io/kubernetes/test/integration/framework"
+	kubeapiservertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	"github.com/divinerapier/learn-kubernetes/test/integration"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 const (

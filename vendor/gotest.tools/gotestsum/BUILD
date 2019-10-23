@@ -8,7 +8,7 @@ go_library(
         "handler.go",
         "main.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gotest.tools/gotestsum",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gotest.tools/gotestsum",
     importpath = "gotest.tools/gotestsum",
     visibility = ["//visibility:private"],
     deps = [

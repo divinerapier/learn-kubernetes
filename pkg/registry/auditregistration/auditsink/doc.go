@@ -14,4 +14,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package auditsink // import "k8s.io/kubernetes/pkg/registry/auditregistration/auditsink"
+package auditsink // import "github.com/divinerapier/learn-kubernetes/pkg/registry/auditregistration/auditsink"

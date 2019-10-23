@@ -22,9 +22,9 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 	csitrans "k8s.io/csi-translation-lib"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/util/hostutil"
-	volumetypes "k8s.io/kubernetes/pkg/volume/util/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/hostutil"
+	volumetypes "github.com/divinerapier/learn-kubernetes/pkg/volume/util/types"
 )
 
 // fakeOGCounter is a simple OperationGenerator which counts number of times a function

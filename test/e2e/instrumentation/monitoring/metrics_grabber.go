@@ -21,10 +21,10 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/framework/metrics"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	instrumentation "k8s.io/kubernetes/test/e2e/instrumentation/common"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/metrics"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	instrumentation "github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/common"
 
 	gin "github.com/onsi/ginkgo"
 	gom "github.com/onsi/gomega"

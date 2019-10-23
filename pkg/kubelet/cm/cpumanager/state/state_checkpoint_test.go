@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	testutil "k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/state/testing"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	testutil "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/state/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
 )
 
 const testingCheckpoint = "cpumanager_checkpoint_test"

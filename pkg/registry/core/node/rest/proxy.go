@@ -27,10 +27,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/proxy"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
 	"k8s.io/apiserver/pkg/registry/rest"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/capabilities"
-	"k8s.io/kubernetes/pkg/kubelet/client"
-	"k8s.io/kubernetes/pkg/registry/core/node"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/capabilities"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/client"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/node"
 )
 
 // ProxyREST implements the proxy subresource for a Node

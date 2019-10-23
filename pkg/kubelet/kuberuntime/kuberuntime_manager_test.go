@@ -36,11 +36,11 @@ import (
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
 	apitest "k8s.io/cri-api/pkg/apis/testing"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/credentialprovider"
-	"k8s.io/kubernetes/pkg/features"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/credentialprovider"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	containertest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container/testing"
 )
 
 var (

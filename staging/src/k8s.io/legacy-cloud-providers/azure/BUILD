@@ -36,7 +36,7 @@ go_library(
         "azure_zones.go",
         "doc.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/legacy-cloud-providers/azure",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/legacy-cloud-providers/azure",
     importpath = "k8s.io/legacy-cloud-providers/azure",
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

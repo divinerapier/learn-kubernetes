@@ -6,7 +6,7 @@ go_library(
         "ecs_container.go",
         "shared_config.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/aws/aws-sdk-go/internal/shareddefaults",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/aws/aws-sdk-go/internal/shareddefaults",
     importpath = "github.com/aws/aws-sdk-go/internal/shareddefaults",
     visibility = ["//vendor/github.com/aws/aws-sdk-go:__subpackages__"],
 )

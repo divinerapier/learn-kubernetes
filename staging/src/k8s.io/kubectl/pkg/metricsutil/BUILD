@@ -6,7 +6,7 @@ go_library(
         "metrics_client.go",
         "metrics_printer.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kubectl/pkg/metricsutil",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kubectl/pkg/metricsutil",
     importpath = "k8s.io/kubectl/pkg/metricsutil",
     visibility = ["//visibility:public"],
     deps = [

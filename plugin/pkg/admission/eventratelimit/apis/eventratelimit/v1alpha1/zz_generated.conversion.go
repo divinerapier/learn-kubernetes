@@ -25,7 +25,7 @@ import (
 
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	eventratelimit "k8s.io/kubernetes/plugin/pkg/admission/eventratelimit/apis/eventratelimit"
+	eventratelimit "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/eventratelimit/apis/eventratelimit"
 )
 
 func init() {

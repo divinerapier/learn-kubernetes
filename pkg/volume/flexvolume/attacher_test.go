@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/test/utils/harness"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/test/utils/harness"
 )
 
 func TestAttach(tt *testing.T) {

@@ -7,7 +7,7 @@ go_library(
         "fs_unsupported.go",
         "fs_windows.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/util/fs",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/util/fs",
     visibility = ["//visibility:public"],
     deps = select({
         "@io_bazel_rules_go//go/platform:android": [

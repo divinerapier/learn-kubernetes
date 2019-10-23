@@ -27,9 +27,9 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
-	"k8s.io/kubernetes/pkg/volume/util/hostutil"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumetest "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/hostutil"
 	utilpath "k8s.io/utils/path"
 )
 

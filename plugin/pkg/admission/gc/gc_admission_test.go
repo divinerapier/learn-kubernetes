@@ -34,8 +34,8 @@ import (
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/restmapper"
 	coretesting "k8s.io/client-go/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	kubeadmission "k8s.io/kubernetes/pkg/kubeapiserver/admission"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	kubeadmission "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/admission"
 )
 
 type fakeAuthorizer struct{}

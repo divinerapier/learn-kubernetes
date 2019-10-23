@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	v1 "k8s.io/api/core/v1"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeadmutil "k8s.io/kubernetes/cmd/kubeadm/app/util"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeadmutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util"
 )
 
 const (

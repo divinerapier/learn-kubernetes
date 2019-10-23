@@ -19,8 +19,8 @@ package sysctl
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/lifecycle"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/lifecycle"
 )
 
 const (

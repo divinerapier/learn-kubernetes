@@ -14,7 +14,7 @@ go_library(
         "ubernetes_lite.go",
         "ubernetes_lite_volumes.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/scheduling",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/scheduling",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core/v1/helper/qos:go_default_library",

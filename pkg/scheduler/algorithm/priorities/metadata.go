@@ -22,7 +22,7 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	appslisters "k8s.io/client-go/listers/apps/v1"
 	corelisters "k8s.io/client-go/listers/core/v1"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 // PriorityMetadataFactory is a factory to produce PriorityMetadata.

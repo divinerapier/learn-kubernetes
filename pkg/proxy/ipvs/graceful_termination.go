@@ -24,7 +24,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog"
-	utilipvs "k8s.io/kubernetes/pkg/util/ipvs"
+	utilipvs "github.com/divinerapier/learn-kubernetes/pkg/util/ipvs"
 )
 
 const (

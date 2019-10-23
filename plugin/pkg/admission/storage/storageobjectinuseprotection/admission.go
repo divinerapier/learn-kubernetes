@@ -24,9 +24,9 @@ import (
 
 	"k8s.io/apiserver/pkg/admission"
 	"k8s.io/apiserver/pkg/util/feature"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/features"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	volumeutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 const (

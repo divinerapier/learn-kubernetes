@@ -19,8 +19,8 @@ package kubeadm
 import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubeproxyconfig "k8s.io/kubernetes/pkg/proxy/apis/config"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubeproxyconfig "github.com/divinerapier/learn-kubernetes/pkg/proxy/apis/config"
 )
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object

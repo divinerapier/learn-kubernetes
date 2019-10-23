@@ -5,7 +5,7 @@ licenses(["notice"])
 go_library(
     name = "go_default_library",
     srcs = ["srcimporter.go"],
-    importpath = "k8s.io/kubernetes/third_party/go-srcimporter",
+    importpath = "github.com/divinerapier/learn-kubernetes/third_party/go-srcimporter",
     visibility = ["//visibility:public"],
 )
 

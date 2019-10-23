@@ -50,7 +50,7 @@ go_library(
         "virtual_machine.go",
         "vstorage_object_manager.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/vmware/govmomi/simulator",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/vmware/govmomi/simulator",
     importpath = "github.com/vmware/govmomi/simulator",
     visibility = ["//visibility:public"],
     deps = [

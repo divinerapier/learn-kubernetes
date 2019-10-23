@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["wrapper.go"],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/ginkgowrapper",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ginkgowrapper",
     deps = ["//vendor/github.com/onsi/ginkgo:go_default_library"],
 )
 

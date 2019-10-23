@@ -23,9 +23,9 @@ import (
 	"k8s.io/klog"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager/checksum"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager/checksum"
 )
 
 const (

@@ -11,7 +11,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/endpoint",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/endpoint",
     deps = [
         "//pkg/api/endpoints:go_default_library",
         "//pkg/api/legacyscheme:go_default_library",

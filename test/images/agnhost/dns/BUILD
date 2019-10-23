@@ -12,7 +12,7 @@ go_library(
         "dns.go",
         "dns_windows.go",
     ],
-    importpath = "k8s.io/kubernetes/test/images/agnhost/dns",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/agnhost/dns",
     deps = [
         "//vendor/github.com/spf13/cobra:go_default_library",
     ],

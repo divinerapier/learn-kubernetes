@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/storage/storageclass",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/storage/storageclass",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/storage:go_default_library",

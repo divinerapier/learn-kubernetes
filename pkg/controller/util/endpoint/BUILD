@@ -6,7 +6,7 @@ go_library(
         "controller_utils.go",
         "trigger_time_tracker.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/util/endpoint",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/util/endpoint",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/v1/pod:go_default_library",

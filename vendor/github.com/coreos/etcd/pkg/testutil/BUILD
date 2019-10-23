@@ -10,7 +10,7 @@ go_library(
         "testutil.go",
         "var.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/pkg/testutil",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/pkg/testutil",
     importpath = "github.com/coreos/etcd/pkg/testutil",
     visibility = ["//visibility:public"],
 )

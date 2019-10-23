@@ -30,7 +30,7 @@ import (
 	"k8s.io/apiserver/pkg/server/egressselector"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/transport"
-	nodeutil "k8s.io/kubernetes/pkg/util/node"
+	nodeutil "github.com/divinerapier/learn-kubernetes/pkg/util/node"
 )
 
 // KubeletClientConfig defines config parameters for the kubelet client

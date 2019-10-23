@@ -28,10 +28,10 @@ import (
 	"github.com/stretchr/testify/require"
 
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network"
-	"k8s.io/kubernetes/pkg/kubelet/types"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 // A helper to create a basic config.

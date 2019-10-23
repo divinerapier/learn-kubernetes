@@ -28,13 +28,13 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/pkg/controller/replicaset"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	replicasetutil "k8s.io/kubernetes/test/e2e/framework/replicaset"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/replicaset"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	replicasetutil "github.com/divinerapier/learn-kubernetes/test/e2e/framework/replicaset"
 
 	"github.com/onsi/ginkgo"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 func newRS(rsName string, replicas int32, rsPodLabels map[string]string, imageName string, image string, args []string) *appsv1.ReplicaSet {

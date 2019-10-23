@@ -8,7 +8,7 @@ go_library(
         "rest.go",
         "wait.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/statefulset",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/statefulset",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/v1/pod:go_default_library",

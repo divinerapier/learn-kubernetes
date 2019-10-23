@@ -6,7 +6,7 @@ go_library(
         "factory.go",
         "resource.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/resource",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/resource",
     importpath = "sigs.k8s.io/kustomize/pkg/resource",
     visibility = ["//visibility:public"],
     deps = [

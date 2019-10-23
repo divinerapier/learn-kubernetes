@@ -6,7 +6,7 @@ go_library(
         "rounding.go",
         "zones.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/cloud-provider/volume/helpers",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/cloud-provider/volume/helpers",
     importpath = "k8s.io/cloud-provider/volume/helpers",
     visibility = ["//visibility:public"],
     deps = [

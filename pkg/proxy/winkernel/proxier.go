@@ -41,13 +41,13 @@ import (
 	genericfeatures "k8s.io/apiserver/pkg/features"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/client-go/tools/record"
-	apiservice "k8s.io/kubernetes/pkg/api/v1/service"
-	"k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	"k8s.io/kubernetes/pkg/proxy"
-	"k8s.io/kubernetes/pkg/proxy/apis/config"
-	proxyconfig "k8s.io/kubernetes/pkg/proxy/config"
-	"k8s.io/kubernetes/pkg/proxy/healthcheck"
-	"k8s.io/kubernetes/pkg/util/async"
+	apiservice "github.com/divinerapier/learn-kubernetes/pkg/api/v1/service"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy/apis/config"
+	proxyconfig "github.com/divinerapier/learn-kubernetes/pkg/proxy/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy/healthcheck"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/async"
 )
 
 // KernelCompatTester tests whether the required kernel capabilities are

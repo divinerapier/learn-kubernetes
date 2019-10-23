@@ -19,7 +19,7 @@ package v1
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
 )
 
 // SchemeGroupVersion is group version used to register these objects
@@ -35,7 +35,7 @@ func init() {
 
 var (
 	// TODO: move SchemeBuilder with zz_generated.deepcopy.go to k8s.io/api.
-	// localSchemeBuilder and AddToScheme will stay in k8s.io/kubernetes.
+	// localSchemeBuilder and AddToScheme will stay in github.com/divinerapier/learn-kubernetes.
 
 	// SchemeBuilder is a v1 api scheme builder.
 	SchemeBuilder      runtime.SchemeBuilder

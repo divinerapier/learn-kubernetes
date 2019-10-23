@@ -6,7 +6,7 @@ go_library(
         "config.go",
         "constants.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/bazelbuild/bazel-gazelle/internal/config",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/bazelbuild/bazel-gazelle/internal/config",
     importpath = "github.com/bazelbuild/bazel-gazelle/internal/config",
     visibility = ["//vendor/github.com/bazelbuild/bazel-gazelle:__subpackages__"],
     deps = [

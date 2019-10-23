@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["install.go"],
-    importmap = "k8s.io/kubernetes/vendor/github.com/google/cadvisor/container/docker/install",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/google/cadvisor/container/docker/install",
     importpath = "github.com/google/cadvisor/container/docker/install",
     visibility = ["//visibility:public"],
     deps = [

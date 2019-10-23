@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["harness.go"],
-    importpath = "k8s.io/kubernetes/test/utils/harness",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/utils/harness",
     visibility = ["//visibility:public"],
     deps = ["//vendor/k8s.io/klog:go_default_library"],
 )

@@ -23,7 +23,7 @@ import (
 	coreinformers "k8s.io/client-go/informers/core/v1"
 	storageinformers "k8s.io/client-go/informers/storage/v1"
 	clientset "k8s.io/client-go/kubernetes"
-	volumescheduling "k8s.io/kubernetes/pkg/controller/volume/scheduling"
+	volumescheduling "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/scheduling"
 )
 
 // VolumeBinder sets up the volume binding library

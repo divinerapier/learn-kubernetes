@@ -22,8 +22,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/perftype"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/perftype"
 	"sync"
 )
 

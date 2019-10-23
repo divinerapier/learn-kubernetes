@@ -7,7 +7,7 @@ go_library(
         "if.go",
         "types.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/vmware/govmomi/pbm/types",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/vmware/govmomi/pbm/types",
     importpath = "github.com/vmware/govmomi/pbm/types",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/vmware/govmomi/vim25/types:go_default_library"],

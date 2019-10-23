@@ -74,11 +74,11 @@ func ToRESTFriendlyName(name string) string {
 //     group/version.kind
 //
 // Examples of canonical name:
-//     Go type: k8s.io/kubernetes/pkg/apis/core.Pod
+//     Go type: github.com/divinerapier/learn-kubernetes/pkg/apis/core.Pod
 //     CRD:     csi.storage.k8s.io/v1alpha1.CSINodeInfo
 //
 // Example for vendored Go type:
-//     Original full path:  k8s.io/kubernetes/vendor/k8s.io/api/core/v1.Pod
+//     Original full path:  github.com/divinerapier/learn-kubernetes/vendor/k8s.io/api/core/v1.Pod
 //     Canonical name:      k8s.io/api/core/v1.Pod
 type OpenAPICanonicalTypeNamer interface {
 	OpenAPICanonicalTypeName() string

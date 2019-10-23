@@ -29,8 +29,8 @@ import (
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"
 	"k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/controller"
-	endpointutil "k8s.io/kubernetes/pkg/controller/util/endpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	endpointutil "github.com/divinerapier/learn-kubernetes/pkg/controller/util/endpoint"
 	utilpointer "k8s.io/utils/pointer"
 )
 

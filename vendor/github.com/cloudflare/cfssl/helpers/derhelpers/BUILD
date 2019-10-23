@@ -6,7 +6,7 @@ go_library(
         "derhelpers.go",
         "ed25519.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/cloudflare/cfssl/helpers/derhelpers",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/cloudflare/cfssl/helpers/derhelpers",
     importpath = "github.com/cloudflare/cfssl/helpers/derhelpers",
     visibility = ["//visibility:public"],
     deps = [

@@ -11,7 +11,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["expand.go"],
-    importpath = "k8s.io/kubernetes/third_party/forked/golang/expansion",
+    importpath = "github.com/divinerapier/learn-kubernetes/third_party/forked/golang/expansion",
 )
 
 go_test(

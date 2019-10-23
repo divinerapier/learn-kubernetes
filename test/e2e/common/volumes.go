@@ -45,8 +45,8 @@ package common
 import (
 	"k8s.io/api/core/v1"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/framework/volume"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/volume"
 
 	"github.com/onsi/ginkgo"
 )

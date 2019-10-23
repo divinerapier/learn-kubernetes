@@ -12,7 +12,7 @@ go_library(
         "mirror_client.go",
         "pod_manager.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/pod",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pod",
     deps = [
         "//pkg/kubelet/checkpoint:go_default_library",
         "//pkg/kubelet/checkpointmanager:go_default_library",

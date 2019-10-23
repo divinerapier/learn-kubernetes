@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["http.go"],
-    importmap = "k8s.io/kubernetes/vendor/google.golang.org/api/transport/http/internal/propagation",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/google.golang.org/api/transport/http/internal/propagation",
     importpath = "google.golang.org/api/transport/http/internal/propagation",
     visibility = ["//vendor/google.golang.org/api/transport/http:__subpackages__"],
     deps = [

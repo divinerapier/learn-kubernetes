@@ -9,7 +9,7 @@ go_library(
         "recreate_node.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/providers/gce",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/gce",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

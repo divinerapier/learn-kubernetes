@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["buildssa.go"],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/internal/passes/buildssa",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/internal/passes/buildssa",
     importpath = "honnef.co/go/tools/internal/passes/buildssa",
     visibility = ["//vendor/honnef.co/go/tools:__subpackages__"],
     deps = [

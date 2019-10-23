@@ -14,7 +14,7 @@ go_library(
         "legacy.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/serviceaccount",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/serviceaccount",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

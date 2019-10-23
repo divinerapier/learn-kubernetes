@@ -21,9 +21,9 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	v1helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 // CalculateNodePreferAvoidPodsPriorityMap priorities nodes according to the node annotation

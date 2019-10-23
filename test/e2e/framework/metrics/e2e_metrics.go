@@ -24,7 +24,7 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
 )
 
 const (

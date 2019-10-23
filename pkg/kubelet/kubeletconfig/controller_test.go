@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	apiv1 "k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint/store"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/status"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/checkpoint/store"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/status"
 )
 
 func TestGraduateAssignedToLastKnownGood(t *testing.T) {

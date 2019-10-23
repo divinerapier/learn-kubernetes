@@ -23,10 +23,10 @@ import (
 	"github.com/pkg/errors"
 	clientset "k8s.io/client-go/kubernetes"
 	certutil "k8s.io/client-go/util/cert"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	certsphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/certs"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	certsphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/certs"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
 )
 
 // Manager can be used to coordinate certificate renewal and related processes,

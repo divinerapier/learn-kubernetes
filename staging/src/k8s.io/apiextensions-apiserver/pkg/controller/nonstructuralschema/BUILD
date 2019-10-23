@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["nonstructuralschema_controller.go"],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiextensions-apiserver/pkg/controller/nonstructuralschema",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiextensions-apiserver/pkg/controller/nonstructuralschema",
     importpath = "k8s.io/apiextensions-apiserver/pkg/controller/nonstructuralschema",
     visibility = ["//visibility:public"],
     deps = [

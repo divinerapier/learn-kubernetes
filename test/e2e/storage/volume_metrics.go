@@ -29,13 +29,13 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	kubeletmetrics "k8s.io/kubernetes/pkg/kubelet/metrics"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/framework/metrics"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
-	"k8s.io/kubernetes/test/e2e/storage/testsuites"
-	"k8s.io/kubernetes/test/e2e/storage/utils"
+	kubeletmetrics "github.com/divinerapier/learn-kubernetes/pkg/kubelet/metrics"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/metrics"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/testsuites"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils"
 )
 
 // This test needs to run in serial because other tests could interfere

@@ -9,7 +9,7 @@ go_library(
         "evaluator.go",
         "registry.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/quota/v1/generic",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/quota/v1/generic",
     deps = [
         "//pkg/quota/v1:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

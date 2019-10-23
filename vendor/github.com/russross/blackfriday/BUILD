@@ -11,7 +11,7 @@ go_library(
         "markdown.go",
         "smartypants.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/russross/blackfriday",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/russross/blackfriday",
     importpath = "github.com/russross/blackfriday",
     visibility = ["//visibility:public"],
 )

@@ -22,7 +22,7 @@ go_library(
         "migrator.go",
         "versions.go",
     ],
-    importpath = "k8s.io/kubernetes/cluster/images/etcd/migrate",
+    importpath = "github.com/divinerapier/learn-kubernetes/cluster/images/etcd/migrate",
     deps = [
         "//vendor/github.com/blang/semver:go_default_library",
         "//vendor/github.com/coreos/etcd/client:go_default_library",

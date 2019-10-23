@@ -34,7 +34,7 @@ go_library(
         "manifests.go",
         "proxy.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/addons/proxy",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/addons/proxy",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",
         "//cmd/kubeadm/app/componentconfigs:go_default_library",

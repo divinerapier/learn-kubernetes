@@ -13,7 +13,7 @@ go_library(
         "validation_others.go",
         "validation_windows.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/apis/config/validation",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config/validation",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/kubelet/apis/config:go_default_library",

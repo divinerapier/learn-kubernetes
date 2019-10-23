@@ -20,7 +20,7 @@ package upgrades
 
 import (
 	"k8s.io/apimachinery/pkg/util/version"
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 )
 
 // UpgradeType represents different types of upgrades.

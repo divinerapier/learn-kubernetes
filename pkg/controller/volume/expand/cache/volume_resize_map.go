@@ -28,8 +28,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/strategicpatch"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/volume/util"
-	"k8s.io/kubernetes/pkg/volume/util/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/types"
 )
 
 // VolumeResizeMap defines an interface that serves as a cache for holding pending resizing requests

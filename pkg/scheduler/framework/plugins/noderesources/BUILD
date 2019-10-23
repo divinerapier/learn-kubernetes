@@ -9,7 +9,7 @@ go_library(
         "most_allocated.go",
         "test_util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/framework/plugins/noderesources",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/plugins/noderesources",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/scheduler/algorithm/predicates:go_default_library",

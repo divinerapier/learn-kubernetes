@@ -7,7 +7,7 @@ go_library(
         "colorable_windows.go",
         "noncolorable.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/mattn/go-colorable",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/mattn/go-colorable",
     importpath = "github.com/mattn/go-colorable",
     visibility = ["//visibility:public"],
     deps = select({

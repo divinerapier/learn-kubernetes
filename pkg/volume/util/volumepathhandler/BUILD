@@ -7,7 +7,7 @@ go_library(
         "volume_path_handler_linux.go",
         "volume_path_handler_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/util/volumepathhandler",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/util/volumepathhandler",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/types:go_default_library",

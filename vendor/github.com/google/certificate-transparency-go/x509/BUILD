@@ -52,7 +52,7 @@ go_library(
         ],
         "//conditions:default": [],
     }),
-    importmap = "k8s.io/kubernetes/vendor/github.com/google/certificate-transparency-go/x509",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/google/certificate-transparency-go/x509",
     importpath = "github.com/google/certificate-transparency-go/x509",
     visibility = ["//visibility:public"],
     deps = [

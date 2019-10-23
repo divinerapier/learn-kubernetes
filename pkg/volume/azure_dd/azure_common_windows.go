@@ -27,7 +27,7 @@ import (
 
 	"k8s.io/klog"
 
-	"k8s.io/kubernetes/pkg/util/mount"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/mount"
 )
 
 func scsiHostRescan(io ioHandler, exec mount.Exec) {

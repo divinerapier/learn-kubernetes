@@ -18,7 +18,7 @@ go_library(
         "states.go",
         "utilities.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Azure/go-ansiterm",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Azure/go-ansiterm",
     importpath = "github.com/Azure/go-ansiterm",
     visibility = ["//visibility:public"],
 )

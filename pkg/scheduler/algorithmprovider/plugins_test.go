@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/scheduler"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler"
 )
 
 var (

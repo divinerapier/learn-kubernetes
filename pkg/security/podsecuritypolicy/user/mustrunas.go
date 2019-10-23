@@ -21,8 +21,8 @@ import (
 
 	policy "k8s.io/api/policy/v1beta1"
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	psputil "k8s.io/kubernetes/pkg/security/podsecuritypolicy/util"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	psputil "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/util"
 )
 
 // mustRunAs implements the RunAsUserStrategy interface

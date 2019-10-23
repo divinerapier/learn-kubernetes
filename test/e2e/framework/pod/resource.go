@@ -33,12 +33,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/client/conditions"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
-	testutils "k8s.io/kubernetes/test/utils"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/client/conditions"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 // TODO: Move to its own subpkg.

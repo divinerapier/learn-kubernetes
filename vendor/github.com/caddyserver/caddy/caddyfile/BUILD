@@ -8,7 +8,7 @@ go_library(
         "lexer.go",
         "parse.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/caddyserver/caddy/caddyfile",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/caddyserver/caddy/caddyfile",
     importpath = "github.com/caddyserver/caddy/caddyfile",
     visibility = ["//visibility:public"],
 )

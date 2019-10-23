@@ -6,7 +6,7 @@ go_library(
         "deprecatedimage.go",
         "image.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/image",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/image",
     importpath = "sigs.k8s.io/kustomize/pkg/image",
     visibility = ["//visibility:public"],
 )

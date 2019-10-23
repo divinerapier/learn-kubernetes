@@ -14,7 +14,7 @@ go_library(
         "sum_s390x.s",
         "sum_vmsl_s390x.s",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/crypto/poly1305",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/crypto/poly1305",
     importpath = "golang.org/x/crypto/poly1305",
     visibility = ["//visibility:public"],
 )

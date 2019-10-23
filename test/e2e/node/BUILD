@@ -19,7 +19,7 @@ go_library(
         "ssh.go",
         "ttlafterfinished.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/node",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/node",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/apis/stats/v1alpha1:go_default_library",

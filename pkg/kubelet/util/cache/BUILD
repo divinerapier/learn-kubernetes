@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["object_cache.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/util/cache",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/cache",
     deps = ["//staging/src/k8s.io/client-go/tools/cache:go_default_library"],
 )
 

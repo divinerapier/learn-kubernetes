@@ -8,7 +8,7 @@ go_library(
         "subpath_unsupported.go",
         "subpath_windows.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/util/subpath",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/util/subpath",
     visibility = ["//visibility:public"],
     deps = select({
         "@io_bazel_rules_go//go/platform:android": [

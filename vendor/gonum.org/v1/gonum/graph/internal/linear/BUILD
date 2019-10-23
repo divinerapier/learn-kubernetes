@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "linear.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/internal/linear",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/internal/linear",
     importpath = "gonum.org/v1/gonum/graph/internal/linear",
     visibility = ["//vendor/gonum.org/v1/gonum/graph:__subpackages__"],
     deps = ["//vendor/gonum.org/v1/gonum/graph:go_default_library"],

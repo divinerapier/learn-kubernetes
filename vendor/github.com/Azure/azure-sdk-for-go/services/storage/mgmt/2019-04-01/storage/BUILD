@@ -16,7 +16,7 @@ go_library(
         "usages.go",
         "version.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Azure/azure-sdk-for-go/services/storage/mgmt/2019-04-01/storage",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Azure/azure-sdk-for-go/services/storage/mgmt/2019-04-01/storage",
     importpath = "github.com/Azure/azure-sdk-for-go/services/storage/mgmt/2019-04-01/storage",
     visibility = ["//visibility:public"],
     deps = [

@@ -8,7 +8,7 @@ go_library(
         "equals.go",
         "schemaschema.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/structured-merge-diff/schema",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/structured-merge-diff/schema",
     importpath = "sigs.k8s.io/structured-merge-diff/schema",
     visibility = ["//visibility:public"],
 )

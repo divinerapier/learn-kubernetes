@@ -33,9 +33,9 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/component-base/metrics/prometheus/ratelimiter"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/controller/volume/protectionutil"
-	"k8s.io/kubernetes/pkg/util/slice"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/protectionutil"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/slice"
+	volumeutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 // Controller is controller that removes PVCProtectionFinalizer

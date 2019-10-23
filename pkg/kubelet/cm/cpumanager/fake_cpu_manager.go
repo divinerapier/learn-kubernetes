@@ -19,9 +19,9 @@ package cpumanager
 import (
 	"k8s.io/api/core/v1"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/state"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager"
-	"k8s.io/kubernetes/pkg/kubelet/status"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/state"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/status"
 )
 
 type fakeManager struct {

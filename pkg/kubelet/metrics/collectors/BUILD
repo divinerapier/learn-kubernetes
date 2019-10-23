@@ -6,7 +6,7 @@ go_library(
         "log_metrics.go",
         "volume_stats.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/metrics/collectors",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/metrics/collectors",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/apis/stats/v1alpha1:go_default_library",

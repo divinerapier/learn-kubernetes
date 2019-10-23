@@ -21,7 +21,7 @@ import (
 	"crypto/x509"
 
 	certutil "k8s.io/client-go/util/cert"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
 )
 
 // FileRenewer define a certificate renewer implementation that uses given CA cert and key for generating new certficiates

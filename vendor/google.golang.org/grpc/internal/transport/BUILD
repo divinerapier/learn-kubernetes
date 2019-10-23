@@ -14,7 +14,7 @@ go_library(
         "log.go",
         "transport.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/google.golang.org/grpc/internal/transport",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/google.golang.org/grpc/internal/transport",
     importpath = "google.golang.org/grpc/internal/transport",
     visibility = ["//vendor/google.golang.org/grpc:__subpackages__"],
     deps = [

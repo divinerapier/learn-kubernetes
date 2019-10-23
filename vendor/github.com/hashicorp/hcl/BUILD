@@ -8,7 +8,7 @@ go_library(
         "lex.go",
         "parse.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/hashicorp/hcl",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/hashicorp/hcl",
     importpath = "github.com/hashicorp/hcl",
     visibility = ["//visibility:public"],
     deps = [

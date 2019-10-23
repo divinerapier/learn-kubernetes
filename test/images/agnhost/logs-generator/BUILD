@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["logs_generator.go"],
-    importpath = "k8s.io/kubernetes/test/images/agnhost/logs-generator",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/agnhost/logs-generator",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/util/rand:go_default_library",
         "//vendor/github.com/spf13/cobra:go_default_library",

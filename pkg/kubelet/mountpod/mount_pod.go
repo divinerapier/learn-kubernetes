@@ -24,8 +24,8 @@ import (
 	"path"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/kubelet/config"
-	kubepod "k8s.io/kubernetes/pkg/kubelet/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/config"
+	kubepod "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pod"
 	utilstrings "k8s.io/utils/strings"
 )
 

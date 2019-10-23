@@ -36,8 +36,8 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/kubernetes/test/e2e_node/remote"
-	"k8s.io/kubernetes/test/e2e_node/system"
+	"github.com/divinerapier/learn-kubernetes/test/e2e_node/remote"
+	"github.com/divinerapier/learn-kubernetes/test/e2e_node/system"
 
 	"github.com/pborman/uuid"
 	"golang.org/x/oauth2/google"

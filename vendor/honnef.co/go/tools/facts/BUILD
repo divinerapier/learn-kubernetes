@@ -8,7 +8,7 @@ go_library(
         "purity.go",
         "token.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/facts",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/facts",
     importpath = "honnef.co/go/tools/facts",
     visibility = ["//visibility:public"],
     deps = [

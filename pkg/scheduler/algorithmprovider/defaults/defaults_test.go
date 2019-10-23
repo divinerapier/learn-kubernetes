@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/predicates"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/priorities"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/predicates"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities"
 )
 
 func TestCopyAndReplace(t *testing.T) {

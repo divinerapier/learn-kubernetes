@@ -31,7 +31,7 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	corelisters "k8s.io/client-go/listers/core/v1"
 	k8stesting "k8s.io/client-go/testing"
-	"k8s.io/kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 	utilpointer "k8s.io/utils/pointer"
 )
 

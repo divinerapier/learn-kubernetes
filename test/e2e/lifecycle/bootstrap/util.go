@@ -28,7 +28,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
 	bootstrapapi "k8s.io/cluster-bootstrap/token/api"
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 )
 
 func newTokenSecret(tokenID, tokenSecret string) *v1.Secret {

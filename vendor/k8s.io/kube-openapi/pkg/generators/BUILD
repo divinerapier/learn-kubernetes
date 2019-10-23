@@ -9,7 +9,7 @@ go_library(
         "openapi.go",
         "union.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kube-openapi/pkg/generators",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kube-openapi/pkg/generators",
     importpath = "k8s.io/kube-openapi/pkg/generators",
     visibility = ["//visibility:public"],
     deps = [

@@ -12,7 +12,7 @@ go_library(
         "weighted_directed.go",
         "weighted_undirected.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/simple",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/simple",
     importpath = "gonum.org/v1/gonum/graph/simple",
     visibility = ["//visibility:public"],
     deps = [

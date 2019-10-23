@@ -36,7 +36,7 @@ go_library(
         "wrappers.go",
         "wrappers_gogo.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/gogo/protobuf/proto",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/gogo/protobuf/proto",
     importpath = "github.com/gogo/protobuf/proto",
     visibility = ["//visibility:public"],
 )

@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["ebtables.go"],
-    importpath = "k8s.io/kubernetes/pkg/util/ebtables",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/ebtables",
     deps = ["//vendor/k8s.io/utils/exec:go_default_library"],
 )
 

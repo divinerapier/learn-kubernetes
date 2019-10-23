@@ -37,7 +37,7 @@ import (
 	bootstrapapi "k8s.io/cluster-bootstrap/token/api"
 	jws "k8s.io/cluster-bootstrap/token/jws"
 	"k8s.io/component-base/metrics/prometheus/ratelimiter"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 // SignerOptions contains options for the Signer

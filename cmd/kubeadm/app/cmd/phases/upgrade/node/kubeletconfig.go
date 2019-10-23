@@ -24,13 +24,13 @@ import (
 	"github.com/pkg/errors"
 
 	"k8s.io/apimachinery/pkg/util/version"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeletphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/kubelet"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/upgrade"
-	dryrunutil "k8s.io/kubernetes/cmd/kubeadm/app/util/dryrun"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeletphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/kubelet"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/upgrade"
+	dryrunutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/dryrun"
 )
 
 var (

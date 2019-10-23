@@ -21,8 +21,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/scheme"
-	"k8s.io/kubernetes/cmd/kubeadm/app/componentconfigs"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/scheme"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/componentconfigs"
 	"sigs.k8s.io/yaml"
 )
 

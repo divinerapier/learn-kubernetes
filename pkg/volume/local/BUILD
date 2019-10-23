@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "local.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/local",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/local",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/events:go_default_library",

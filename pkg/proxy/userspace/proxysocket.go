@@ -28,7 +28,7 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/proxy"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy"
 )
 
 // Abstraction over TCP/UDP sockets which are proxied.

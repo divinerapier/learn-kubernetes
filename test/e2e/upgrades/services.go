@@ -19,8 +19,8 @@ package upgrades
 import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
 
 	"github.com/onsi/ginkgo"
 )

@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/auditregistration/auditsink",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/auditregistration/auditsink",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/legacyscheme:go_default_library",

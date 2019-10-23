@@ -14,7 +14,7 @@ go_library(
         "hcnsupport.go",
         "zsyscall_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Microsoft/hcsshim/hcn",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Microsoft/hcsshim/hcn",
     importpath = "github.com/Microsoft/hcsshim/hcn",
     visibility = ["//visibility:public"],
     deps = [

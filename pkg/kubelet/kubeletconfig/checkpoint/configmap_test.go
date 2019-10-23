@@ -25,7 +25,7 @@ import (
 	apiv1 "k8s.io/api/core/v1"
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	utiltest "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/test"
+	utiltest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/test"
 )
 
 func TestNewConfigMapPayload(t *testing.T) {

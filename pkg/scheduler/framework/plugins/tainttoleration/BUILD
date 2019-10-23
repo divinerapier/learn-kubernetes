@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["taint_toleration.go"],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/framework/plugins/tainttoleration",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/plugins/tainttoleration",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/scheduler/algorithm/predicates:go_default_library",

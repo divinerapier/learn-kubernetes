@@ -17,7 +17,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["testserver.go"],
-    importpath = "k8s.io/kubernetes/cmd/cloud-controller-manager/app/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/testing",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/cloud-controller-manager/app:go_default_library",

@@ -8,7 +8,7 @@ go_library(
         "insecure_serving.go",
         "options.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kube-scheduler/app/options",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kube-scheduler/app/options",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kube-scheduler/app/config:go_default_library",

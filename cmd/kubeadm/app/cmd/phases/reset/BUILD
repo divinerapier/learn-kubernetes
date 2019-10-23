@@ -11,7 +11,7 @@ go_library(
         "unmount_linux.go",
         "updateclusterstatus.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/reset",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/reset",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",

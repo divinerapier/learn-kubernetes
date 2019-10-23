@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["conditions.go"],
-    importpath = "k8s.io/kubernetes/pkg/client/conditions",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/client/conditions",
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/api/errors:go_default_library",

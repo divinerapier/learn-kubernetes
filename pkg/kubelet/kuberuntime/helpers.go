@@ -27,8 +27,8 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/features"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
 )
 
 type podsByID []*kubecontainer.Pod

@@ -21,9 +21,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/api/core/v1"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/volume/util/hostutil"
-	"k8s.io/kubernetes/pkg/volume/util/subpath"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/hostutil"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/subpath"
 )
 
 func TestMakeMountsWindows(t *testing.T) {

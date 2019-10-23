@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["fake.go"],
-    importpath = "k8s.io/kubernetes/pkg/proxy/util/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/proxy/util/testing",
     visibility = ["//visibility:public"],
 )
 

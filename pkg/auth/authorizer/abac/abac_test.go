@@ -26,9 +26,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apiserver/pkg/authentication/user"
 	"k8s.io/apiserver/pkg/authorization/authorizer"
-	"k8s.io/kubernetes/pkg/apis/abac"
-	"k8s.io/kubernetes/pkg/apis/abac/v0"
-	"k8s.io/kubernetes/pkg/apis/abac/v1beta1"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/abac"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/abac/v0"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/abac/v1beta1"
 )
 
 func TestEmptyFile(t *testing.T) {

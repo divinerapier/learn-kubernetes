@@ -26,8 +26,8 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/credentialprovider"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/credentialprovider"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
 )
 
 func TestPullImage(t *testing.T) {

@@ -23,9 +23,9 @@ import (
 	"k8s.io/apiserver/pkg/registry/rest"
 	genericapiserver "k8s.io/apiserver/pkg/server"
 	serverstorage "k8s.io/apiserver/pkg/server/storage"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	nodeinternal "k8s.io/kubernetes/pkg/apis/node"
-	runtimeclassstorage "k8s.io/kubernetes/pkg/registry/node/runtimeclass/storage"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	nodeinternal "github.com/divinerapier/learn-kubernetes/pkg/apis/node"
+	runtimeclassstorage "github.com/divinerapier/learn-kubernetes/pkg/registry/node/runtimeclass/storage"
 )
 
 // RESTStorageProvider is a REST storage provider for node.k8s.io

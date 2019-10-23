@@ -8,7 +8,7 @@ go_library(
         "metrics.go",
         "proxier.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/proxy/winkernel",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/proxy/winkernel",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/component-base/metrics:go_default_library",

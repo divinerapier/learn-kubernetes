@@ -15,7 +15,7 @@ go_library(
         "gce_pd_block.go",
         "gce_util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/gcepd",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/gcepd",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/util/mount:go_default_library",

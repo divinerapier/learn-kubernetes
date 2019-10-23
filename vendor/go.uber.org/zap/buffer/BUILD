@@ -6,7 +6,7 @@ go_library(
         "buffer.go",
         "pool.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/go.uber.org/zap/buffer",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.uber.org/zap/buffer",
     importpath = "go.uber.org/zap/buffer",
     visibility = ["//visibility:public"],
 )

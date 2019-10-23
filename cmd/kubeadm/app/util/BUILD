@@ -15,7 +15,7 @@ go_library(
         "template.go",
         "version.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/util",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",

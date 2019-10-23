@@ -7,7 +7,7 @@ go_library(
         "util.go",
         "viper.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/spf13/viper",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/spf13/viper",
     importpath = "github.com/spf13/viper",
     visibility = ["//visibility:public"],
     deps = [

@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/util/version"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
 )
 
 func TestEnforceVersionPolicies(t *testing.T) {

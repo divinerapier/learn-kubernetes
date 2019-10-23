@@ -22,7 +22,7 @@ go_library(
         "wrappers.pb.go",
         "wrappers_gogo.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/gogo/protobuf/types",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/gogo/protobuf/types",
     importpath = "github.com/gogo/protobuf/types",
     visibility = ["//visibility:public"],
     deps = [

@@ -58,8 +58,8 @@ type ClusterTestTypeList struct {
 // +genclient
 // +genclient:nonNamespaced
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
-// +genclient:method=GetScale,verb=get,subresource=scale,result=k8s.io/kubernetes/pkg/apis/autoscaling.Scale
-// +genclient:method=UpdateScale,verb=update,subresource=scale,input=k8s.io/kubernetes/pkg/apis/autoscaling.Scale,result=k8s.io/kubernetes/pkg/apis/autoscaling.Scale
+// +genclient:method=GetScale,verb=get,subresource=scale,result=github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling.Scale
+// +genclient:method=UpdateScale,verb=update,subresource=scale,input=github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling.Scale,result=github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling.Scale
 
 type ClusterTestType struct {
 	metav1.TypeMeta `json:",inline"`

@@ -28,10 +28,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/clock"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/client-go/tools/record"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/kubelet/util/queue"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	containertest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container/testing"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/queue"
 )
 
 // fakePodWorkers runs sync pod function in serial, so we can have

@@ -27,7 +27,7 @@ go_library(
         "stats_linux.go",
         "sync.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/opencontainers/runc/libcontainer",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/opencontainers/runc/libcontainer",
     importpath = "github.com/opencontainers/runc/libcontainer",
     visibility = ["//visibility:public"],
     deps = [

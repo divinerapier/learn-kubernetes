@@ -28,10 +28,10 @@ import (
 	utilnet "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/apimachinery/pkg/util/sets"
 	restclient "k8s.io/client-go/rest"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
-	extenderv1 "k8s.io/kubernetes/pkg/scheduler/apis/extender/v1"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	extenderv1 "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/extender/v1"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 const (

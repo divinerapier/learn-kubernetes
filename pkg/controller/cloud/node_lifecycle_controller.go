@@ -36,8 +36,8 @@ import (
 	cloudprovider "k8s.io/cloud-provider"
 	cloudnodeutil "k8s.io/cloud-provider/node/helpers"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/controller"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
 )
 
 const (

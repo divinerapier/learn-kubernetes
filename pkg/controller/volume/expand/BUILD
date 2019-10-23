@@ -5,7 +5,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["expand_controller.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/volume/expand",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/expand",
     deps = [
         "//pkg/apis/core/v1/helper:go_default_library",
         "//pkg/controller/volume/events:go_default_library",

@@ -26,7 +26,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/service/ipallocator/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/ipallocator/storage",
 )
 
 filegroup(

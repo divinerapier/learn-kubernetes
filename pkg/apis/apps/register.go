@@ -19,7 +19,7 @@ package apps
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling"
 )
 
 var (

@@ -20,8 +20,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
-	storageapi "k8s.io/kubernetes/pkg/apis/storage"
-	"k8s.io/kubernetes/pkg/registry/storage/csidriver"
+	storageapi "github.com/divinerapier/learn-kubernetes/pkg/apis/storage"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/storage/csidriver"
 )
 
 // CSIDriverStorage includes storage for CSIDrivers and all subresources

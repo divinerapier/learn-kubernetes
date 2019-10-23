@@ -7,7 +7,7 @@ go_library(
         "sanitize.go",
         "traceinternals.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/go.opencensus.io/internal",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.opencensus.io/internal",
     importpath = "go.opencensus.io/internal",
     visibility = ["//visibility:public"],
     deps = ["//vendor/go.opencensus.io:go_default_library"],

@@ -29,10 +29,10 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apiserver/pkg/authentication/request/bearertoken"
 	bootstrapapi "k8s.io/cluster-bootstrap/token/api"
-	"k8s.io/kubernetes/plugin/pkg/auth/authenticator/token/bootstrap"
-	bootstraputil "k8s.io/kubernetes/test/e2e/lifecycle/bootstrap"
-	"k8s.io/kubernetes/test/integration"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/plugin/pkg/auth/authenticator/token/bootstrap"
+	bootstraputil "github.com/divinerapier/learn-kubernetes/test/e2e/lifecycle/bootstrap"
+	"github.com/divinerapier/learn-kubernetes/test/integration"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 type bootstrapSecrets []*corev1.Secret

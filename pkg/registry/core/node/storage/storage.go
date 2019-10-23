@@ -29,14 +29,14 @@ import (
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
 	"k8s.io/apiserver/pkg/registry/rest"
 	"k8s.io/apiserver/pkg/storage"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	k8s_api_v1 "k8s.io/kubernetes/pkg/apis/core/v1"
-	"k8s.io/kubernetes/pkg/kubelet/client"
-	"k8s.io/kubernetes/pkg/printers"
-	printersinternal "k8s.io/kubernetes/pkg/printers/internalversion"
-	printerstorage "k8s.io/kubernetes/pkg/printers/storage"
-	"k8s.io/kubernetes/pkg/registry/core/node"
-	noderest "k8s.io/kubernetes/pkg/registry/core/node/rest"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	k8s_api_v1 "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/client"
+	"github.com/divinerapier/learn-kubernetes/pkg/printers"
+	printersinternal "github.com/divinerapier/learn-kubernetes/pkg/printers/internalversion"
+	printerstorage "github.com/divinerapier/learn-kubernetes/pkg/printers/storage"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/node"
+	noderest "github.com/divinerapier/learn-kubernetes/pkg/registry/core/node/rest"
 )
 
 // NodeStorage includes storage for nodes and all sub resources

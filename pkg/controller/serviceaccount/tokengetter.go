@@ -21,7 +21,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	clientset "k8s.io/client-go/kubernetes"
 	v1listers "k8s.io/client-go/listers/core/v1"
-	"k8s.io/kubernetes/pkg/serviceaccount"
+	"github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
 )
 
 // clientGetter implements ServiceAccountTokenGetter using a clientset.Interface

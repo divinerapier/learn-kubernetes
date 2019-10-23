@@ -7,7 +7,7 @@ go_library(
         "dialer_unix.go",
         "dialer_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/containerd/containerd/dialer",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/containerd/containerd/dialer",
     importpath = "github.com/containerd/containerd/dialer",
     visibility = ["//visibility:public"],
     deps = [

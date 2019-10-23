@@ -22,11 +22,11 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	"k8s.io/kubernetes/pkg/api/testing/compat"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/core/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testing/compat"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
 
-	_ "k8s.io/kubernetes/pkg/apis/core/install"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/core/install"
 )
 
 func TestCompatibility_v1_PodSecurityContext(t *testing.T) {

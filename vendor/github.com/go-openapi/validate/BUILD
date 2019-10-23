@@ -24,7 +24,7 @@ go_library(
         "validator.go",
         "values.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/go-openapi/validate",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/go-openapi/validate",
     importpath = "github.com/go-openapi/validate",
     visibility = ["//visibility:public"],
     deps = [

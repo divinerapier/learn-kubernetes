@@ -30,7 +30,7 @@ go_library(
         "unused.go",
         "xml_object.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/go-openapi/spec",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/go-openapi/spec",
     importpath = "github.com/go-openapi/spec",
     visibility = ["//visibility:public"],
     deps = [

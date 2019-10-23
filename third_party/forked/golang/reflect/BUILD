@@ -14,7 +14,7 @@ go_library(
         "deep_equal.go",
         "type.go",
     ],
-    importpath = "k8s.io/kubernetes/third_party/forked/golang/reflect",
+    importpath = "github.com/divinerapier/learn-kubernetes/third_party/forked/golang/reflect",
 )
 
 go_test(

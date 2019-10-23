@@ -33,12 +33,12 @@ cd "${KUBE_ROOT}"
 failed=false
 while IFS= read -r dir; do
   deps=$(go list -f '{{range .Deps}}{{.}}{{"\n"}}{{end}}' "${dir}" 2> /dev/null || echo "")
-  deps_on_main=$(echo "${deps}" | grep -v "k8s.io/kubernetes/vendor/" | grep "k8s.io/kubernetes" || echo "")
+  deps_on_main=$(echo "${deps}" | grep -v "github.com/divinerapier/learn-kubernetes/vendor/" | grep "github.com/divinerapier/learn-kubernetes" || echo "")
   if [ -n "${deps_on_main}" ]; then
     echo "Package ${dir} has a cyclic dependency on the main repository."
     failed=true
   fi
-  deps_on_staging=$(echo "${deps}" | grep "k8s.io/kubernetes/vendor/k8s.io" | grep -E "k8s.io\/${staging_repos_pattern}\>" || echo "")
+  deps_on_staging=$(echo "${deps}" | grep "github.com/divinerapier/learn-kubernetes/vendor/k8s.io" | grep -E "k8s.io\/${staging_repos_pattern}\>" || echo "")
   if [ -n "${deps_on_staging}" ]; then
     echo "Package ${dir} has a cyclic dependency on staging repository packages: ${deps_on_staging}"
     failed=true

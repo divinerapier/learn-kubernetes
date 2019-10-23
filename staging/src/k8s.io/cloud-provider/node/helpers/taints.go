@@ -16,9 +16,9 @@ limitations under the License.
 
 /*
 
-NOTE: the contents of this file has been copied from k8s.io/kubernetes/pkg/controller
-and k8s.io/kubernetes/pkg/util/taints. The reason for duplicating this code is to remove
-dependencies to k8s.io/kubernetes in all the cloud providers. Once k8s.io/kubernetes/pkg/util/taints
+NOTE: the contents of this file has been copied from github.com/divinerapier/learn-kubernetes/pkg/controller
+and github.com/divinerapier/learn-kubernetes/pkg/util/taints. The reason for duplicating this code is to remove
+dependencies to github.com/divinerapier/learn-kubernetes in all the cloud providers. Once github.com/divinerapier/learn-kubernetes/pkg/util/taints
 is moved to an external repository, this file should be removed and replaced with that one.
 */
 

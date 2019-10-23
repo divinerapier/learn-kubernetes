@@ -17,7 +17,7 @@ limitations under the License.
 package stats
 
 import (
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
 )
 
 // LogMetricsService defines an interface for providing LogMetrics functionality.

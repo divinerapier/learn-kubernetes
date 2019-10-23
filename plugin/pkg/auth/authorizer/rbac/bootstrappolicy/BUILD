@@ -13,7 +13,7 @@ go_library(
         "namespace_policy.go",
         "policy.go",
     ],
-    importpath = "k8s.io/kubernetes/plugin/pkg/auth/authorizer/rbac/bootstrappolicy",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/auth/authorizer/rbac/bootstrappolicy",
     deps = [
         "//pkg/apis/rbac/v1:go_default_library",
         "//pkg/features:go_default_library",

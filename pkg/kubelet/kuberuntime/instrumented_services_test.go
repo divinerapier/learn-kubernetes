@@ -26,7 +26,7 @@ import (
 
 	"k8s.io/component-base/metrics/legacyregistry"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/kubelet/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/metrics"
 )
 
 func TestRecordOperation(t *testing.T) {

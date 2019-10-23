@@ -37,9 +37,9 @@ import (
 	cloudprovider "k8s.io/cloud-provider"
 	cloudnodeutil "k8s.io/cloud-provider/node/helpers"
 	"k8s.io/klog"
-	kubeletapis "k8s.io/kubernetes/pkg/kubelet/apis"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
-	nodeutil "k8s.io/kubernetes/pkg/util/node"
+	kubeletapis "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	nodeutil "github.com/divinerapier/learn-kubernetes/pkg/util/node"
 )
 
 var UpdateNodeSpecBackoff = wait.Backoff{

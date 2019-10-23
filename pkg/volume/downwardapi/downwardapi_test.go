@@ -29,10 +29,10 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
 	utiltesting "k8s.io/client-go/util/testing"
-	"k8s.io/kubernetes/pkg/fieldpath"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/emptydir"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/fieldpath"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/emptydir"
+	volumetest "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
 )
 
 const (

@@ -6,7 +6,7 @@ go_library(
         "controllermanager.go",
         "core.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/cloud-controller-manager/app",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/cloud-controller-manager/app/config:go_default_library",

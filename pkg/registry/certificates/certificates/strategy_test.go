@@ -25,7 +25,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apiserver/pkg/authentication/user"
 	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
-	certapi "k8s.io/kubernetes/pkg/apis/certificates"
+	certapi "github.com/divinerapier/learn-kubernetes/pkg/apis/certificates"
 )
 
 func TestStrategyCreate(t *testing.T) {

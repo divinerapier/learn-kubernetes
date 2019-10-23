@@ -14,7 +14,7 @@ go_library(
         "options.go",
         "validation.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kube-apiserver/app/options",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/options",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/core:go_default_library",

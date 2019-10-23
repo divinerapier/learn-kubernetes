@@ -85,7 +85,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["util.go"],
-    importpath = "k8s.io/kubernetes/test/integration/scheduler",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/integration/scheduler",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/api/v1/pod:go_default_library",

@@ -23,9 +23,9 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/version"
 
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2esset "k8s.io/kubernetes/test/e2e/framework/statefulset"
-	"k8s.io/kubernetes/test/e2e/upgrades"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2esset "github.com/divinerapier/learn-kubernetes/test/e2e/framework/statefulset"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/upgrades"
 )
 
 // StatefulSetUpgradeTest implements an upgrade test harness for StatefulSet upgrade testing.

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["certificates.go"],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kubectl/pkg/cmd/certificates",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kubectl/pkg/cmd/certificates",
     importpath = "k8s.io/kubectl/pkg/cmd/certificates",
     visibility = ["//visibility:public"],
     deps = [

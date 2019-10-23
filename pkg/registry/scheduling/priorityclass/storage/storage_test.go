@@ -28,8 +28,8 @@ import (
 	genericregistrytest "k8s.io/apiserver/pkg/registry/generic/testing"
 	"k8s.io/apiserver/pkg/registry/rest"
 	etcd3testing "k8s.io/apiserver/pkg/storage/etcd3/testing"
-	"k8s.io/kubernetes/pkg/apis/scheduling"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/scheduling"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/registrytest"
 )
 
 func newStorage(t *testing.T) (*REST, *etcd3testing.EtcdTestServer) {

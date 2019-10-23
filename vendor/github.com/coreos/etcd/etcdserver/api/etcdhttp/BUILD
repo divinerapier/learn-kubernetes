@@ -8,7 +8,7 @@ go_library(
         "metrics.go",
         "peer.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/etcdserver/api/etcdhttp",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/etcdserver/api/etcdhttp",
     importpath = "github.com/coreos/etcd/etcdserver/api/etcdhttp",
     visibility = ["//visibility:public"],
     deps = [

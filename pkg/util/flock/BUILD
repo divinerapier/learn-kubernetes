@@ -11,7 +11,7 @@ go_library(
         "flock_other.go",
         "flock_unix.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/flock",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/flock",
     deps = select({
         "@io_bazel_rules_go//go/platform:darwin": [
             "//vendor/golang.org/x/sys/unix:go_default_library",

@@ -22,9 +22,9 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 	clientset "k8s.io/client-go/kubernetes"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	corev1 "k8s.io/kubernetes/pkg/apis/core/v1"
-	"k8s.io/kubernetes/pkg/kubelet/util/manager"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	corev1 "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/manager"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

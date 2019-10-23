@@ -10,7 +10,7 @@ go_library(
         "kubelet.go",
         "preflight.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/join",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/join",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",

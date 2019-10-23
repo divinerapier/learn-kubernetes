@@ -6,7 +6,7 @@ go_library(
         "certs.go",
         "doc.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiserver/pkg/admission/plugin/webhook/testcerts",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiserver/pkg/admission/plugin/webhook/testcerts",
     importpath = "k8s.io/apiserver/pkg/admission/plugin/webhook/testcerts",
     visibility = ["//visibility:public"],
 )

@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"k8s.io/kubernetes/test/e2e_node/builder"
-	"k8s.io/kubernetes/test/e2e_node/system"
-	"k8s.io/kubernetes/test/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e_node/builder"
+	"github.com/divinerapier/learn-kubernetes/test/e2e_node/system"
+	"github.com/divinerapier/learn-kubernetes/test/utils"
 
 	"k8s.io/klog"
 )

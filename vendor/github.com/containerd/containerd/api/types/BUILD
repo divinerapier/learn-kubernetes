@@ -9,7 +9,7 @@ go_library(
         "mount.pb.go",
         "platform.pb.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/containerd/containerd/api/types",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/containerd/containerd/api/types",
     importpath = "github.com/containerd/containerd/api/types",
     visibility = ["//visibility:public"],
     deps = [

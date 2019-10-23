@@ -7,7 +7,7 @@ go_library(
         "notice.go",
         "versions.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coredns/corefile-migration/migration",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coredns/corefile-migration/migration",
     importpath = "github.com/coredns/corefile-migration/migration",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/coredns/corefile-migration/migration/corefile:go_default_library"],

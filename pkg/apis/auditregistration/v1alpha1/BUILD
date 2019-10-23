@@ -9,7 +9,7 @@ go_library(
         "zz_generated.conversion.go",
         "zz_generated.defaults.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/auditregistration/v1alpha1",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/auditregistration/v1alpha1",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/auditregistration:go_default_library",

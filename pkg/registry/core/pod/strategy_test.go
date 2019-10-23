@@ -31,12 +31,12 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"
 	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
-	apitesting "k8s.io/kubernetes/pkg/api/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/kubelet/client"
+	apitesting "github.com/divinerapier/learn-kubernetes/pkg/api/testing"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/client"
 
 	// install all api groups for testing
-	_ "k8s.io/kubernetes/pkg/api/testapi"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
 )
 
 func TestMatchPod(t *testing.T) {

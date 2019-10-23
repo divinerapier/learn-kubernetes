@@ -27,8 +27,8 @@ import (
 	capi "k8s.io/api/certificates/v1beta1"
 	certificatesinformers "k8s.io/client-go/informers/certificates/v1beta1"
 	clientset "k8s.io/client-go/kubernetes"
-	k8s_certificates_v1beta1 "k8s.io/kubernetes/pkg/apis/certificates/v1beta1"
-	"k8s.io/kubernetes/pkg/controller/certificates"
+	k8s_certificates_v1beta1 "github.com/divinerapier/learn-kubernetes/pkg/apis/certificates/v1beta1"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/certificates"
 )
 
 type csrRecognizer struct {

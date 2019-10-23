@@ -5,7 +5,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["fixtures.go"],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/volume",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/volume",
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/api/errors:go_default_library",

@@ -21,7 +21,7 @@ import (
 
 	policy "k8s.io/api/policy/v1beta1"
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	psputil "k8s.io/kubernetes/pkg/security/podsecuritypolicy/util"
+	psputil "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/util"
 )
 
 func ValidateGroupsInRanges(fldPath *field.Path, ranges []policy.IDRange, groups []int64) field.ErrorList {

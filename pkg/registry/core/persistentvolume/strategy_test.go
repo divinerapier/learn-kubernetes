@@ -19,11 +19,11 @@ package persistentvolume
 import (
 	"testing"
 
-	apitesting "k8s.io/kubernetes/pkg/api/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	apitesting "github.com/divinerapier/learn-kubernetes/pkg/api/testing"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 
 	// install all api groups for testing
-	_ "k8s.io/kubernetes/pkg/api/testapi"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
 )
 
 func TestSelectableFieldLabelConversions(t *testing.T) {

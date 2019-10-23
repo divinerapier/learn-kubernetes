@@ -6,7 +6,7 @@ go_library(
         "factory.go",
         "plugin.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/google/cadvisor/container/systemd",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/google/cadvisor/container/systemd",
     importpath = "github.com/google/cadvisor/container/systemd",
     visibility = ["//visibility:public"],
     deps = [

@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/api/resource"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	evictionapi "k8s.io/kubernetes/pkg/kubelet/eviction/api"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	evictionapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/eviction/api"
 )
 
 const testCgroupPath = "/sys/fs/cgroups/memory"

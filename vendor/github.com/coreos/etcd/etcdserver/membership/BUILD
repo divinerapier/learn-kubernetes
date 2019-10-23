@@ -9,7 +9,7 @@ go_library(
         "member.go",
         "store.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/etcdserver/membership",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/etcdserver/membership",
     importpath = "github.com/coreos/etcd/etcdserver/membership",
     visibility = ["//visibility:public"],
     deps = [

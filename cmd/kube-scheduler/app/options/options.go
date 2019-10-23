@@ -42,13 +42,13 @@ import (
 	componentbaseconfig "k8s.io/component-base/config"
 	"k8s.io/klog"
 	kubeschedulerconfigv1alpha1 "k8s.io/kube-scheduler/config/v1alpha1"
-	schedulerappconfig "k8s.io/kubernetes/cmd/kube-scheduler/app/config"
-	"k8s.io/kubernetes/pkg/client/leaderelectionconfig"
-	"k8s.io/kubernetes/pkg/master/ports"
-	"k8s.io/kubernetes/pkg/scheduler"
-	kubeschedulerconfig "k8s.io/kubernetes/pkg/scheduler/apis/config"
-	kubeschedulerscheme "k8s.io/kubernetes/pkg/scheduler/apis/config/scheme"
-	"k8s.io/kubernetes/pkg/scheduler/apis/config/validation"
+	schedulerappconfig "github.com/divinerapier/learn-kubernetes/cmd/kube-scheduler/app/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/client/leaderelectionconfig"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler"
+	kubeschedulerconfig "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
+	kubeschedulerscheme "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config/scheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config/validation"
 )
 
 // Options has all the params needed to run a Scheduler

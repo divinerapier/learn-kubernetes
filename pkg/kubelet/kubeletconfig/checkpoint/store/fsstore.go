@@ -21,12 +21,12 @@ import (
 	"path/filepath"
 	"time"
 
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/configfiles"
-	utilfiles "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/files"
-	utillog "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/log"
-	utilfs "k8s.io/kubernetes/pkg/util/filesystem"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/configfiles"
+	utilfiles "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/files"
+	utillog "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/log"
+	utilfs "github.com/divinerapier/learn-kubernetes/pkg/util/filesystem"
 )
 
 const (

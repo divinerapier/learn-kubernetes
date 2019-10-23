@@ -12,7 +12,7 @@ go_library(
         "tarjan.go",
         "topo.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/topo",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/topo",
     importpath = "gonum.org/v1/gonum/graph/topo",
     visibility = ["//visibility:public"],
     deps = [

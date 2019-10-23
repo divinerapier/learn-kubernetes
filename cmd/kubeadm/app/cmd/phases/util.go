@@ -18,7 +18,7 @@ package phases
 
 import (
 	"k8s.io/component-base/version"
-	kubeadmapiv1beta2 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
+	kubeadmapiv1beta2 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
 )
 
 // SetKubernetesVersion gets the current Kubeadm version and sets it as KubeadmVersion in the config,

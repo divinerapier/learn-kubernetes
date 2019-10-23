@@ -11,7 +11,7 @@ go_library(
         "namespace.go",
         "varreference.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/transformers/config/defaultconfig",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/transformers/config/defaultconfig",
     importpath = "sigs.k8s.io/kustomize/pkg/transformers/config/defaultconfig",
     visibility = ["//visibility:public"],
 )

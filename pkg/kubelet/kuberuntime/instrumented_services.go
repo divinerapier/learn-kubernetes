@@ -21,7 +21,7 @@ import (
 
 	internalapi "k8s.io/cri-api/pkg/apis"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/kubelet/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/metrics"
 )
 
 // instrumentedRuntimeService wraps the RuntimeService and records the operations

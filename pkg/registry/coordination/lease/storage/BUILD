@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/coordination/lease/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/coordination/lease/storage",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/coordination:go_default_library",

@@ -27,11 +27,11 @@ import (
 	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
 	"k8s.io/apiserver/pkg/registry/rest"
 	"k8s.io/apiserver/pkg/storage/names"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/api/pod"
-	"k8s.io/kubernetes/pkg/apis/batch"
-	"k8s.io/kubernetes/pkg/apis/batch/validation"
-	corevalidation "k8s.io/kubernetes/pkg/apis/core/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/batch"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/batch/validation"
+	corevalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
 )
 
 // cronJobStrategy implements verification logic for Replication Controllers.

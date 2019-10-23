@@ -27,8 +27,8 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/component-base/featuregate"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	"k8s.io/kubernetes/pkg/features"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
 	utilpointer "k8s.io/utils/pointer"
 )
 

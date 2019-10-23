@@ -10,7 +10,7 @@ go_library(
         "secreterror.go",
         "yamlformaterror.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/internal/error",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/internal/error",
     importpath = "sigs.k8s.io/kustomize/pkg/internal/error",
     visibility = ["//vendor/sigs.k8s.io/kustomize/pkg:__subpackages__"],
 )

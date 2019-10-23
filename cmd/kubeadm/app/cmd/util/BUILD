@@ -7,7 +7,7 @@ go_library(
         "documentation.go",
         "join.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/cmd/options:go_default_library",

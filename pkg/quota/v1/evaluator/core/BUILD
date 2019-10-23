@@ -15,7 +15,7 @@ go_library(
         "registry.go",
         "services.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/quota/v1/evaluator/core",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/quota/v1/evaluator/core",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/apis/core/v1:go_default_library",

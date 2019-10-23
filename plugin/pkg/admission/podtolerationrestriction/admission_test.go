@@ -32,9 +32,9 @@ import (
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
-	pluginapi "k8s.io/kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	pluginapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction"
 )
 
 // TestPodAdmission verifies various scenarios involving pod/namespace tolerations

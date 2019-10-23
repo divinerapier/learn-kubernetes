@@ -37,10 +37,10 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	k8stesting "k8s.io/client-go/testing"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/pkg/controller"
-	pvtesting "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/testing"
-	pvutil "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	pvtesting "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/testing"
+	pvutil "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/util"
 )
 
 var (

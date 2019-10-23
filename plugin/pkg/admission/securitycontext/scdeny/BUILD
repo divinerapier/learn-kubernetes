@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["admission.go"],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/securitycontext/scdeny",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/securitycontext/scdeny",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/api/errors:go_default_library",

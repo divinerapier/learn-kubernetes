@@ -13,7 +13,7 @@ go_library(
         "selinux_linux.go",
         "selinux_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/selinux",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/selinux",
     deps = select({
         "@io_bazel_rules_go//go/platform:linux": [
             "//vendor/github.com/opencontainers/selinux/go-selinux:go_default_library",

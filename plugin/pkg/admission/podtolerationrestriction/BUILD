@@ -34,7 +34,7 @@ go_library(
         "config.go",
         "doc.go",
     ],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/podtolerationrestriction",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/podtolerationrestriction",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/apis/core/helper/qos:go_default_library",

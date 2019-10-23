@@ -25,7 +25,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/apps/controllerrevision",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/apps/controllerrevision",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/apps:go_default_library",

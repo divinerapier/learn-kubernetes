@@ -32,12 +32,12 @@ import (
 	"k8s.io/client-go/informers"
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/controller/deployment"
-	deploymentutil "k8s.io/kubernetes/pkg/controller/deployment/util"
-	"k8s.io/kubernetes/pkg/controller/replicaset"
-	"k8s.io/kubernetes/test/integration/framework"
-	testutil "k8s.io/kubernetes/test/utils"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/deployment"
+	deploymentutil "github.com/divinerapier/learn-kubernetes/pkg/controller/deployment/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/replicaset"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
+	testutil "github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 const (

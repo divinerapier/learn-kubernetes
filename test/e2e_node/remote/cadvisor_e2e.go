@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"k8s.io/klog"
-	"k8s.io/kubernetes/test/utils"
+	"github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 // CAdvisorE2ERemote contains the specific functions in the cadvisor e2e test suite.

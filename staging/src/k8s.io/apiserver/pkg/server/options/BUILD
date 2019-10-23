@@ -21,7 +21,7 @@ go_library(
         "serving_with_loopback.go",
         "webhook.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiserver/pkg/server/options",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiserver/pkg/server/options",
     importpath = "k8s.io/apiserver/pkg/server/options",
     visibility = ["//visibility:public"],
     deps = [

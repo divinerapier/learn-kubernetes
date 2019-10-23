@@ -18,7 +18,7 @@ package sliceutils
 
 import (
 	"k8s.io/api/core/v1"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
 )
 
 // StringInSlice returns true if s is in list

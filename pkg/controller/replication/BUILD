@@ -14,7 +14,7 @@ go_library(
         "replication_controller.go",
         "replication_controller_utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/replication",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/replication",
     deps = [
         "//pkg/apis/apps:go_default_library",
         "//pkg/apis/apps/v1:go_default_library",

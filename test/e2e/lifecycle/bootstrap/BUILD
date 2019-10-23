@@ -12,7 +12,7 @@ go_library(
         "bootstrap_token_cleaner.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/lifecycle/bootstrap",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/lifecycle/bootstrap",
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/api/errors:go_default_library",

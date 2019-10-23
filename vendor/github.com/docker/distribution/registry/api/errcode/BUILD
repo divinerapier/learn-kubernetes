@@ -7,7 +7,7 @@ go_library(
         "handler.go",
         "register.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/docker/distribution/registry/api/errcode",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/docker/distribution/registry/api/errcode",
     importpath = "github.com/docker/distribution/registry/api/errcode",
     visibility = ["//visibility:public"],
 )

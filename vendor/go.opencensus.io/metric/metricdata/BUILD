@@ -11,7 +11,7 @@ go_library(
         "type_string.go",
         "unit.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/go.opencensus.io/metric/metricdata",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.opencensus.io/metric/metricdata",
     importpath = "go.opencensus.io/metric/metricdata",
     visibility = ["//visibility:public"],
     deps = ["//vendor/go.opencensus.io/resource:go_default_library"],

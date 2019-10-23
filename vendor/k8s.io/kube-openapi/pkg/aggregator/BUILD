@@ -7,7 +7,7 @@ go_library(
         "mutating_walker.go",
         "walker.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kube-openapi/pkg/aggregator",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kube-openapi/pkg/aggregator",
     importpath = "k8s.io/kube-openapi/pkg/aggregator",
     visibility = ["//visibility:public"],
     deps = [

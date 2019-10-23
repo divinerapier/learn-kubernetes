@@ -7,7 +7,7 @@ go_library(
         "dynamic.go",
         "factory.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiserver/plugin/pkg/audit/dynamic",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiserver/plugin/pkg/audit/dynamic",
     importpath = "k8s.io/apiserver/plugin/pkg/audit/dynamic",
     visibility = ["//visibility:public"],
     deps = [

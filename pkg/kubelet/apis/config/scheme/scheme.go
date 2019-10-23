@@ -19,8 +19,8 @@ package scheme
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubeletconfigv1beta1 "k8s.io/kubernetes/pkg/kubelet/apis/config/v1beta1"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubeletconfigv1beta1 "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config/v1beta1"
 )
 
 // Utility functions for the Kubelet's kubeletconfig API group

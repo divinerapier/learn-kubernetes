@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["prettybench.go"],
-    importmap = "k8s.io/kubernetes/vendor/github.com/cespare/prettybench",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/cespare/prettybench",
     importpath = "github.com/cespare/prettybench",
     visibility = ["//visibility:private"],
     deps = ["//vendor/golang.org/x/tools/benchmark/parse:go_default_library"],

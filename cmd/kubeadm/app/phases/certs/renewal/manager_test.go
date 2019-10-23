@@ -27,10 +27,10 @@ import (
 	"time"
 
 	certutil "k8s.io/client-go/util/cert"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	certtestutil "k8s.io/kubernetes/cmd/kubeadm/app/util/certs"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
-	testutil "k8s.io/kubernetes/cmd/kubeadm/test"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	certtestutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/certs"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
+	testutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test"
 )
 
 var (

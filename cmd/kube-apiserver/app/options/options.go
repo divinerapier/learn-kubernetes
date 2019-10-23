@@ -26,13 +26,13 @@ import (
 	genericoptions "k8s.io/apiserver/pkg/server/options"
 	"k8s.io/apiserver/pkg/storage/storagebackend"
 	cliflag "k8s.io/component-base/cli/flag"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	_ "k8s.io/kubernetes/pkg/features" // add the kubernetes feature gates
-	kubeoptions "k8s.io/kubernetes/pkg/kubeapiserver/options"
-	kubeletclient "k8s.io/kubernetes/pkg/kubelet/client"
-	"k8s.io/kubernetes/pkg/master/ports"
-	"k8s.io/kubernetes/pkg/master/reconcilers"
-	"k8s.io/kubernetes/pkg/serviceaccount"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/features" // add the kubernetes feature gates
+	kubeoptions "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/options"
+	kubeletclient "github.com/divinerapier/learn-kubernetes/pkg/kubelet/client"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/reconcilers"
+	"github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
 )
 
 // ServerRunOptions runs a kubernetes api server.

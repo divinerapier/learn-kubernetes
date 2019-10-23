@@ -34,12 +34,12 @@ import (
 	"k8s.io/apiserver/pkg/storage"
 	"k8s.io/apiserver/pkg/storage/names"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/api/pod"
-	"k8s.io/kubernetes/pkg/apis/batch"
-	"k8s.io/kubernetes/pkg/apis/batch/validation"
-	corevalidation "k8s.io/kubernetes/pkg/apis/core/validation"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/batch"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/batch/validation"
+	corevalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 // jobStrategy implements verification logic for Replication Controllers.

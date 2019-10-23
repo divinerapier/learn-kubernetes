@@ -36,14 +36,14 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/util/mount"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/util/types"
-	"k8s.io/kubernetes/pkg/volume/util/volumepathhandler"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	v1helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/mount"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/volumepathhandler"
 	utilstrings "k8s.io/utils/strings"
 )
 
@@ -392,7 +392,7 @@ func notRunning(statuses []v1.ContainerStatus) bool {
 // SplitUniqueName splits the unique name to plugin name and volume name strings. It expects the uniqueName to follow
 // the format plugin_name/volume_name and the plugin name must be namespaced as described by the plugin interface,
 // i.e. namespace/plugin containing exactly one '/'. This means the unique name will always be in the form of
-// plugin_namespace/plugin/volume_name, see k8s.io/kubernetes/pkg/volume/plugins.go VolumePlugin interface
+// plugin_namespace/plugin/volume_name, see github.com/divinerapier/learn-kubernetes/pkg/volume/plugins.go VolumePlugin interface
 // description and pkg/volume/util/volumehelper/volumehelper.go GetUniqueVolumeNameFromSpec that constructs
 // the unique volume names.
 func SplitUniqueName(uniqueName v1.UniqueVolumeName) (string, string, error) {

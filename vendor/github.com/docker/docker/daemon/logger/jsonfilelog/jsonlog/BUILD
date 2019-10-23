@@ -7,7 +7,7 @@ go_library(
         "jsonlogbytes.go",
         "time_marshalling.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/docker/docker/daemon/logger/jsonfilelog/jsonlog",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/docker/docker/daemon/logger/jsonfilelog/jsonlog",
     importpath = "github.com/docker/docker/daemon/logger/jsonfilelog/jsonlog",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/pkg/errors:go_default_library"],

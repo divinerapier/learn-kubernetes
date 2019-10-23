@@ -7,7 +7,7 @@ go_library(
         "lister.go",
         "shim.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/client-go/metadata/metadatalister",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/client-go/metadata/metadatalister",
     importpath = "k8s.io/client-go/metadata/metadatalister",
     visibility = ["//visibility:public"],
     deps = [

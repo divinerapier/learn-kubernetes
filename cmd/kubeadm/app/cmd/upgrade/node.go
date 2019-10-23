@@ -24,13 +24,13 @@ import (
 	flag "github.com/spf13/pflag"
 
 	clientset "k8s.io/client-go/kubernetes"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	phases "k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/upgrade/node"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	configutil "k8s.io/kubernetes/cmd/kubeadm/app/util/config"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	phases "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/upgrade/node"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	configutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/config"
 )
 
 // nodeOptions defines all the options exposed via flags by kubeadm upgrade node.

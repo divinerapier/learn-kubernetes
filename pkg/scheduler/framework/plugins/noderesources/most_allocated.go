@@ -22,9 +22,9 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/priorities"
-	"k8s.io/kubernetes/pkg/scheduler/framework/plugins/migration"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/plugins/migration"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
 )
 
 // MostAllocated is a score plugin that favors nodes with high allocation based on requested resources.

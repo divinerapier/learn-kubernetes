@@ -32,8 +32,8 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/client-go/dynamic"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	apiservertesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	"k8s.io/kubernetes/test/integration/framework"
+	apiservertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 // TestApplyCRDNoSchema tests that CRDs and CRs can both be applied to with a PATCH request with the apply content type

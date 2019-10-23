@@ -30,7 +30,7 @@ go_library(
         "service_latency.go",
         "util_iperf.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/network",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/network",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/controller/endpoint:go_default_library",

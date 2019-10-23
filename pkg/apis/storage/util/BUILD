@@ -12,7 +12,7 @@ go_library(
         "helpers.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/storage/util",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/storage/util",
     deps = [
         "//pkg/apis/storage:go_default_library",
         "//pkg/features:go_default_library",

@@ -28,9 +28,9 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/proxy"
-	"k8s.io/kubernetes/pkg/proxy/util"
-	"k8s.io/kubernetes/pkg/util/slice"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/slice"
 )
 
 var (

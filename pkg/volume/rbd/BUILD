@@ -15,7 +15,7 @@ go_library(
         "rbd.go",
         "rbd_util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/rbd",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/rbd",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/util/mount:go_default_library",

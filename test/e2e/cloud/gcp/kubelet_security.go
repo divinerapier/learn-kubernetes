@@ -23,10 +23,10 @@ import (
 	"time"
 
 	v1 "k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/master/ports"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2ekubelet "k8s.io/kubernetes/test/e2e/framework/kubelet"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2ekubelet "github.com/divinerapier/learn-kubernetes/test/e2e/framework/kubelet"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
 
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"

@@ -6,7 +6,7 @@ go_library(
         "coverage_disabled.go",
         "fake_test_deps.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/coverage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/coverage",
     visibility = ["//visibility:public"],
 )
 

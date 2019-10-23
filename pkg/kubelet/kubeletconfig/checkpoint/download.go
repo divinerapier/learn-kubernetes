@@ -29,11 +29,11 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 	kubeletconfigv1beta1 "k8s.io/kubelet/config/v1beta1"
-	kubeletconfiginternal "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	"k8s.io/kubernetes/pkg/kubelet/apis/config/scheme"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/status"
-	utilcodec "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/codec"
-	utillog "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/log"
+	kubeletconfiginternal "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config/scheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/status"
+	utilcodec "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/codec"
+	utillog "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/log"
 )
 
 // Payload represents a local copy of a config source (payload) object
@@ -121,7 +121,7 @@ func DecodeRemoteConfigSource(data []byte) (RemoteConfigSource, error) {
 	// this may need to be extended if e.g. a new version of the api is born
 	cs, ok := obj.(*kubeletconfiginternal.SerializedNodeConfigSource)
 	if !ok {
-		return nil, fmt.Errorf("failed to cast decoded remote config source to *k8s.io/kubernetes/pkg/kubelet/apis/kubeletconfig.SerializedNodeConfigSource")
+		return nil, fmt.Errorf("failed to cast decoded remote config source to *github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/kubeletconfig.SerializedNodeConfigSource")
 	}
 
 	// we use the v1.NodeConfigSource type on internal and external, so no need to convert to external here

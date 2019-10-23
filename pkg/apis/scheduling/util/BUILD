@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["util.go"],
-    importpath = "k8s.io/kubernetes/pkg/apis/scheduling/util",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/scheduling/util",
     deps = [
         "//pkg/apis/scheduling:go_default_library",
         "//pkg/features:go_default_library",

@@ -31,9 +31,9 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	clientbatchv1beta1 "k8s.io/client-go/kubernetes/typed/batch/v1beta1"
 	restclient "k8s.io/client-go/rest"
-	"k8s.io/kubernetes/pkg/controller/cronjob"
-	"k8s.io/kubernetes/pkg/controller/job"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/cronjob"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/job"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 func setup(t *testing.T) (*httptest.Server, framework.CloseFunc, *cronjob.Controller, *job.JobController, informers.SharedInformerFactory, clientset.Interface, restclient.Config) {

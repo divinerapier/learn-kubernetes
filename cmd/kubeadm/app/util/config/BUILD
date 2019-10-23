@@ -14,7 +14,7 @@ go_library(
         "initconfiguration.go",
         "joinconfiguration.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/util/config",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/config",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",
         "//cmd/kubeadm/app/apis/kubeadm/scheme:go_default_library",

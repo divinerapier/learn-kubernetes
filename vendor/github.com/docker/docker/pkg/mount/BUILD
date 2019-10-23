@@ -21,7 +21,7 @@ go_library(
         "unmount_unsupported.go",
     ],
     cgo = True,
-    importmap = "k8s.io/kubernetes/vendor/github.com/docker/docker/pkg/mount",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/docker/docker/pkg/mount",
     importpath = "github.com/docker/docker/pkg/mount",
     visibility = ["//visibility:public"],
     deps = [

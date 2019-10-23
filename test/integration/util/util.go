@@ -27,13 +27,13 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/events"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/scheduler"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler"
 
 	// import DefaultProvider
-	_ "k8s.io/kubernetes/pkg/scheduler/algorithmprovider/defaults"
-	schedulerconfig "k8s.io/kubernetes/pkg/scheduler/apis/config"
-	"k8s.io/kubernetes/test/integration/framework"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithmprovider/defaults"
+	schedulerconfig "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 // ShutdownFunc represents the function handle to be called, typically in a defer handler, to shutdown a running module

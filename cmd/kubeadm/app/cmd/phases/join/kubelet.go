@@ -27,14 +27,14 @@ import (
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 	certutil "k8s.io/client-go/util/cert"
 	"k8s.io/klog"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeletphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/kubelet"
-	patchnodephase "k8s.io/kubernetes/cmd/kubeadm/app/phases/patchnode"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/apiclient"
-	kubeconfigutil "k8s.io/kubernetes/cmd/kubeadm/app/util/kubeconfig"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeletphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/kubelet"
+	patchnodephase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/patchnode"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/apiclient"
+	kubeconfigutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/kubeconfig"
 )
 
 var (

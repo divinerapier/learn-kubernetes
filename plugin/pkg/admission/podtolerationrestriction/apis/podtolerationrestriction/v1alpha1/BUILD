@@ -16,7 +16,7 @@ go_library(
         "zz_generated.deepcopy.go",
         "zz_generated.defaults.go",
     ],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction/v1alpha1",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction/v1alpha1",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction:go_default_library",

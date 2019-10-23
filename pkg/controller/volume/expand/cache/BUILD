@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["volume_resize_map.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/volume/expand/cache",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/expand/cache",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/volume/util:go_default_library",

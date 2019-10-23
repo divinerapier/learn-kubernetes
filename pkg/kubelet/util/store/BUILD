@@ -7,7 +7,7 @@ go_library(
         "filestore.go",
         "store.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/util/store",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/store",
     visibility = ["//visibility:public"],
     deps = ["//pkg/util/filesystem:go_default_library"],
 )

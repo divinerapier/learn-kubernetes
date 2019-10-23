@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
 )
 
 func writeToStateFile(statefile string, content string) {

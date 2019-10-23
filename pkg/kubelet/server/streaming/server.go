@@ -35,8 +35,8 @@ import (
 	remotecommandconsts "k8s.io/apimachinery/pkg/util/remotecommand"
 	"k8s.io/client-go/tools/remotecommand"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/kubelet/server/portforward"
-	remotecommandserver "k8s.io/kubernetes/pkg/kubelet/server/remotecommand"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/portforward"
+	remotecommandserver "github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/remotecommand"
 )
 
 // Server is the library interface to serve the stream requests.
@@ -81,12 +81,12 @@ type Config struct {
 	StreamCreationTimeout time.Duration
 
 	// The streaming protocols the server supports (understands and permits).  See
-	// k8s.io/kubernetes/pkg/kubelet/server/remotecommand/constants.go for available protocols.
+	// github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/remotecommand/constants.go for available protocols.
 	// Only used for SPDY streaming.
 	SupportedRemoteCommandProtocols []string
 
 	// The streaming protocols the server supports (understands and permits).  See
-	// k8s.io/kubernetes/pkg/kubelet/server/portforward/constants.go for available protocols.
+	// github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/portforward/constants.go for available protocols.
 	// Only used for SPDY streaming.
 	SupportedPortForwardProtocols []string
 

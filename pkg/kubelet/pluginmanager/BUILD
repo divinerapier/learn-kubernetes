@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["plugin_manager.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/pluginmanager",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/config:go_default_library",

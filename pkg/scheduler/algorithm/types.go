@@ -22,8 +22,8 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	appslisters "k8s.io/client-go/listers/apps/v1"
 	corelisters "k8s.io/client-go/listers/core/v1"
-	"k8s.io/kubernetes/pkg/apis/apps"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/apps"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
 )
 
 // NodeFieldSelectorKeys is a map that: the keys are node field selector keys; the values are

@@ -15,7 +15,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["rand.go"],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apimachinery/pkg/util/rand",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apimachinery/pkg/util/rand",
     importpath = "k8s.io/apimachinery/pkg/util/rand",
 )
 

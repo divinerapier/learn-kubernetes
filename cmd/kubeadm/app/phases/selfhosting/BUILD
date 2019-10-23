@@ -30,7 +30,7 @@ go_library(
         "selfhosting.go",
         "selfhosting_volumes.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/selfhosting",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/selfhosting",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",
         "//cmd/kubeadm/app/constants:go_default_library",

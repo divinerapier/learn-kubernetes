@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["lint.go"],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/internal/sharedcheck",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/internal/sharedcheck",
     importpath = "honnef.co/go/tools/internal/sharedcheck",
     visibility = ["//vendor/honnef.co/go/tools:__subpackages__"],
     deps = [

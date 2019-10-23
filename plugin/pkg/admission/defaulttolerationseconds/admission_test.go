@@ -22,9 +22,9 @@ import (
 
 	"k8s.io/apiserver/pkg/admission"
 	admissiontesting "k8s.io/apiserver/pkg/admission/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/core/helper"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/helper"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
 )
 
 func TestForgivenessAdmission(t *testing.T) {

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["yaml.go"],
-    importpath = "k8s.io/kubernetes/test/fuzz/yaml",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/fuzz/yaml",
     visibility = ["//visibility:private"],
     deps = [
         "//vendor/gopkg.in/yaml.v2:go_default_library",

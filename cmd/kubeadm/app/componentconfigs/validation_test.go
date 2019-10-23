@@ -22,10 +22,10 @@ import (
 	"time"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubeproxyconfig "k8s.io/kubernetes/pkg/proxy/apis/config"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubeproxyconfig "github.com/divinerapier/learn-kubernetes/pkg/proxy/apis/config"
 	utilpointer "k8s.io/utils/pointer"
 )
 

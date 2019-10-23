@@ -22,7 +22,7 @@ import (
 	"github.com/google/gofuzz"
 
 	runtimeserializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	kubectrlmgrconfig "k8s.io/kubernetes/pkg/controller/apis/config"
+	kubectrlmgrconfig "github.com/divinerapier/learn-kubernetes/pkg/controller/apis/config"
 )
 
 // Funcs returns the fuzzer functions for the kube-controller manager apis.

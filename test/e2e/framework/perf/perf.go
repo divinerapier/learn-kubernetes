@@ -19,8 +19,8 @@ package framework
 import (
 	"fmt"
 
-	e2ekubelet "k8s.io/kubernetes/test/e2e/framework/kubelet"
-	"k8s.io/kubernetes/test/e2e/perftype"
+	e2ekubelet "github.com/divinerapier/learn-kubernetes/test/e2e/framework/kubelet"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/perftype"
 )
 
 // CurrentKubeletPerfMetricsVersion is the current kubelet performance metrics

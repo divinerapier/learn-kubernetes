@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "envvars.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/envvars",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/envvars",
     deps = [
         "//pkg/apis/core/v1/helper:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

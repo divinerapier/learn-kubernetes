@@ -36,7 +36,7 @@ limitations under the License.
 //       blob/master/staging/src/k8s.io/apimachinery/pkg/util/yaml
 //
 // which is "vendored" via symlinks:
-//   k8s.io/kubernetes/vendor/k8s.io/apimachinery
+//   github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apimachinery
 // is a symlink to
 //   ../../staging/src/k8s.io/apimachinery
 //

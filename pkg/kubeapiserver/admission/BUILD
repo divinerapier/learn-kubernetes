@@ -6,7 +6,7 @@ go_library(
         "config.go",
         "initializer.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubeapiserver/admission",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/admission",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/quota/v1:go_default_library",

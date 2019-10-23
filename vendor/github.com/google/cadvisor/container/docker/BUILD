@@ -9,7 +9,7 @@ go_library(
         "handler.go",
         "plugin.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/google/cadvisor/container/docker",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/google/cadvisor/container/docker",
     importpath = "github.com/google/cadvisor/container/docker",
     visibility = ["//visibility:public"],
     deps = [

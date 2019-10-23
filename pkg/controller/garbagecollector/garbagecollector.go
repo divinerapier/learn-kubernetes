@@ -37,7 +37,7 @@ import (
 	"k8s.io/client-go/metadata"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
-	"k8s.io/kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 
 	// import known versions
 	_ "k8s.io/client-go/kubernetes"

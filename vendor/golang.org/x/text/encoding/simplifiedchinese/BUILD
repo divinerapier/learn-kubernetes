@@ -8,7 +8,7 @@ go_library(
         "hzgb2312.go",
         "tables.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/text/encoding/simplifiedchinese",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/text/encoding/simplifiedchinese",
     importpath = "golang.org/x/text/encoding/simplifiedchinese",
     visibility = ["//visibility:public"],
     deps = [

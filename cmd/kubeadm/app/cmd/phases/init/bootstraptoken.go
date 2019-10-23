@@ -21,11 +21,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
-	clusterinfophase "k8s.io/kubernetes/cmd/kubeadm/app/phases/bootstraptoken/clusterinfo"
-	nodebootstraptokenphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/bootstraptoken/node"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
+	clusterinfophase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/bootstraptoken/clusterinfo"
+	nodebootstraptokenphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/bootstraptoken/node"
 )
 
 var (

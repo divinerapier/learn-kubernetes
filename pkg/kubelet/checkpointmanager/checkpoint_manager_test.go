@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager/checksum"
-	utilstore "k8s.io/kubernetes/pkg/kubelet/checkpointmanager/testing"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager/testing/example_checkpoint_formats/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager/checksum"
+	utilstore "github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager/testing/example_checkpoint_formats/v1"
 )
 
 var testStore *utilstore.MemStore

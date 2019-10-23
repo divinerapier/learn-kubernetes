@@ -27,9 +27,9 @@ import (
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistrytest "k8s.io/apiserver/pkg/registry/generic/testing"
 	etcd3testing "k8s.io/apiserver/pkg/storage/etcd3/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	kubeletclient "k8s.io/kubernetes/pkg/kubelet/client"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	kubeletclient "github.com/divinerapier/learn-kubernetes/pkg/kubelet/client"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/registrytest"
 )
 
 func newStorage(t *testing.T) (*REST, *etcd3testing.EtcdTestServer) {

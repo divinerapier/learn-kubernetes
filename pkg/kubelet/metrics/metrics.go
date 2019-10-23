@@ -28,8 +28,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/features"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
 )
 
 // This const block defines the metric names for the kubelet metrics.

@@ -33,8 +33,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
 	utilexec "k8s.io/utils/exec"
 )
 

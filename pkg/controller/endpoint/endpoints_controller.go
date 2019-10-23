@@ -40,15 +40,15 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/component-base/metrics/prometheus/ratelimiter"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/api/v1/endpoints"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	"k8s.io/kubernetes/pkg/controller"
-	endpointutil "k8s.io/kubernetes/pkg/controller/util/endpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/v1/endpoints"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	endpointutil "github.com/divinerapier/learn-kubernetes/pkg/controller/util/endpoint"
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 	utilnet "k8s.io/utils/net"
 )
 

@@ -8,7 +8,7 @@ go_library(
         "types.go",
         "zz_generated.deepcopy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/discovery",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/discovery",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core:go_default_library",

@@ -11,7 +11,7 @@ go_library(
         "doc.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/test/integration",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/integration",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/api/errors:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1:go_default_library",

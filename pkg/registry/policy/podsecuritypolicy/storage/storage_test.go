@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/pkg/apis/policy"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/policy"
 	// Ensure that policy/v1beta1 package is initialized.
 	_ "k8s.io/api/policy/v1beta1"
 	"k8s.io/apimachinery/pkg/fields"
@@ -29,7 +29,7 @@ import (
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistrytest "k8s.io/apiserver/pkg/registry/generic/testing"
 	etcd3testing "k8s.io/apiserver/pkg/storage/etcd3/testing"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/registrytest"
 )
 
 func newStorage(t *testing.T) (*REST, *etcd3testing.EtcdTestServer) {

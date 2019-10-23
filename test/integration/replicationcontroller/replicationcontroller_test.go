@@ -35,9 +35,9 @@ import (
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/retry"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/controller/replication"
-	"k8s.io/kubernetes/test/integration/framework"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/replication"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 const (

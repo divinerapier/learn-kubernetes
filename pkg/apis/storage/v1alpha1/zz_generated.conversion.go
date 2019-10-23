@@ -27,9 +27,9 @@ import (
 	v1alpha1 "k8s.io/api/storage/v1alpha1"
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	core "k8s.io/kubernetes/pkg/apis/core"
-	v1 "k8s.io/kubernetes/pkg/apis/core/v1"
-	storage "k8s.io/kubernetes/pkg/apis/storage"
+	core "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	v1 "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1"
+	storage "github.com/divinerapier/learn-kubernetes/pkg/apis/storage"
 )
 
 func init() {

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["equal.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/equal",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/equal",
     deps = ["//staging/src/k8s.io/api/core/v1:go_default_library"],
 )
 

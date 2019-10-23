@@ -12,7 +12,7 @@ go_library(
         "utils.go",
         "validator.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/asaskevich/govalidator",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/asaskevich/govalidator",
     importpath = "github.com/asaskevich/govalidator",
     visibility = ["//visibility:public"],
 )

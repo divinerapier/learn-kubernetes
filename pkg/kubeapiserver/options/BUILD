@@ -17,7 +17,7 @@ go_library(
         "plugins.go",
         "serving.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubeapiserver/options",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/options",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/kubeapiserver/authenticator:go_default_library",

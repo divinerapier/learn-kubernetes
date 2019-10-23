@@ -31,9 +31,9 @@ import (
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	sshutil "k8s.io/kubernetes/pkg/ssh"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
-	testutils "k8s.io/kubernetes/test/utils"
+	sshutil "github.com/divinerapier/learn-kubernetes/pkg/ssh"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 const (

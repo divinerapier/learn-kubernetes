@@ -60,7 +60,7 @@ go_library(
         "data.go",
         "server.go",
     ],
-    importpath = "k8s.io/kubernetes/test/integration/etcd",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/integration/etcd",
     deps = [
         "//cmd/kube-apiserver/app:go_default_library",
         "//cmd/kube-apiserver/app/options:go_default_library",

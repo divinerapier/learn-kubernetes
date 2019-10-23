@@ -6,7 +6,7 @@ go_library(
         "empty.go",
         "string.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kube-openapi/pkg/util/sets",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kube-openapi/pkg/util/sets",
     importpath = "k8s.io/kube-openapi/pkg/util/sets",
     visibility = ["//visibility:public"],
 )

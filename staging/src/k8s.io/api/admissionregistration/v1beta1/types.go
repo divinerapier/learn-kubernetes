@@ -482,7 +482,7 @@ type RuleWithOperations struct {
 
 type OperationType string
 
-// The constants should be kept in sync with those defined in k8s.io/kubernetes/pkg/admission/interface.go.
+// The constants should be kept in sync with those defined in github.com/divinerapier/learn-kubernetes/pkg/admission/interface.go.
 const (
 	OperationAll OperationType = "*"
 	Create       OperationType = "CREATE"

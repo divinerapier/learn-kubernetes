@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/proxy/ipvs"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy/ipvs"
 )
 
 type fakeIPSetVersioner struct {

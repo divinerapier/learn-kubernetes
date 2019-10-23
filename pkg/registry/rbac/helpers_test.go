@@ -21,8 +21,8 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	kapi "k8s.io/kubernetes/pkg/apis/core"
-	kapihelper "k8s.io/kubernetes/pkg/apis/core/helper"
+	kapi "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	kapihelper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/helper"
 )
 
 func newPod() *kapi.Pod {

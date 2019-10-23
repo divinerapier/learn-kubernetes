@@ -33,7 +33,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["projected.go"],
-    importpath = "k8s.io/kubernetes/pkg/volume/projected",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/projected",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/volume:go_default_library",

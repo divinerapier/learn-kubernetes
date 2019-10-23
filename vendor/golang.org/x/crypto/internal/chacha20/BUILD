@@ -9,7 +9,7 @@ go_library(
         "chacha_s390x.s",
         "xor.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/crypto/internal/chacha20",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/crypto/internal/chacha20",
     importpath = "golang.org/x/crypto/internal/chacha20",
     visibility = ["//vendor/golang.org/x/crypto:__subpackages__"],
     deps = ["//vendor/golang.org/x/crypto/internal/subtle:go_default_library"],

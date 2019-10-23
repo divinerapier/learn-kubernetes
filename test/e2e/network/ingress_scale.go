@@ -17,8 +17,8 @@ limitations under the License.
 package network
 
 import (
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/network/scale"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/network/scale"
 
 	"github.com/onsi/ginkgo"
 )

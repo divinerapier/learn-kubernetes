@@ -30,7 +30,7 @@ import (
 	errorsutil "k8s.io/apimachinery/pkg/util/errors"
 	utilyaml "k8s.io/apimachinery/pkg/util/yaml"
 	clientsetscheme "k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
 )
 
 // MarshalToYaml marshals an object into yaml.

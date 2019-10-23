@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["metrics.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/volume/attachdetach/metrics",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/metrics",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/controller/volume/attachdetach/cache:go_default_library",

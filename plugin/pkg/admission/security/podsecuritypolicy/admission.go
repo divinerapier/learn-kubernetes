@@ -35,13 +35,13 @@ import (
 	"k8s.io/apiserver/pkg/authorization/authorizer"
 	"k8s.io/client-go/informers"
 	policylisters "k8s.io/client-go/listers/policy/v1beta1"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	"k8s.io/kubernetes/pkg/apis/policy"
-	rbacregistry "k8s.io/kubernetes/pkg/registry/rbac"
-	psp "k8s.io/kubernetes/pkg/security/podsecuritypolicy"
-	psputil "k8s.io/kubernetes/pkg/security/podsecuritypolicy/util"
-	"k8s.io/kubernetes/pkg/serviceaccount"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/extensions"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/policy"
+	rbacregistry "github.com/divinerapier/learn-kubernetes/pkg/registry/rbac"
+	psp "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy"
+	psputil "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
 )
 
 // PluginName is a string with the name of the plugin

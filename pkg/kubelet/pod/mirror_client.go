@@ -23,8 +23,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/klog"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 // MirrorClient knows how to create/delete a mirror pod in the API server.

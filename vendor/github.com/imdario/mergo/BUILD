@@ -8,7 +8,7 @@ go_library(
         "merge.go",
         "mergo.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/imdario/mergo",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/imdario/mergo",
     importpath = "github.com/imdario/mergo",
     visibility = ["//visibility:public"],
 )

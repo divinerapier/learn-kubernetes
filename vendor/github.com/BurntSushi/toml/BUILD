@@ -14,7 +14,7 @@ go_library(
         "type_check.go",
         "type_fields.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/BurntSushi/toml",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/BurntSushi/toml",
     importpath = "github.com/BurntSushi/toml",
     visibility = ["//visibility:public"],
 )

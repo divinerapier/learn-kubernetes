@@ -21,9 +21,9 @@ import (
 
 	"k8s.io/api/core/v1"
 	"k8s.io/klog"
-	cputopology "k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/topology"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager/bitmask"
-	"k8s.io/kubernetes/pkg/kubelet/lifecycle"
+	cputopology "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/topology"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager/bitmask"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/lifecycle"
 )
 
 const (

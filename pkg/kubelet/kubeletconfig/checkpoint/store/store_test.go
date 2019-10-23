@@ -22,7 +22,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 
 	apiv1 "k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
 )
 
 func TestReset(t *testing.T) {

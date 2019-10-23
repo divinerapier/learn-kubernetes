@@ -22,7 +22,7 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
 )
 
 func TestValidateKubeletConfiguration(t *testing.T) {

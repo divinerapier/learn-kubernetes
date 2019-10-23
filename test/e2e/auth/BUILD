@@ -18,7 +18,7 @@ go_library(
         "pod_security_policy.go",
         "service_accounts.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/auth",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/auth",
     deps = [
         "//pkg/master/ports:go_default_library",
         "//pkg/security/apparmor:go_default_library",

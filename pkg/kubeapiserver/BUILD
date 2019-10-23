@@ -11,7 +11,7 @@ go_library(
         "default_storage_factory_builder.go",
         "doc.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubeapiserver",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/apps:go_default_library",

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/auditregistration/auditsink/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/auditregistration/auditsink/storage",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/auditregistration:go_default_library",

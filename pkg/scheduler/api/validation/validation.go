@@ -24,9 +24,9 @@ import (
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/validation"
-	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
+	v1helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
 )
 
 // ValidatePolicy checks for errors in the Config

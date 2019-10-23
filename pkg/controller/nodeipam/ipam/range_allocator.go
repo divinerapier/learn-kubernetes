@@ -35,9 +35,9 @@ import (
 	corelisters "k8s.io/client-go/listers/core/v1"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
-	"k8s.io/kubernetes/pkg/controller/nodeipam/ipam/cidrset"
-	nodeutil "k8s.io/kubernetes/pkg/controller/util/node"
-	utilnode "k8s.io/kubernetes/pkg/util/node"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam/ipam/cidrset"
+	nodeutil "github.com/divinerapier/learn-kubernetes/pkg/controller/util/node"
+	utilnode "github.com/divinerapier/learn-kubernetes/pkg/util/node"
 )
 
 // cidrs are reserved, then node resource is patched with them

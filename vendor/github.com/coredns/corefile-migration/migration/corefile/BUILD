@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["corefile.go"],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coredns/corefile-migration/migration/corefile",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coredns/corefile-migration/migration/corefile",
     importpath = "github.com/coredns/corefile-migration/migration/corefile",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/caddyserver/caddy/caddyfile:go_default_library"],

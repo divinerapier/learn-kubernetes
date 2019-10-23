@@ -7,7 +7,7 @@ go_library(
         "constants.go",
         "server.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/apis/podresources",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/podresources",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/apis/podresources/v1alpha1:go_default_library",

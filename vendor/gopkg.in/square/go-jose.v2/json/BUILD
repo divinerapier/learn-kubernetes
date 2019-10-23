@@ -10,7 +10,7 @@ go_library(
         "stream.go",
         "tags.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gopkg.in/square/go-jose.v2/json",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gopkg.in/square/go-jose.v2/json",
     importpath = "gopkg.in/square/go-jose.v2/json",
     visibility = ["//visibility:public"],
 )

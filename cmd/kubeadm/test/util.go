@@ -26,12 +26,12 @@ import (
 
 	"github.com/lithammer/dedent"
 
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmapiv1beta2 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	certtestutil "k8s.io/kubernetes/cmd/kubeadm/app/util/certs"
-	configutil "k8s.io/kubernetes/cmd/kubeadm/app/util/config"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmapiv1beta2 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	certtestutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/certs"
+	configutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/config"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
 )
 
 // SetupTempDir is a utility function for kubeadm testing, that creates a temporary directory

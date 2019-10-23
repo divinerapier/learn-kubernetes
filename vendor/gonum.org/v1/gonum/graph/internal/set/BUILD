@@ -7,7 +7,7 @@ go_library(
         "same.go",
         "set.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/internal/set",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/internal/set",
     importpath = "gonum.org/v1/gonum/graph/internal/set",
     visibility = ["//vendor/gonum.org/v1/gonum/graph:__subpackages__"],
     deps = ["//vendor/gonum.org/v1/gonum/graph:go_default_library"],

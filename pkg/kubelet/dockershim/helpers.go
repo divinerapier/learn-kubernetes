@@ -30,11 +30,11 @@ import (
 
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/credentialprovider"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"
-	"k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/security/apparmor"
-	"k8s.io/kubernetes/pkg/util/parsers"
+	"github.com/divinerapier/learn-kubernetes/pkg/credentialprovider"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/apparmor"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/parsers"
 )
 
 const (

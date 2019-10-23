@@ -55,7 +55,7 @@ go_library(
         "import_known_versions.go",
         "printers.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/printers/internalversion",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/printers/internalversion",
     deps = [
         "//pkg/apis/apps:go_default_library",
         "//pkg/apis/apps/install:go_default_library",

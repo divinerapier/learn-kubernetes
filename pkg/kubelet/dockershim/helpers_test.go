@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"
-	"k8s.io/kubernetes/pkg/security/apparmor"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/apparmor"
 )
 
 func TestLabelsAndAnnotationsRoundTrip(t *testing.T) {

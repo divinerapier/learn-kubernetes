@@ -8,7 +8,7 @@ go_library(
         "stats.go",
         "utils.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/opencontainers/runc/libcontainer/cgroups",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/opencontainers/runc/libcontainer/cgroups",
     importpath = "github.com/opencontainers/runc/libcontainer/cgroups",
     visibility = ["//visibility:public"],
     deps = select({

@@ -17,9 +17,9 @@ limitations under the License.
 package storage
 
 import (
-	"k8s.io/kubernetes/test/e2e/storage/drivers"
-	"k8s.io/kubernetes/test/e2e/storage/testsuites"
-	"k8s.io/kubernetes/test/e2e/storage/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/drivers"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/testsuites"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils"
 
 	"github.com/onsi/ginkgo"
 )

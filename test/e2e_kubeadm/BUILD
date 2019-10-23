@@ -70,7 +70,7 @@ go_library(
         "framework.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e_kubeadm",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e_kubeadm",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/apps/v1:go_default_library",

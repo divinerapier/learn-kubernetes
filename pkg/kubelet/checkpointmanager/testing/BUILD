@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["util.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/checkpointmanager/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager/testing",
 )
 
 filegroup(

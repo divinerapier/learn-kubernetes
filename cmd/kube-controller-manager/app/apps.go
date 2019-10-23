@@ -27,10 +27,10 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/util/flowcontrol"
-	"k8s.io/kubernetes/pkg/controller/daemon"
-	"k8s.io/kubernetes/pkg/controller/deployment"
-	"k8s.io/kubernetes/pkg/controller/replicaset"
-	"k8s.io/kubernetes/pkg/controller/statefulset"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/daemon"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/deployment"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/replicaset"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/statefulset"
 )
 
 func startDaemonSetController(ctx ControllerContext) (http.Handler, bool, error) {

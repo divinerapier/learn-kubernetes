@@ -24,7 +24,7 @@ import (
 	"os"
 
 	benchparse "golang.org/x/tools/benchmark/parse"
-	"k8s.io/kubernetes/test/e2e/perftype"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/perftype"
 )
 
 func main() {

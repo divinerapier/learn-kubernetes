@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["testserver.go"],
-    importpath = "k8s.io/kubernetes/cmd/kube-scheduler/app/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kube-scheduler/app/testing",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kube-scheduler/app:go_default_library",

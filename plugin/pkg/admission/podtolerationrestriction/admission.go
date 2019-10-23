@@ -32,12 +32,12 @@ import (
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 	corev1listers "k8s.io/client-go/listers/core/v1"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	qoshelper "k8s.io/kubernetes/pkg/apis/core/helper/qos"
-	k8s_api_v1 "k8s.io/kubernetes/pkg/apis/core/v1"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
-	"k8s.io/kubernetes/pkg/util/tolerations"
-	pluginapi "k8s.io/kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	qoshelper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/helper/qos"
+	k8s_api_v1 "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/tolerations"
+	pluginapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction"
 )
 
 // PluginName is a string with the name of the plugin

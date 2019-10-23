@@ -23,7 +23,7 @@ import (
 	"os"
 
 	"gopkg.in/gcfg.v1"
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 )
 
 const (

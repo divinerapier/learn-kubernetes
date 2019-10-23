@@ -29,8 +29,8 @@ import (
 	cloudprovider "k8s.io/cloud-provider"
 	volumehelpers "k8s.io/cloud-provider/volume/helpers"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/volume"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumeutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 	"k8s.io/legacy-cloud-providers/vsphere"
 	"k8s.io/legacy-cloud-providers/vsphere/vclib"
 )

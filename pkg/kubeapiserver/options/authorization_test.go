@@ -19,7 +19,7 @@ package options
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/kubeapiserver/authorizer/modes"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/authorizer/modes"
 )
 
 func TestAuthzValidate(t *testing.T) {

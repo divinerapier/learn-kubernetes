@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["report.go"],
-    importmap = "k8s.io/kubernetes/vendor/gotest.tools/gotestsum/internal/junitxml",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gotest.tools/gotestsum/internal/junitxml",
     importpath = "gotest.tools/gotestsum/internal/junitxml",
     visibility = ["//vendor/gotest.tools/gotestsum:__subpackages__"],
     deps = [

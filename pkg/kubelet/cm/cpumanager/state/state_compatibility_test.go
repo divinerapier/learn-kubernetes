@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
 )
 
 const compatibilityTestingCheckpoint = "cpumanager_state_compatibility_test"

@@ -25,8 +25,8 @@ import (
 	apiextensionsapiserver "k8s.io/apiextensions-apiserver/pkg/apiserver"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	aggregatorscheme "k8s.io/kube-aggregator/pkg/apiserver/scheme"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 	netutils "k8s.io/utils/net"
 )
 

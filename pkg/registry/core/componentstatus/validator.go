@@ -22,8 +22,8 @@ import (
 	"time"
 
 	utilnet "k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/kubernetes/pkg/probe"
-	httpprober "k8s.io/kubernetes/pkg/probe/http"
+	"github.com/divinerapier/learn-kubernetes/pkg/probe"
+	httpprober "github.com/divinerapier/learn-kubernetes/pkg/probe/http"
 )
 
 const (

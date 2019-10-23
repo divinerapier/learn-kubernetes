@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["doc.go"],
-    importpath = "k8s.io/kubernetes/test/integration/metrics",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/integration/metrics",
 )
 
 filegroup(

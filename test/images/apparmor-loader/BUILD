@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["loader.go"],
-    importpath = "k8s.io/kubernetes/test/images/apparmor-loader",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/apparmor-loader",
     visibility = ["//visibility:private"],
     deps = ["//vendor/k8s.io/klog:go_default_library"],
 )

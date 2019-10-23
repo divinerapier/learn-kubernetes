@@ -21,8 +21,8 @@ import (
 	"net"
 
 	"k8s.io/apiserver/pkg/storage/storagebackend"
-	apiserver "k8s.io/kubernetes/cmd/kube-apiserver/app"
-	"k8s.io/kubernetes/cmd/kube-apiserver/app/options"
+	apiserver "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/options"
 )
 
 const (

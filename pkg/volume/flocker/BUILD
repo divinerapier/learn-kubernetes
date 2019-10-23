@@ -14,7 +14,7 @@ go_library(
         "flocker_util.go",
         "flocker_volume.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/flocker",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/flocker",
     deps = [
         "//pkg/util/env:go_default_library",
         "//pkg/util/mount:go_default_library",

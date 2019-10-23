@@ -11,7 +11,7 @@ go_library(
         "fake_mirror_client.go",
         "mock_manager.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/pod/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pod/testing",
     deps = [
         "//pkg/kubelet/checkpoint:go_default_library",
         "//pkg/kubelet/checkpointmanager:go_default_library",

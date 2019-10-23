@@ -7,7 +7,7 @@ go_library(
         "fake_auditregistration_client.go",
         "fake_auditsink.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/client-go/kubernetes/typed/auditregistration/v1alpha1/fake",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/client-go/kubernetes/typed/auditregistration/v1alpha1/fake",
     importpath = "k8s.io/client-go/kubernetes/typed/auditregistration/v1alpha1/fake",
     visibility = ["//visibility:public"],
     deps = [

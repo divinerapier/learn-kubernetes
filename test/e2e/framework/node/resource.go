@@ -29,12 +29,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	nodectlr "k8s.io/kubernetes/pkg/controller/nodelifecycle"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/predicates"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
-	"k8s.io/kubernetes/test/e2e/system"
-	testutils "k8s.io/kubernetes/test/utils"
+	nodectlr "github.com/divinerapier/learn-kubernetes/pkg/controller/nodelifecycle"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/predicates"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/system"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 const (

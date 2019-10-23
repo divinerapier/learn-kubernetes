@@ -32,7 +32,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/uuid"
 
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 )
 
 func shredFile(filePath string) {

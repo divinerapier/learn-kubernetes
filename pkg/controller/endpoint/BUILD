@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "endpoints_controller.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/endpoint",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/endpoint",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/v1/endpoints:go_default_library",

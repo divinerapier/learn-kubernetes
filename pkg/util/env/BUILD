@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["env.go"],
-    importpath = "k8s.io/kubernetes/pkg/util/env",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/env",
 )
 
 go_test(

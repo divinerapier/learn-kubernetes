@@ -9,7 +9,7 @@ go_library(
         "ebs.go",
         "gce.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/framework/plugins/nodevolumelimits",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/plugins/nodevolumelimits",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/scheduler/algorithm/predicates:go_default_library",

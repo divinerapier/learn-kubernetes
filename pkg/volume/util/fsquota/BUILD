@@ -8,7 +8,7 @@ go_library(
         "quota_linux.go",
         "quota_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/util/fsquota",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/util/fsquota",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/features:go_default_library",

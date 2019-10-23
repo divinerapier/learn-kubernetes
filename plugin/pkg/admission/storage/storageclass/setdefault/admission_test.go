@@ -27,9 +27,9 @@ import (
 	"k8s.io/apiserver/pkg/admission"
 	admissiontesting "k8s.io/apiserver/pkg/admission/testing"
 	"k8s.io/client-go/informers"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	storageutil "k8s.io/kubernetes/pkg/apis/storage/util"
-	"k8s.io/kubernetes/pkg/controller"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	storageutil "github.com/divinerapier/learn-kubernetes/pkg/apis/storage/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 )
 
 func TestAdmission(t *testing.T) {

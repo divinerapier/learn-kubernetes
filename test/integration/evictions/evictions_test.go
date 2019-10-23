@@ -41,8 +41,8 @@ import (
 	"k8s.io/client-go/restmapper"
 	"k8s.io/client-go/scale"
 	"k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/controller/disruption"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/disruption"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 const (

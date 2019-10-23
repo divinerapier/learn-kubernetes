@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["reconciler.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/volumemanager/reconciler",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/volumemanager/reconciler",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/kubelet/config:go_default_library",

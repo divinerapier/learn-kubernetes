@@ -27,8 +27,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/clock"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/flowcontrol"
-	. "k8s.io/kubernetes/pkg/kubelet/container"
-	ctest "k8s.io/kubernetes/pkg/kubelet/container/testing"
+	. "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	ctest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container/testing"
 )
 
 type pullerExpects struct {

@@ -22,7 +22,7 @@ go_library(
         "qos_container_manager_linux.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/cm",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/features:go_default_library",

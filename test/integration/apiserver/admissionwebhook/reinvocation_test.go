@@ -45,9 +45,9 @@ import (
 	auditv1 "k8s.io/apiserver/pkg/apis/audit/v1"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
-	kubeapiservertesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	"k8s.io/kubernetes/test/integration/framework"
-	"k8s.io/kubernetes/test/utils"
+	kubeapiservertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 const (

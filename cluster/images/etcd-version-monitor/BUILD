@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["etcd-version-monitor.go"],
-    importpath = "k8s.io/kubernetes/cluster/images/etcd-version-monitor",
+    importpath = "github.com/divinerapier/learn-kubernetes/cluster/images/etcd-version-monitor",
     deps = [
         "//staging/src/k8s.io/component-base/metrics:go_default_library",
         "//vendor/github.com/gogo/protobuf/proto:go_default_library",

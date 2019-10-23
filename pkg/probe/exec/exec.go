@@ -19,8 +19,8 @@ package exec
 import (
 	"bytes"
 
-	"k8s.io/kubernetes/pkg/kubelet/util/ioutils"
-	"k8s.io/kubernetes/pkg/probe"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/ioutils"
+	"github.com/divinerapier/learn-kubernetes/pkg/probe"
 
 	"k8s.io/klog"
 	"k8s.io/utils/exec"

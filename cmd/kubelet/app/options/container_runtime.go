@@ -21,8 +21,8 @@ import (
 	"time"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/pkg/kubelet/config"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/config"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 const (

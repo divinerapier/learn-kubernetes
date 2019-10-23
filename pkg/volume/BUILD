@@ -15,7 +15,7 @@ go_library(
         "volume_linux.go",
         "volume_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/features:go_default_library",

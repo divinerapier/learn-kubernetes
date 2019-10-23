@@ -18,8 +18,8 @@ package migration
 
 import (
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/predicates"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/predicates"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
 )
 
 const (

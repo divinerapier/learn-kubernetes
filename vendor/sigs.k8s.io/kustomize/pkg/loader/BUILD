@@ -6,7 +6,7 @@ go_library(
         "fileloader.go",
         "loader.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/loader",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/loader",
     importpath = "sigs.k8s.io/kustomize/pkg/loader",
     visibility = ["//visibility:public"],
     deps = [

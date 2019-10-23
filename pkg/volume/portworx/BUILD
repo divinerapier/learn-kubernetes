@@ -28,7 +28,7 @@ go_library(
         "portworx.go",
         "portworx_util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/portworx",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/portworx",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/util/mount:go_default_library",

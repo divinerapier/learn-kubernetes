@@ -6,7 +6,7 @@ go_library(
         "manager.go",
         "producer.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/go.opencensus.io/metric/metricproducer",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.opencensus.io/metric/metricproducer",
     importpath = "go.opencensus.io/metric/metricproducer",
     visibility = ["//visibility:public"],
     deps = ["//vendor/go.opencensus.io/metric/metricdata:go_default_library"],

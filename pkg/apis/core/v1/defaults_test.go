@@ -29,16 +29,16 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apimachinery/pkg/util/intstr"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	corev1 "k8s.io/kubernetes/pkg/apis/core/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	corev1 "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1"
 	utilpointer "k8s.io/utils/pointer"
 
 	// enforce that all types are installed
-	_ "k8s.io/kubernetes/pkg/api/testapi"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 // TestWorkloadDefaults detects changes to defaults within PodTemplateSpec.

@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["clusterinfo.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/bootstraptoken/clusterinfo",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/bootstraptoken/clusterinfo",
     deps = [
         "//cmd/kubeadm/app/util/apiclient:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

@@ -34,8 +34,8 @@ import (
 	bootstrapsecretutil "k8s.io/cluster-bootstrap/util/secrets"
 	"k8s.io/component-base/metrics/prometheus/ratelimiter"
 	"k8s.io/klog"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/controller"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 )
 
 // TokenCleanerOptions contains options for the TokenCleaner

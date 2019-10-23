@@ -25,7 +25,7 @@ import (
 )
 
 // +k8s:deepcopy-gen=true
-// +k8s:deepcopy-gen:interfaces=k8s.io/kubernetes/pkg/registry/rbac/reconciliation.RoleBinding
+// +k8s:deepcopy-gen:interfaces=github.com/divinerapier/learn-kubernetes/pkg/registry/rbac/reconciliation.RoleBinding
 // +k8s:deepcopy-gen:nonpointer-interfaces=true
 type ClusterRoleBindingAdapter struct {
 	ClusterRoleBinding *rbacv1.ClusterRoleBinding

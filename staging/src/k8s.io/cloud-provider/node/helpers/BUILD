@@ -7,7 +7,7 @@ go_library(
         "conditions.go",
         "taints.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/cloud-provider/node/helpers",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/cloud-provider/node/helpers",
     importpath = "k8s.io/cloud-provider/node/helpers",
     visibility = ["//visibility:public"],
     deps = [

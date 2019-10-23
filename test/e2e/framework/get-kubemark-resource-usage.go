@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
 )
 
 // KubemarkResourceUsage is a struct for tracking the resource usage of kubemark.

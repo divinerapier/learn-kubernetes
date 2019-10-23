@@ -6,7 +6,7 @@ go_library(
         "io_go1.6.go",
         "io_go1.7.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/aws/aws-sdk-go/internal/sdkio",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/aws/aws-sdk-go/internal/sdkio",
     importpath = "github.com/aws/aws-sdk-go/internal/sdkio",
     visibility = ["//vendor/github.com/aws/aws-sdk-go:__subpackages__"],
 )

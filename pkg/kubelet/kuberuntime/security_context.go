@@ -21,8 +21,8 @@ import (
 
 	"k8s.io/api/core/v1"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/security/apparmor"
-	"k8s.io/kubernetes/pkg/securitycontext"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/apparmor"
+	"github.com/divinerapier/learn-kubernetes/pkg/securitycontext"
 )
 
 // determineEffectiveSecurityContext gets container's security context from v1.Pod and v1.Container.

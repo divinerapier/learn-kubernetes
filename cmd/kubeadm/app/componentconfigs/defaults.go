@@ -23,12 +23,12 @@ import (
 
 	kubeproxyconfigv1alpha1 "k8s.io/kube-proxy/config/v1alpha1"
 	kubeletconfigv1beta1 "k8s.io/kubelet/config/v1beta1"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmapiv1beta2 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/features"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubeproxyconfig "k8s.io/kubernetes/pkg/proxy/apis/config"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmapiv1beta2 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/features"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubeproxyconfig "github.com/divinerapier/learn-kubernetes/pkg/proxy/apis/config"
 	utilpointer "k8s.io/utils/pointer"
 )
 

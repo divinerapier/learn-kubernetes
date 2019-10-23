@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/credentialprovider"
+	"github.com/divinerapier/learn-kubernetes/pkg/credentialprovider"
 )
 
 // MakeDockerKeyring inspects the passedSecrets to see if they contain any DockerConfig secrets.  If they do,

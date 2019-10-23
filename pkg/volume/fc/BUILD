@@ -15,7 +15,7 @@ go_library(
         "fc.go",
         "fc_util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/fc",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/fc",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/util/mount:go_default_library",

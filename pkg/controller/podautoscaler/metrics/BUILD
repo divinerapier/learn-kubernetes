@@ -8,7 +8,7 @@ go_library(
         "rest_metrics_client.go",
         "utilization.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/podautoscaler/metrics",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/podautoscaler/metrics",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/autoscaling/v2beta2:go_default_library",

@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["gen_kubectl_yaml.go"],
-    importpath = "k8s.io/kubernetes/cmd/genyaml",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/genyaml",
     deps = [
         "//cmd/genutils:go_default_library",
         "//pkg/kubectl/cmd:go_default_library",

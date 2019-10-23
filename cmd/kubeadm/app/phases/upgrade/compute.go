@@ -22,10 +22,10 @@ import (
 
 	versionutil "k8s.io/apimachinery/pkg/util/version"
 	clientset "k8s.io/client-go/kubernetes"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/addons/dns"
-	etcdutil "k8s.io/kubernetes/cmd/kubeadm/app/util/etcd"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/addons/dns"
+	etcdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/etcd"
 )
 
 // Upgrade defines an upgrade possibility to upgrade from a current version to a new one

@@ -10,7 +10,7 @@ go_library(
         "record.go",
         "units.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/go.opencensus.io/stats",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.opencensus.io/stats",
     importpath = "go.opencensus.io/stats",
     visibility = ["//visibility:public"],
     deps = [

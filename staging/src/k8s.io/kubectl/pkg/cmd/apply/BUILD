@@ -8,7 +8,7 @@ go_library(
         "apply_set_last_applied.go",
         "apply_view_last_applied.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kubectl/pkg/cmd/apply",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kubectl/pkg/cmd/apply",
     importpath = "k8s.io/kubectl/pkg/cmd/apply",
     visibility = ["//visibility:public"],
     deps = [

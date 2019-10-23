@@ -6,7 +6,7 @@ go_library(
         "client.go",
         "socks.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/net/internal/socks",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/net/internal/socks",
     importpath = "golang.org/x/net/internal/socks",
     visibility = ["//vendor/golang.org/x/net:__subpackages__"],
 )

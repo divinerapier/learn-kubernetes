@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["desired_state_of_world_populator.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/volume/attachdetach/populator",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/populator",
     deps = [
         "//pkg/controller/volume/attachdetach/cache:go_default_library",
         "//pkg/controller/volume/attachdetach/util:go_default_library",

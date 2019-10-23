@@ -34,7 +34,7 @@ go_library(
         "virtualmachinescalesetvms.go",
         "virtualmachinesizes.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2019-07-01/compute",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2019-07-01/compute",
     importpath = "github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2019-07-01/compute",
     visibility = ["//visibility:public"],
     deps = [

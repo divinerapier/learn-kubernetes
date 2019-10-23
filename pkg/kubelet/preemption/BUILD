@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["preemption.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/preemption",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/preemption",
     deps = [
         "//pkg/api/v1/resource:go_default_library",
         "//pkg/apis/core/v1/helper/qos:go_default_library",

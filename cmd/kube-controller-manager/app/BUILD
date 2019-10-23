@@ -19,7 +19,7 @@ go_library(
         "policy.go",
         "rbac.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kube-controller-manager/app",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kube-controller-manager/app",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/controller-manager/app:go_default_library",

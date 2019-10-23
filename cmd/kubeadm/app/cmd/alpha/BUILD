@@ -9,7 +9,7 @@ go_library(
         "kubelet.go",
         "selfhosting.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/cmd/alpha",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/alpha",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",

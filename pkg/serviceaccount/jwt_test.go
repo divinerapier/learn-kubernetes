@@ -32,8 +32,8 @@ import (
 	v1listers "k8s.io/client-go/listers/core/v1"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/keyutil"
-	serviceaccountcontroller "k8s.io/kubernetes/pkg/controller/serviceaccount"
-	"k8s.io/kubernetes/pkg/serviceaccount"
+	serviceaccountcontroller "github.com/divinerapier/learn-kubernetes/pkg/controller/serviceaccount"
+	"github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
 )
 
 const otherPublicKey = `-----BEGIN PUBLIC KEY-----

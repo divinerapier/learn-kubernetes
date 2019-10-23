@@ -8,7 +8,7 @@ go_library(
         "zz_generated.conversion.go",
         "zz_generated.defaults.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/coordination/v1beta1",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/coordination/v1beta1",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/coordination:go_default_library",

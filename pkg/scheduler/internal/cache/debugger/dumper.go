@@ -23,9 +23,9 @@ import (
 	"k8s.io/klog"
 
 	"k8s.io/api/core/v1"
-	internalcache "k8s.io/kubernetes/pkg/scheduler/internal/cache"
-	"k8s.io/kubernetes/pkg/scheduler/internal/queue"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	internalcache "github.com/divinerapier/learn-kubernetes/pkg/scheduler/internal/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/internal/queue"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 // CacheDumper writes some information from the scheduler cache and the scheduling queue to the

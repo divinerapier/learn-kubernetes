@@ -22,9 +22,9 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/kubernetes/pkg/util/mount"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/test/utils/harness"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/mount"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/test/utils/harness"
 )
 
 func TestSetUpAt(tt *testing.T) {

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["fake_manager.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/runtimeclass/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/runtimeclass/testing",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/runtimeclass:go_default_library",

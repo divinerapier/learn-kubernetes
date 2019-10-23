@@ -8,7 +8,7 @@ go_library(
         "util_posix.go",
         "util_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/mattn/go-shellwords",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/mattn/go-shellwords",
     importpath = "github.com/mattn/go-shellwords",
     visibility = ["//visibility:public"],
 )

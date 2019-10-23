@@ -7,7 +7,7 @@ go_library(
         "kustomize.go",
         "strategicmerge.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/util/kustomize",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/kustomize",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1/unstructured:go_default_library",

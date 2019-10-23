@@ -18,8 +18,8 @@ package flexvolume
 
 import (
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/kubernetes/pkg/util/mount"
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/mount"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
 	utilstrings "k8s.io/utils/strings"
 )
 

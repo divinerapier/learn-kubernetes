@@ -7,7 +7,7 @@ go_library(
         "util.go",
         "vm.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Microsoft/hcsshim/internal/runhcs",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Microsoft/hcsshim/internal/runhcs",
     importpath = "github.com/Microsoft/hcsshim/internal/runhcs",
     visibility = ["//vendor/github.com/Microsoft/hcsshim:__subpackages__"],
     deps = [

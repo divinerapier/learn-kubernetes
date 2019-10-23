@@ -13,7 +13,7 @@ go_library(
         "types.go",
         "zz_generated.deepcopy.go",
     ],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/eventratelimit/apis/eventratelimit",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/eventratelimit/apis/eventratelimit",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/runtime:go_default_library",

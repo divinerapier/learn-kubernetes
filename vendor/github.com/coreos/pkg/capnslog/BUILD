@@ -13,7 +13,7 @@ go_library(
         "pkg_logger.go",
         "syslog_formatter.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/pkg/capnslog",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/pkg/capnslog",
     importpath = "github.com/coreos/pkg/capnslog",
     visibility = ["//visibility:public"],
     deps = select({

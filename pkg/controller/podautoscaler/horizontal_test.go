@@ -38,10 +38,10 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	scalefake "k8s.io/client-go/scale/fake"
 	core "k8s.io/client-go/testing"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/controller/podautoscaler/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/podautoscaler/metrics"
 	cmapi "k8s.io/metrics/pkg/apis/custom_metrics/v1beta2"
 	emapi "k8s.io/metrics/pkg/apis/external_metrics/v1beta1"
 	metricsapi "k8s.io/metrics/pkg/apis/metrics/v1beta1"
@@ -51,8 +51,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	_ "k8s.io/kubernetes/pkg/apis/apps/install"
-	_ "k8s.io/kubernetes/pkg/apis/autoscaling/install"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/apps/install"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling/install"
 )
 
 var statusOk = []autoscalingv2.HorizontalPodAutoscalerCondition{

@@ -24,7 +24,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog"
-	utiliptables "k8s.io/kubernetes/pkg/util/iptables"
+	utiliptables "github.com/divinerapier/learn-kubernetes/pkg/util/iptables"
 )
 
 func (kl *Kubelet) initNetworkUtil() {

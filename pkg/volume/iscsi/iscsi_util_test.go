@@ -25,8 +25,8 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/util/mount"
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/mount"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
 )
 
 func TestExtractDeviceAndPrefix(t *testing.T) {

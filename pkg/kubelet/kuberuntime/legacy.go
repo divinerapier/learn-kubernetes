@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"path"
 
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
 )
 
 // This file implements the functions that are needed for backward

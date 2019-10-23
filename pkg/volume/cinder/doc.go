@@ -15,4 +15,4 @@ limitations under the License.
 */
 
 // Package cinder contains the internal representation of cinder volumes.
-package cinder // import "k8s.io/kubernetes/pkg/volume/cinder"
+package cinder // import "github.com/divinerapier/learn-kubernetes/pkg/volume/cinder"

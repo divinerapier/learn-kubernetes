@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/networking/networkpolicy/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/networking/networkpolicy/storage",
     deps = [
         "//pkg/apis/networking:go_default_library",
         "//pkg/printers:go_default_library",

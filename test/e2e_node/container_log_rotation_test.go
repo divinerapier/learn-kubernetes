@@ -21,12 +21,12 @@ import (
 
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/pkg/features"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	kubelogs "k8s.io/kubernetes/pkg/kubelet/logs"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	kubelogs "github.com/divinerapier/learn-kubernetes/pkg/kubelet/logs"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"

@@ -26,8 +26,8 @@ import (
 
 	"k8s.io/api/core/v1"
 	utiltesting "k8s.io/client-go/util/testing"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumetest "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
 	"k8s.io/utils/exec"
 )
 

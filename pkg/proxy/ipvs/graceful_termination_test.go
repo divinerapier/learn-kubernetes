@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	utilipvs "k8s.io/kubernetes/pkg/util/ipvs"
-	utilipvstest "k8s.io/kubernetes/pkg/util/ipvs/testing"
+	utilipvs "github.com/divinerapier/learn-kubernetes/pkg/util/ipvs"
+	utilipvstest "github.com/divinerapier/learn-kubernetes/pkg/util/ipvs/testing"
 )
 
 func Test_GracefulDeleteRS(t *testing.T) {

@@ -37,12 +37,12 @@ import (
 	testcore "k8s.io/client-go/testing"
 	"k8s.io/client-go/tools/cache"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/quota/v1/generic"
-	"k8s.io/kubernetes/pkg/quota/v1/install"
-	resourcequotaapi "k8s.io/kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/quota/v1/generic"
+	"github.com/divinerapier/learn-kubernetes/pkg/quota/v1/install"
+	resourcequotaapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota"
 )
 
 func getResourceList(cpu, memory string) api.ResourceList {

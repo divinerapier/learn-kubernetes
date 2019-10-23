@@ -30,8 +30,8 @@ import (
 	"k8s.io/klog"
 
 	// ensure libs have a chance to globally register their flags
-	_ "k8s.io/kubernetes/pkg/credentialprovider/azure"
-	_ "k8s.io/kubernetes/pkg/credentialprovider/gcp"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/credentialprovider/azure"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/credentialprovider/gcp"
 )
 
 // AddGlobalFlags explicitly registers flags that libraries (glog, verflag, etc.) register
@@ -78,7 +78,7 @@ func registerDeprecated(global *flag.FlagSet, local *pflag.FlagSet, globalName, 
 	local.Lookup(normalize(globalName)).Deprecated = deprecated
 }
 
-// addCredentialProviderFlags adds flags from k8s.io/kubernetes/pkg/credentialprovider
+// addCredentialProviderFlags adds flags from github.com/divinerapier/learn-kubernetes/pkg/credentialprovider
 func addCredentialProviderFlags(fs *pflag.FlagSet) {
 	// lookup flags in global flag set and re-register the values with our flagset
 	global := pflag.CommandLine

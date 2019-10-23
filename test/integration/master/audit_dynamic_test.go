@@ -33,9 +33,9 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/client-go/kubernetes"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	"k8s.io/kubernetes/cmd/kube-apiserver/app/options"
-	"k8s.io/kubernetes/test/integration/framework"
-	"k8s.io/kubernetes/test/utils"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/options"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 // TestDynamicAudit ensures that v1alpha of the auditregistration api works

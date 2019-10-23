@@ -29,7 +29,7 @@ go_library(
         "util.go",
         "volume_host.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/api/v1/resource:go_default_library",

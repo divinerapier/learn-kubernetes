@@ -32,8 +32,8 @@ import (
 	"k8s.io/client-go/util/certificate"
 	compbasemetrics "k8s.io/component-base/metrics"
 	"k8s.io/component-base/metrics/legacyregistry"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	"k8s.io/kubernetes/pkg/kubelet/metrics"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/metrics"
 )
 
 // NewKubeletServerCertificateManager creates a certificate manager for the kubelet when retrieving a server certificate

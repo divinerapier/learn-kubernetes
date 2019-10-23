@@ -8,7 +8,7 @@ go_library(
         "lint.go",
         "names.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/stylecheck",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/stylecheck",
     importpath = "honnef.co/go/tools/stylecheck",
     visibility = ["//visibility:public"],
     deps = [

@@ -27,8 +27,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
 	awscloud "k8s.io/legacy-cloud-providers/aws"
 )
 

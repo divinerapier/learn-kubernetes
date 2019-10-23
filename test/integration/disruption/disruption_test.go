@@ -38,10 +38,10 @@ import (
 	"k8s.io/client-go/restmapper"
 	"k8s.io/client-go/scale"
 	"k8s.io/client-go/tools/cache"
-	kubeapiservertesting "k8s.io/kubernetes/cmd/kube-apiserver/app/testing"
-	"k8s.io/kubernetes/pkg/controller/disruption"
-	"k8s.io/kubernetes/test/integration/etcd"
-	"k8s.io/kubernetes/test/integration/framework"
+	kubeapiservertesting "github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/disruption"
+	"github.com/divinerapier/learn-kubernetes/test/integration/etcd"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 func setup(t *testing.T) (*kubeapiservertesting.TestServer, *disruption.DisruptionController, informers.SharedInformerFactory, clientset.Interface, *apiextensionsclientset.Clientset, dynamic.Interface) {

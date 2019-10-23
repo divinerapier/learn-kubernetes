@@ -50,7 +50,7 @@ go_library(
         "informer_factory.go",
         "lookup_cache.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/api/v1/pod:go_default_library",

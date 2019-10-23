@@ -21,9 +21,9 @@ import (
 
 	"k8s.io/api/core/v1"
 	k8stypes "k8s.io/apimachinery/pkg/types"
-	controllervolumetesting "k8s.io/kubernetes/pkg/controller/volume/attachdetach/testing"
-	volumetesting "k8s.io/kubernetes/pkg/volume/testing"
-	"k8s.io/kubernetes/pkg/volume/util/types"
+	controllervolumetesting "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/testing"
+	volumetesting "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/types"
 )
 
 // Calls AddNode() once.

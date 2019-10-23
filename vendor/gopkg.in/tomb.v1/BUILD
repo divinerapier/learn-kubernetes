@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["tomb.go"],
-    importmap = "k8s.io/kubernetes/vendor/gopkg.in/tomb.v1",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gopkg.in/tomb.v1",
     importpath = "gopkg.in/tomb.v1",
     visibility = ["//visibility:public"],
 )

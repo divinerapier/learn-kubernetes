@@ -8,7 +8,7 @@ go_library(
         "proxy.go",
         "socks5.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/net/proxy",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/net/proxy",
     importpath = "golang.org/x/net/proxy",
     visibility = ["//visibility:public"],
     deps = ["//vendor/golang.org/x/net/internal/socks:go_default_library"],

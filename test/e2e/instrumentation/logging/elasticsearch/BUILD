@@ -12,7 +12,7 @@ go_library(
         "kibana.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/instrumentation/logging/elasticsearch",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/logging/elasticsearch",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1:go_default_library",

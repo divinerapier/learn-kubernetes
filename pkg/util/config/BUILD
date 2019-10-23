@@ -12,7 +12,7 @@ go_library(
         "config.go",
         "doc.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/config",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/config",
     deps = ["//staging/src/k8s.io/apimachinery/pkg/util/wait:go_default_library"],
 )
 

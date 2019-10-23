@@ -12,7 +12,7 @@ go_library(
         "rbac.go",
         "subject_locator.go",
     ],
-    importpath = "k8s.io/kubernetes/plugin/pkg/auth/authorizer/rbac",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/auth/authorizer/rbac",
     deps = [
         "//pkg/apis/rbac/v1:go_default_library",
         "//pkg/registry/rbac/validation:go_default_library",

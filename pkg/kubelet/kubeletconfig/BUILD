@@ -9,7 +9,7 @@ go_library(
         "controller.go",
         "watch.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/kubeletconfig",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig",
     deps = [
         "//pkg/kubelet/apis/config:go_default_library",
         "//pkg/kubelet/apis/config/validation:go_default_library",

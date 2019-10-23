@@ -27,11 +27,11 @@ import (
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
 	"k8s.io/apiserver/pkg/registry/rest"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
-	autoscalingvalidation "k8s.io/kubernetes/pkg/apis/autoscaling/validation"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	controllerstore "k8s.io/kubernetes/pkg/registry/core/replicationcontroller/storage"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling"
+	autoscalingvalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling/validation"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/extensions"
+	controllerstore "github.com/divinerapier/learn-kubernetes/pkg/registry/core/replicationcontroller/storage"
 )
 
 // Container includes dummy storage for RC pods and experimental storage for Scale.

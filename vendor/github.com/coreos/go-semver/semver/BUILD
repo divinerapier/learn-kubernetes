@@ -6,7 +6,7 @@ go_library(
         "semver.go",
         "sort.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/go-semver/semver",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/go-semver/semver",
     importpath = "github.com/coreos/go-semver/semver",
     visibility = ["//visibility:public"],
 )

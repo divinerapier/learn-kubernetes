@@ -26,8 +26,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/scale"
-	"k8s.io/kubernetes/pkg/controller/podautoscaler"
-	"k8s.io/kubernetes/pkg/controller/podautoscaler/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/podautoscaler"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/podautoscaler/metrics"
 
 	resourceclient "k8s.io/metrics/pkg/client/clientset/versioned/typed/metrics/v1beta1"
 	"k8s.io/metrics/pkg/client/custom_metrics"

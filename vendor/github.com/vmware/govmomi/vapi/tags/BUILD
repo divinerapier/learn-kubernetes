@@ -7,7 +7,7 @@ go_library(
         "tag_association.go",
         "tags.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/vmware/govmomi/vapi/tags",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/vmware/govmomi/vapi/tags",
     importpath = "github.com/vmware/govmomi/vapi/tags",
     visibility = ["//visibility:public"],
     deps = [

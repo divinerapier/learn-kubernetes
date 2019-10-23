@@ -22,8 +22,8 @@ import (
 
 	"k8s.io/api/core/v1"
 	storage "k8s.io/api/storage/v1"
-	pvtesting "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/testing"
-	pvutil "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/util"
+	pvtesting "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/testing"
+	pvutil "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/util"
 )
 
 // Test single call to syncVolume, expecting recycling to happen.

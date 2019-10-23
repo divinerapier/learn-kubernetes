@@ -28,10 +28,10 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/features"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	"k8s.io/kubernetes/pkg/kubelet/runtimeclass"
-	rctest "k8s.io/kubernetes/pkg/kubelet/runtimeclass/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	containertest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/runtimeclass"
+	rctest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/runtimeclass/testing"
 	"k8s.io/utils/pointer"
 )
 

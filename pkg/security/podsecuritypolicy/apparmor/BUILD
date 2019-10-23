@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["strategy.go"],
-    importpath = "k8s.io/kubernetes/pkg/security/podsecuritypolicy/apparmor",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/apparmor",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/security/apparmor:go_default_library",

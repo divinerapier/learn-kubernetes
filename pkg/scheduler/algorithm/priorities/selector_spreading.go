@@ -23,10 +23,10 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	appslisters "k8s.io/client-go/listers/apps/v1"
 	corelisters "k8s.io/client-go/listers/core/v1"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
-	utilnode "k8s.io/kubernetes/pkg/util/node"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
+	utilnode "github.com/divinerapier/learn-kubernetes/pkg/util/node"
 
 	"k8s.io/klog"
 )

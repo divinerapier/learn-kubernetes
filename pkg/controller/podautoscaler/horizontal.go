@@ -46,9 +46,9 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/controller"
-	metricsclient "k8s.io/kubernetes/pkg/controller/podautoscaler/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	metricsclient "github.com/divinerapier/learn-kubernetes/pkg/controller/podautoscaler/metrics"
 )
 
 var (

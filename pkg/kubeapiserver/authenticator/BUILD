@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["config.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubeapiserver/authenticator",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/authenticator",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/serviceaccount:go_default_library",

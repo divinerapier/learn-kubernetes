@@ -28,11 +28,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 	clientset "k8s.io/client-go/kubernetes"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/framework/ingress"
-	"k8s.io/kubernetes/test/e2e/framework/providers/gce"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/ingress"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/gce"
 )
 
 const (

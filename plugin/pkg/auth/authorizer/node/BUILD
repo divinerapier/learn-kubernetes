@@ -38,7 +38,7 @@ go_library(
         "intset.go",
         "node_authorizer.go",
     ],
-    importpath = "k8s.io/kubernetes/plugin/pkg/auth/authorizer/node",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/auth/authorizer/node",
     deps = [
         "//pkg/api/v1/persistentvolume:go_default_library",
         "//pkg/api/v1/pod:go_default_library",

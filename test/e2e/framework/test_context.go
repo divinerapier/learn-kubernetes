@@ -32,7 +32,7 @@ import (
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 	cliflag "k8s.io/component-base/cli/flag"
 	"k8s.io/klog"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
 )
 
 const (
@@ -289,7 +289,7 @@ func RegisterCommonFlags(flags *flag.FlagSet) {
 	flags.BoolVar(&TestContext.DumpSystemdJournal, "dump-systemd-journal", false, "Whether to dump the full systemd journal.")
 	flags.StringVar(&TestContext.ImageServiceEndpoint, "image-service-endpoint", "", "The image service endpoint of cluster VM instances.")
 	flags.StringVar(&TestContext.DockershimCheckpointDir, "dockershim-checkpoint-dir", "/var/lib/dockershim/sandbox", "The directory for dockershim to store sandbox checkpoints.")
-	flags.StringVar(&TestContext.KubernetesAnywherePath, "kubernetes-anywhere-path", "/workspace/k8s.io/kubernetes-anywhere", "Which directory kubernetes-anywhere is installed to.")
+	flags.StringVar(&TestContext.KubernetesAnywherePath, "kubernetes-anywhere-path", "/workspace/github.com/divinerapier/learn-kubernetes-anywhere", "Which directory kubernetes-anywhere is installed to.")
 	flags.StringVar(&TestContext.NonblockingTaints, "non-blocking-taints", `node-role.kubernetes.io/master`, "Nodes with taints in this comma-delimited list will not block the test framework from starting tests.")
 
 	flags.BoolVar(&TestContext.ListImages, "list-images", false, "If true, will show list of images used for runnning tests.")

@@ -16,7 +16,7 @@ go_library(
         "checks_windows.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/preflight",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/preflight",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",
         "//cmd/kubeadm/app/constants:go_default_library",

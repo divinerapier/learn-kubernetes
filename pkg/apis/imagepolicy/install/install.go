@@ -21,9 +21,9 @@ package install
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/apis/imagepolicy"
-	"k8s.io/kubernetes/pkg/apis/imagepolicy/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/imagepolicy"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/imagepolicy/v1alpha1"
 )
 
 func init() {

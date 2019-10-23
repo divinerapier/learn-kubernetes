@@ -24,10 +24,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/component-base/metrics"
 	"k8s.io/klog"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/prober/results"
-	"k8s.io/kubernetes/pkg/kubelet/util/format"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/prober/results"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/format"
 )
 
 // worker handles the periodic probing of its assigned container. Each worker has a go-routine

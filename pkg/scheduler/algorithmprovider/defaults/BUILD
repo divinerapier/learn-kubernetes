@@ -13,7 +13,7 @@ go_library(
         "register_predicates.go",
         "register_priorities.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/algorithmprovider/defaults",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithmprovider/defaults",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/scheduler:go_default_library",

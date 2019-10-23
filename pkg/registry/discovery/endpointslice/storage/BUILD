@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/discovery/endpointslice/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/discovery/endpointslice/storage",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/discovery:go_default_library",

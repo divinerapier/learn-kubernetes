@@ -26,10 +26,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/klog"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/kubelet/util/format"
-	"k8s.io/kubernetes/pkg/security/apparmor"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/format"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/apparmor"
 	utilio "k8s.io/utils/io"
 )
 

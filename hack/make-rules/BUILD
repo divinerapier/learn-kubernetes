@@ -1,6 +1,6 @@
 # Scripts runnable from make, e.g.
 #
-#    cd $GOPATH/src/k8s.io/kubernetes
+#    cd $GOPATH/src/github.com/divinerapier/learn-kubernetes
 #    make test-e2e-node
 #
 # The sh_binary rules below exist only to validate

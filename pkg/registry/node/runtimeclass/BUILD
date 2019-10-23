@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/node/runtimeclass",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/node/runtimeclass",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/legacyscheme:go_default_library",

@@ -6,7 +6,7 @@ go_library(
         "errors.go",
         "grpc.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/containerd/containerd/errdefs",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/containerd/containerd/errdefs",
     importpath = "github.com/containerd/containerd/errdefs",
     visibility = ["//visibility:public"],
     deps = [

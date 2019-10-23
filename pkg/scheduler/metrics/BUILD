@@ -8,7 +8,7 @@ go_library(
         "metric_recorder.go",
         "metrics.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/metrics",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/metrics",
     deps = [
         "//pkg/controller/volume/scheduling/metrics:go_default_library",
         "//staging/src/k8s.io/component-base/metrics:go_default_library",

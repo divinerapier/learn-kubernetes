@@ -11,7 +11,7 @@ go_library(
         "registry.go",
         "types.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/vmware/govmomi/vim25/types",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/vmware/govmomi/vim25/types",
     importpath = "github.com/vmware/govmomi/vim25/types",
     visibility = ["//visibility:public"],
 )

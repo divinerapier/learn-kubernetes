@@ -28,10 +28,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/strategicpatch"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/pkg/util/mount"
-	"k8s.io/kubernetes/pkg/util/resizefs"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetypes "k8s.io/kubernetes/pkg/volume/util/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/mount"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/resizefs"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumetypes "github.com/divinerapier/learn-kubernetes/pkg/volume/util/types"
 )
 
 var (

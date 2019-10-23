@@ -19,7 +19,7 @@ go_library(
         "volumemode.go",
         "volumes.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/storage/testsuites",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/storage/testsuites",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/controller/volume/events:go_default_library",

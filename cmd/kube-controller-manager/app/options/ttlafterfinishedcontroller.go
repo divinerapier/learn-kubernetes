@@ -19,7 +19,7 @@ package options
 import (
 	"github.com/spf13/pflag"
 
-	ttlafterfinishedconfig "k8s.io/kubernetes/pkg/controller/ttlafterfinished/config"
+	ttlafterfinishedconfig "github.com/divinerapier/learn-kubernetes/pkg/controller/ttlafterfinished/config"
 )
 
 // TTLAfterFinishedControllerOptions holds the TTLAfterFinishedController options.

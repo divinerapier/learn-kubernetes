@@ -20,7 +20,7 @@ go_library(
         "create_service.go",
         "create_serviceaccount.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kubectl/pkg/cmd/create",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kubectl/pkg/cmd/create",
     importpath = "k8s.io/kubectl/pkg/cmd/create",
     visibility = ["//build/visible_to:pkg_kubectl_cmd_create_CONSUMERS"],
     deps = [

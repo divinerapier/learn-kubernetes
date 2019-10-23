@@ -20,10 +20,10 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
-	"k8s.io/kubernetes/cmd/kubeadm/app/preflight"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/preflight"
 	utilsexec "k8s.io/utils/exec"
 )
 

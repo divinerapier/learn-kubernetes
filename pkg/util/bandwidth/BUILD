@@ -16,7 +16,7 @@ go_library(
         "unsupported.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/bandwidth",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/bandwidth",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/api/resource:go_default_library",
     ] + select({

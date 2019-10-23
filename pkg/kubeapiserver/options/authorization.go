@@ -25,8 +25,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/sets"
 	versionedinformers "k8s.io/client-go/informers"
-	"k8s.io/kubernetes/pkg/kubeapiserver/authorizer"
-	authzmodes "k8s.io/kubernetes/pkg/kubeapiserver/authorizer/modes"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/authorizer"
+	authzmodes "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/authorizer/modes"
 )
 
 type BuiltInAuthorizationOptions struct {

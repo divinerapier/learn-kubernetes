@@ -19,7 +19,7 @@ limitations under the License.
 
 package azure_dd
 
-import "k8s.io/kubernetes/pkg/util/mount"
+import "github.com/divinerapier/learn-kubernetes/pkg/util/mount"
 
 func scsiHostRescan(io ioHandler, exec mount.Exec) {
 }

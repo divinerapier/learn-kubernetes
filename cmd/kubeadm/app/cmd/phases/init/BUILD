@@ -17,7 +17,7 @@ go_library(
         "uploadconfig.go",
         "waitcontrolplane.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/init",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/init",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",

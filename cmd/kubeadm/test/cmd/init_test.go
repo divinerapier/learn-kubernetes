@@ -23,10 +23,10 @@ import (
 
 	"github.com/lithammer/dedent"
 	"github.com/pkg/errors"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/certs"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
-	testutil "k8s.io/kubernetes/cmd/kubeadm/test"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/certs"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
+	testutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test"
 )
 
 func runKubeadmInit(args ...string) (string, string, int, error) {

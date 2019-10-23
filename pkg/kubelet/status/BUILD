@@ -12,7 +12,7 @@ go_library(
         "generate.go",
         "status_manager.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/status",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/status",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/kubelet/container:go_default_library",

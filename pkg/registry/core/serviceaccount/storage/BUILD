@@ -29,7 +29,7 @@ go_library(
         "storage.go",
         "token.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/serviceaccount/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/serviceaccount/storage",
     deps = [
         "//pkg/apis/authentication:go_default_library",
         "//pkg/apis/authentication/validation:go_default_library",

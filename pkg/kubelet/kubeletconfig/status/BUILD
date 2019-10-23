@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["status.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/status",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/status",
     deps = [
         "//pkg/kubelet/kubeletconfig/util/log:go_default_library",
         "//pkg/kubelet/metrics:go_default_library",

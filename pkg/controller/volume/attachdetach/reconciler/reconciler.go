@@ -29,13 +29,13 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/controller/volume/attachdetach/cache"
-	"k8s.io/kubernetes/pkg/controller/volume/attachdetach/metrics"
-	"k8s.io/kubernetes/pkg/controller/volume/attachdetach/statusupdater"
-	kevents "k8s.io/kubernetes/pkg/kubelet/events"
-	"k8s.io/kubernetes/pkg/util/goroutinemap/exponentialbackoff"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/util/operationexecutor"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/cache"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/statusupdater"
+	kevents "github.com/divinerapier/learn-kubernetes/pkg/kubelet/events"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/goroutinemap/exponentialbackoff"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/operationexecutor"
 )
 
 // Reconciler runs a periodic loop to reconcile the desired state of the world with

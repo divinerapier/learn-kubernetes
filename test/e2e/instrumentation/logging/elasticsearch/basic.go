@@ -19,9 +19,9 @@ package elasticsearch
 import (
 	"time"
 
-	"k8s.io/kubernetes/test/e2e/framework"
-	instrumentation "k8s.io/kubernetes/test/e2e/instrumentation/common"
-	"k8s.io/kubernetes/test/e2e/instrumentation/logging/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	instrumentation "github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/common"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/logging/utils"
 
 	"github.com/onsi/ginkgo"
 )

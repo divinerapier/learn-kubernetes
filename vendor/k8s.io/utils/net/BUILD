@@ -6,7 +6,7 @@ go_library(
         "ipnet.go",
         "net.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/utils/net",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/utils/net",
     importpath = "k8s.io/utils/net",
     visibility = ["//visibility:public"],
 )

@@ -33,7 +33,7 @@ go_library(
             "@com_coreos_etcd_amd64//:etcd",
         ],
     }),
-    importpath = "k8s.io/kubernetes/test/integration/framework",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/integration/framework",
     deps = [
         "//cmd/kube-apiserver/app:go_default_library",
         "//cmd/kube-apiserver/app/options:go_default_library",

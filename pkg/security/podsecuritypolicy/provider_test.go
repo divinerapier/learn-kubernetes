@@ -31,12 +31,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/diff"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	k8s_api_v1 "k8s.io/kubernetes/pkg/apis/core/v1"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/security/apparmor"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/seccomp"
-	psputil "k8s.io/kubernetes/pkg/security/podsecuritypolicy/util"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	k8s_api_v1 "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/apparmor"
+	"github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/seccomp"
+	psputil "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/util"
 	"k8s.io/utils/pointer"
 )
 

@@ -31,8 +31,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/proxy"
-	"k8s.io/kubernetes/pkg/util/ipconfig"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/ipconfig"
 	"k8s.io/utils/exec"
 )
 

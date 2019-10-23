@@ -5,7 +5,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["ep.go"],
-    importpath = "k8s.io/kubernetes/test/images/agnhost/entrypoint-tester",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/agnhost/entrypoint-tester",
     deps = ["//vendor/github.com/spf13/cobra:go_default_library"],
 )
 

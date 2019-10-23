@@ -7,7 +7,7 @@ go_library(
         "memory.go",
         "storage.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/hpcloud/tail/ratelimiter",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/hpcloud/tail/ratelimiter",
     importpath = "github.com/hpcloud/tail/ratelimiter",
     visibility = ["//visibility:public"],
 )

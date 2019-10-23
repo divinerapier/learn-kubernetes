@@ -34,11 +34,11 @@ import (
 	"k8s.io/apiserver/pkg/util/dryrun"
 
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/printers"
-	printersinternal "k8s.io/kubernetes/pkg/printers/internalversion"
-	printerstorage "k8s.io/kubernetes/pkg/printers/storage"
-	"k8s.io/kubernetes/pkg/registry/core/namespace"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/printers"
+	printersinternal "github.com/divinerapier/learn-kubernetes/pkg/printers/internalversion"
+	printerstorage "github.com/divinerapier/learn-kubernetes/pkg/printers/storage"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/namespace"
 )
 
 // rest implements a RESTStorage for namespaces

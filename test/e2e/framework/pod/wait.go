@@ -33,12 +33,12 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/kubelet/util/format"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
-	e2eresource "k8s.io/kubernetes/test/e2e/framework/resource"
-	testutils "k8s.io/kubernetes/test/utils"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/format"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
+	e2eresource "github.com/divinerapier/learn-kubernetes/test/e2e/framework/resource"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 const (

@@ -32,9 +32,9 @@ import (
 	genericoptions "k8s.io/apiserver/pkg/server/options"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	cliflag "k8s.io/component-base/cli/flag"
-	"k8s.io/kubernetes/pkg/features"
-	kubeauthenticator "k8s.io/kubernetes/pkg/kubeapiserver/authenticator"
-	authzmodes "k8s.io/kubernetes/pkg/kubeapiserver/authorizer/modes"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubeauthenticator "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/authenticator"
+	authzmodes "github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver/authorizer/modes"
 )
 
 type BuiltInAuthenticationOptions struct {

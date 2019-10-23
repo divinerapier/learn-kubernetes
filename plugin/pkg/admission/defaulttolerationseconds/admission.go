@@ -24,8 +24,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apiserver/pkg/admission"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
 )
 
 // PluginName indicates name of admission plugin.

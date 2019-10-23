@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetesting "k8s.io/kubernetes/pkg/volume/testing"
-	"k8s.io/kubernetes/pkg/volume/util"
-	volumetypes "k8s.io/kubernetes/pkg/volume/util/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumetesting "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util"
+	volumetypes "github.com/divinerapier/learn-kubernetes/pkg/volume/util/types"
 )
 
 var emptyVolumeName = v1.UniqueVolumeName("")

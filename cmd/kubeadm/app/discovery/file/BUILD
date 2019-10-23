@@ -5,7 +5,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["file.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/discovery/file",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/discovery/file",
     deps = [
         "//cmd/kubeadm/app/constants:go_default_library",
         "//cmd/kubeadm/app/util/kubeconfig:go_default_library",

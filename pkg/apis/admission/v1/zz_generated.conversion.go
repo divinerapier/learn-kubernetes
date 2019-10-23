@@ -28,8 +28,8 @@ import (
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	types "k8s.io/apimachinery/pkg/types"
-	admission "k8s.io/kubernetes/pkg/apis/admission"
-	authenticationv1 "k8s.io/kubernetes/pkg/apis/authentication/v1"
+	admission "github.com/divinerapier/learn-kubernetes/pkg/apis/admission"
+	authenticationv1 "github.com/divinerapier/learn-kubernetes/pkg/apis/authentication/v1"
 )
 
 func init() {

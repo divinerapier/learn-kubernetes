@@ -6,7 +6,7 @@ go_library(
         "container_log_manager.go",
         "container_log_manager_stub.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/logs",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/logs",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/api/resource:go_default_library",

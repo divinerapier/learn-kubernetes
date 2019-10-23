@@ -26,15 +26,15 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
 	"k8s.io/client-go/tools/cache"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	"k8s.io/kubernetes/pkg/kubelet/apis/config/validation"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config/validation"
 
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint/store"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/status"
-	utillog "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/log"
-	utilpanic "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/panic"
-	utilfs "k8s.io/kubernetes/pkg/util/filesystem"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/checkpoint/store"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/status"
+	utillog "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/log"
+	utilpanic "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/panic"
+	utilfs "github.com/divinerapier/learn-kubernetes/pkg/util/filesystem"
 )
 
 const (

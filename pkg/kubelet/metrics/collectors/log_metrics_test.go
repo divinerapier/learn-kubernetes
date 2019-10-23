@@ -23,7 +23,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 
 	"k8s.io/component-base/metrics/testutil"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
 )
 
 func TestNoMetricsCollected(t *testing.T) {

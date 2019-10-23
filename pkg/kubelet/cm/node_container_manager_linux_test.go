@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
-	evictionapi "k8s.io/kubernetes/pkg/kubelet/eviction/api"
+	evictionapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/eviction/api"
 )
 
 func TestNodeAllocatableReservationForScheduling(t *testing.T) {

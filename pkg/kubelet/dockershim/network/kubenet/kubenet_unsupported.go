@@ -21,9 +21,9 @@ package kubenet
 import (
 	"fmt"
 
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network"
 )
 
 type kubenetNetworkPlugin struct {

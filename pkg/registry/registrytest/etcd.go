@@ -24,8 +24,8 @@ import (
 	serverstorage "k8s.io/apiserver/pkg/server/storage"
 	etcd3testing "k8s.io/apiserver/pkg/storage/etcd3/testing"
 	"k8s.io/apiserver/pkg/storage/storagebackend"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/pkg/kubeapiserver"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubeapiserver"
 )
 
 func NewEtcdStorage(t *testing.T, group string) (*storagebackend.Config, *etcd3testing.EtcdTestServer) {

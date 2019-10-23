@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["agnhost.go"],
-    importpath = "k8s.io/kubernetes/test/images/agnhost",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/agnhost",
     deps = [
         "//test/images/agnhost/audit-proxy:go_default_library",
         "//test/images/agnhost/connect:go_default_library",

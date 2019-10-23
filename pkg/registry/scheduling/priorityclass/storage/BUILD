@@ -28,7 +28,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/scheduling/priorityclass/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/scheduling/priorityclass/storage",
     deps = [
         "//pkg/apis/scheduling:go_default_library",
         "//pkg/printers:go_default_library",

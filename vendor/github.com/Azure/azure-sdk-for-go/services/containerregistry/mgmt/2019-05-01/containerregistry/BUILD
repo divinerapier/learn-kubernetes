@@ -13,7 +13,7 @@ go_library(
         "version.go",
         "webhooks.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Azure/azure-sdk-for-go/services/containerregistry/mgmt/2019-05-01/containerregistry",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Azure/azure-sdk-for-go/services/containerregistry/mgmt/2019-05-01/containerregistry",
     importpath = "github.com/Azure/azure-sdk-for-go/services/containerregistry/mgmt/2019-05-01/containerregistry",
     visibility = ["//visibility:public"],
     deps = [

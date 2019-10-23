@@ -10,7 +10,7 @@ go_library(
         "certificate_controller.go",
         "certificate_controller_utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/certificates",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/certificates",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/controller:go_default_library",

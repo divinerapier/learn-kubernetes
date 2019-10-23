@@ -26,7 +26,7 @@ import (
 	corev1informers "k8s.io/client-go/informers/core/v1"
 	storageinformers "k8s.io/client-go/informers/storage/v1"
 	"k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 type graphPopulator struct {

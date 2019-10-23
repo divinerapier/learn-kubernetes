@@ -27,7 +27,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/storage/storageclass/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/storage/storageclass/storage",
     deps = [
         "//pkg/apis/storage:go_default_library",
         "//pkg/printers:go_default_library",

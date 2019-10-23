@@ -26,7 +26,7 @@ go_library(
         "sorter.go",
         "table_printer.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubectl/cmd/get",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubectl/cmd/get",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/printers:go_default_library",

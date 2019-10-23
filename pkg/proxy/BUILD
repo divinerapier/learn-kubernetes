@@ -15,7 +15,7 @@ go_library(
         "service.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/proxy",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/proxy",
     deps = [
         "//pkg/api/v1/service:go_default_library",
         "//pkg/proxy/config:go_default_library",

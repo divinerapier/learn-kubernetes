@@ -23,9 +23,9 @@ import (
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	utilvalidation "k8s.io/apimachinery/pkg/util/validation"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/features"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 // ValidateKubeletConfiguration validates `kc` and returns an error if it is invalid

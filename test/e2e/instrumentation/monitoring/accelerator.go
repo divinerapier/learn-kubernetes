@@ -28,11 +28,11 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/framework/gpu"
-	instrumentation "k8s.io/kubernetes/test/e2e/instrumentation/common"
-	"k8s.io/kubernetes/test/e2e/scheduling"
-	"k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/gpu"
+	instrumentation "github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/common"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/scheduling"
+	"github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 // Stackdriver container accelerator metrics, as described here:

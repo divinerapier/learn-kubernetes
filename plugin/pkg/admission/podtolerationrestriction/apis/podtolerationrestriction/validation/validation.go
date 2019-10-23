@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	"k8s.io/kubernetes/pkg/apis/core/validation"
-	internalapi "k8s.io/kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
+	internalapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction"
 )
 
 // ValidateConfiguration validates the configuration.

@@ -8,7 +8,7 @@ go_library(
         "names_match.go",
         "omitempty_match_case.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kube-openapi/pkg/generators/rules",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kube-openapi/pkg/generators/rules",
     importpath = "k8s.io/kube-openapi/pkg/generators/rules",
     visibility = ["//visibility:public"],
     deps = [

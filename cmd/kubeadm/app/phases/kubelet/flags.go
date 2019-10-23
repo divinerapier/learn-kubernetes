@@ -25,12 +25,12 @@ import (
 
 	"github.com/pkg/errors"
 	"k8s.io/klog"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/features"
-	"k8s.io/kubernetes/cmd/kubeadm/app/images"
-	kubeadmutil "k8s.io/kubernetes/cmd/kubeadm/app/util"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/initsystem"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/features"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/images"
+	kubeadmutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/initsystem"
 	utilsexec "k8s.io/utils/exec"
 )
 

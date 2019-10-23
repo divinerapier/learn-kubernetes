@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/instrumentation/logging/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/logging/utils"
 
 	"golang.org/x/oauth2/google"
 	sd "google.golang.org/api/logging/v2beta1"

@@ -37,7 +37,7 @@ go_library(
         "vsphere_volume_vsan_policy.go",
         "vsphere_zone_support.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/storage/vsphere",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/storage/vsphere",
     deps = [
         "//pkg/controller/volume/events:go_default_library",
         "//staging/src/k8s.io/api/apps/v1:go_default_library",

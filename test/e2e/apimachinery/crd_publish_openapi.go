@@ -39,8 +39,8 @@ import (
 	k8sclientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 	openapiutil "k8s.io/kube-openapi/pkg/util"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/utils/crd"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/utils/crd"
 	"sigs.k8s.io/yaml"
 )
 

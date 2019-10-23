@@ -6,7 +6,7 @@ go_library(
         "cmd.go",
         "profiling.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubectl/cmd",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubectl/cmd",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubectl/cmd/auth:go_default_library",

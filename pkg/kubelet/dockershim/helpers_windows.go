@@ -28,7 +28,7 @@ import (
 	"k8s.io/klog"
 
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	kubeletapis "k8s.io/kubernetes/pkg/kubelet/apis"
+	kubeletapis "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis"
 )
 
 func DefaultMemorySwap() int64 {

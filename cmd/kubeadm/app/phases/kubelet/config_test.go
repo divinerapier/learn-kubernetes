@@ -25,8 +25,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/version"
 	"k8s.io/client-go/kubernetes/fake"
 	core "k8s.io/client-go/testing"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
 )
 
 func TestCreateConfigMap(t *testing.T) {

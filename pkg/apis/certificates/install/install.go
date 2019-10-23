@@ -21,9 +21,9 @@ package install
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/apis/certificates"
-	"k8s.io/kubernetes/pkg/apis/certificates/v1beta1"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/certificates"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/certificates/v1beta1"
 )
 
 func init() {

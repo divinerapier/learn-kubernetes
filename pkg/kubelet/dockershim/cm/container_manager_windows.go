@@ -19,7 +19,7 @@ limitations under the License.
 package cm
 
 import (
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker"
 )
 
 // no-op

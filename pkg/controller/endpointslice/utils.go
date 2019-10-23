@@ -30,10 +30,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/klog"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/discovery/validation"
-	"k8s.io/kubernetes/pkg/util/hash"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/discovery/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/hash"
 )
 
 // podEndpointChanged returns true if the results of podToEndpoint are different

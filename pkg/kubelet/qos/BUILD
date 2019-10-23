@@ -23,7 +23,7 @@ go_library(
         "doc.go",
         "policy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/qos",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/qos",
     deps = [
         "//pkg/apis/core/v1/helper/qos:go_default_library",
         "//pkg/kubelet/types:go_default_library",

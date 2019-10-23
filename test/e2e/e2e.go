@@ -30,20 +30,20 @@ import (
 
 	runtimeutils "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/component-base/logs"
-	commontest "k8s.io/kubernetes/test/e2e/common"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
+	commontest "github.com/divinerapier/learn-kubernetes/test/e2e/common"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
 
 	// ensure auth plugins are loaded
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
 	// ensure that cloud providers are loaded
-	_ "k8s.io/kubernetes/test/e2e/framework/providers/aws"
-	_ "k8s.io/kubernetes/test/e2e/framework/providers/azure"
-	_ "k8s.io/kubernetes/test/e2e/framework/providers/gce"
-	_ "k8s.io/kubernetes/test/e2e/framework/providers/kubemark"
-	_ "k8s.io/kubernetes/test/e2e/framework/providers/openstack"
-	_ "k8s.io/kubernetes/test/e2e/framework/providers/vsphere"
+	_ "github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/aws"
+	_ "github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/azure"
+	_ "github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/gce"
+	_ "github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/kubemark"
+	_ "github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/openstack"
+	_ "github.com/divinerapier/learn-kubernetes/test/e2e/framework/providers/vsphere"
 )
 
 var _ = ginkgo.SynchronizedBeforeSuite(func() []byte {

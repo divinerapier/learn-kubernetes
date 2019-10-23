@@ -29,7 +29,7 @@ import (
 	fakecerts "k8s.io/client-go/kubernetes/typed/certificates/v1beta1/fake"
 	k8stesting "k8s.io/client-go/testing"
 	certutil "k8s.io/client-go/util/cert"
-	pkiutil "k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
+	pkiutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
 )
 
 func TestAPIRenewer(t *testing.T) {

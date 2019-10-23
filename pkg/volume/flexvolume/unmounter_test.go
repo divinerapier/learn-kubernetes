@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/kubernetes/pkg/util/mount"
-	"k8s.io/kubernetes/test/utils/harness"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/mount"
+	"github.com/divinerapier/learn-kubernetes/test/utils/harness"
 )
 
 func TestTearDownAt(tt *testing.T) {

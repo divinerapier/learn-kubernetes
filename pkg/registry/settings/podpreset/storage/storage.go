@@ -20,8 +20,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
-	settingsapi "k8s.io/kubernetes/pkg/apis/settings"
-	"k8s.io/kubernetes/pkg/registry/settings/podpreset"
+	settingsapi "github.com/divinerapier/learn-kubernetes/pkg/apis/settings"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/settings/podpreset"
 )
 
 // rest implements a RESTStorage for replication controllers against etcd

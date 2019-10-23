@@ -11,7 +11,7 @@ go_library(
         "sysinfo_unix.go",
         "sysinfo_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/docker/docker/pkg/sysinfo",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/docker/docker/pkg/sysinfo",
     importpath = "github.com/docker/docker/pkg/sysinfo",
     visibility = ["//visibility:public"],
     deps = [

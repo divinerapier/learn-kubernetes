@@ -27,13 +27,13 @@ import (
 	"time"
 
 	"github.com/spf13/cobra"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/certs"
-	certsphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/certs"
-	kubeconfigphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/kubeconfig"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
-	testutil "k8s.io/kubernetes/cmd/kubeadm/test"
-	cmdtestutil "k8s.io/kubernetes/cmd/kubeadm/test/cmd"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/certs"
+	certsphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/certs"
+	kubeconfigphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/kubeconfig"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
+	testutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test"
+	cmdtestutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test/cmd"
 )
 
 func TestCommandsGenerated(t *testing.T) {

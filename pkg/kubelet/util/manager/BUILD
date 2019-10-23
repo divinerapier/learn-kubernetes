@@ -7,7 +7,7 @@ go_library(
         "manager.go",
         "watch_based_manager.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/util/manager",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/manager",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/util:go_default_library",

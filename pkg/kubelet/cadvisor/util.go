@@ -23,8 +23,8 @@ import (
 	cadvisorapi2 "github.com/google/cadvisor/info/v2"
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
-	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	v1helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 const (

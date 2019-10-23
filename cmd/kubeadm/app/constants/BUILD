@@ -13,7 +13,7 @@ go_library(
         "constants_unix.go",
         "constants_windows.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/constants",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

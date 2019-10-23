@@ -8,7 +8,7 @@ go_library(
         "kustomization.go",
         "var.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/types",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/types",
     importpath = "sigs.k8s.io/kustomize/pkg/types",
     visibility = ["//visibility:public"],
     deps = [

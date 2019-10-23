@@ -31,7 +31,7 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/util/flowcontrol"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 const (

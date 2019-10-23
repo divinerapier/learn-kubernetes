@@ -22,7 +22,7 @@ import (
 	"fmt"
 
 	cadvisorfs "github.com/google/cadvisor/fs"
-	"k8s.io/kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 // imageFsInfoProvider knows how to translate the configured runtime

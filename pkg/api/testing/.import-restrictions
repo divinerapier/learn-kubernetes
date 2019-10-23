@@ -3,7 +3,7 @@
 	  {
 		"SelectorRegexp": "k8s[.]io/kubernetes/cmd",
 		"AllowedPrefixes": [
-		    "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
+		    "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
 		],
 		"ForbiddenPrefixes": [
 		]

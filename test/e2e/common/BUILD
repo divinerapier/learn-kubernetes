@@ -43,7 +43,7 @@ go_library(
         "util.go",
         "volumes.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/common",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/common",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/apis/core:go_default_library",

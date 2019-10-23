@@ -6,7 +6,7 @@ go_library(
         "record.go",
         "record.pb.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/wal/walpb",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/wal/walpb",
     importpath = "github.com/coreos/etcd/wal/walpb",
     visibility = ["//visibility:public"],
     deps = [

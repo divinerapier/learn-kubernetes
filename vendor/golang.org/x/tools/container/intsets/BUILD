@@ -9,7 +9,7 @@ go_library(
         "sparse.go",
         "util.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/tools/container/intsets",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/tools/container/intsets",
     importpath = "golang.org/x/tools/container/intsets",
     visibility = ["//visibility:public"],
 )

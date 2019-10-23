@@ -13,7 +13,7 @@ go_library(
         "worker.go",
         "worker_commands.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/go.opencensus.io/stats/view",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.opencensus.io/stats/view",
     importpath = "go.opencensus.io/stats/view",
     visibility = ["//visibility:public"],
     deps = [

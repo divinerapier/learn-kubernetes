@@ -28,10 +28,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	scheduler "k8s.io/kubernetes/pkg/scheduler"
-	schedulerconfig "k8s.io/kubernetes/pkg/scheduler/apis/config"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	scheduler "github.com/divinerapier/learn-kubernetes/pkg/scheduler"
+	schedulerconfig "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 type PreFilterPlugin struct {

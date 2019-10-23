@@ -5,7 +5,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["yaml.go"],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apimachinery/pkg/runtime/serializer/yaml",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apimachinery/pkg/runtime/serializer/yaml",
     importpath = "k8s.io/apimachinery/pkg/runtime/serializer/yaml",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/runtime:go_default_library",

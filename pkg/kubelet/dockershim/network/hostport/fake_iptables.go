@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	utiliptables "k8s.io/kubernetes/pkg/util/iptables"
+	utiliptables "github.com/divinerapier/learn-kubernetes/pkg/util/iptables"
 )
 
 type fakeChain struct {

@@ -30,12 +30,12 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	kubeoptions "k8s.io/kubernetes/cmd/kube-controller-manager/app/options"
-	"k8s.io/kubernetes/pkg/controller/certificates/approver"
-	"k8s.io/kubernetes/pkg/controller/certificates/cleaner"
-	"k8s.io/kubernetes/pkg/controller/certificates/rootcacertpublisher"
-	"k8s.io/kubernetes/pkg/controller/certificates/signer"
-	"k8s.io/kubernetes/pkg/features"
+	kubeoptions "github.com/divinerapier/learn-kubernetes/cmd/kube-controller-manager/app/options"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/certificates/approver"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/certificates/cleaner"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/certificates/rootcacertpublisher"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/certificates/signer"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 func startCSRSigningController(ctx ControllerContext) (http.Handler, bool, error) {

@@ -22,8 +22,8 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	extenderv1 "k8s.io/kubernetes/pkg/scheduler/apis/extender/v1"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	extenderv1 "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/extender/v1"
 )
 
 // GetContainerPorts returns the used host ports of Pods: if 'port' was used, a 'port:true' pair

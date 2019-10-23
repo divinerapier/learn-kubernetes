@@ -25,7 +25,7 @@ import (
 	"k8s.io/klog"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/controller/nodeipam/ipam/cidrset"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam/ipam/cidrset"
 )
 
 const (

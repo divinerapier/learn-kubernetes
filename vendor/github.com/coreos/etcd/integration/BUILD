@@ -8,7 +8,7 @@ go_library(
         "cluster_direct.go",
         "doc.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/integration",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/integration",
     importpath = "github.com/coreos/etcd/integration",
     visibility = ["//visibility:public"],
     deps = [

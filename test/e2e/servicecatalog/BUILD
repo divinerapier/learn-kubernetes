@@ -6,7 +6,7 @@ go_library(
         "framework.go",
         "podpreset.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/servicecatalog",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/servicecatalog",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

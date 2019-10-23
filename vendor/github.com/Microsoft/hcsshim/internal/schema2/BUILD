@@ -85,7 +85,7 @@ go_library(
         "vm_memory.go",
         "windows_crash_reporting.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Microsoft/hcsshim/internal/schema2",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Microsoft/hcsshim/internal/schema2",
     importpath = "github.com/Microsoft/hcsshim/internal/schema2",
     visibility = ["//vendor/github.com/Microsoft/hcsshim:__subpackages__"],
 )

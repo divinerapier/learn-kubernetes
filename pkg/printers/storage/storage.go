@@ -22,7 +22,7 @@ import (
 
 	metav1beta1 "k8s.io/apimachinery/pkg/apis/meta/v1beta1"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/kubernetes/pkg/printers"
+	"github.com/divinerapier/learn-kubernetes/pkg/printers"
 )
 
 // TableConvertor struct - converts objects to metav1beta1.Table using printers.TableGenerator

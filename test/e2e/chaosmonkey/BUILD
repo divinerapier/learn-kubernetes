@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["chaosmonkey.go"],
-    importpath = "k8s.io/kubernetes/test/e2e/chaosmonkey",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/chaosmonkey",
     deps = ["//vendor/github.com/onsi/ginkgo:go_default_library"],
 )
 

@@ -25,7 +25,7 @@ import (
 	"github.com/pkg/errors"
 
 	"k8s.io/apimachinery/pkg/util/validation"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
 )
 
 // GetControlPlaneEndpoint returns a properly formatted endpoint for the control plane built according following rules:

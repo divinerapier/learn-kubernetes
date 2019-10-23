@@ -37,14 +37,14 @@ import (
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/record"
 	watchtools "k8s.io/client-go/tools/watch"
-	"k8s.io/kubernetes/pkg/controller"
-	replicationcontroller "k8s.io/kubernetes/pkg/controller/replication"
-	resourcequotacontroller "k8s.io/kubernetes/pkg/controller/resourcequota"
-	"k8s.io/kubernetes/pkg/quota/v1/generic"
-	quotainstall "k8s.io/kubernetes/pkg/quota/v1/install"
-	"k8s.io/kubernetes/plugin/pkg/admission/resourcequota"
-	resourcequotaapi "k8s.io/kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	replicationcontroller "github.com/divinerapier/learn-kubernetes/pkg/controller/replication"
+	resourcequotacontroller "github.com/divinerapier/learn-kubernetes/pkg/controller/resourcequota"
+	"github.com/divinerapier/learn-kubernetes/pkg/quota/v1/generic"
+	quotainstall "github.com/divinerapier/learn-kubernetes/pkg/quota/v1/install"
+	"github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota"
+	resourcequotaapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota/apis/resourcequota"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 // 1.2 code gets:

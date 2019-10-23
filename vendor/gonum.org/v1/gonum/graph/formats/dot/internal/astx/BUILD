@@ -6,7 +6,7 @@ go_library(
         "astx.go",
         "doc.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/internal/astx",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/internal/astx",
     importpath = "gonum.org/v1/gonum/graph/formats/dot/internal/astx",
     visibility = ["//vendor/gonum.org/v1/gonum/graph/formats/dot:__subpackages__"],
     deps = [

@@ -23,10 +23,10 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/sets"
 	utilwait "k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/pkg/master/ports"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
 
 	"github.com/onsi/ginkgo"
 )

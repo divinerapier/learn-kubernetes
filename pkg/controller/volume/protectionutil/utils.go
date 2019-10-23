@@ -18,7 +18,7 @@ package protectionutil
 
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/pkg/util/slice"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/slice"
 )
 
 // IsDeletionCandidate checks if object is candidate to be deleted

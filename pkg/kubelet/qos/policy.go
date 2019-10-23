@@ -18,8 +18,8 @@ package qos
 
 import (
 	v1 "k8s.io/api/core/v1"
-	v1qos "k8s.io/kubernetes/pkg/apis/core/v1/helper/qos"
-	"k8s.io/kubernetes/pkg/kubelet/types"
+	v1qos "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper/qos"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 const (

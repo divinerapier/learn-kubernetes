@@ -31,10 +31,10 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	core "k8s.io/client-go/testing"
 	"k8s.io/client-go/tools/clientcmd"
-	kubeadmapiv1beta2 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
-	outputapischeme "k8s.io/kubernetes/cmd/kubeadm/app/apis/output/scheme"
-	outputapiv1alpha1 "k8s.io/kubernetes/cmd/kubeadm/app/apis/output/v1alpha1"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/output"
+	kubeadmapiv1beta2 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
+	outputapischeme "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/output/scheme"
+	outputapiv1alpha1 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/output/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/output"
 )
 
 const (

@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "route_controller.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/route",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/route",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

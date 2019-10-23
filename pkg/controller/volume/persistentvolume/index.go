@@ -22,9 +22,9 @@ import (
 
 	"k8s.io/api/core/v1"
 	"k8s.io/client-go/tools/cache"
-	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	pvutil "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/util"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	v1helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	pvutil "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/util"
+	volumeutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 // persistentVolumeOrderedIndex is a cache.Store that keeps persistent volumes

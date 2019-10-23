@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["serve_hostnames.go"],
-    importpath = "k8s.io/kubernetes/test/soak/serve_hostnames",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/soak/serve_hostnames",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

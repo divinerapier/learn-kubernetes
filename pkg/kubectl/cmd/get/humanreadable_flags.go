@@ -21,7 +21,7 @@ import (
 	"k8s.io/cli-runtime/pkg/genericclioptions"
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/kubernetes/pkg/printers"
+	"github.com/divinerapier/learn-kubernetes/pkg/printers"
 )
 
 // HumanPrintFlags provides default flags necessary for printing.

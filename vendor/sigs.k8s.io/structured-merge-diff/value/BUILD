@@ -8,7 +8,7 @@ go_library(
         "unstructured.go",
         "value.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/structured-merge-diff/value",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/structured-merge-diff/value",
     importpath = "sigs.k8s.io/structured-merge-diff/value",
     visibility = ["//visibility:public"],
     deps = [

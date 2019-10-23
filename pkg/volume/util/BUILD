@@ -16,7 +16,7 @@ go_library(
         "resize_util.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/util",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/util",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/legacyscheme:go_default_library",

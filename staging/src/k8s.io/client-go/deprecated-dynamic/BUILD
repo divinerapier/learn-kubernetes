@@ -6,7 +6,7 @@ go_library(
         "client.go",
         "client_pool.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/client-go/deprecated-dynamic",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/client-go/deprecated-dynamic",
     importpath = "k8s.io/client-go/deprecated-dynamic",
     visibility = ["//visibility:public"],
     deps = [

@@ -20,7 +20,7 @@ go_library(
         "tee.go",
         "write_syncer.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/go.uber.org/zap/zapcore",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.uber.org/zap/zapcore",
     importpath = "go.uber.org/zap/zapcore",
     visibility = ["//visibility:public"],
     deps = [

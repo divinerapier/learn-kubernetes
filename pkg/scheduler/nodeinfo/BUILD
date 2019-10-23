@@ -8,7 +8,7 @@ go_library(
         "snapshot.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/nodeinfo",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core/v1/helper:go_default_library",

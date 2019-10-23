@@ -31,7 +31,7 @@ go_library(
         "ipvs_unsupported.go",
         "kernelcheck_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/ipvs",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/ipvs",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/util/version:go_default_library",
     ] + select({

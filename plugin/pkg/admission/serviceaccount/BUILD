@@ -12,7 +12,7 @@ go_library(
         "admission.go",
         "doc.go",
     ],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/serviceaccount",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/serviceaccount",
     deps = [
         "//pkg/api/pod:go_default_library",
         "//pkg/apis/core:go_default_library",

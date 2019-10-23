@@ -27,10 +27,10 @@ import (
 	"github.com/pkg/errors"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/apiclient"
-	dryrunutil "k8s.io/kubernetes/cmd/kubeadm/app/util/dryrun"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/apiclient"
+	dryrunutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/dryrun"
 )
 
 var (

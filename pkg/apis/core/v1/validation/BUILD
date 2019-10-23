@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["validation.go"],
-    importpath = "k8s.io/kubernetes/pkg/apis/core/v1/validation",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/validation",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core/helper:go_default_library",

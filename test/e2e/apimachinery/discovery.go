@@ -19,8 +19,8 @@ package apimachinery
 import (
 	utilversion "k8s.io/apimachinery/pkg/util/version"
 	"k8s.io/apiserver/pkg/endpoints/discovery"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/utils/crd"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/utils/crd"
 
 	"github.com/onsi/ginkgo"
 )

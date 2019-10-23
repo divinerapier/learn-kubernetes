@@ -6,7 +6,7 @@ go_library(
         "main.go",
         "tcp.go",
     ],
-    importpath = "k8s.io/kubernetes/test/images/regression-issue-74839",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/regression-issue-74839",
     visibility = ["//visibility:private"],
 )
 

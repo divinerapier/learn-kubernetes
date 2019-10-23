@@ -7,7 +7,7 @@ go_library(
         "taint_manager.go",
         "timed_workers.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/nodelifecycle/scheduler",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/nodelifecycle/scheduler",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core/helper:go_default_library",

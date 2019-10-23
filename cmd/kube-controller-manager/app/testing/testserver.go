@@ -28,9 +28,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
-	"k8s.io/kubernetes/cmd/kube-controller-manager/app"
-	kubecontrollerconfig "k8s.io/kubernetes/cmd/kube-controller-manager/app/config"
-	"k8s.io/kubernetes/cmd/kube-controller-manager/app/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-controller-manager/app"
+	kubecontrollerconfig "github.com/divinerapier/learn-kubernetes/cmd/kube-controller-manager/app/config"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-controller-manager/app/options"
 )
 
 // TearDownFunc is to be called to tear down a test server.

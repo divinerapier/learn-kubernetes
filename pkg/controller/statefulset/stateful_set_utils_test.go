@@ -31,8 +31,8 @@ import (
 
 	apps "k8s.io/api/apps/v1"
 	"k8s.io/api/core/v1"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/controller/history"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/history"
 )
 
 func TestGetParentNameAndOrdinal(t *testing.T) {

@@ -133,7 +133,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["transformation_testcase.go"],
-    importpath = "k8s.io/kubernetes/test/integration/master",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/integration/master",
     deps = [
         "//cmd/kube-apiserver/app/testing:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

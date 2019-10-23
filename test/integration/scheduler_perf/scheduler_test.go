@@ -31,7 +31,7 @@ import (
 	coreinformers "k8s.io/client-go/informers/core/v1"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
-	testutils "k8s.io/kubernetes/test/utils"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 
 	"k8s.io/klog"
 )

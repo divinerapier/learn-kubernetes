@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["custom_metrics.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/custommetrics",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/custommetrics",
     deps = ["//staging/src/k8s.io/api/core/v1:go_default_library"],
 )
 

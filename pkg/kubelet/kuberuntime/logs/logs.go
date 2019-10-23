@@ -36,7 +36,7 @@ import (
 	"k8s.io/api/core/v1"
 	internalapi "k8s.io/cri-api/pkg/apis"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/util/tail"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/tail"
 )
 
 // Notice that the current CRI logs implementation doesn't handle

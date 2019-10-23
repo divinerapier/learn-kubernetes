@@ -24,7 +24,7 @@ import (
 
 	"k8s.io/api/core/v1"
 	storageetcd3 "k8s.io/apiserver/pkg/storage/etcd3"
-	"k8s.io/kubernetes/pkg/kubelet/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util"
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

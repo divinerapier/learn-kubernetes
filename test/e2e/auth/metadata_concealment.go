@@ -20,11 +20,11 @@ import (
 	batchv1 "k8s.io/api/batch/v1"
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/test/e2e/framework"
-	jobutil "k8s.io/kubernetes/test/e2e/framework/job"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	jobutil "github.com/divinerapier/learn-kubernetes/test/e2e/framework/job"
 
 	"github.com/onsi/ginkgo"
-	imageutil "k8s.io/kubernetes/test/utils/image"
+	imageutil "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 var _ = SIGDescribe("Metadata Concealment", func() {

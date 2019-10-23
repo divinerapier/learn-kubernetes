@@ -7,7 +7,7 @@ go_library(
         "ct_ansi.go",
         "ct_win.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/daviddengcn/go-colortext",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/daviddengcn/go-colortext",
     importpath = "github.com/daviddengcn/go-colortext",
     visibility = ["//visibility:public"],
 )

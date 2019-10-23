@@ -7,7 +7,7 @@ go_library(
         "apply_systemd.go",
         "unified_hierarchy.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/opencontainers/runc/libcontainer/cgroups/systemd",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/opencontainers/runc/libcontainer/cgroups/systemd",
     importpath = "github.com/opencontainers/runc/libcontainer/cgroups/systemd",
     visibility = ["//visibility:public"],
     deps = select({

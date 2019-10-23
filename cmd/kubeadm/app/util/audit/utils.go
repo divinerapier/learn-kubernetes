@@ -28,7 +28,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/apiserver/pkg/apis/audit/install"
 	auditv1 "k8s.io/apiserver/pkg/apis/audit/v1"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util"
 )
 
 // CreateDefaultAuditLogPolicy writes the default audit log policy to disk.

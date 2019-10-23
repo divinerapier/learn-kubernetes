@@ -28,8 +28,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/informers"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/pkg/scheduler/apis/config"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 // NodeScoreList declares a list of nodes and their scores.

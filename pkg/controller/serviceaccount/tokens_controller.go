@@ -37,8 +37,8 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/component-base/metrics/prometheus/ratelimiter"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/registry/core/secret"
-	"k8s.io/kubernetes/pkg/serviceaccount"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/secret"
+	"github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
 )
 
 // RemoveTokenBackoff is the recommended (empirical) retry interval for removing

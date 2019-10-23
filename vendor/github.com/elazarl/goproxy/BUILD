@@ -15,7 +15,7 @@ go_library(
         "responses.go",
         "signer.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/elazarl/goproxy",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/elazarl/goproxy",
     importpath = "github.com/elazarl/goproxy",
     visibility = ["//visibility:public"],
 )

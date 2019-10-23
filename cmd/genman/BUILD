@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["gen_kube_man.go"],
-    importpath = "k8s.io/kubernetes/cmd/genman",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/genman",
     deps = [
         "//cmd/genutils:go_default_library",
         "//cmd/kube-apiserver/app:go_default_library",

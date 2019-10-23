@@ -21,12 +21,12 @@ import (
 
 	"k8s.io/api/core/v1"
 	"k8s.io/klog"
-	v1qos "k8s.io/kubernetes/pkg/apis/core/v1/helper/qos"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/state"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpumanager/topology"
-	"k8s.io/kubernetes/pkg/kubelet/cm/cpuset"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager/bitmask"
+	v1qos "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper/qos"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/state"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpumanager/topology"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager/bitmask"
 )
 
 // PolicyStatic is the name of the static policy

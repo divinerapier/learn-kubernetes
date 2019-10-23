@@ -11,7 +11,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/autoscaling/horizontalpodautoscaler",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/autoscaling/horizontalpodautoscaler",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/autoscaling:go_default_library",

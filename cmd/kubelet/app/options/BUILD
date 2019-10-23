@@ -17,7 +17,7 @@ go_library(
         "osflags_others.go",
         "osflags_windows.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubelet/app/options",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubelet/app/options",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/credentialprovider/azure:go_default_library",

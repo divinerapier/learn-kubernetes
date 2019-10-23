@@ -16,7 +16,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["cidr_set.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/nodeipam/ipam/cidrset",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam/ipam/cidrset",
 )
 
 filegroup(

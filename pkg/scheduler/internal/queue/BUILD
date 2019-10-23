@@ -7,7 +7,7 @@ go_library(
         "pod_backoff.go",
         "scheduling_queue.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/internal/queue",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/internal/queue",
     visibility = ["//pkg/scheduler:__subpackages__"],
     deps = [
         "//pkg/api/v1/pod:go_default_library",

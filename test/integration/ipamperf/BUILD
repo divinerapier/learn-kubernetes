@@ -45,7 +45,7 @@ go_library(
         "results.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/test/integration/ipamperf",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/integration/ipamperf",
     deps = [
         "//pkg/controller/nodeipam/ipam:go_default_library",
         "//pkg/controller/nodeipam/ipam/cidrset:go_default_library",

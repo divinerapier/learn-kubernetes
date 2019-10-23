@@ -35,9 +35,9 @@ import (
 	"k8s.io/apiserver/pkg/authorization/authorizer"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/component-base/featuregate"
-	"k8s.io/kubernetes/pkg/auth/nodeidentifier"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/plugin/pkg/auth/authorizer/rbac/bootstrappolicy"
+	"github.com/divinerapier/learn-kubernetes/pkg/auth/nodeidentifier"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/plugin/pkg/auth/authorizer/rbac/bootstrappolicy"
 )
 
 var (

@@ -16,7 +16,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "k8s.io/kubernetes/cmd/hyperkube",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/hyperkube",
     deps = [
         "//cmd/cloud-controller-manager/app:go_default_library",
         "//cmd/kube-apiserver/app:go_default_library",

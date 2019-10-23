@@ -27,7 +27,7 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/selection"
 	"k8s.io/apimachinery/pkg/util/validation"
-	"k8s.io/kubernetes/pkg/apis/core/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/helper"
 )
 
 // IsExtendedResourceName returns true if:

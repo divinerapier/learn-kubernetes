@@ -21,12 +21,12 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-	kubeadmscheme "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/scheme"
-	kubeadmapiv1beta2 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
-	kubeconfigphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/kubeconfig"
-	configutil "k8s.io/kubernetes/cmd/kubeadm/app/util/config"
+	kubeadmscheme "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/scheme"
+	kubeadmapiv1beta2 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
+	kubeconfigphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/kubeconfig"
+	configutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/config"
 )
 
 var (

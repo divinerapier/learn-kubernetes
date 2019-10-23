@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["mt.go"],
-    importpath = "k8s.io/kubernetes/test/images/mounttest",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/mounttest",
 )
 
 filegroup(

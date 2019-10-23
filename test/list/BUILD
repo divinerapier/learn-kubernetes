@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "k8s.io/kubernetes/test/list",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/list",
 )
 
 filegroup(

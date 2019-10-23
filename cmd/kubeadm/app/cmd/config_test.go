@@ -30,12 +30,12 @@ import (
 
 	"github.com/lithammer/dedent"
 	"github.com/spf13/cobra"
-	kubeadmapiv1beta2 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
-	"k8s.io/kubernetes/cmd/kubeadm/app/componentconfigs"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeadmutil "k8s.io/kubernetes/cmd/kubeadm/app/util"
-	configutil "k8s.io/kubernetes/cmd/kubeadm/app/util/config"
-	utilruntime "k8s.io/kubernetes/cmd/kubeadm/app/util/runtime"
+	kubeadmapiv1beta2 "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta2"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/componentconfigs"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeadmutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util"
+	configutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/config"
+	utilruntime "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/runtime"
 	"k8s.io/utils/exec"
 	fakeexec "k8s.io/utils/exec/testing"
 )

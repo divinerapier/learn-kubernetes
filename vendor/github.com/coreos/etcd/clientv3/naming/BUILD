@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "grpc.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/clientv3/naming",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/clientv3/naming",
     importpath = "github.com/coreos/etcd/clientv3/naming",
     visibility = ["//visibility:public"],
     deps = [

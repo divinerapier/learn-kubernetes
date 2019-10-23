@@ -22,9 +22,9 @@ import (
 
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
-	controllervolumetesting "k8s.io/kubernetes/pkg/controller/volume/attachdetach/testing"
-	volumetesting "k8s.io/kubernetes/pkg/volume/testing"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	controllervolumetesting "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/testing"
+	volumetesting "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
+	volumeutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 // Calls AddVolumeNode() once with attached set to true.

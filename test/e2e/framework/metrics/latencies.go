@@ -28,11 +28,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/pkg/master/ports"
-	schedulermetric "k8s.io/kubernetes/pkg/scheduler/metrics"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
-	"k8s.io/kubernetes/test/e2e/system"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
+	schedulermetric "github.com/divinerapier/learn-kubernetes/pkg/scheduler/metrics"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/system"
 
 	"github.com/onsi/gomega"
 

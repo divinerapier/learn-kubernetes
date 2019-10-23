@@ -26,7 +26,7 @@ import (
 	cliflag "k8s.io/component-base/cli/flag"
 	"k8s.io/component-base/logs"
 	_ "k8s.io/component-base/metrics/prometheus/clientgo"
-	"k8s.io/kubernetes/cmd/kube-scheduler/app"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-scheduler/app"
 )
 
 func main() {

@@ -11,7 +11,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/policy/podsecuritypolicy",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/policy/podsecuritypolicy",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/api/podsecuritypolicy:go_default_library",

@@ -28,9 +28,9 @@ import (
 	"k8s.io/apiserver/pkg/authorization/authorizer"
 	"k8s.io/apiserver/pkg/endpoints/request"
 	"k8s.io/apiserver/pkg/registry/rest"
-	"k8s.io/kubernetes/pkg/apis/rbac"
-	_ "k8s.io/kubernetes/pkg/apis/rbac/install"
-	"k8s.io/kubernetes/pkg/registry/rbac/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/rbac"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/rbac/install"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/rbac/validation"
 )
 
 func TestEscalation(t *testing.T) {

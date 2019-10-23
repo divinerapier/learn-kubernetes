@@ -38,8 +38,8 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/component-base/metrics/prometheus/ratelimiter"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/controller"
-	endpointutil "k8s.io/kubernetes/pkg/controller/util/endpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	endpointutil "github.com/divinerapier/learn-kubernetes/pkg/controller/util/endpoint"
 )
 
 const (

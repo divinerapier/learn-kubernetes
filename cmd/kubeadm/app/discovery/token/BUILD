@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["token.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/discovery/token",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/discovery/token",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",
         "//cmd/kubeadm/app/apis/kubeadm/v1beta2:go_default_library",

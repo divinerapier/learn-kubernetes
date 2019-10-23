@@ -29,8 +29,8 @@ import (
 	"k8s.io/apiserver/pkg/server/routes"
 	componentbaseconfig "k8s.io/component-base/config"
 	"k8s.io/component-base/metrics/legacyregistry"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	"k8s.io/kubernetes/pkg/util/configz"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/configz"
 )
 
 // BuildHandlerChain builds a handler chain with a base handler and CompletedConfig.

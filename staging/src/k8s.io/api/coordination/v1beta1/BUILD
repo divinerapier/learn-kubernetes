@@ -16,7 +16,7 @@ go_library(
         "types_swagger_doc_generated.go",
         "zz_generated.deepcopy.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/api/coordination/v1beta1",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/api/coordination/v1beta1",
     importpath = "k8s.io/api/coordination/v1beta1",
     visibility = ["//visibility:public"],
     deps = [

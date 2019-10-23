@@ -26,11 +26,11 @@ import (
 	"k8s.io/apiserver/pkg/storage"
 	etcd3testing "k8s.io/apiserver/pkg/storage/etcd3/testing"
 	"k8s.io/apiserver/pkg/storage/storagebackend/factory"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/registry/core/service/allocator"
-	allocatorstore "k8s.io/kubernetes/pkg/registry/core/service/allocator/storage"
-	"k8s.io/kubernetes/pkg/registry/core/service/ipallocator"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/allocator"
+	allocatorstore "github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/allocator/storage"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/ipallocator"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/registrytest"
 )
 
 func newStorage(t *testing.T) (*etcd3testing.EtcdTestServer, ipallocator.Interface, allocator.Interface, storage.Interface, factory.DestroyFunc) {

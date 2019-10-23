@@ -24,12 +24,12 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	kubeproxyconfigv1alpha1 "k8s.io/kube-proxy/config/v1alpha1"
 	kubeletconfigv1beta1 "k8s.io/kubelet/config/v1beta1"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmutil "k8s.io/kubernetes/cmd/kubeadm/app/util"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubeletconfigv1beta1scheme "k8s.io/kubernetes/pkg/kubelet/apis/config/v1beta1"
-	kubeproxyconfig "k8s.io/kubernetes/pkg/proxy/apis/config"
-	kubeproxyconfigv1alpha1scheme "k8s.io/kubernetes/pkg/proxy/apis/config/v1alpha1"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubeletconfigv1beta1scheme "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config/v1beta1"
+	kubeproxyconfig "github.com/divinerapier/learn-kubernetes/pkg/proxy/apis/config"
+	kubeproxyconfigv1alpha1scheme "github.com/divinerapier/learn-kubernetes/pkg/proxy/apis/config/v1alpha1"
 )
 
 // AddToSchemeFunc is a function that adds known types and API GroupVersions to a scheme
@@ -95,7 +95,7 @@ var Known Registrations = map[RegistrationKind]Registration{
 	KubeProxyConfigurationKind: {
 		// TODO: When a beta version of the kube-proxy ComponentConfig API is available, start using it
 		MarshalGroupVersion: kubeproxyconfigv1alpha1.SchemeGroupVersion,
-		// AddToSchemeFuncs must use v1alpha1scheme defined in k8s.io/kubernetes, because the schema defined in k8s.io/kube-proxy doesn't have defaulting functions
+		// AddToSchemeFuncs must use v1alpha1scheme defined in github.com/divinerapier/learn-kubernetes, because the schema defined in k8s.io/kube-proxy doesn't have defaulting functions
 		AddToSchemeFuncs: []AddToSchemeFunc{kubeproxyconfig.AddToScheme, kubeproxyconfigv1alpha1scheme.AddToScheme},
 		DefaulterFunc:    DefaultKubeProxyConfiguration,
 		ValidateFunc:     ValidateKubeProxyConfiguration,
@@ -114,7 +114,7 @@ var Known Registrations = map[RegistrationKind]Registration{
 	},
 	KubeletConfigurationKind: {
 		MarshalGroupVersion: kubeletconfigv1beta1.SchemeGroupVersion,
-		// PAddToSchemeFuncs must use v1alpha1scheme defined in k8s.io/kubernetes, because the schema defined in k8s.io/kubelet doesn't have defaulting functions
+		// PAddToSchemeFuncs must use v1alpha1scheme defined in github.com/divinerapier/learn-kubernetes, because the schema defined in k8s.io/kubelet doesn't have defaulting functions
 		AddToSchemeFuncs: []AddToSchemeFunc{kubeletconfig.AddToScheme, kubeletconfigv1beta1scheme.AddToScheme},
 		DefaulterFunc:    DefaultKubeletConfiguration,
 		ValidateFunc:     ValidateKubeletConfiguration,

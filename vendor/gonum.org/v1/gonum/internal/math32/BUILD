@@ -10,7 +10,7 @@ go_library(
         "sqrt_amd64.go",
         "sqrt_amd64.s",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/internal/math32",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/internal/math32",
     importpath = "gonum.org/v1/gonum/internal/math32",
     visibility = ["//vendor/gonum.org/v1/gonum:__subpackages__"],
 )

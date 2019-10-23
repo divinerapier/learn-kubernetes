@@ -9,7 +9,7 @@ go_library(
         "nodes_edges.go",
         "undirect.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph",
     importpath = "gonum.org/v1/gonum/graph",
     visibility = ["//visibility:public"],
 )

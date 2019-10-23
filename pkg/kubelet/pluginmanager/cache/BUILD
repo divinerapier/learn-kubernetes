@@ -7,7 +7,7 @@ go_library(
         "desired_state_of_world.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/pluginmanager/cache",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/cache",
     visibility = ["//visibility:public"],
     deps = ["//vendor/k8s.io/klog:go_default_library"],
 )

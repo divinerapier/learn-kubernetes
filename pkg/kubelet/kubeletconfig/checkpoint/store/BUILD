@@ -36,7 +36,7 @@ go_library(
         "fsstore.go",
         "store.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint/store",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/checkpoint/store",
     deps = [
         "//pkg/kubelet/apis/config:go_default_library",
         "//pkg/kubelet/kubeletconfig/checkpoint:go_default_library",

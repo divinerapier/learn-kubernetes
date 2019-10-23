@@ -21,9 +21,9 @@ import (
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/test/e2e/framework/ginkgowrapper"
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/ginkgowrapper"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
 )
 
 func skipInternalf(caller int, format string, args ...interface{}) {

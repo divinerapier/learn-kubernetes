@@ -10,7 +10,7 @@ go_library(
         "union_content.go",
         "util.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiserver/pkg/server/dynamiccertificates",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiserver/pkg/server/dynamiccertificates",
     importpath = "k8s.io/apiserver/pkg/server/dynamiccertificates",
     visibility = ["//visibility:public"],
     deps = [

@@ -19,7 +19,7 @@ limitations under the License.
 package validation
 
 import (
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
 )
 
 // validateKubeletOSConfiguration validates os specific kubelet configuration and returns an error if it is invalid.

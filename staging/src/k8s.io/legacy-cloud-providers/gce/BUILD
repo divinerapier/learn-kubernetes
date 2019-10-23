@@ -38,7 +38,7 @@ go_library(
         "support.go",
         "token_source.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/legacy-cloud-providers/gce",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/legacy-cloud-providers/gce",
     importpath = "k8s.io/legacy-cloud-providers/gce",
     visibility = ["//visibility:public"],
     deps = [

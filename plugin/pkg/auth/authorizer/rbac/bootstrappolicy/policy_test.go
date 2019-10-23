@@ -31,13 +31,13 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	_ "k8s.io/kubernetes/pkg/apis/core/install"
-	_ "k8s.io/kubernetes/pkg/apis/rbac/install"
-	rbacv1helpers "k8s.io/kubernetes/pkg/apis/rbac/v1"
-	rbacregistryvalidation "k8s.io/kubernetes/pkg/registry/rbac/validation"
-	"k8s.io/kubernetes/plugin/pkg/auth/authorizer/rbac/bootstrappolicy"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/core/install"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/rbac/install"
+	rbacv1helpers "github.com/divinerapier/learn-kubernetes/pkg/apis/rbac/v1"
+	rbacregistryvalidation "github.com/divinerapier/learn-kubernetes/pkg/registry/rbac/validation"
+	"github.com/divinerapier/learn-kubernetes/plugin/pkg/auth/authorizer/rbac/bootstrappolicy"
 )
 
 // semanticRoles is a few enumerated roles for which the relationships are well established

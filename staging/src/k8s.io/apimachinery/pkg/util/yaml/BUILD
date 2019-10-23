@@ -15,7 +15,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["decoder.go"],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apimachinery/pkg/util/yaml",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apimachinery/pkg/util/yaml",
     importpath = "k8s.io/apimachinery/pkg/util/yaml",
     deps = [
         "//vendor/k8s.io/klog:go_default_library",

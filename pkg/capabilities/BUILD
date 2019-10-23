@@ -8,7 +8,7 @@ go_library(
         "capabilities.go",
         "doc.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/capabilities",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/capabilities",
 )
 
 filegroup(

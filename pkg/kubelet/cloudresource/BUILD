@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["cloud_request_manager.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/cloudresource",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cloudresource",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["resource.go"],
-    importmap = "k8s.io/kubernetes/vendor/go.opencensus.io/resource",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.opencensus.io/resource",
     importpath = "go.opencensus.io/resource",
     visibility = ["//visibility:public"],
 )

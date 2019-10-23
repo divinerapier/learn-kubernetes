@@ -31,7 +31,7 @@ go_library(
         "dns.go",
         "manifests.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/addons/dns",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/addons/dns",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",
         "//cmd/kubeadm/app/constants:go_default_library",

@@ -24,10 +24,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
-	"k8s.io/kubernetes/pkg/apis/core/helper"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
-	"k8s.io/kubernetes/plugin/pkg/admission/defaulttolerationseconds"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/helper"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	"github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/defaulttolerationseconds"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 func TestAdmission(t *testing.T) {

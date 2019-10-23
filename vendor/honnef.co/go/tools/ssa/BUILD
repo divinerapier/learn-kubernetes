@@ -26,7 +26,7 @@ go_library(
         "wrappers.go",
         "write.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/ssa",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/ssa",
     importpath = "honnef.co/go/tools/ssa",
     visibility = ["//visibility:public"],
     deps = [

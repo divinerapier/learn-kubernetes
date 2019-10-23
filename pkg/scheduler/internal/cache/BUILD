@@ -7,7 +7,7 @@ go_library(
         "interface.go",
         "node_tree.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/internal/cache",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/internal/cache",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/features:go_default_library",

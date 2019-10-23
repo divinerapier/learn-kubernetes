@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"io"
 
-	"k8s.io/kubernetes/pkg/kubelet/util/ioutils"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/ioutils"
 )
 
 func (r *streamingRuntime) portForward(podSandboxID string, port int32, stream io.ReadWriteCloser) error {

@@ -24,8 +24,8 @@ import (
 
 	"k8s.io/apiserver/pkg/admission"
 	"k8s.io/client-go/util/flowcontrol"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	eventratelimitapi "k8s.io/kubernetes/plugin/pkg/admission/eventratelimit/apis/eventratelimit"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	eventratelimitapi "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/eventratelimit/apis/eventratelimit"
 )
 
 const (

@@ -7,7 +7,7 @@ go_library(
         "dot.go",
         "sem.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot",
     importpath = "gonum.org/v1/gonum/graph/formats/dot",
     visibility = ["//visibility:public"],
     deps = [

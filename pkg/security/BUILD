@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["doc.go"],
-    importpath = "k8s.io/kubernetes/pkg/security",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/security",
 )
 
 filegroup(

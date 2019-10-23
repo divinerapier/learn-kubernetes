@@ -42,14 +42,14 @@ import (
 	// api.Registry.GroupOrDie(v1.GroupName).GroupVersions[0].String() is changed
 	// to "v1"?
 
-	_ "k8s.io/kubernetes/pkg/apis/core/install"
-	"k8s.io/kubernetes/pkg/features"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	"k8s.io/kubernetes/pkg/kubelet/server/portforward"
-	"k8s.io/kubernetes/pkg/kubelet/server/remotecommand"
-	"k8s.io/kubernetes/pkg/volume/util/hostutil"
-	"k8s.io/kubernetes/pkg/volume/util/subpath"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/core/install"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	containertest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/portforward"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/remotecommand"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/hostutil"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util/subpath"
 )
 
 func TestDisabledSubpath(t *testing.T) {

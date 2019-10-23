@@ -36,12 +36,12 @@ import (
 	"k8s.io/client-go/tools/record"
 	pluginapi "k8s.io/kubelet/pkg/apis/deviceplugin/v1beta1"
 	watcherapi "k8s.io/kubelet/pkg/apis/pluginregistration/v1"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	"k8s.io/kubernetes/pkg/kubelet/cm/topologymanager"
-	"k8s.io/kubernetes/pkg/kubelet/config"
-	"k8s.io/kubernetes/pkg/kubelet/lifecycle"
-	"k8s.io/kubernetes/pkg/kubelet/pluginmanager"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/topologymanager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/lifecycle"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 const (

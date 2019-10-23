@@ -36,13 +36,13 @@ import (
 	ktypes "k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/predicates"
-	priorityutil "k8s.io/kubernetes/pkg/scheduler/algorithm/priorities/util"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
-	"k8s.io/kubernetes/pkg/scheduler/internal/heap"
-	"k8s.io/kubernetes/pkg/scheduler/metrics"
-	"k8s.io/kubernetes/pkg/scheduler/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/predicates"
+	priorityutil "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/priorities/util"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/internal/heap"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/util"
 )
 
 const (

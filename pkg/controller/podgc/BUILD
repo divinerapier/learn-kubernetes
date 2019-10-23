@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "gc_controller.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/podgc",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/podgc",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

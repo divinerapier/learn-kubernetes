@@ -7,7 +7,7 @@ go_library(
         "default_retryer.go",
         "logger.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/aws/aws-sdk-go/aws/client",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/aws/aws-sdk-go/aws/client",
     importpath = "github.com/aws/aws-sdk-go/aws/client",
     visibility = ["//visibility:public"],
     deps = [

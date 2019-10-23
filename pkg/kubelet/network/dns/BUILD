@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["dns.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/network/dns",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/network/dns",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core/validation:go_default_library",

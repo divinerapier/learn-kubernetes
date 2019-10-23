@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "lapack.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/lapack",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/lapack",
     importpath = "gonum.org/v1/gonum/lapack",
     visibility = ["//visibility:public"],
     deps = ["//vendor/gonum.org/v1/gonum/blas:go_default_library"],

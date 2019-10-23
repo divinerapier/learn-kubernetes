@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["manifest.go"],
-    importpath = "k8s.io/kubernetes/test/e2e/manifest",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/manifest",
     deps = [
         "//staging/src/k8s.io/api/apps/v1:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

@@ -6,7 +6,7 @@ go_library(
         "kusttarget.go",
         "resaccumulator.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/target",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/target",
     importpath = "sigs.k8s.io/kustomize/pkg/target",
     visibility = ["//visibility:public"],
     deps = [

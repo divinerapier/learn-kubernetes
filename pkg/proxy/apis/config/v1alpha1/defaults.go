@@ -25,9 +25,9 @@ import (
 	kruntime "k8s.io/apimachinery/pkg/runtime"
 	kubeproxyconfigv1alpha1 "k8s.io/kube-proxy/config/v1alpha1"
 
-	"k8s.io/kubernetes/pkg/kubelet/qos"
-	"k8s.io/kubernetes/pkg/master/ports"
-	proxyutil "k8s.io/kubernetes/pkg/proxy/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/qos"
+	"github.com/divinerapier/learn-kubernetes/pkg/master/ports"
+	proxyutil "github.com/divinerapier/learn-kubernetes/pkg/proxy/util"
 	"k8s.io/utils/pointer"
 )
 

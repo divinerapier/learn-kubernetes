@@ -15,7 +15,7 @@ go_library(
         "init_dryrun.go",
         "wait.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/util/apiclient",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/apiclient",
     deps = [
         "//cmd/kubeadm/app/constants:go_default_library",
         "//cmd/kubeadm/app/util:go_default_library",

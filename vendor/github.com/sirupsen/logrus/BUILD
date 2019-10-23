@@ -21,7 +21,7 @@ go_library(
         "text_formatter.go",
         "writer.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/sirupsen/logrus",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/sirupsen/logrus",
     importpath = "github.com/sirupsen/logrus",
     visibility = ["//visibility:public"],
     deps = select({

@@ -27,11 +27,11 @@ import (
 
 	"github.com/lithammer/dedent"
 
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	etcdutil "k8s.io/kubernetes/cmd/kubeadm/app/util/etcd"
-	staticpodutil "k8s.io/kubernetes/cmd/kubeadm/app/util/staticpod"
-	testutil "k8s.io/kubernetes/cmd/kubeadm/test"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	etcdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/etcd"
+	staticpodutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/staticpod"
+	testutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test"
 )
 
 func TestGetEtcdPodSpec(t *testing.T) {

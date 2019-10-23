@@ -8,7 +8,7 @@ go_library(
         "remote.go",
         "repo.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/bazelbuild/bazel-gazelle/internal/repos",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/bazelbuild/bazel-gazelle/internal/repos",
     importpath = "github.com/bazelbuild/bazel-gazelle/internal/repos",
     visibility = ["//vendor/github.com/bazelbuild/bazel-gazelle:__subpackages__"],
     deps = [

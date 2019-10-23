@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["nnp.go"],
-    importpath = "k8s.io/kubernetes/test/images/nonewprivs",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/nonewprivs",
 )
 
 filegroup(

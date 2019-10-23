@@ -22,9 +22,9 @@ import (
 	"os"
 
 	"k8s.io/apimachinery/pkg/runtime"
-	kubeschedulerconfig "k8s.io/kubernetes/pkg/scheduler/apis/config"
-	kubeschedulerscheme "k8s.io/kubernetes/pkg/scheduler/apis/config/scheme"
-	kubeschedulerconfigv1alpha1 "k8s.io/kubernetes/pkg/scheduler/apis/config/v1alpha1"
+	kubeschedulerconfig "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
+	kubeschedulerscheme "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config/scheme"
+	kubeschedulerconfigv1alpha1 "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config/v1alpha1"
 )
 
 func loadConfigFromFile(file string) (*kubeschedulerconfig.KubeSchedulerConfiguration, error) {

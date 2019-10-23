@@ -27,7 +27,7 @@ import (
 
 	utilnet "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/credentialprovider"
+	"github.com/divinerapier/learn-kubernetes/pkg/credentialprovider"
 )
 
 const (

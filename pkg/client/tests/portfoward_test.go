@@ -34,7 +34,7 @@ import (
 	restclient "k8s.io/client-go/rest"
 	. "k8s.io/client-go/tools/portforward"
 	"k8s.io/client-go/transport/spdy"
-	"k8s.io/kubernetes/pkg/kubelet/server/portforward"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/portforward"
 )
 
 // fakePortForwarder simulates port forwarding for testing. It implements

@@ -24,8 +24,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	testutil "k8s.io/kubernetes/cmd/kubeadm/test"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	testutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test"
 )
 
 func TestMoveFiles(t *testing.T) {

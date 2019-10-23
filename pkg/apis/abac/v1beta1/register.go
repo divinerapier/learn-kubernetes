@@ -19,7 +19,7 @@ package v1beta1
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/kubernetes/pkg/apis/abac"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/abac"
 )
 
 // GroupName is the group name use in this package
@@ -46,7 +46,7 @@ var (
 	SchemeBuilder runtime.SchemeBuilder
 	// localSchemeBuilder ïs a pointer to SchemeBuilder instance. Using localSchemeBuilder
 	// defaulting and conversion init funcs are registered as well.
-	// localSchemeBuilder and AddToScheme will stay in k8s.io/kubernetes.
+	// localSchemeBuilder and AddToScheme will stay in github.com/divinerapier/learn-kubernetes.
 	localSchemeBuilder = &SchemeBuilder
 	// AddToScheme is a common registration function for mapping packaged scoped group & version keys to a scheme
 	AddToScheme = localSchemeBuilder.AddToScheme

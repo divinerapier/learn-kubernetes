@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/probe"
+	"github.com/divinerapier/learn-kubernetes/pkg/probe"
 )
 
 type FakeCmd struct {

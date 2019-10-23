@@ -11,7 +11,7 @@ go_library(
         "rlimit_linux.go",
         "rlimit_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/rlimit",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/rlimit",
     deps = select({
         "@io_bazel_rules_go//go/platform:linux": [
             "//vendor/golang.org/x/sys/unix:go_default_library",

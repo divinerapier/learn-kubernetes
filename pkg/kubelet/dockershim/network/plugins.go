@@ -28,15 +28,15 @@ import (
 	utilsets "k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/validation"
 	"k8s.io/klog"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network/hostport"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network/metrics"
-	utilsysctl "k8s.io/kubernetes/pkg/util/sysctl"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/hostport"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network/metrics"
+	utilsysctl "github.com/divinerapier/learn-kubernetes/pkg/util/sysctl"
 	utilexec "k8s.io/utils/exec"
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	kubefeatures "k8s.io/kubernetes/pkg/features"
+	kubefeatures "github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 const (

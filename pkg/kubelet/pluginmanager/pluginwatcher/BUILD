@@ -7,7 +7,7 @@ go_library(
         "example_plugin.go",
         "plugin_watcher.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/pluginmanager/pluginwatcher",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pluginmanager/pluginwatcher",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/pluginmanager/cache:go_default_library",

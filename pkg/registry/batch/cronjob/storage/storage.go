@@ -24,11 +24,11 @@ import (
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
 	"k8s.io/apiserver/pkg/registry/rest"
-	"k8s.io/kubernetes/pkg/apis/batch"
-	"k8s.io/kubernetes/pkg/printers"
-	printersinternal "k8s.io/kubernetes/pkg/printers/internalversion"
-	printerstorage "k8s.io/kubernetes/pkg/printers/storage"
-	"k8s.io/kubernetes/pkg/registry/batch/cronjob"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/batch"
+	"github.com/divinerapier/learn-kubernetes/pkg/printers"
+	printersinternal "github.com/divinerapier/learn-kubernetes/pkg/printers/internalversion"
+	printerstorage "github.com/divinerapier/learn-kubernetes/pkg/printers/storage"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/batch/cronjob"
 )
 
 // REST implements a RESTStorage for scheduled jobs against etcd

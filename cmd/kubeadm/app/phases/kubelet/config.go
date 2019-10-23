@@ -30,10 +30,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/version"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/cmd/kubeadm/app/componentconfigs"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util/apiclient"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/componentconfigs"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/apiclient"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
 )
 
 // WriteConfigToDisk writes the kubelet config object down to a file

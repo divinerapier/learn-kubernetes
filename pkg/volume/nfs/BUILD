@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "nfs.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/nfs",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/nfs",
     deps = [
         "//pkg/util/mount:go_default_library",
         "//pkg/volume:go_default_library",

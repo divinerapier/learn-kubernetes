@@ -14,7 +14,7 @@ go_library(
         "package.go",
         "resolve.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/bazelbuild/bazel-gazelle/internal/language/proto",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/bazelbuild/bazel-gazelle/internal/language/proto",
     importpath = "github.com/bazelbuild/bazel-gazelle/internal/language/proto",
     visibility = ["//vendor/github.com/bazelbuild/bazel-gazelle:__subpackages__"],
     deps = [

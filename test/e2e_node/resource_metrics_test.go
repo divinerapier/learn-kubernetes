@@ -21,10 +21,10 @@ import (
 	"time"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	kubeletresourcemetricsv1alpha1 "k8s.io/kubernetes/pkg/kubelet/apis/resourcemetrics/v1alpha1"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/e2e/framework/metrics"
-	"k8s.io/kubernetes/test/e2e/framework/volume"
+	kubeletresourcemetricsv1alpha1 "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/resourcemetrics/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/metrics"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework/volume"
 
 	"github.com/prometheus/common/model"
 

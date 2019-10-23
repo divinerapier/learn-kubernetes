@@ -13,7 +13,7 @@ go_library(
         "validate.go",
         "validate_disabled.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/security/apparmor",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/security/apparmor",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/features:go_default_library",

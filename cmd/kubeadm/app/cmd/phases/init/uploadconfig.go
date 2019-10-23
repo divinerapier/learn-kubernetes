@@ -23,14 +23,14 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/klog"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeletphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/kubelet"
-	patchnodephase "k8s.io/kubernetes/cmd/kubeadm/app/phases/patchnode"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/uploadconfig"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeletphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/kubelet"
+	patchnodephase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/patchnode"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/uploadconfig"
 )
 
 var (

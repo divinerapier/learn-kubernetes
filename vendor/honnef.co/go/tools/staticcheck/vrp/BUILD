@@ -9,7 +9,7 @@ go_library(
         "string.go",
         "vrp.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/staticcheck/vrp",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/staticcheck/vrp",
     importpath = "honnef.co/go/tools/staticcheck/vrp",
     visibility = ["//visibility:public"],
     deps = [

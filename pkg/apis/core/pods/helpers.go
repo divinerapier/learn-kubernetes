@@ -21,9 +21,9 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/fieldpath"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/fieldpath"
 )
 
 // ContainerVisitorWithPath is called with each container and the field.Path to that container,

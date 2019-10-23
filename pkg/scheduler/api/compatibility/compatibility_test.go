@@ -26,13 +26,13 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"
-	_ "k8s.io/kubernetes/pkg/apis/core/install"
-	"k8s.io/kubernetes/pkg/scheduler"
-	_ "k8s.io/kubernetes/pkg/scheduler/algorithmprovider/defaults"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
-	kubeschedulerconfig "k8s.io/kubernetes/pkg/scheduler/apis/config"
-	schedulerconfig "k8s.io/kubernetes/pkg/scheduler/apis/config"
-	"k8s.io/kubernetes/pkg/scheduler/core"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/core/install"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithmprovider/defaults"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	kubeschedulerconfig "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
+	schedulerconfig "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/core"
 )
 
 func TestCompatibility_v1_Scheduler(t *testing.T) {

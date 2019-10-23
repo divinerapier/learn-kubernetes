@@ -48,7 +48,7 @@ PATH="${GOBIN}:${PATH}"
 
 # Install staticcheck from vendor
 echo 'installing staticcheck from vendor'
-go install k8s.io/kubernetes/vendor/honnef.co/go/tools/cmd/staticcheck
+go install github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/cmd/staticcheck
 
 cd "${KUBE_ROOT}"
 

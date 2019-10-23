@@ -6,7 +6,7 @@ go_library(
         "blas.go",
         "doc.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/blas",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/blas",
     importpath = "gonum.org/v1/gonum/blas",
     visibility = ["//visibility:public"],
 )

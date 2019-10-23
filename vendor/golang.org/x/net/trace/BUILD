@@ -7,7 +7,7 @@ go_library(
         "histogram.go",
         "trace.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/net/trace",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/net/trace",
     importpath = "golang.org/x/net/trace",
     visibility = ["//visibility:public"],
     deps = ["//vendor/golang.org/x/net/internal/timeseries:go_default_library"],

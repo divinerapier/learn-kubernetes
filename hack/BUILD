@@ -70,7 +70,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["e2e.go"],
-    importpath = "k8s.io/kubernetes/hack",
+    importpath = "github.com/divinerapier/learn-kubernetes/hack",
 )
 
 sh_binary(

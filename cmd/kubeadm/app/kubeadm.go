@@ -25,7 +25,7 @@ import (
 	"k8s.io/klog"
 
 	cliflag "k8s.io/component-base/cli/flag"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd"
 )
 
 // Run creates and executes new kubeadm command

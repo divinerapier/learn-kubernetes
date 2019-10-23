@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "ipconfig.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/ipconfig",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/ipconfig",
     deps = [
         "//vendor/k8s.io/klog:go_default_library",
         "//vendor/k8s.io/utils/exec:go_default_library",

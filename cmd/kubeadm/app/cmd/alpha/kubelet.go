@@ -22,12 +22,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"k8s.io/apimachinery/pkg/util/version"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	kubeletphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/kubelet"
-	"k8s.io/kubernetes/cmd/kubeadm/app/preflight"
-	kubeconfigutil "k8s.io/kubernetes/cmd/kubeadm/app/util/kubeconfig"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	kubeletphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/kubelet"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/preflight"
+	kubeconfigutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/kubeconfig"
 	utilsexec "k8s.io/utils/exec"
 )
 

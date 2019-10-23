@@ -27,10 +27,10 @@ import (
 	certutil "k8s.io/client-go/util/cert"
 	"k8s.io/client-go/util/keyutil"
 	"k8s.io/klog"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	pkiutil "k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	pkiutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
 
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
 )
 
 // CreatePKIAssets will create and write to disk all PKI assets necessary to establish the control plane.

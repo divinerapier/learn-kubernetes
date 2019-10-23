@@ -46,7 +46,7 @@ func (n Name) String() string {
 	return n.Package + "." + n.Name
 }
 
-// ParseFullyQualifiedName parses a name like k8s.io/kubernetes/pkg/api.Pod into a Name.
+// ParseFullyQualifiedName parses a name like github.com/divinerapier/learn-kubernetes/pkg/api.Pod into a Name.
 func ParseFullyQualifiedName(fqn string) Name {
 	cs := strings.Split(fqn, ".")
 	pkg := ""

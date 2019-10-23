@@ -15,7 +15,7 @@ go_library(
         "doc.go",
         "resource_access.go",
     ],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/resourcequota",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/resourcequota",
     deps = [
         "//pkg/kubeapiserver/admission:go_default_library",
         "//pkg/quota/v1:go_default_library",

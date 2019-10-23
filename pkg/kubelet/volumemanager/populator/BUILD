@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["desired_state_of_world_populator.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/volumemanager/populator",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/volumemanager/populator",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/kubelet/config:go_default_library",

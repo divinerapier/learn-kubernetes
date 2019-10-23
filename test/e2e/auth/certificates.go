@@ -27,8 +27,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	v1beta1client "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
 	"k8s.io/client-go/util/cert"
-	"k8s.io/kubernetes/test/e2e/framework"
-	"k8s.io/kubernetes/test/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/utils"
 
 	"github.com/onsi/ginkgo"
 )

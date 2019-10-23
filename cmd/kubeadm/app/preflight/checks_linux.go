@@ -20,7 +20,7 @@ package preflight
 
 import (
 	"github.com/pkg/errors"
-	"k8s.io/kubernetes/cmd/kubeadm/app/util"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util"
 	"k8s.io/utils/exec"
 )
 

@@ -24,10 +24,10 @@ import (
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/klog"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/util/removeall"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetypes "k8s.io/kubernetes/pkg/volume/util/types"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/removeall"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumetypes "github.com/divinerapier/learn-kubernetes/pkg/volume/util/types"
 )
 
 // ListVolumesForPod returns a map of the mounted volumes for the given pod.

@@ -30,7 +30,7 @@ import (
 
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/kubernetes/pkg/kubelet/util/manager"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/manager"
 )
 
 func checkObject(t *testing.T, store manager.Store, ns, name string, shouldExist bool) {

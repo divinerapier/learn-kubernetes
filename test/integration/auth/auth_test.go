@@ -48,13 +48,13 @@ import (
 	"k8s.io/apiserver/plugin/pkg/authenticator/token/tokentest"
 	"k8s.io/apiserver/plugin/pkg/authenticator/token/webhook"
 	"k8s.io/client-go/tools/clientcmd/api/v1"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	"k8s.io/kubernetes/pkg/auth/authorizer/abac"
-	"k8s.io/kubernetes/test/integration"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/extensions"
+	"github.com/divinerapier/learn-kubernetes/pkg/auth/authorizer/abac"
+	"github.com/divinerapier/learn-kubernetes/test/integration"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 const (

@@ -23,8 +23,8 @@ import (
 
 	"github.com/containernetworking/cni/libcni"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/network"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network"
 )
 
 func getLoNetwork(binDirs []string) *cniNetwork {

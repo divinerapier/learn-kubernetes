@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"k8s.io/kubernetes/test/e2e/framework"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 
 	"github.com/blang/semver"
 	"github.com/onsi/ginkgo"

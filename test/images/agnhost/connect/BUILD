@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["connect.go"],
-    importpath = "k8s.io/kubernetes/test/images/agnhost/connect",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/agnhost/connect",
     deps = ["//vendor/github.com/spf13/cobra:go_default_library"],
 )
 

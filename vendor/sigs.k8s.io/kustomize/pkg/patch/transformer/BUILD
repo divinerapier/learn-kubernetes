@@ -6,7 +6,7 @@ go_library(
         "factory.go",
         "patchjson6902json.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/patch/transformer",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/patch/transformer",
     importpath = "sigs.k8s.io/kustomize/pkg/patch/transformer",
     visibility = ["//visibility:public"],
     deps = [

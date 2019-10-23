@@ -25,9 +25,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apiserver/pkg/authorization/authorizer"
 	"k8s.io/apiserver/pkg/registry/rest"
-	authorizationapi "k8s.io/kubernetes/pkg/apis/authorization"
-	authorizationvalidation "k8s.io/kubernetes/pkg/apis/authorization/validation"
-	authorizationutil "k8s.io/kubernetes/pkg/registry/authorization/util"
+	authorizationapi "github.com/divinerapier/learn-kubernetes/pkg/apis/authorization"
+	authorizationvalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/authorization/validation"
+	authorizationutil "github.com/divinerapier/learn-kubernetes/pkg/registry/authorization/util"
 )
 
 type REST struct {

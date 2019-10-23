@@ -10,7 +10,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["graph.go"],
-    importpath = "k8s.io/kubernetes/third_party/forked/gonum/graph",
+    importpath = "github.com/divinerapier/learn-kubernetes/third_party/forked/gonum/graph",
 )
 
 filegroup(

@@ -16,7 +16,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["kubectl.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubectl",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubectl",
     visibility = ["//visibility:private"],
     deps = [
         "//pkg/kubectl/cmd:go_default_library",

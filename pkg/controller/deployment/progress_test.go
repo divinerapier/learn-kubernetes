@@ -26,7 +26,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/fake"
 	"k8s.io/client-go/util/workqueue"
-	"k8s.io/kubernetes/pkg/controller/deployment/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/deployment/util"
 )
 
 func newDeploymentStatus(replicas, updatedReplicas, availableReplicas int32) apps.DeploymentStatus {

@@ -21,7 +21,7 @@ import (
 	"net"
 	"strconv"
 
-	utilipvs "k8s.io/kubernetes/pkg/util/ipvs"
+	utilipvs "github.com/divinerapier/learn-kubernetes/pkg/util/ipvs"
 )
 
 //FakeIPVS no-op implementation of ipvs Interface

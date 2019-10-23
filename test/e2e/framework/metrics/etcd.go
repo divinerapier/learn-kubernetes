@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
 
 	"github.com/prometheus/common/expfmt"
 	"github.com/prometheus/common/model"

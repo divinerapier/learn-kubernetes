@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "journal.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/pkg/systemd",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/pkg/systemd",
     importpath = "github.com/coreos/etcd/pkg/systemd",
     visibility = ["//visibility:public"],
 )

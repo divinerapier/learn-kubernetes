@@ -6,7 +6,7 @@ go_library(
         "atom.go",
         "table.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/net/html/atom",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/net/html/atom",
     importpath = "golang.org/x/net/html/atom",
     visibility = ["//visibility:public"],
 )

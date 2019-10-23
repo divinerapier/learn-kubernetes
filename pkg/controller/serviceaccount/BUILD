@@ -14,7 +14,7 @@ go_library(
         "tokengetter.go",
         "tokens_controller.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/serviceaccount",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/serviceaccount",
     deps = [
         "//pkg/registry/core/secret:go_default_library",
         "//pkg/serviceaccount:go_default_library",

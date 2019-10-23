@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/certificates/certificates",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/certificates/certificates",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/certificates:go_default_library",

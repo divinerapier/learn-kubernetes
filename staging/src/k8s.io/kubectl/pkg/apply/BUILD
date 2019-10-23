@@ -13,7 +13,7 @@ go_library(
         "type_element.go",
         "visitor.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kubectl/pkg/apply",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kubectl/pkg/apply",
     importpath = "k8s.io/kubectl/pkg/apply",
     visibility = ["//visibility:public"],
 )

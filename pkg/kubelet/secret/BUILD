@@ -27,7 +27,7 @@ go_library(
         "fake_manager.go",
         "secret_manager.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/secret",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/secret",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/apis/core/v1:go_default_library",

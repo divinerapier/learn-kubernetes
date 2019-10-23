@@ -23,7 +23,7 @@ import (
 
 	"k8s.io/api/autoscaling/v2beta1"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling"
 )
 
 // Testing nil pointer panic uncovered by #70806

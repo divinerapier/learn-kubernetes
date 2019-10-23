@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["http.go"],
-    importpath = "k8s.io/kubernetes/pkg/probe/http",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/probe/http",
     deps = [
         "//pkg/probe:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/net:go_default_library",

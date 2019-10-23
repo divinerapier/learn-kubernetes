@@ -6,7 +6,7 @@ go_library(
         "post_go18.go",
         "pre_go18.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/go-openapi/analysis/internal",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/go-openapi/analysis/internal",
     importpath = "github.com/go-openapi/analysis/internal",
     visibility = ["//visibility:public"],
 )

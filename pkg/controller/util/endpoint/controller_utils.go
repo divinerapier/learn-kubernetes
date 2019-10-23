@@ -25,8 +25,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	v1listers "k8s.io/client-go/listers/core/v1"
 	"k8s.io/client-go/tools/cache"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/controller"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 )
 
 // EndpointsMatch is a type of function that returns true if pod endpoints match.

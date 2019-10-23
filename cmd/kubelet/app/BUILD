@@ -38,7 +38,7 @@ go_library(
         "server_linux.go",
         "server_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubelet/app",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubelet/app",
     deps = [
         "//cmd/kubelet/app/options:go_default_library",
         "//pkg/api/legacyscheme:go_default_library",

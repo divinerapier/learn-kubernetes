@@ -25,8 +25,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
 	appsclient "k8s.io/client-go/kubernetes/typed/apps/v1"
-	"k8s.io/kubernetes/test/e2e/framework"
-	testutils "k8s.io/kubernetes/test/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 // RunReplicaSet launches (and verifies correctness) of a replicaset.

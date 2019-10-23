@@ -48,9 +48,9 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	clienttypedv1 "k8s.io/client-go/kubernetes/typed/core/v1"
 	restclient "k8s.io/client-go/rest"
-	"k8s.io/kubernetes/pkg/master"
-	"k8s.io/kubernetes/test/integration"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/pkg/master"
+	"github.com/divinerapier/learn-kubernetes/test/integration"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 )
 
 const (

@@ -15,7 +15,7 @@ go_library(
         "iscsi.go",
         "iscsi_util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/iscsi",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/iscsi",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/kubelet/config:go_default_library",

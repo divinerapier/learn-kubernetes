@@ -24,11 +24,11 @@ import (
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
 	"k8s.io/apiserver/pkg/registry/rest"
-	"k8s.io/kubernetes/pkg/apis/networking"
-	"k8s.io/kubernetes/pkg/printers"
-	printersinternal "k8s.io/kubernetes/pkg/printers/internalversion"
-	printerstorage "k8s.io/kubernetes/pkg/printers/storage"
-	"k8s.io/kubernetes/pkg/registry/networking/ingress"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/networking"
+	"github.com/divinerapier/learn-kubernetes/pkg/printers"
+	printersinternal "github.com/divinerapier/learn-kubernetes/pkg/printers/internalversion"
+	printerstorage "github.com/divinerapier/learn-kubernetes/pkg/printers/storage"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/networking/ingress"
 )
 
 // REST implements a RESTStorage for replication controllers

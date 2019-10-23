@@ -33,7 +33,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/apps/replicaset/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/apps/replicaset/storage",
     deps = [
         "//pkg/apis/apps:go_default_library",
         "//pkg/apis/apps/v1beta1:go_default_library",

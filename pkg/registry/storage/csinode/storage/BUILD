@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/storage/csinode/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/storage/csinode/storage",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/storage:go_default_library",

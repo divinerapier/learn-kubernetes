@@ -30,8 +30,8 @@ import (
 	"k8s.io/apiserver/pkg/admission"
 	admissiontesting "k8s.io/apiserver/pkg/admission/testing"
 	cloudprovider "k8s.io/cloud-provider"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	persistentvolume "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/util"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	persistentvolume "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/util"
 )
 
 type mockVolumes struct {

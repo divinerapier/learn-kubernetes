@@ -9,7 +9,7 @@ go_library(
         "http_helpers.go",
         "is.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/docker/docker/errdefs",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/docker/docker/errdefs",
     importpath = "github.com/docker/docker/errdefs",
     visibility = ["//visibility:public"],
     deps = [

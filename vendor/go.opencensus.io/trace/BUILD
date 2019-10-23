@@ -17,7 +17,7 @@ go_library(
         "trace_go11.go",
         "trace_nongo11.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/go.opencensus.io/trace",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.opencensus.io/trace",
     importpath = "go.opencensus.io/trace",
     visibility = ["//visibility:public"],
     deps = [

@@ -7,7 +7,7 @@ go_library(
         "operatingsystem_unix.go",
         "operatingsystem_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/docker/docker/pkg/parsers/operatingsystem",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/docker/docker/pkg/parsers/operatingsystem",
     importpath = "github.com/docker/docker/pkg/parsers/operatingsystem",
     visibility = ["//visibility:public"],
     deps = select({

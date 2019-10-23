@@ -8,7 +8,7 @@ go_library(
         "doc.go",
         "validate.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/tools/go/analysis",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/tools/go/analysis",
     importpath = "golang.org/x/tools/go/analysis",
     visibility = ["//visibility:public"],
 )

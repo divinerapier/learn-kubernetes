@@ -15,7 +15,7 @@ go_library(
         "iptables_unsupported.go",
         "save_restore.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/iptables",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/iptables",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/util/sets:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/version:go_default_library",

@@ -7,7 +7,7 @@ go_library(
         "idslice.go",
         "resmap.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize/pkg/resmap",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/kustomize/pkg/resmap",
     importpath = "sigs.k8s.io/kustomize/pkg/resmap",
     visibility = ["//visibility:public"],
     deps = [

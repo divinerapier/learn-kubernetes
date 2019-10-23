@@ -14,7 +14,7 @@ go_library(
         "service.go",
         "utils.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/GoogleCloudPlatform/k8s-cloud-provider/pkg/cloud",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/GoogleCloudPlatform/k8s-cloud-provider/pkg/cloud",
     importpath = "github.com/GoogleCloudPlatform/k8s-cloud-provider/pkg/cloud",
     visibility = ["//visibility:public"],
     deps = [

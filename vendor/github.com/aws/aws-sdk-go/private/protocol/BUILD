@@ -11,7 +11,7 @@ go_library(
         "timestamp.go",
         "unmarshal.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/aws/aws-sdk-go/private/protocol",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/aws/aws-sdk-go/private/protocol",
     importpath = "github.com/aws/aws-sdk-go/private/protocol",
     visibility = ["//visibility:public"],
     deps = [

@@ -31,7 +31,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/util/retry"
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 )
 
 var _ = SIGDescribe("CustomResourceDefinition resources [Privileged:ClusterAdmin]", func() {

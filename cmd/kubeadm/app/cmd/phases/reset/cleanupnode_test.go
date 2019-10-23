@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/preflight"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/preflight"
 	"k8s.io/utils/exec"
 	fakeexec "k8s.io/utils/exec/testing"
 )

@@ -19,7 +19,7 @@ package tolerations
 import (
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
 	"k8s.io/klog"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 // VerifyAgainstWhitelist checks if the provided tolerations

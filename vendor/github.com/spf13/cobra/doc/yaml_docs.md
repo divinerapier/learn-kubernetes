@@ -38,8 +38,8 @@ import (
 	"log"
 	"os"
 
-	"k8s.io/kubernetes/pkg/kubectl/cmd"
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubectl/cmd"
+	cmdutil "github.com/divinerapier/learn-kubernetes/pkg/kubectl/cmd/util"
 
 	"github.com/spf13/cobra/doc"
 )

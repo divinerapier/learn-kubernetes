@@ -23,7 +23,7 @@ import (
 	dockercontainer "github.com/docker/docker/api/types/container"
 	dockerimagetypes "github.com/docker/docker/api/types/image"
 
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/metrics"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/metrics"
 )
 
 // instrumentedInterface wraps the Interface and records the operations

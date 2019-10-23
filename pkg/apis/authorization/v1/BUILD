@@ -15,7 +15,7 @@ go_library(
         "zz_generated.conversion.go",
         "zz_generated.defaults.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/authorization/v1",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/authorization/v1",
     deps = [
         "//pkg/apis/authorization:go_default_library",
         "//staging/src/k8s.io/api/authorization/v1:go_default_library",

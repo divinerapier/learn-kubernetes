@@ -6,7 +6,7 @@ go_library(
         "volume_create.go",
         "volume_list.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/docker/docker/api/types/volume",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/docker/docker/api/types/volume",
     importpath = "github.com/docker/docker/api/types/volume",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/docker/docker/api/types:go_default_library"],

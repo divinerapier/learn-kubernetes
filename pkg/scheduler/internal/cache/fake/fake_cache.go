@@ -19,9 +19,9 @@ package fake
 import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm"
-	internalcache "k8s.io/kubernetes/pkg/scheduler/internal/cache"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm"
+	internalcache "github.com/divinerapier/learn-kubernetes/pkg/scheduler/internal/cache"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 // Cache is used for testing

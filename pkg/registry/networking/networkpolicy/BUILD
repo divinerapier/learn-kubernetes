@@ -11,7 +11,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/networking/networkpolicy",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/networking/networkpolicy",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/networking:go_default_library",

@@ -29,13 +29,13 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	cadvisortest "k8s.io/kubernetes/pkg/kubelet/cadvisor/testing"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	kubecontainertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	kubepodtest "k8s.io/kubernetes/pkg/kubelet/pod/testing"
-	serverstats "k8s.io/kubernetes/pkg/kubelet/server/stats"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	cadvisortest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cadvisor/testing"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	kubecontainertest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container/testing"
+	kubepodtest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pod/testing"
+	serverstats "github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/stats"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 const (

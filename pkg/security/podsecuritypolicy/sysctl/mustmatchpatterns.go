@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 // SafeSysctlWhitelist returns the whitelist of safe sysctls and safe sysctl patterns (ending in *).

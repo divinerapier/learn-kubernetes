@@ -90,7 +90,7 @@ go_library(
         "zsys_solaris_amd64.go",
     ],
     cgo = True,
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/net/internal/socket",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/net/internal/socket",
     importpath = "golang.org/x/net/internal/socket",
     visibility = ["//vendor/golang.org/x/net:__subpackages__"],
 )

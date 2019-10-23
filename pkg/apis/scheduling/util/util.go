@@ -18,8 +18,8 @@ package util
 
 import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/kubernetes/pkg/apis/scheduling"
-	"k8s.io/kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/scheduling"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 // DropDisabledFields removes disabled fields from the PriorityClass object.

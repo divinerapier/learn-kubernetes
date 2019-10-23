@@ -44,13 +44,13 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/restmapper"
-	"k8s.io/kubernetes/cmd/kube-apiserver/app"
-	"k8s.io/kubernetes/cmd/kube-apiserver/app/options"
-	"k8s.io/kubernetes/test/integration"
-	"k8s.io/kubernetes/test/integration/framework"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/options"
+	"github.com/divinerapier/learn-kubernetes/test/integration"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
 
 	// install all APIs
-	_ "k8s.io/kubernetes/pkg/master"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/master"
 )
 
 // StartRealMasterOrDie starts an API master that is appropriate for use in tests that require one of every resource

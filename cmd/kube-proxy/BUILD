@@ -17,7 +17,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["proxy.go"],
-    importpath = "k8s.io/kubernetes/cmd/kube-proxy",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kube-proxy",
     deps = [
         "//cmd/kube-proxy/app:go_default_library",
         "//staging/src/k8s.io/component-base/cli/flag:go_default_library",

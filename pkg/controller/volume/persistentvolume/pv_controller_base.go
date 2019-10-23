@@ -39,11 +39,11 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	cloudprovider "k8s.io/cloud-provider"
 	csitrans "k8s.io/csi-translation-lib"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/controller/volume/persistentvolume/metrics"
-	pvutil "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/util"
-	"k8s.io/kubernetes/pkg/util/goroutinemap"
-	vol "k8s.io/kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/metrics"
+	pvutil "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/goroutinemap"
+	vol "github.com/divinerapier/learn-kubernetes/pkg/volume"
 
 	"k8s.io/klog"
 )

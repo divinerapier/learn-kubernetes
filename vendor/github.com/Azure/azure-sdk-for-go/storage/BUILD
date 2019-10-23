@@ -32,7 +32,7 @@ go_library(
         "tableserviceclient.go",
         "util.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/Azure/azure-sdk-for-go/storage",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/Azure/azure-sdk-for-go/storage",
     importpath = "github.com/Azure/azure-sdk-for-go/storage",
     visibility = ["//visibility:public"],
     deps = [

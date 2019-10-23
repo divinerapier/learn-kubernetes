@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["validation.go"],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction/validation",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction/validation",
     deps = [
         "//pkg/apis/core/validation:go_default_library",
         "//plugin/pkg/admission/podtolerationrestriction/apis/podtolerationrestriction:go_default_library",

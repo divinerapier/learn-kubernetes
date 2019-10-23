@@ -23,7 +23,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/scheduling/priorityclass",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/scheduling/priorityclass",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/scheduling:go_default_library",

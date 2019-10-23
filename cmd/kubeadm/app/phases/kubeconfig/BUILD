@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "kubeconfig.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/phases/kubeconfig",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/kubeconfig",
     deps = [
         "//cmd/kubeadm/app/apis/kubeadm:go_default_library",
         "//cmd/kubeadm/app/constants:go_default_library",

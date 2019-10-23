@@ -25,8 +25,8 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
-	st "k8s.io/kubernetes/pkg/scheduler/testing"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
+	st "github.com/divinerapier/learn-kubernetes/pkg/scheduler/testing"
 )
 
 // sortablePods lets us to sort pods.

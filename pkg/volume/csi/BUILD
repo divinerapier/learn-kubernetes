@@ -13,7 +13,7 @@ go_library(
         "csi_util.go",
         "expander.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/csi",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/csi",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/features:go_default_library",

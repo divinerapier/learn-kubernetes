@@ -24,7 +24,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["bootstrap.go"],
-    importpath = "k8s.io/kubernetes/plugin/pkg/auth/authenticator/token/bootstrap",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/auth/authenticator/token/bootstrap",
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/api/errors:go_default_library",

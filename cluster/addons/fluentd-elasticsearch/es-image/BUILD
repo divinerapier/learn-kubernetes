@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["elasticsearch_logging_discovery.go"],
-    importpath = "k8s.io/kubernetes/cluster/addons/fluentd-elasticsearch/es-image",
+    importpath = "github.com/divinerapier/learn-kubernetes/cluster/addons/fluentd-elasticsearch/es-image",
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1:go_default_library",

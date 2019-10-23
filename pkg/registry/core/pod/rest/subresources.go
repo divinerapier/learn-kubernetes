@@ -29,10 +29,10 @@ import (
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
 	"k8s.io/apiserver/pkg/registry/rest"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/capabilities"
-	"k8s.io/kubernetes/pkg/kubelet/client"
-	"k8s.io/kubernetes/pkg/registry/core/pod"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/capabilities"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/client"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/core/pod"
 )
 
 // ProxyREST implements the proxy subresource for a Pod

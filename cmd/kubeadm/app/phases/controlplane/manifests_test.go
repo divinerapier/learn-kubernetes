@@ -29,11 +29,11 @@ import (
 	"github.com/lithammer/dedent"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	"k8s.io/kubernetes/cmd/kubeadm/app/phases/certs"
-	staticpodutil "k8s.io/kubernetes/cmd/kubeadm/app/util/staticpod"
-	testutil "k8s.io/kubernetes/cmd/kubeadm/test"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/certs"
+	staticpodutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/staticpod"
+	testutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/test"
 )
 
 const (

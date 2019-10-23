@@ -7,7 +7,7 @@ go_library(
         "frame.go",
         "stacktrace.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/opencontainers/runc/libcontainer/stacktrace",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/opencontainers/runc/libcontainer/stacktrace",
     importpath = "github.com/opencontainers/runc/libcontainer/stacktrace",
     visibility = ["//visibility:public"],
 )

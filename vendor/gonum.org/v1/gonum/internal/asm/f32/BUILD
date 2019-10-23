@@ -19,7 +19,7 @@ go_library(
         "stubs_amd64.go",
         "stubs_noasm.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/internal/asm/f32",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/internal/asm/f32",
     importpath = "gonum.org/v1/gonum/internal/asm/f32",
     visibility = ["//vendor/gonum.org/v1/gonum:__subpackages__"],
 )

@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/event",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/event",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/core:go_default_library",

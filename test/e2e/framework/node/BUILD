@@ -6,7 +6,7 @@ go_library(
         "resource.go",
         "wait.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/node",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/controller/nodelifecycle:go_default_library",

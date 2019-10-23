@@ -6,7 +6,7 @@ go_library(
         "klog.go",
         "klog_file.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/klog",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/klog",
     importpath = "k8s.io/klog",
     visibility = ["//visibility:public"],
 )

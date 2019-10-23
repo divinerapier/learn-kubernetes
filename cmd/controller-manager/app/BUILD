@@ -6,7 +6,7 @@ go_library(
         "helper.go",
         "serve.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/controller-manager/app",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/controller-manager/app",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/legacyscheme:go_default_library",

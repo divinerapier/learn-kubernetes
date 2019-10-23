@@ -8,7 +8,7 @@ go_library(
         "lines.go",
         "nodes.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/iterator",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/iterator",
     importpath = "gonum.org/v1/gonum/graph/iterator",
     visibility = ["//visibility:public"],
     deps = ["//vendor/gonum.org/v1/gonum/graph:go_default_library"],

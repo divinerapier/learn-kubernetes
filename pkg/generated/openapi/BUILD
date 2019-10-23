@@ -9,7 +9,7 @@ gen_openapi(
         "staging/src/k8s.io/code-generator",
         "staging/src/k8s.io/sample-apiserver",
     ],
-    output_pkg = "k8s.io/kubernetes/pkg/generated/openapi",
+    output_pkg = "github.com/divinerapier/learn-kubernetes/pkg/generated/openapi",
 )
 
 go_library(
@@ -18,7 +18,7 @@ go_library(
         "doc.go",
         "zz_generated.openapi.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/generated/openapi",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/generated/openapi",
     deps = openapi_deps(),  # keep
 )
 

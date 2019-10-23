@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["test-webserver.go"],
-    importpath = "k8s.io/kubernetes/test/images/test-webserver",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/test-webserver",
 )
 
 filegroup(

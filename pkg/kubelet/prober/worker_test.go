@@ -27,12 +27,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/kubernetes/fake"
 	"k8s.io/client-go/tools/record"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	kubepod "k8s.io/kubernetes/pkg/kubelet/pod"
-	"k8s.io/kubernetes/pkg/kubelet/prober/results"
-	"k8s.io/kubernetes/pkg/kubelet/status"
-	statustest "k8s.io/kubernetes/pkg/kubelet/status/testing"
-	"k8s.io/kubernetes/pkg/probe"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
+	kubepod "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/prober/results"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/status"
+	statustest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/status/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/probe"
 	"k8s.io/utils/exec"
 )
 

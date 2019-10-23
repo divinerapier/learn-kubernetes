@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "register.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/events",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/events",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core:go_default_library",

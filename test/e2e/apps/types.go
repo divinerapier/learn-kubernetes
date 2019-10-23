@@ -18,7 +18,7 @@ package apps
 
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 // NOTE(claudiub): These constants should NOT be used as Pod Container Images.

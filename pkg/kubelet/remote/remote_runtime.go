@@ -28,8 +28,8 @@ import (
 
 	internalapi "k8s.io/cri-api/pkg/apis"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/kubelet/util"
-	"k8s.io/kubernetes/pkg/kubelet/util/logreduction"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/logreduction"
 	utilexec "k8s.io/utils/exec"
 )
 

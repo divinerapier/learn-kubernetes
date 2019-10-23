@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["multipoint.go"],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/framework/plugins/examples/multipoint",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/plugins/examples/multipoint",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/scheduler/framework/v1alpha1:go_default_library",

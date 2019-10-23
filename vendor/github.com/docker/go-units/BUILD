@@ -7,7 +7,7 @@ go_library(
         "size.go",
         "ulimit.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/docker/go-units",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/docker/go-units",
     importpath = "github.com/docker/go-units",
     visibility = ["//visibility:public"],
 )

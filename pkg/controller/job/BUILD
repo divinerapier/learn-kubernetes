@@ -13,7 +13,7 @@ go_library(
         "job_controller.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/job",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/job",
     deps = [
         "//pkg/controller:go_default_library",
         "//staging/src/k8s.io/api/batch/v1:go_default_library",

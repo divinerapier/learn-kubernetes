@@ -12,7 +12,7 @@ go_library(
         "registry.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/rbac/clusterrolebinding",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/rbac/clusterrolebinding",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/rbac:go_default_library",

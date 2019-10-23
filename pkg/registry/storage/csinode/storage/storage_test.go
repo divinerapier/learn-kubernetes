@@ -26,8 +26,8 @@ import (
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistrytest "k8s.io/apiserver/pkg/registry/generic/testing"
 	etcd3testing "k8s.io/apiserver/pkg/storage/etcd3/testing"
-	storageapi "k8s.io/kubernetes/pkg/apis/storage"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
+	storageapi "github.com/divinerapier/learn-kubernetes/pkg/apis/storage"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/registrytest"
 )
 
 func newStorage(t *testing.T) (*REST, *etcd3testing.EtcdTestServer) {

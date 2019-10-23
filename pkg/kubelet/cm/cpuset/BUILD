@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["cpuset.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/cm/cpuset",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm/cpuset",
     visibility = ["//visibility:public"],
     deps = ["//vendor/k8s.io/klog:go_default_library"],
 )

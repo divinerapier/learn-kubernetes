@@ -21,9 +21,9 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
 
 	"github.com/onsi/ginkgo"
 )

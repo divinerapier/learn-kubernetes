@@ -8,7 +8,7 @@ go_library(
         "lexer.go",
         "transitiontable.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/internal/lexer",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/internal/lexer",
     importpath = "gonum.org/v1/gonum/graph/formats/dot/internal/lexer",
     visibility = ["//vendor/gonum.org/v1/gonum/graph/formats/dot:__subpackages__"],
     deps = ["//vendor/gonum.org/v1/gonum/graph/formats/dot/internal/token:go_default_library"],

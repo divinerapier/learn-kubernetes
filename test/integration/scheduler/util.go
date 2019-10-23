@@ -46,19 +46,19 @@ import (
 	"k8s.io/client-go/scale"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/events"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/controller/disruption"
-	"k8s.io/kubernetes/pkg/scheduler"
-	latestschedulerapi "k8s.io/kubernetes/pkg/scheduler/api/latest"
-	schedulerconfig "k8s.io/kubernetes/pkg/scheduler/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/disruption"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler"
+	latestschedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api/latest"
+	schedulerconfig "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
 
 	// Register defaults in pkg/scheduler/algorithmprovider.
-	_ "k8s.io/kubernetes/pkg/scheduler/algorithmprovider"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
-	taintutils "k8s.io/kubernetes/pkg/util/taints"
-	"k8s.io/kubernetes/test/integration/framework"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithmprovider"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	taintutils "github.com/divinerapier/learn-kubernetes/pkg/util/taints"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 type testContext struct {

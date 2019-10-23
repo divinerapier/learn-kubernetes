@@ -21,7 +21,7 @@ go_library(
         "types_windows.go",
         "validators.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/util/system",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/system",
     deps = [
         "//vendor/github.com/blang/semver:go_default_library",
         "//vendor/github.com/pkg/errors:go_default_library",

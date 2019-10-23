@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["checkpoint_manager.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/checkpointmanager",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager",
     deps = [
         "//pkg/kubelet/checkpointmanager/errors:go_default_library",
         "//pkg/kubelet/util/store:go_default_library",

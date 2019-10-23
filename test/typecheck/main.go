@@ -37,7 +37,7 @@ import (
 
 	"golang.org/x/crypto/ssh/terminal"
 
-	srcimporter "k8s.io/kubernetes/third_party/go-srcimporter"
+	srcimporter "github.com/divinerapier/learn-kubernetes/third_party/go-srcimporter"
 )
 
 var (
@@ -195,8 +195,8 @@ func (a *analyzer) typeCheck(dir string, files []*ast.File) error {
 	// but it's only imported by code that has build-guards for Linux.
 	// Track vendored code to type-check it in a second pass.
 	for _, imp := range pkg.Imports() {
-		if strings.HasPrefix(imp.Path(), "k8s.io/kubernetes/vendor/") {
-			vendorPath := imp.Path()[len("k8s.io/kubernetes/"):]
+		if strings.HasPrefix(imp.Path(), "github.com/divinerapier/learn-kubernetes/vendor/") {
+			vendorPath := imp.Path()[len("github.com/divinerapier/learn-kubernetes/"):]
 			if *verbose {
 				fmt.Println("recursively checking vendor path:", vendorPath)
 			}

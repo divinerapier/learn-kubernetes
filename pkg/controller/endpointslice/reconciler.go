@@ -28,7 +28,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	clientset "k8s.io/client-go/kubernetes"
 	corelisters "k8s.io/client-go/listers/core/v1"
-	endpointutil "k8s.io/kubernetes/pkg/controller/util/endpoint"
+	endpointutil "github.com/divinerapier/learn-kubernetes/pkg/controller/util/endpoint"
 )
 
 // reconciler is responsible for transforming current EndpointSlice state into

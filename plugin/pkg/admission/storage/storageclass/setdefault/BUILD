@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["admission.go"],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/storage/storageclass/setdefault",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/storage/storageclass/setdefault",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/apis/core/helper:go_default_library",

@@ -22,7 +22,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
 	//"k8s.io/apimachinery/pkg/util/version"
 )
 

@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/policy/poddisruptionbudget",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/policy/poddisruptionbudget",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/policy:go_default_library",

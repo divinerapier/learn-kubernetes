@@ -11,7 +11,7 @@ go_library(
         "json.go",
         "stream.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/globalsign/mgo/bson",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/globalsign/mgo/bson",
     importpath = "github.com/globalsign/mgo/bson",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/globalsign/mgo/internal/json:go_default_library"],

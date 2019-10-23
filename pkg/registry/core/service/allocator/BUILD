@@ -13,7 +13,7 @@ go_library(
         "interfaces.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/service/allocator",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/allocator",
 )
 
 go_test(

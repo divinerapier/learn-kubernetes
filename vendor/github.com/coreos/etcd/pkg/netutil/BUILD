@@ -9,7 +9,7 @@ go_library(
         "routes.go",
         "routes_linux.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/pkg/netutil",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/pkg/netutil",
     importpath = "github.com/coreos/etcd/pkg/netutil",
     visibility = ["//visibility:public"],
     deps = [

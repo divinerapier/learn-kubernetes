@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
 )
 
 const (

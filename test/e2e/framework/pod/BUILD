@@ -9,7 +9,7 @@ go_library(
         "resource.go",
         "wait.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/pod",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/v1/pod:go_default_library",

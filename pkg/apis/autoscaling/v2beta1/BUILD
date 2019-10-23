@@ -10,7 +10,7 @@ go_library(
         "zz_generated.conversion.go",
         "zz_generated.defaults.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/autoscaling/v2beta1",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling/v2beta1",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/autoscaling:go_default_library",

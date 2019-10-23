@@ -32,7 +32,7 @@ go_library(
         "statefulsetcontroller.go",
         "ttlafterfinishedcontroller.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kube-controller-manager/app/options",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kube-controller-manager/app/options",
     deps = [
         "//cmd/controller-manager/app/options:go_default_library",
         "//cmd/kube-controller-manager/app/config:go_default_library",

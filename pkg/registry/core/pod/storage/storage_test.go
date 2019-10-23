@@ -39,9 +39,9 @@ import (
 	"k8s.io/apiserver/pkg/storage"
 	storeerr "k8s.io/apiserver/pkg/storage/errors"
 	etcd3testing "k8s.io/apiserver/pkg/storage/etcd3/testing"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
-	"k8s.io/kubernetes/pkg/securitycontext"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/registrytest"
+	"github.com/divinerapier/learn-kubernetes/pkg/securitycontext"
 )
 
 func newStorage(t *testing.T) (*REST, *BindingREST, *StatusREST, *etcd3testing.EtcdTestServer) {

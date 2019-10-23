@@ -53,7 +53,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["util.go"],
-    importpath = "k8s.io/kubernetes/test/integration/volumescheduling",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/integration/volumescheduling",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/api/v1/pod:go_default_library",

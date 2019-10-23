@@ -6,7 +6,7 @@ go_library(
         "network.go",
         "plugins.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/dockershim/network",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/network",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/features:go_default_library",

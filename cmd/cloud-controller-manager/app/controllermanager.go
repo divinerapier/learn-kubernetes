@@ -40,11 +40,11 @@ import (
 	"k8s.io/component-base/version"
 	"k8s.io/component-base/version/verflag"
 	"k8s.io/klog"
-	cloudcontrollerconfig "k8s.io/kubernetes/cmd/cloud-controller-manager/app/config"
-	"k8s.io/kubernetes/cmd/cloud-controller-manager/app/options"
-	genericcontrollermanager "k8s.io/kubernetes/cmd/controller-manager/app"
-	"k8s.io/kubernetes/pkg/util/configz"
-	utilflag "k8s.io/kubernetes/pkg/util/flag"
+	cloudcontrollerconfig "github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/config"
+	"github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/options"
+	genericcontrollermanager "github.com/divinerapier/learn-kubernetes/cmd/controller-manager/app"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/configz"
+	utilflag "github.com/divinerapier/learn-kubernetes/pkg/util/flag"
 )
 
 const (

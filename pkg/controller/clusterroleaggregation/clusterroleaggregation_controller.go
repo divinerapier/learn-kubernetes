@@ -35,7 +35,7 @@ import (
 	rbaclisters "k8s.io/client-go/listers/rbac/v1"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
-	"k8s.io/kubernetes/pkg/controller"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
 )
 
 // ClusterRoleAggregationController is a controller to combine cluster roles

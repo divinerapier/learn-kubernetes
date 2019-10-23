@@ -25,7 +25,7 @@ import (
 
 	apps "k8s.io/api/apps/v1"
 	"k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/controller/deployment/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/deployment/util"
 )
 
 // syncRolloutStatus updates the status of a deployment during a rollout. There are

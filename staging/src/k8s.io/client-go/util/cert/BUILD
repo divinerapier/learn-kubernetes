@@ -22,7 +22,7 @@ go_library(
         "io.go",
         "pem.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/client-go/util/cert",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/client-go/util/cert",
     importpath = "k8s.io/client-go/util/cert",
     deps = ["//staging/src/k8s.io/client-go/util/keyutil:go_default_library"],
 )

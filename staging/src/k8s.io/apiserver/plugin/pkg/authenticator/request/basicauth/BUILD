@@ -19,7 +19,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["basicauth.go"],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiserver/plugin/pkg/authenticator/request/basicauth",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiserver/plugin/pkg/authenticator/request/basicauth",
     importpath = "k8s.io/apiserver/plugin/pkg/authenticator/request/basicauth",
     deps = ["//staging/src/k8s.io/apiserver/pkg/authentication/authenticator:go_default_library"],
 )

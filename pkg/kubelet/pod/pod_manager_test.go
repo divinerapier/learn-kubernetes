@@ -23,10 +23,10 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/kubernetes/pkg/kubelet/configmap"
-	podtest "k8s.io/kubernetes/pkg/kubelet/pod/testing"
-	"k8s.io/kubernetes/pkg/kubelet/secret"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/configmap"
+	podtest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/pod/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/secret"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 // Stub out mirror client for testing purpose.

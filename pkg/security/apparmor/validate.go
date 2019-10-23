@@ -27,9 +27,9 @@ import (
 
 	"k8s.io/api/core/v1"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	"k8s.io/kubernetes/pkg/features"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 	utilpath "k8s.io/utils/path"
 )
 

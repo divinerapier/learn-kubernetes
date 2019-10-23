@@ -13,7 +13,7 @@ go_library(
         "doc.go",
         "server.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/server",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/server",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/core:go_default_library",

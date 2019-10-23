@@ -28,13 +28,13 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/client-go/tools/record"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
-	kubeapi "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/scheduling"
-	"k8s.io/kubernetes/pkg/features"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	evictionapi "k8s.io/kubernetes/pkg/kubelet/eviction/api"
-	"k8s.io/kubernetes/pkg/kubelet/lifecycle"
-	kubelettypes "k8s.io/kubernetes/pkg/kubelet/types"
+	kubeapi "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/scheduling"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	statsapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	evictionapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/eviction/api"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/lifecycle"
+	kubelettypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 const (

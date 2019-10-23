@@ -19,7 +19,7 @@ package testing
 import (
 	"net"
 
-	"k8s.io/kubernetes/pkg/util/netsh"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/netsh"
 )
 
 // FakeNetsh is a no-op implementation of the netsh Interface

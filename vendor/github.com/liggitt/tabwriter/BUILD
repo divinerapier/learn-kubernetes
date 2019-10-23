@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["tabwriter.go"],
-    importmap = "k8s.io/kubernetes/vendor/github.com/liggitt/tabwriter",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/liggitt/tabwriter",
     importpath = "github.com/liggitt/tabwriter",
     visibility = ["//visibility:public"],
 )

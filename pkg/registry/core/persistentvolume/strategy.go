@@ -27,11 +27,11 @@ import (
 	"k8s.io/apiserver/pkg/registry/generic"
 	"k8s.io/apiserver/pkg/storage"
 	"k8s.io/apiserver/pkg/storage/names"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	pvutil "k8s.io/kubernetes/pkg/api/persistentvolume"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/apis/core/validation"
-	volumevalidation "k8s.io/kubernetes/pkg/volume/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	pvutil "github.com/divinerapier/learn-kubernetes/pkg/api/persistentvolume"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core/validation"
+	volumevalidation "github.com/divinerapier/learn-kubernetes/pkg/volume/validation"
 )
 
 // persistentvolumeStrategy implements behavior for PersistentVolume objects

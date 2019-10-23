@@ -25,7 +25,7 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	appslisters "k8s.io/client-go/listers/apps/v1"
 	corelisters "k8s.io/client-go/listers/core/v1"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm"
 )
 
 var _ algorithm.PodLister = &FakePodLister{}

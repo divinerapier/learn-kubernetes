@@ -22,10 +22,10 @@ import (
 	"testing"
 
 	v1 "k8s.io/api/core/v1"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/predicates"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
-	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/predicates"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
 )
 
 func TestNodeUnschedulable(t *testing.T) {

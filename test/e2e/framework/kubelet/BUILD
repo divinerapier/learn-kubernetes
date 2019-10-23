@@ -6,7 +6,7 @@ go_library(
         "kubelet_pods.go",
         "stats.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/kubelet",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/kubelet",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/apis/stats/v1alpha1:go_default_library",

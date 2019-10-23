@@ -20,7 +20,7 @@ import (
 	"io"
 
 	"github.com/spf13/cobra"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
 )
 
 // NewCmdAlpha returns "kubeadm alpha" command.

@@ -8,7 +8,7 @@ go_library(
         "doc.go",
         "providers.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/cloudprovider/providers",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/cloudprovider/providers",
     visibility = [
         "//cmd/cloud-controller-manager:__pkg__",
         "//cmd/kube-apiserver/app/options:__pkg__",

@@ -6,7 +6,7 @@ go_library(
         "OpenAPIv2.go",
         "OpenAPIv2.pb.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/googleapis/gnostic/OpenAPIv2",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/googleapis/gnostic/OpenAPIv2",
     importpath = "github.com/googleapis/gnostic/OpenAPIv2",
     visibility = ["//visibility:public"],
     deps = [

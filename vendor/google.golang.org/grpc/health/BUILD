@@ -6,7 +6,7 @@ go_library(
         "client.go",
         "server.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/google.golang.org/grpc/health",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/google.golang.org/grpc/health",
     importpath = "google.golang.org/grpc/health",
     visibility = ["//visibility:public"],
     deps = [

@@ -21,8 +21,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	clientset "k8s.io/client-go/kubernetes"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	testutils "k8s.io/kubernetes/test/utils"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 
 	"k8s.io/klog"
 )

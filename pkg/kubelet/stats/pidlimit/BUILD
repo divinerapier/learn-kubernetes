@@ -7,7 +7,7 @@ go_library(
         "pidlimit_linux.go",
         "pidlimit_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/stats/pidlimit",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/stats/pidlimit",
     visibility = ["//visibility:public"],
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

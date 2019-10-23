@@ -34,10 +34,10 @@ import (
 	client "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/util/cert"
-	"k8s.io/kubernetes/cmd/kube-apiserver/app"
-	"k8s.io/kubernetes/cmd/kube-apiserver/app/options"
-	"k8s.io/kubernetes/pkg/master"
-	"k8s.io/kubernetes/test/utils"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app"
+	"github.com/divinerapier/learn-kubernetes/cmd/kube-apiserver/app/options"
+	"github.com/divinerapier/learn-kubernetes/pkg/master"
+	"github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 // TestServerSetup holds configuration information for a kube-apiserver test server.

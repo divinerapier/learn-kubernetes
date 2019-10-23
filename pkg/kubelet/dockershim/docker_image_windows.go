@@ -25,7 +25,7 @@ import (
 	"k8s.io/klog"
 
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/kubelet/winstats"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/winstats"
 )
 
 // ImageFsInfo returns information of the filesystem that is used to store images.

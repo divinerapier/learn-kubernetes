@@ -7,7 +7,7 @@ go_library(
         "error.go",
         "string.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/go.uber.org/atomic",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/go.uber.org/atomic",
     importpath = "go.uber.org/atomic",
     visibility = ["//visibility:public"],
 )

@@ -6,7 +6,7 @@ go_library(
         "fileutils.go",
         "idtools.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/mrunalp/fileutils",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/mrunalp/fileutils",
     importpath = "github.com/mrunalp/fileutils",
     visibility = ["//visibility:public"],
 )

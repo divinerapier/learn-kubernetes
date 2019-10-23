@@ -19,7 +19,7 @@ package options
 import (
 	"github.com/spf13/pflag"
 
-	jobconfig "k8s.io/kubernetes/pkg/controller/job/config"
+	jobconfig "github.com/divinerapier/learn-kubernetes/pkg/controller/job/config"
 )
 
 // JobControllerOptions holds the JobController options.

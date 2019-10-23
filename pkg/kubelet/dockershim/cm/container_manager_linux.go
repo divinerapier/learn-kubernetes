@@ -30,10 +30,10 @@ import (
 	utilversion "k8s.io/apimachinery/pkg/util/version"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog"
-	kubecm "k8s.io/kubernetes/pkg/kubelet/cm"
-	"k8s.io/kubernetes/pkg/kubelet/qos"
+	kubecm "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cm"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/qos"
 
-	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker"
 )
 
 const (

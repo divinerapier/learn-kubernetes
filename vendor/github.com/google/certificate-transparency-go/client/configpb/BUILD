@@ -6,7 +6,7 @@ go_library(
         "gen.go",
         "multilog.pb.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/google/certificate-transparency-go/client/configpb",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/google/certificate-transparency-go/client/configpb",
     importpath = "github.com/google/certificate-transparency-go/client/configpb",
     visibility = ["//visibility:public"],
     deps = [

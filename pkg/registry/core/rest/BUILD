@@ -20,7 +20,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["storage_core.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/rest",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/rest",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/core:go_default_library",

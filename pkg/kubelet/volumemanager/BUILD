@@ -12,7 +12,7 @@ go_library(
         "volume_manager.go",
         "volume_manager_fake.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/volumemanager",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/volumemanager",
     deps = [
         "//pkg/kubelet/config:go_default_library",
         "//pkg/kubelet/container:go_default_library",

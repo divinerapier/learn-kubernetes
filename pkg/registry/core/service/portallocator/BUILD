@@ -12,7 +12,7 @@ go_library(
         "allocator.go",
         "operation.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/service/portallocator",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/service/portallocator",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/registry/core/service/allocator:go_default_library",

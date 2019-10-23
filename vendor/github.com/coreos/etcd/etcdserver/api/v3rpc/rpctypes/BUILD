@@ -8,7 +8,7 @@ go_library(
         "md.go",
         "metadatafields.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes",
     importpath = "github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes",
     visibility = ["//visibility:public"],
     deps = [

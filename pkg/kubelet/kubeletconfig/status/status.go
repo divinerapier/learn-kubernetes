@@ -24,9 +24,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	clientset "k8s.io/client-go/kubernetes"
-	utillog "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/log"
-	"k8s.io/kubernetes/pkg/kubelet/metrics"
-	nodeutil "k8s.io/kubernetes/pkg/util/node"
+	utillog "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/log"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/metrics"
+	nodeutil "github.com/divinerapier/learn-kubernetes/pkg/util/node"
 )
 
 const (

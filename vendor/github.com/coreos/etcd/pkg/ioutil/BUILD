@@ -8,7 +8,7 @@ go_library(
         "reader.go",
         "util.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/pkg/ioutil",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/pkg/ioutil",
     importpath = "github.com/coreos/etcd/pkg/ioutil",
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/coreos/etcd/pkg/fileutil:go_default_library"],

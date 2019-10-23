@@ -12,7 +12,7 @@ go_library(
         "azure_acr_helper.go",
         "azure_credentials.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/credentialprovider/azure",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/credentialprovider/azure",
     deps = [
         "//pkg/credentialprovider:go_default_library",
         "//staging/src/k8s.io/legacy-cloud-providers/azure/auth:go_default_library",

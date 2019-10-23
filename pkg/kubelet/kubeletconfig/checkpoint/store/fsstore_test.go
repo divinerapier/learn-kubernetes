@@ -30,13 +30,13 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/kubelet/config/v1beta1"
-	kubeletconfig "k8s.io/kubernetes/pkg/kubelet/apis/config"
-	"k8s.io/kubernetes/pkg/kubelet/apis/config/scheme"
-	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
-	utilcodec "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/codec"
-	utilfiles "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/files"
-	utiltest "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/test"
-	utilfs "k8s.io/kubernetes/pkg/util/filesystem"
+	kubeletconfig "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/config/scheme"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
+	utilcodec "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/codec"
+	utilfiles "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/files"
+	utiltest "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/util/test"
+	utilfs "github.com/divinerapier/learn-kubernetes/pkg/util/filesystem"
 )
 
 var testdir string

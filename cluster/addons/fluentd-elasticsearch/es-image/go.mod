@@ -29,7 +29,7 @@ require (
 	k8s.io/apiserver v0.0.0-20190111033246-d50e9ac5404f // indirect
 	k8s.io/client-go v10.0.0+incompatible
 	k8s.io/klog v1.0.0
-	k8s.io/kubernetes v1.13.2
+	github.com/divinerapier/learn-kubernetes v1.13.2
 	k8s.io/utils v0.0.0-20181221173059-8a16e7dd8fb6 // indirect
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )

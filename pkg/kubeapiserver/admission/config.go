@@ -33,7 +33,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/restmapper"
-	quotainstall "k8s.io/kubernetes/pkg/quota/v1/install"
+	quotainstall "github.com/divinerapier/learn-kubernetes/pkg/quota/v1/install"
 )
 
 // Config holds the configuration needed to for initialize the admission plugins

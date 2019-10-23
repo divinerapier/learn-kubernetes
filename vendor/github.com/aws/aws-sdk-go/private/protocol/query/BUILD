@@ -7,7 +7,7 @@ go_library(
         "unmarshal.go",
         "unmarshal_error.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/aws/aws-sdk-go/private/protocol/query",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/aws/aws-sdk-go/private/protocol/query",
     importpath = "github.com/aws/aws-sdk-go/private/protocol/query",
     visibility = ["//visibility:public"],
     deps = [

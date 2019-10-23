@@ -25,7 +25,7 @@ import (
 	"gopkg.in/square/go-jose.v2/jwt"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 )
 
 func init() {

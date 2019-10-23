@@ -12,7 +12,7 @@ go_library(
         "namespaced_resources_deleter.go",
         "status_condition_utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/namespace/deletion",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/namespace/deletion",
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/api/errors:go_default_library",

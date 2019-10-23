@@ -16,7 +16,7 @@ limitations under the License.
 
 package priorities
 
-import framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
+import framework "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/v1alpha1"
 
 var (
 	mostRequestedRatioResources = DefaultRequestedRatioResources

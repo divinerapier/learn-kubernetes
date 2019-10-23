@@ -22,13 +22,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/options"
-	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
-	cmdutil "k8s.io/kubernetes/cmd/kubeadm/app/cmd/util"
-	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
-	etcdphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/etcd"
-	markcontrolplanephase "k8s.io/kubernetes/cmd/kubeadm/app/phases/markcontrolplane"
-	uploadconfigphase "k8s.io/kubernetes/cmd/kubeadm/app/phases/uploadconfig"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/options"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/phases/workflow"
+	cmdutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/cmd/util"
+	kubeadmconstants "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
+	etcdphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/etcd"
+	markcontrolplanephase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/markcontrolplane"
+	uploadconfigphase "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/phases/uploadconfig"
 )
 
 var controlPlaneJoinExample = cmdutil.Examples(`

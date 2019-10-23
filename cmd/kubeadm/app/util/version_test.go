@@ -19,7 +19,7 @@ package util
 import (
 	"errors"
 	"fmt"
-	"k8s.io/kubernetes/cmd/kubeadm/app/constants"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/constants"
 	"path"
 	"strings"
 	"testing"

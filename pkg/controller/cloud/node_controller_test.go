@@ -32,9 +32,9 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/cloud-provider"
 	fakecloud "k8s.io/cloud-provider/fake"
-	"k8s.io/kubernetes/pkg/controller/testutil"
-	kubeletapis "k8s.io/kubernetes/pkg/kubelet/apis"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/testutil"
+	kubeletapis "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
 
 	"github.com/stretchr/testify/assert"
 	"k8s.io/klog"

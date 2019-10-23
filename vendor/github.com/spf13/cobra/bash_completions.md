@@ -44,8 +44,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"k8s.io/kubernetes/pkg/kubectl/cmd"
-	"k8s.io/kubernetes/pkg/kubectl/cmd/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubectl/cmd"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubectl/cmd/util"
 )
 
 func main() {

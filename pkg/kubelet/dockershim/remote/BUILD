@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["docker_server.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/dockershim/remote",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/remote",
     deps = [
         "//pkg/kubelet/dockershim:go_default_library",
         "//pkg/kubelet/util:go_default_library",

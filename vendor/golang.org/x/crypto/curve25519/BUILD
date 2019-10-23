@@ -14,7 +14,7 @@ go_library(
         "mul_amd64.s",
         "square_amd64.s",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/crypto/curve25519",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/crypto/curve25519",
     importpath = "golang.org/x/crypto/curve25519",
     visibility = ["//visibility:public"],
 )

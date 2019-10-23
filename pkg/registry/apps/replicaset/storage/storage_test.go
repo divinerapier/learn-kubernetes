@@ -31,10 +31,10 @@ import (
 	genericregistrytest "k8s.io/apiserver/pkg/registry/generic/testing"
 	"k8s.io/apiserver/pkg/registry/rest"
 	etcd3testing "k8s.io/apiserver/pkg/storage/etcd3/testing"
-	"k8s.io/kubernetes/pkg/apis/apps"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/apps"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	"github.com/divinerapier/learn-kubernetes/pkg/registry/registrytest"
 )
 
 const defaultReplicas = 100

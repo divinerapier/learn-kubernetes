@@ -16,7 +16,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["kubelet.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubelet",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubelet",
     deps = [
         "//cmd/kubelet/app:go_default_library",
         "//staging/src/k8s.io/component-base/logs:go_default_library",

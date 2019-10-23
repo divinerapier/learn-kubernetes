@@ -17,9 +17,9 @@ limitations under the License.
 package upgrades
 
 import (
-	"k8s.io/kubernetes/test/e2e/framework"
-	jobutil "k8s.io/kubernetes/test/e2e/framework/job"
-	"k8s.io/kubernetes/test/e2e/scheduling"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	jobutil "github.com/divinerapier/learn-kubernetes/test/e2e/framework/job"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/scheduling"
 
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"

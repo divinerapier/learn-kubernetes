@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["run_remote.go"],
-    importpath = "k8s.io/kubernetes/test/e2e_node/runner/remote",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e_node/runner/remote",
     deps = [
         "//test/e2e_node/remote:go_default_library",
         "//test/e2e_node/system:go_default_library",

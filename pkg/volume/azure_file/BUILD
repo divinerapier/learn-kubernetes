@@ -14,7 +14,7 @@ go_library(
         "azure_util.go",
         "doc.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/volume/azure_file",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/azure_file",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/util/mount:go_default_library",

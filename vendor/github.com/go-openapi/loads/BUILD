@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "spec.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/go-openapi/loads",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/go-openapi/loads",
     importpath = "github.com/go-openapi/loads",
     visibility = ["//visibility:public"],
     deps = [

@@ -6,7 +6,7 @@ go_library(
         "inspector.go",
         "typeof.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/tools/go/ast/inspector",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/tools/go/ast/inspector",
     importpath = "golang.org/x/tools/go/ast/inspector",
     visibility = ["//visibility:public"],
 )

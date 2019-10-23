@@ -21,7 +21,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/kubernetes/pkg/kubelet/runtimeclass"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/runtimeclass"
 )
 
 const (

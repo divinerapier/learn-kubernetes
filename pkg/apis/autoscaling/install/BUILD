@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["install.go"],
-    importpath = "k8s.io/kubernetes/pkg/apis/autoscaling/install",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling/install",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/legacyscheme:go_default_library",

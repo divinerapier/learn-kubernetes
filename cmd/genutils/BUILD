@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["genutils.go"],
-    importpath = "k8s.io/kubernetes/cmd/genutils",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/genutils",
 )
 
 go_test(

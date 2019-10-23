@@ -13,7 +13,7 @@ go_library(
         "replica_set.go",
         "replica_set_utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/replicaset",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/replicaset",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/controller:go_default_library",

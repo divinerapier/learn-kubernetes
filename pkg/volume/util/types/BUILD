@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["types.go"],
-    importpath = "k8s.io/kubernetes/pkg/volume/util/types",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/volume/util/types",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/types:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/runtime:go_default_library",

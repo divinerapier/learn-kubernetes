@@ -8,7 +8,7 @@ go_library(
         "finder.go",
         "recurser.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/vmware/govmomi/find",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/vmware/govmomi/find",
     importpath = "github.com/vmware/govmomi/find",
     visibility = ["//visibility:public"],
     deps = [

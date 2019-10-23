@@ -14,7 +14,7 @@ go_library(
         "proxier_health.go",
         "service_health.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/proxy/healthcheck",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/proxy/healthcheck",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

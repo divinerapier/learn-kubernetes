@@ -6,7 +6,7 @@ go_library(
         "conflict.go",
         "update.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/sigs.k8s.io/structured-merge-diff/merge",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/sigs.k8s.io/structured-merge-diff/merge",
     importpath = "sigs.k8s.io/structured-merge-diff/merge",
     visibility = ["//visibility:public"],
     deps = [

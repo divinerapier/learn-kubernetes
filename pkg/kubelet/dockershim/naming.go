@@ -23,7 +23,7 @@ import (
 	"strings"
 
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
-	"k8s.io/kubernetes/pkg/kubelet/leaky"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/leaky"
 )
 
 // Container "names" are implementation details that do not concern

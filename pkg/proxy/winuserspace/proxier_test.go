@@ -34,8 +34,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/kubernetes/pkg/proxy"
-	netshtest "k8s.io/kubernetes/pkg/util/netsh/testing"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy"
+	netshtest "github.com/divinerapier/learn-kubernetes/pkg/util/netsh/testing"
 )
 
 const (

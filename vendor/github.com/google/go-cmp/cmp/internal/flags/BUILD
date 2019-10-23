@@ -7,7 +7,7 @@ go_library(
         "toolchain_legacy.go",
         "toolchain_recent.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/google/go-cmp/cmp/internal/flags",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/google/go-cmp/cmp/internal/flags",
     importpath = "github.com/google/go-cmp/cmp/internal/flags",
     visibility = ["//vendor/github.com/google/go-cmp/cmp:__subpackages__"],
 )

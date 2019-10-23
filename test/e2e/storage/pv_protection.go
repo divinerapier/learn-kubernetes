@@ -27,11 +27,11 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/pkg/util/slice"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
-	"k8s.io/kubernetes/test/e2e/storage/utils"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/slice"
+	volumeutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils"
 )
 
 var _ = utils.SIGDescribe("PV Protection", func() {

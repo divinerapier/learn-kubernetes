@@ -32,9 +32,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 	csitrans "k8s.io/csi-translation-lib"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/controller"
-	pvtesting "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/testing"
-	pvutil "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller"
+	pvtesting "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/testing"
+	pvutil "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/util"
 )
 
 var (

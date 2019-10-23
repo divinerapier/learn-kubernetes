@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["exponential_backoff.go"],
-    importpath = "k8s.io/kubernetes/pkg/util/goroutinemap/exponentialbackoff",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/goroutinemap/exponentialbackoff",
 )
 
 filegroup(

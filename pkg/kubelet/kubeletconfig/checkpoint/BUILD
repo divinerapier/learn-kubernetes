@@ -31,7 +31,7 @@ go_library(
         "configmap.go",
         "download.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/kubeletconfig/checkpoint",
     deps = [
         "//pkg/kubelet/apis/config:go_default_library",
         "//pkg/kubelet/apis/config/scheme:go_default_library",

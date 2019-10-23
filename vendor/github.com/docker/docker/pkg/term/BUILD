@@ -12,7 +12,7 @@ go_library(
         "termios_linux.go",
         "winsize.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/docker/docker/pkg/term",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/docker/docker/pkg/term",
     importpath = "github.com/docker/docker/pkg/term",
     visibility = ["//visibility:public"],
     deps = select({

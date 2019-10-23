@@ -19,13 +19,13 @@ limitations under the License.
 package app
 
 import (
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/awsebs"
-	"k8s.io/kubernetes/pkg/volume/azure_dd"
-	"k8s.io/kubernetes/pkg/volume/azure_file"
-	"k8s.io/kubernetes/pkg/volume/cinder"
-	"k8s.io/kubernetes/pkg/volume/gcepd"
-	"k8s.io/kubernetes/pkg/volume/vsphere_volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/awsebs"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/azure_dd"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/azure_file"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/cinder"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/gcepd"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/vsphere_volume"
 )
 
 func appendLegacyProviderVolumes(allPlugins []volume.VolumePlugin) []volume.VolumePlugin {

@@ -21,7 +21,7 @@ import (
 	"k8s.io/apiserver/pkg/admission"
 	"k8s.io/apiserver/pkg/authorization/authorizer"
 	"k8s.io/apiserver/pkg/util/webhook"
-	quota "k8s.io/kubernetes/pkg/quota/v1"
+	quota "github.com/divinerapier/learn-kubernetes/pkg/quota/v1"
 )
 
 // TODO add a `WantsToRun` which takes a stopCh.  Might make it generic.

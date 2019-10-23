@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/persistentvolume",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/persistentvolume",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/api/persistentvolume:go_default_library",

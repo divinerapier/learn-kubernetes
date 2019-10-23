@@ -8,7 +8,7 @@ go_library(
         "factory.go",
         "scheduler.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/v1/pod:go_default_library",

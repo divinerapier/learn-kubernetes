@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["roundrobin.go"],
-    importmap = "k8s.io/kubernetes/vendor/google.golang.org/grpc/balancer/roundrobin",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/google.golang.org/grpc/balancer/roundrobin",
     importpath = "google.golang.org/grpc/balancer/roundrobin",
     visibility = ["//visibility:public"],
     deps = [

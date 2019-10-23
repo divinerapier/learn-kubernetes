@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["pause.go"],
-    importpath = "k8s.io/kubernetes/test/images/agnhost/pause",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/agnhost/pause",
     deps = [
         "//vendor/github.com/spf13/cobra:go_default_library",
     ],

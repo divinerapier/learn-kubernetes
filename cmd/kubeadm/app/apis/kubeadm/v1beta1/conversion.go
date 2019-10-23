@@ -19,7 +19,7 @@ package v1beta1
 import (
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
 )
 
 func Convert_kubeadm_InitConfiguration_To_v1beta1_InitConfiguration(in *kubeadm.InitConfiguration, out *InitConfiguration, s conversion.Scope) error {

@@ -34,12 +34,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	servicehelper "k8s.io/cloud-provider/service/helpers"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/proxy"
-	"k8s.io/kubernetes/pkg/proxy/config"
-	utilproxy "k8s.io/kubernetes/pkg/proxy/util"
-	"k8s.io/kubernetes/pkg/util/async"
-	"k8s.io/kubernetes/pkg/util/conntrack"
-	"k8s.io/kubernetes/pkg/util/iptables"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy"
+	"github.com/divinerapier/learn-kubernetes/pkg/proxy/config"
+	utilproxy "github.com/divinerapier/learn-kubernetes/pkg/proxy/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/async"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/conntrack"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/iptables"
 	utilexec "k8s.io/utils/exec"
 )
 

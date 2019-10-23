@@ -7,7 +7,7 @@ go_library(
         "map.go",
         "tables.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/text/encoding/htmlindex",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/text/encoding/htmlindex",
     importpath = "golang.org/x/text/encoding/htmlindex",
     visibility = ["//visibility:public"],
     deps = [

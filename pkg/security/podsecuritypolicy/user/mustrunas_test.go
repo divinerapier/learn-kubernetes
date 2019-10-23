@@ -18,7 +18,7 @@ package user
 
 import (
 	policy "k8s.io/api/policy/v1beta1"
-	api "k8s.io/kubernetes/pkg/apis/core"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
 	"strings"
 	"testing"
 )

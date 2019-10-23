@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["hollow-node.go"],
-    importpath = "k8s.io/kubernetes/cmd/kubemark",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubemark",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/features:go_default_library",

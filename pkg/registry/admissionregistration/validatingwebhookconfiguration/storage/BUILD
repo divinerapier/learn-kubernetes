@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/admissionregistration/validatingwebhookconfiguration/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/admissionregistration/validatingwebhookconfiguration/storage",
     deps = [
         "//pkg/apis/admissionregistration:go_default_library",
         "//pkg/registry/admissionregistration/validatingwebhookconfiguration:go_default_library",

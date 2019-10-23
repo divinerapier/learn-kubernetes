@@ -11,7 +11,7 @@ go_library(
         "cani.go",
         "reconcile.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubectl/cmd/auth",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubectl/cmd/auth",
     visibility = [
         "//build/visible_to:pkg_kubectl_cmd_auth_CONSUMERS",
     ],

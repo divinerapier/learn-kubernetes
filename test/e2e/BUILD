@@ -48,7 +48,7 @@ go_library(
         "gke_local_ssd.go",
         "gke_node_pools.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

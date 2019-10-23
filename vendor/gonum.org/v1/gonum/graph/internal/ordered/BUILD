@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "sort.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/internal/ordered",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/internal/ordered",
     importpath = "gonum.org/v1/gonum/graph/internal/ordered",
     visibility = ["//vendor/gonum.org/v1/gonum/graph:__subpackages__"],
     deps = ["//vendor/gonum.org/v1/gonum/graph:go_default_library"],

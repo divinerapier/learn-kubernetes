@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["mounter.go"],
-    importpath = "k8s.io/kubernetes/cluster/gce/gci/mounter",
+    importpath = "github.com/divinerapier/learn-kubernetes/cluster/gce/gci/mounter",
 )
 
 filegroup(

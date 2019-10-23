@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["strategy.go"],
-    importpath = "k8s.io/kubernetes/pkg/security/podsecuritypolicy/seccomp",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/security/podsecuritypolicy/seccomp",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/validation/field:go_default_library",

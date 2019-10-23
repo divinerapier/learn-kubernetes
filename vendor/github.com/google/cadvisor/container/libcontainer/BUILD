@@ -6,7 +6,7 @@ go_library(
         "handler.go",
         "helpers.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/google/cadvisor/container/libcontainer",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/google/cadvisor/container/libcontainer",
     importpath = "github.com/google/cadvisor/container/libcontainer",
     visibility = ["//visibility:public"],
     deps = [

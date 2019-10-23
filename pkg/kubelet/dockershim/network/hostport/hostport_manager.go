@@ -28,9 +28,9 @@ import (
 	"k8s.io/api/core/v1"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	"k8s.io/klog"
-	iptablesproxy "k8s.io/kubernetes/pkg/proxy/iptables"
-	"k8s.io/kubernetes/pkg/util/conntrack"
-	utiliptables "k8s.io/kubernetes/pkg/util/iptables"
+	iptablesproxy "github.com/divinerapier/learn-kubernetes/pkg/proxy/iptables"
+	"github.com/divinerapier/learn-kubernetes/pkg/util/conntrack"
+	utiliptables "github.com/divinerapier/learn-kubernetes/pkg/util/iptables"
 	"k8s.io/utils/exec"
 	utilnet "k8s.io/utils/net"
 )

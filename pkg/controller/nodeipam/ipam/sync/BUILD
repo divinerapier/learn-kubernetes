@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["sync.go"],
-    importpath = "k8s.io/kubernetes/pkg/controller/nodeipam/ipam/sync",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam/ipam/sync",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/controller/nodeipam/ipam/cidrset:go_default_library",

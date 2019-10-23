@@ -21,7 +21,7 @@ go_library(
         "statefulset.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/apps",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/apps",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/apis/apps:go_default_library",

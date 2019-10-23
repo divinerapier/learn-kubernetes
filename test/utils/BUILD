@@ -25,7 +25,7 @@ go_library(
         "tmpdir.go",
         "update_resources.go",
     ],
-    importpath = "k8s.io/kubernetes/test/utils",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/utils",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/apis/apps:go_default_library",

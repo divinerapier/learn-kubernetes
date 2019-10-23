@@ -18,7 +18,7 @@ go_library(
         "types.go",
         "util.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/cadvisor",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/cadvisor",
     deps = [
         "//pkg/apis/core/v1/helper:go_default_library",
         "//pkg/kubelet/types:go_default_library",

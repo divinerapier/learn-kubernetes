@@ -21,7 +21,7 @@ go_library(
         "util.go",
         "x_net_proxy.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/gorilla/websocket",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/gorilla/websocket",
     importpath = "github.com/gorilla/websocket",
     visibility = ["//visibility:public"],
 )

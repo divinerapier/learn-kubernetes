@@ -8,7 +8,7 @@ go_library(
         "fix.go",
         "types.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/bazelbuild/buildtools/edit",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/bazelbuild/buildtools/edit",
     importpath = "github.com/bazelbuild/buildtools/edit",
     visibility = ["//visibility:public"],
     deps = [

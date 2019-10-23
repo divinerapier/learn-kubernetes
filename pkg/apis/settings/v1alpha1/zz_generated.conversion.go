@@ -27,8 +27,8 @@ import (
 	v1alpha1 "k8s.io/api/settings/v1alpha1"
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	core "k8s.io/kubernetes/pkg/apis/core"
-	settings "k8s.io/kubernetes/pkg/apis/settings"
+	core "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	settings "github.com/divinerapier/learn-kubernetes/pkg/apis/settings"
 )
 
 func init() {

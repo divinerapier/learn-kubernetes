@@ -39,10 +39,10 @@ import (
 	"k8s.io/client-go/kubernetes"
 	corev1listers "k8s.io/client-go/listers/core/v1"
 	"k8s.io/component-base/featuregate"
-	podutil "k8s.io/kubernetes/pkg/api/pod"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	kubefeatures "k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/serviceaccount"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/pod"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	kubefeatures "github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
 )
 
 const (

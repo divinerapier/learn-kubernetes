@@ -41,9 +41,9 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
 	"k8s.io/client-go/tools/cache"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	utilnode "k8s.io/kubernetes/pkg/util/node"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	utilnode "github.com/divinerapier/learn-kubernetes/pkg/util/node"
 
 	jsonpatch "github.com/evanphx/json-patch"
 	"k8s.io/klog"

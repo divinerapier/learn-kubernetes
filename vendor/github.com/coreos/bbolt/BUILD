@@ -29,7 +29,7 @@ go_library(
         "page.go",
         "tx.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/bbolt",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/bbolt",
     importpath = "github.com/coreos/bbolt",
     visibility = ["//visibility:public"],
     deps = select({

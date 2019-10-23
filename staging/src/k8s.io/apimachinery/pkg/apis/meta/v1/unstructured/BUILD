@@ -36,7 +36,7 @@ go_library(
         "unstructured_list.go",
         "zz_generated.deepcopy.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/unstructured",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/unstructured",
     importpath = "k8s.io/apimachinery/pkg/apis/meta/v1/unstructured",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1:go_default_library",

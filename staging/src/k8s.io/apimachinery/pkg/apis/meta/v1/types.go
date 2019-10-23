@@ -164,7 +164,7 @@ type ObjectMeta struct {
 	// Read-only.
 	// More info: http://kubernetes.io/docs/user-guide/identifiers#uids
 	// +optional
-	UID types.UID `json:"uid,omitempty" protobuf:"bytes,5,opt,name=uid,casttype=k8s.io/kubernetes/pkg/types.UID"`
+	UID types.UID `json:"uid,omitempty" protobuf:"bytes,5,opt,name=uid,casttype=github.com/divinerapier/learn-kubernetes/pkg/types.UID"`
 
 	// An opaque value that represents the internal version of this object that can
 	// be used by clients to determine when objects have changed. May be used for optimistic

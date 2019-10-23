@@ -12,7 +12,7 @@ go_library(
         "util.go",
         "wait.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e/framework/service",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/registry/core/service/portallocator:go_default_library",

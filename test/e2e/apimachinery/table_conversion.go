@@ -33,9 +33,9 @@ import (
 	"k8s.io/client-go/util/workqueue"
 
 	utilversion "k8s.io/apimachinery/pkg/util/version"
-	"k8s.io/kubernetes/pkg/printers"
-	"k8s.io/kubernetes/test/e2e/framework"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/pkg/printers"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 var serverPrintVersion = utilversion.MustParseSemantic("v1.10.0")

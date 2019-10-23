@@ -12,7 +12,7 @@ go_library(
         "log.go",
         "subresources.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/core/pod/rest",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/core/pod/rest",
     deps = [
         "//pkg/apis/core:go_default_library",
         "//pkg/apis/core/validation:go_default_library",

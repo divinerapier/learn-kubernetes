@@ -22,9 +22,9 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/sets"
-	cp "k8s.io/kubernetes/pkg/kubelet/checkpoint"
-	"k8s.io/kubernetes/pkg/kubelet/checkpointmanager"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	cp "github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpoint"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/checkpointmanager"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
 )
 
 type FakeMirrorClient struct {

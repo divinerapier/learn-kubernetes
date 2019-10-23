@@ -24,9 +24,9 @@ import (
 	"k8s.io/api/core/v1"
 	extensions "k8s.io/api/extensions/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
-	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
+	podutil "github.com/divinerapier/learn-kubernetes/pkg/api/v1/pod"
+	v1helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
 )
 
 // GetTemplateGeneration gets the template generation associated with a v1.DaemonSet by extracting it from the

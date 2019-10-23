@@ -25,10 +25,10 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	csitrans "k8s.io/csi-translation-lib"
 	"k8s.io/klog"
-	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	"k8s.io/kubernetes/pkg/features"
-	schedulernodeinfo "k8s.io/kubernetes/pkg/scheduler/nodeinfo"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	v1helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	schedulernodeinfo "github.com/divinerapier/learn-kubernetes/pkg/scheduler/nodeinfo"
+	volumeutil "github.com/divinerapier/learn-kubernetes/pkg/volume/util"
 )
 
 // InTreeToCSITranslator contains methods required to check migratable status

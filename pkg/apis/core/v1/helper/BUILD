@@ -23,7 +23,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["helpers.go"],
-    importpath = "k8s.io/kubernetes/pkg/apis/core/v1/helper",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper",
     deps = [
         "//pkg/apis/core/helper:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

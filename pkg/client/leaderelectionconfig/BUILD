@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["config.go"],
-    importpath = "k8s.io/kubernetes/pkg/client/leaderelectionconfig",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/client/leaderelectionconfig",
     deps = [
         "//staging/src/k8s.io/component-base/config:go_default_library",
         "//vendor/github.com/spf13/pflag:go_default_library",

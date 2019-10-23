@@ -17,7 +17,7 @@ limitations under the License.
 // +k8s:defaulter-gen=TypeMeta
 // +groupName=kubeadm.k8s.io
 // +k8s:deepcopy-gen=package
-// +k8s:conversion-gen=k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm
+// +k8s:conversion-gen=github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm
 
 // Package v1beta1 has been deprecated by v1beta2
 // Package v1beta1 defines the v1beta1 version of the kubeadm configuration file format.
@@ -275,7 +275,7 @@ limitations under the License.
 //
 // - APIEndpoint, that represents the endpoint of the instance of the API server to be eventually deployed on this node.
 //
-package v1beta1 // import "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta1"
+package v1beta1 // import "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm/v1beta1"
 
 //TODO: The BootstrapTokenString object should move out to either k8s.io/client-go or k8s.io/api in the future
 //(probably as part of Bootstrap Tokens going GA). It should not be staged under the kubeadm API as it is now.

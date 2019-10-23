@@ -19,7 +19,7 @@
 # #################################################
 #
 # The go prefix passed to kazel
-go_prefix = "k8s.io/kubernetes"
+go_prefix = "github.com/divinerapier/learn-kubernetes"
 
 # The list of codegen tags kazel is configured to find
 kazel_configured_tags = ["openapi-gen"]

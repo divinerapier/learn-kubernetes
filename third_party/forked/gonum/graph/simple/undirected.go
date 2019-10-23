@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/tools/container/intsets"
 
-	"k8s.io/kubernetes/third_party/forked/gonum/graph"
+	"github.com/divinerapier/learn-kubernetes/third_party/forked/gonum/graph"
 )
 
 // UndirectedGraph implements a generalized undirected graph.

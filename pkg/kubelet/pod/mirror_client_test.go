@@ -19,7 +19,7 @@ package pod
 import (
 	"testing"
 
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	kubecontainer "github.com/divinerapier/learn-kubernetes/pkg/kubelet/container"
 )
 
 func TestParsePodFullName(t *testing.T) {

@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["gc_admission.go"],
-    importpath = "k8s.io/kubernetes/plugin/pkg/admission/gc",
+    importpath = "github.com/divinerapier/learn-kubernetes/plugin/pkg/admission/gc",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/api/equality:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/api/meta:go_default_library",

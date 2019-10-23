@@ -27,7 +27,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["storage.go"],
-    importpath = "k8s.io/kubernetes/pkg/registry/extensions/controller/storage",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/extensions/controller/storage",
     deps = [
         "//pkg/apis/autoscaling:go_default_library",
         "//pkg/apis/autoscaling/validation:go_default_library",

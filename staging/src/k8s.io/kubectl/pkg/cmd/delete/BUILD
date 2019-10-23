@@ -6,7 +6,7 @@ go_library(
         "delete.go",
         "delete_flags.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kubectl/pkg/cmd/delete",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kubectl/pkg/cmd/delete",
     importpath = "k8s.io/kubectl/pkg/cmd/delete",
     visibility = ["//visibility:public"],
     deps = [

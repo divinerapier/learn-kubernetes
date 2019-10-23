@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["internal.go"],
-    importmap = "k8s.io/kubernetes/vendor/github.com/vmware/govmomi/vapi/internal",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/vmware/govmomi/vapi/internal",
     importpath = "github.com/vmware/govmomi/vapi/internal",
     visibility = ["//visibility:public"],
     deps = [

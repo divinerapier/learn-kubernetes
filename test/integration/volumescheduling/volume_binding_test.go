@@ -39,12 +39,12 @@ import (
 	"k8s.io/client-go/informers"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/util/workqueue"
-	"k8s.io/kubernetes/pkg/controller/volume/persistentvolume"
-	persistentvolumeoptions "k8s.io/kubernetes/pkg/controller/volume/persistentvolume/options"
-	"k8s.io/kubernetes/pkg/scheduler/algorithm/predicates"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume"
+	persistentvolumeoptions "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/persistentvolume/options"
+	"github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithm/predicates"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume"
+	volumetest "github.com/divinerapier/learn-kubernetes/pkg/volume/testing"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 type testConfig struct {

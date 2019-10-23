@@ -28,7 +28,7 @@ go_library(
         "instrumented_client.go",
         "kube_docker_client.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/dockershim/libdocker",
     deps = [
         "//pkg/kubelet/dockershim/metrics:go_default_library",
         "//staging/src/k8s.io/api/core/v1:go_default_library",

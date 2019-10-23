@@ -25,7 +25,7 @@ import (
 
 	"github.com/onsi/ginkgo"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	instrumentation "k8s.io/kubernetes/test/e2e/instrumentation/common"
+	instrumentation "github.com/divinerapier/learn-kubernetes/test/e2e/instrumentation/common"
 
 	gcm "google.golang.org/api/monitoring/v3"
 	"k8s.io/api/core/v1"
@@ -35,7 +35,7 @@ import (
 	"k8s.io/client-go/discovery"
 	cacheddiscovery "k8s.io/client-go/discovery/cached/memory"
 	"k8s.io/client-go/restmapper"
-	"k8s.io/kubernetes/test/e2e/framework"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 	customclient "k8s.io/metrics/pkg/client/custom_metrics"
 	externalclient "k8s.io/metrics/pkg/client/external_metrics"
 )

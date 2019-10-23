@@ -6,7 +6,7 @@ go_library(
         "extension.pb.go",
         "extensions.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/googleapis/gnostic/extensions",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/googleapis/gnostic/extensions",
     importpath = "github.com/googleapis/gnostic/extensions",
     visibility = ["//visibility:public"],
     deps = [

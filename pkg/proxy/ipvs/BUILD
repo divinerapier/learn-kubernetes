@@ -52,7 +52,7 @@ go_library(
         "proxier.go",
         "safe_ipset.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/proxy/ipvs",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/proxy/ipvs",
     deps = [
         "//pkg/features:go_default_library",
         "//pkg/proxy:go_default_library",

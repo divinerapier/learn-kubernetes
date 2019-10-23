@@ -24,8 +24,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	kubetypes "github.com/divinerapier/learn-kubernetes/pkg/kubelet/types"
 )
 
 // NewSourceApiserver creates a config source that watches and pulls from the apiserver.

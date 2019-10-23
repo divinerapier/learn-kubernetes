@@ -42,10 +42,10 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
 	utiltesting "k8s.io/client-go/util/testing"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	_ "k8s.io/kubernetes/pkg/apis/core/install"
-	"k8s.io/kubernetes/pkg/controller/testutil"
-	"k8s.io/kubernetes/pkg/securitycontext"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/testapi"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/core/install"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/testutil"
+	"github.com/divinerapier/learn-kubernetes/pkg/securitycontext"
 
 	"github.com/stretchr/testify/assert"
 )

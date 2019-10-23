@@ -20,10 +20,10 @@ import (
 	"github.com/onsi/ginkgo"
 	"k8s.io/api/core/v1"
 	clientset "k8s.io/client-go/kubernetes"
-	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	"k8s.io/kubernetes/test/e2e/storage/utils"
+	v1helper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1/helper"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/storage/utils"
 )
 
 var _ = utils.SIGDescribe("Volume limits", func() {

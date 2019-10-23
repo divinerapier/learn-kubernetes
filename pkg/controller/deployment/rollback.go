@@ -25,7 +25,7 @@ import (
 	apps "k8s.io/api/apps/v1"
 	"k8s.io/api/core/v1"
 	extensions "k8s.io/api/extensions/v1beta1"
-	deploymentutil "k8s.io/kubernetes/pkg/controller/deployment/util"
+	deploymentutil "github.com/divinerapier/learn-kubernetes/pkg/controller/deployment/util"
 )
 
 // rollback the deployment to the specified revision. In any case cleanup the rollback spec.

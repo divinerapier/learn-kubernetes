@@ -28,7 +28,7 @@ _tmpdir="$(kube::realpath "$(mktemp -d -t verify-generated-files.XXXXXX)")"
 kube::util::trap_add "rm -rf ${_tmpdir}" EXIT
 
 _tmp_gopath="${_tmpdir}/go"
-_tmp_kuberoot="${_tmp_gopath}/src/k8s.io/kubernetes"
+_tmp_kuberoot="${_tmp_gopath}/src/github.com/divinerapier/learn-kubernetes"
 mkdir -p "${_tmp_kuberoot}/.."
 cp -a "${KUBE_ROOT}" "${_tmp_kuberoot}/.."
 

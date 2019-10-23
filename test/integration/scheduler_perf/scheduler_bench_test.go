@@ -32,10 +32,10 @@ import (
 	"k8s.io/csi-translation-lib/plugins"
 	csilibplugins "k8s.io/csi-translation-lib/plugins"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/features"
-	"k8s.io/kubernetes/pkg/volume/util"
-	"k8s.io/kubernetes/test/integration/framework"
-	testutils "k8s.io/kubernetes/test/utils"
+	"github.com/divinerapier/learn-kubernetes/pkg/features"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/test/integration/framework"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 var (

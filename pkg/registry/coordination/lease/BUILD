@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/coordination/lease",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/coordination/lease",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/legacyscheme:go_default_library",

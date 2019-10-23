@@ -13,7 +13,7 @@ go_library(
         "types.go",
         "value.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/bazelbuild/bazel-gazelle/internal/rule",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/bazelbuild/bazel-gazelle/internal/rule",
     importpath = "github.com/bazelbuild/bazel-gazelle/internal/rule",
     visibility = ["//vendor/github.com/bazelbuild/bazel-gazelle:__subpackages__"],
     deps = [

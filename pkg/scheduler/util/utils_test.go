@@ -25,7 +25,7 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/diff"
-	extenderv1 "k8s.io/kubernetes/pkg/scheduler/apis/extender/v1"
+	extenderv1 "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/extender/v1"
 )
 
 // TestSortableList tests SortableList by storing pods in the list and sorting

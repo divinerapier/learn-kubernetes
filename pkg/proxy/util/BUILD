@@ -8,7 +8,7 @@ go_library(
         "port.go",
         "utils.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/proxy/util",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/proxy/util",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/core/v1/helper:go_default_library",

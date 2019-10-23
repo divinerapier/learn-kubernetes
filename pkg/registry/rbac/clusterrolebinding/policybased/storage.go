@@ -26,11 +26,11 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apiserver/pkg/authorization/authorizer"
 	"k8s.io/apiserver/pkg/registry/rest"
-	kapihelper "k8s.io/kubernetes/pkg/apis/core/helper"
-	"k8s.io/kubernetes/pkg/apis/rbac"
-	rbacv1helpers "k8s.io/kubernetes/pkg/apis/rbac/v1"
-	rbacregistry "k8s.io/kubernetes/pkg/registry/rbac"
-	rbacregistryvalidation "k8s.io/kubernetes/pkg/registry/rbac/validation"
+	kapihelper "github.com/divinerapier/learn-kubernetes/pkg/apis/core/helper"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/rbac"
+	rbacv1helpers "github.com/divinerapier/learn-kubernetes/pkg/apis/rbac/v1"
+	rbacregistry "github.com/divinerapier/learn-kubernetes/pkg/registry/rbac"
+	rbacregistryvalidation "github.com/divinerapier/learn-kubernetes/pkg/registry/rbac/validation"
 )
 
 var groupResource = rbac.Resource("clusterrolebindings")

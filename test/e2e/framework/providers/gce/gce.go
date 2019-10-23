@@ -31,9 +31,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epv "k8s.io/kubernetes/test/e2e/framework/pv"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epv "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pv"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
 	gcecloud "k8s.io/legacy-cloud-providers/gce"
 )
 

@@ -29,10 +29,10 @@ import (
 	"k8s.io/apiserver/pkg/authentication/authenticator"
 	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
 	"k8s.io/apiserver/pkg/registry/rest"
-	authenticationapi "k8s.io/kubernetes/pkg/apis/authentication"
-	authenticationvalidation "k8s.io/kubernetes/pkg/apis/authentication/validation"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	token "k8s.io/kubernetes/pkg/serviceaccount"
+	authenticationapi "github.com/divinerapier/learn-kubernetes/pkg/apis/authentication"
+	authenticationvalidation "github.com/divinerapier/learn-kubernetes/pkg/apis/authentication/validation"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	token "github.com/divinerapier/learn-kubernetes/pkg/serviceaccount"
 )
 
 func (r *TokenREST) New() runtime.Object {

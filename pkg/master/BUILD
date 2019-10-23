@@ -11,7 +11,7 @@ go_library(
         "master.go",
         "services.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/master",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/master",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/apis/admission/install:go_default_library",

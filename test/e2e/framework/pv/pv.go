@@ -28,11 +28,11 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/types"
 	clientset "k8s.io/client-go/kubernetes"
-	storageutil "k8s.io/kubernetes/pkg/apis/storage/v1/util"
-	"k8s.io/kubernetes/pkg/volume/util"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
+	storageutil "github.com/divinerapier/learn-kubernetes/pkg/apis/storage/v1/util"
+	"github.com/divinerapier/learn-kubernetes/pkg/volume/util"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
 )
 
 const (

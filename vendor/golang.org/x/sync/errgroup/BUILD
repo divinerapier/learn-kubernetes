@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["errgroup.go"],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/sync/errgroup",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/sync/errgroup",
     importpath = "golang.org/x/sync/errgroup",
     visibility = ["//visibility:public"],
 )

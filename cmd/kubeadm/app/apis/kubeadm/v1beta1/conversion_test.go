@@ -19,7 +19,7 @@ package v1beta1
 import (
 	"testing"
 
-	"k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	"github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
 )
 
 func TestInternalToVersionedInitConfigurationConversion(t *testing.T) {

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["node_unschedulable.go"],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/framework/plugins/nodeunschedulable",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/framework/plugins/nodeunschedulable",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/scheduler/algorithm/predicates:go_default_library",

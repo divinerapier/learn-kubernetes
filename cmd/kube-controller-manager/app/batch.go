@@ -26,8 +26,8 @@ import (
 	"net/http"
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/kubernetes/pkg/controller/cronjob"
-	"k8s.io/kubernetes/pkg/controller/job"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/cronjob"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/job"
 )
 
 func startJobController(ctx ControllerContext) (http.Handler, bool, error) {

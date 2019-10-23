@@ -25,7 +25,7 @@ import (
 	v1 "k8s.io/api/core/v1"
 	apierrs "k8s.io/apimachinery/pkg/api/errors"
 	clientset "k8s.io/client-go/kubernetes"
-	e2elog "k8s.io/kubernetes/test/e2e/framework/log"
+	e2elog "github.com/divinerapier/learn-kubernetes/test/e2e/framework/log"
 )
 
 const (

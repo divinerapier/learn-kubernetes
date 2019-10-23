@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "register.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/fake",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/fake",
     importpath = "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/fake",
     deps = [
         "//staging/src/k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1:go_default_library",

@@ -14,4 +14,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package podpreset // import "k8s.io/kubernetes/pkg/registry/settings/podpreset"
+package podpreset // import "github.com/divinerapier/learn-kubernetes/pkg/registry/settings/podpreset"

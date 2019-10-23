@@ -13,7 +13,7 @@ go_library(
         "doc.go",
         "update.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/daemon",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/daemon",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/controller:go_default_library",

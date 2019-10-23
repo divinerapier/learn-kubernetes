@@ -23,9 +23,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	"k8s.io/apiserver/pkg/storage/names"
-	"k8s.io/kubernetes/pkg/api/legacyscheme"
-	audit "k8s.io/kubernetes/pkg/apis/auditregistration"
-	"k8s.io/kubernetes/pkg/apis/auditregistration/validation"
+	"github.com/divinerapier/learn-kubernetes/pkg/api/legacyscheme"
+	audit "github.com/divinerapier/learn-kubernetes/pkg/apis/auditregistration"
+	"github.com/divinerapier/learn-kubernetes/pkg/apis/auditregistration/validation"
 )
 
 // auditSinkStrategy implements verification logic for AuditSink.

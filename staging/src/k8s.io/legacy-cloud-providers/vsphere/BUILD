@@ -18,7 +18,7 @@ go_library(
         "vsphere_util_unsupported.go",
         "vsphere_util_windows.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/legacy-cloud-providers/vsphere",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/legacy-cloud-providers/vsphere",
     importpath = "k8s.io/legacy-cloud-providers/vsphere",
     deps = [
         "//staging/src/k8s.io/api/core/v1:go_default_library",

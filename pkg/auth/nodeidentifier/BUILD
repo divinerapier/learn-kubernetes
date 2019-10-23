@@ -12,7 +12,7 @@ go_library(
         "default.go",
         "interfaces.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/auth/nodeidentifier",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/auth/nodeidentifier",
     deps = ["//staging/src/k8s.io/apiserver/pkg/authentication/user:go_default_library"],
 )
 

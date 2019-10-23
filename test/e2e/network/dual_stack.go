@@ -27,11 +27,11 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2edeploy "k8s.io/kubernetes/test/e2e/framework/deployment"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2edeploy "github.com/divinerapier/learn-kubernetes/test/e2e/framework/deployment"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 	netutils "k8s.io/utils/net"
 )
 

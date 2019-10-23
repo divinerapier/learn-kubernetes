@@ -23,7 +23,7 @@ import (
 	componentbaseconfig "k8s.io/component-base/config"
 	componentbaseconfigv1alpha1 "k8s.io/component-base/config/v1alpha1"
 	v1alpha1 "k8s.io/kube-scheduler/config/v1alpha1"
-	config "k8s.io/kubernetes/pkg/scheduler/apis/config"
+	config "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/config"
 )
 
 func TestV1alpha1ToConfigKubeSchedulerLeaderElectionConfiguration(t *testing.T) {

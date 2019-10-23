@@ -8,7 +8,7 @@ go_library(
         "rate_limiters.go",
         "replica_calculator.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/podautoscaler",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/podautoscaler",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/api/legacyscheme:go_default_library",

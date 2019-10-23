@@ -13,7 +13,7 @@ go_library(
         "summary_sys_containers_windows.go",
         "volume_stat_calculator.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/server/stats",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/stats",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/kubelet/apis/stats/v1alpha1:go_default_library",

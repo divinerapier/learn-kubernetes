@@ -10,7 +10,7 @@ go_library(
         "isnan.go",
         "sqrt.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/internal/cmplx64",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/internal/cmplx64",
     importpath = "gonum.org/v1/gonum/internal/cmplx64",
     visibility = ["//vendor/gonum.org/v1/gonum:__subpackages__"],
     deps = ["//vendor/gonum.org/v1/gonum/internal/math32:go_default_library"],

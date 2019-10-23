@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "labels.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/labels",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/labels",
     deps = ["//staging/src/k8s.io/apimachinery/pkg/apis/meta/v1:go_default_library"],
 )
 

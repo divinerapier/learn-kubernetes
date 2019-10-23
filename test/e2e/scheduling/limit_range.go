@@ -32,8 +32,8 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/tools/cache"
 	watchtools "k8s.io/client-go/tools/watch"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2eservice "k8s.io/kubernetes/test/e2e/framework/service"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2eservice "github.com/divinerapier/learn-kubernetes/test/e2e/framework/service"
 
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"

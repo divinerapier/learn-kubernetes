@@ -29,10 +29,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2epod "k8s.io/kubernetes/test/e2e/framework/pod"
-	e2essh "k8s.io/kubernetes/test/e2e/framework/ssh"
-	testutils "k8s.io/kubernetes/test/utils"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2epod "github.com/divinerapier/learn-kubernetes/test/e2e/framework/pod"
+	e2essh "github.com/divinerapier/learn-kubernetes/test/e2e/framework/ssh"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
 )
 
 // StartServeHostnameService creates a replication controller that serves its

@@ -30,8 +30,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/client-go/tools/record"
 	// For the cronjob controller to do conversions.
-	_ "k8s.io/kubernetes/pkg/apis/batch/install"
-	_ "k8s.io/kubernetes/pkg/apis/core/install"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/batch/install"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/apis/core/install"
 )
 
 var (

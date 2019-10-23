@@ -6,7 +6,7 @@ go_library(
         "rolling_updater.go",
         "rollingupdate.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/kubectl/pkg/cmd/rollingupdate",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/kubectl/pkg/cmd/rollingupdate",
     importpath = "k8s.io/kubectl/pkg/cmd/rollingupdate",
     visibility = ["//visibility:public"],
     deps = [

@@ -7,7 +7,7 @@ go_library(
         "import.go",
         "importcomment.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/lint/golint",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/lint/golint",
     importpath = "golang.org/x/lint/golint",
     visibility = ["//visibility:private"],
     deps = ["//vendor/golang.org/x/lint:go_default_library"],

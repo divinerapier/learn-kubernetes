@@ -26,7 +26,7 @@ import (
 
 	certutil "k8s.io/client-go/util/cert"
 	"k8s.io/client-go/util/keyutil"
-	pkiutil "k8s.io/kubernetes/cmd/kubeadm/app/util/pkiutil"
+	pkiutil "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/pkiutil"
 )
 
 // SetupCertificateAuthority is a utility function for kubeadm testing that creates a

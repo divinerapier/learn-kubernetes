@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["goroutinemap.go"],
-    importpath = "k8s.io/kubernetes/pkg/util/goroutinemap",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/goroutinemap",
     deps = [
         "//pkg/util/goroutinemap/exponentialbackoff:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/runtime:go_default_library",

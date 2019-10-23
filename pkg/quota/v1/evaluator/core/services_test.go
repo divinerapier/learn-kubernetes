@@ -22,9 +22,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	api "k8s.io/kubernetes/pkg/apis/core"
-	quota "k8s.io/kubernetes/pkg/quota/v1"
-	"k8s.io/kubernetes/pkg/quota/v1/generic"
+	api "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	quota "github.com/divinerapier/learn-kubernetes/pkg/quota/v1"
+	"github.com/divinerapier/learn-kubernetes/pkg/quota/v1/generic"
 )
 
 func TestServiceEvaluatorMatchesResources(t *testing.T) {

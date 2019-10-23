@@ -16,7 +16,7 @@ limitations under the License.
 
 package e2e_kubeadm
 
-import "k8s.io/kubernetes/test/e2e/framework"
+import "github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 
 // KubeadmDescribe annotates the test with the Kubeadm label.
 func KubeadmDescribe(text string, body func()) bool {

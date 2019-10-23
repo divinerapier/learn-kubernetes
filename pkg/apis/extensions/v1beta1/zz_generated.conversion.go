@@ -29,13 +29,13 @@ import (
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	intstr "k8s.io/apimachinery/pkg/util/intstr"
-	apps "k8s.io/kubernetes/pkg/apis/apps"
-	autoscaling "k8s.io/kubernetes/pkg/apis/autoscaling"
-	core "k8s.io/kubernetes/pkg/apis/core"
-	corev1 "k8s.io/kubernetes/pkg/apis/core/v1"
-	extensions "k8s.io/kubernetes/pkg/apis/extensions"
-	networking "k8s.io/kubernetes/pkg/apis/networking"
-	policy "k8s.io/kubernetes/pkg/apis/policy"
+	apps "github.com/divinerapier/learn-kubernetes/pkg/apis/apps"
+	autoscaling "github.com/divinerapier/learn-kubernetes/pkg/apis/autoscaling"
+	core "github.com/divinerapier/learn-kubernetes/pkg/apis/core"
+	corev1 "github.com/divinerapier/learn-kubernetes/pkg/apis/core/v1"
+	extensions "github.com/divinerapier/learn-kubernetes/pkg/apis/extensions"
+	networking "github.com/divinerapier/learn-kubernetes/pkg/apis/networking"
+	policy "github.com/divinerapier/learn-kubernetes/pkg/apis/policy"
 )
 
 func init() {

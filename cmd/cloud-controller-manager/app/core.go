@@ -28,14 +28,14 @@ import (
 
 	cloudprovider "k8s.io/cloud-provider"
 	"k8s.io/klog"
-	cloudcontrollerconfig "k8s.io/kubernetes/cmd/cloud-controller-manager/app/config"
-	cloudcontrollers "k8s.io/kubernetes/pkg/controller/cloud"
-	routecontroller "k8s.io/kubernetes/pkg/controller/route"
-	servicecontroller "k8s.io/kubernetes/pkg/controller/service"
+	cloudcontrollerconfig "github.com/divinerapier/learn-kubernetes/cmd/cloud-controller-manager/app/config"
+	cloudcontrollers "github.com/divinerapier/learn-kubernetes/pkg/controller/cloud"
+	routecontroller "github.com/divinerapier/learn-kubernetes/pkg/controller/route"
+	servicecontroller "github.com/divinerapier/learn-kubernetes/pkg/controller/service"
 	netutils "k8s.io/utils/net"
 
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	kubefeatures "k8s.io/kubernetes/pkg/features"
+	kubefeatures "github.com/divinerapier/learn-kubernetes/pkg/features"
 )
 
 func startCloudNodeController(ctx *cloudcontrollerconfig.CompletedConfig, cloud cloudprovider.Interface, stopCh <-chan struct{}) (http.Handler, bool, error) {

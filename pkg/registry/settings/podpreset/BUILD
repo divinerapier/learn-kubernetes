@@ -11,7 +11,7 @@ go_library(
         "doc.go",
         "strategy.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/registry/settings/podpreset",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/registry/settings/podpreset",
     deps = [
         "//pkg/api/legacyscheme:go_default_library",
         "//pkg/apis/settings:go_default_library",

@@ -28,8 +28,8 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	jobutil "k8s.io/kubernetes/pkg/controller/job"
-	"k8s.io/kubernetes/test/e2e/framework"
+	jobutil "github.com/divinerapier/learn-kubernetes/pkg/controller/job"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
 )
 
 // WaitForAllJobPodsRunning wait for all pods for the Job named JobName in namespace ns to become Running.  Only use

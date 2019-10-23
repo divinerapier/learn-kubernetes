@@ -9,7 +9,7 @@ go_library(
         "workload_prep.go",
         "wrappers.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/scheduler/testing",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/scheduler/testing",
     deps = [
         "//pkg/scheduler/algorithm:go_default_library",
         "//staging/src/k8s.io/api/apps/v1:go_default_library",

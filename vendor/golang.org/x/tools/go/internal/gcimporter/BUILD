@@ -12,7 +12,7 @@ go_library(
         "newInterface10.go",
         "newInterface11.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/golang.org/x/tools/go/internal/gcimporter",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/golang.org/x/tools/go/internal/gcimporter",
     importpath = "golang.org/x/tools/go/internal/gcimporter",
     visibility = ["//vendor/golang.org/x/tools/go:__subpackages__"],
 )

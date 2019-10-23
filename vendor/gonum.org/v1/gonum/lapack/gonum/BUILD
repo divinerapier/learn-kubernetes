@@ -121,7 +121,7 @@ go_library(
         "iparmq.go",
         "lapack.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/lapack/gonum",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/lapack/gonum",
     importpath = "gonum.org/v1/gonum/lapack/gonum",
     visibility = ["//visibility:public"],
     deps = [

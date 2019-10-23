@@ -30,7 +30,7 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/version"
 	bootstrapapi "k8s.io/cluster-bootstrap/token/api"
-	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
+	kubeadmapi "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/apis/kubeadm"
 	utilnet "k8s.io/utils/net"
 )
 

@@ -9,7 +9,7 @@ go_library(
         "util.go",
         "watch_cache.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apiserver/pkg/storage/cacher",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apiserver/pkg/storage/cacher",
     importpath = "k8s.io/apiserver/pkg/storage/cacher",
     visibility = ["//visibility:public"],
     deps = [

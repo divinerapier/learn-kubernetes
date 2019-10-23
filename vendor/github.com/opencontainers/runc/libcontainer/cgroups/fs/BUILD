@@ -27,7 +27,7 @@ go_library(
         "pids_v2.go",
         "utils.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/opencontainers/runc/libcontainer/cgroups/fs",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/opencontainers/runc/libcontainer/cgroups/fs",
     importpath = "github.com/opencontainers/runc/libcontainer/cgroups/fs",
     visibility = ["//visibility:public"],
     deps = select({

@@ -7,7 +7,7 @@ go_library(
         "runtime_unix.go",
         "runtime_windows.go",
     ],
-    importpath = "k8s.io/kubernetes/cmd/kubeadm/app/util/runtime",
+    importpath = "github.com/divinerapier/learn-kubernetes/cmd/kubeadm/app/util/runtime",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/kubeadm/app/constants:go_default_library",

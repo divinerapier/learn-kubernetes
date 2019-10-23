@@ -29,8 +29,8 @@ import (
 	"k8s.io/client-go/tools/cache"
 	cloudprovider "k8s.io/cloud-provider"
 	"k8s.io/klog"
-	"k8s.io/kubernetes/pkg/controller/nodeipam/ipam"
-	nodeutil "k8s.io/kubernetes/pkg/controller/util/node"
+	"github.com/divinerapier/learn-kubernetes/pkg/controller/nodeipam/ipam"
+	nodeutil "github.com/divinerapier/learn-kubernetes/pkg/controller/util/node"
 )
 
 // Config represents the test configuration that is being run

@@ -12,7 +12,7 @@ go_library(
         "doc.go",
         "netsh.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/util/netsh",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/util/netsh",
     deps = [
         "//vendor/k8s.io/klog:go_default_library",
         "//vendor/k8s.io/utils/exec:go_default_library",

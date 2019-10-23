@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["mock.go"],
-    importmap = "k8s.io/kubernetes/vendor/github.com/GoogleCloudPlatform/k8s-cloud-provider/pkg/cloud/mock",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/GoogleCloudPlatform/k8s-cloud-provider/pkg/cloud/mock",
     importpath = "github.com/GoogleCloudPlatform/k8s-cloud-provider/pkg/cloud/mock",
     visibility = ["//visibility:public"],
     deps = [

@@ -32,10 +32,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
 	clientset "k8s.io/client-go/kubernetes"
-	_ "k8s.io/kubernetes/pkg/scheduler/algorithmprovider"
-	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
-	extenderv1 "k8s.io/kubernetes/pkg/scheduler/apis/extender/v1"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	_ "github.com/divinerapier/learn-kubernetes/pkg/scheduler/algorithmprovider"
+	schedulerapi "github.com/divinerapier/learn-kubernetes/pkg/scheduler/api"
+	extenderv1 "github.com/divinerapier/learn-kubernetes/pkg/scheduler/apis/extender/v1"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 const (

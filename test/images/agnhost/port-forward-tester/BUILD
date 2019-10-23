@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["portforwardtester.go"],
-    importpath = "k8s.io/kubernetes/test/images/agnhost/port-forward-tester",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/images/agnhost/port-forward-tester",
     deps = ["//vendor/github.com/spf13/cobra:go_default_library"],
 )
 

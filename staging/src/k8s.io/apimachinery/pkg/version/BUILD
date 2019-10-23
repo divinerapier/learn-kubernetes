@@ -13,7 +13,7 @@ go_library(
         "helpers.go",
         "types.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/k8s.io/apimachinery/pkg/version",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/k8s.io/apimachinery/pkg/version",
     importpath = "k8s.io/apimachinery/pkg/version",
 )
 

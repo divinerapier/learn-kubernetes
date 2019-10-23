@@ -8,7 +8,7 @@ go_library(
         "periodic.go",
         "revision.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/github.com/coreos/etcd/compactor",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/github.com/coreos/etcd/compactor",
     importpath = "github.com/coreos/etcd/compactor",
     visibility = ["//visibility:public"],
     deps = [

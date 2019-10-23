@@ -19,8 +19,8 @@ package v1alpha1
 import (
 	"time"
 
-	summary "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
-	"k8s.io/kubernetes/pkg/kubelet/server/stats"
+	summary "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/server/stats"
 )
 
 // Version is the string representation of the version of this configuration

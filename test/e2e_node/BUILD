@@ -20,7 +20,7 @@ go_library(
         "util_xfs_linux.go",
         "util_xfs_unsupported.go",
     ],
-    importpath = "k8s.io/kubernetes/test/e2e_node",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e_node",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/features:go_default_library",

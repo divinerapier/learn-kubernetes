@@ -11,7 +11,7 @@ go_library(
         "fake_node_status_updater.go",
         "node_status_updater.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/controller/volume/attachdetach/statusupdater",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/controller/volume/attachdetach/statusupdater",
     deps = [
         "//pkg/controller/volume/attachdetach/cache:go_default_library",
         "//pkg/util/node:go_default_library",

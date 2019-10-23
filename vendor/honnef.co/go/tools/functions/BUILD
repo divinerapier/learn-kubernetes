@@ -7,7 +7,7 @@ go_library(
         "pure.go",
         "terminates.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/honnef.co/go/tools/functions",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/honnef.co/go/tools/functions",
     importpath = "honnef.co/go/tools/functions",
     visibility = ["//visibility:public"],
     deps = ["//vendor/honnef.co/go/tools/ssa:go_default_library"],

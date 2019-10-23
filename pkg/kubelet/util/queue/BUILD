@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["work_queue.go"],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/util/queue",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/util/queue",
     deps = [
         "//staging/src/k8s.io/apimachinery/pkg/types:go_default_library",
         "//staging/src/k8s.io/apimachinery/pkg/util/clock:go_default_library",

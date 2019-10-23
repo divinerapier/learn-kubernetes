@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "errors.go",
     ],
-    importmap = "k8s.io/kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/internal/errors",
+    importmap = "github.com/divinerapier/learn-kubernetes/vendor/gonum.org/v1/gonum/graph/formats/dot/internal/errors",
     importpath = "gonum.org/v1/gonum/graph/formats/dot/internal/errors",
     visibility = ["//vendor/gonum.org/v1/gonum/graph/formats/dot:__subpackages__"],
     deps = ["//vendor/gonum.org/v1/gonum/graph/formats/dot/internal/token:go_default_library"],

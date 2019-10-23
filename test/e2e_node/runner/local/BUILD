@@ -14,7 +14,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["run_local.go"],
-    importpath = "k8s.io/kubernetes/test/e2e_node/runner/local",
+    importpath = "github.com/divinerapier/learn-kubernetes/test/e2e_node/runner/local",
     deps = [
         "//test/e2e_node/builder:go_default_library",
         "//test/e2e_node/system:go_default_library",

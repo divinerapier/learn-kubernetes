@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"k8s.io/klog"
-	stats "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
+	stats "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/stats/v1alpha1"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

@@ -16,7 +16,7 @@ go_library(
         "zz_generated.conversion.go",
         "zz_generated.defaults.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/apis/apps/v1beta2",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/apis/apps/v1beta2",
     deps = [
         "//pkg/apis/apps:go_default_library",
         "//pkg/apis/autoscaling:go_default_library",

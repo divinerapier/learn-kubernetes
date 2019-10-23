@@ -13,7 +13,7 @@ go_library(
         "prober_manager.go",
         "worker.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/prober",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/prober",
     deps = [
         "//pkg/api/v1/pod:go_default_library",
         "//pkg/features:go_default_library",

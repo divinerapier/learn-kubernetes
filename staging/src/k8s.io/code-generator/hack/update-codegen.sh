@@ -22,7 +22,7 @@ SCRIPT_ROOT=$(dirname "${BASH_SOURCE[0]}")/..
 
 # generate the code with:
 # - --output-base because this script should also be able to run inside the vendor dir of
-#   k8s.io/kubernetes. The output-base is needed for the generators to output into the vendor dir
+#   github.com/divinerapier/learn-kubernetes. The output-base is needed for the generators to output into the vendor dir
 #   instead of the $GOPATH directly. For normal projects this can be dropped.
 "$(dirname "${BASH_SOURCE[0]}")"/../generate-internal-groups.sh all \
   k8s.io/code-generator/_examples/apiserver k8s.io/code-generator/_examples/apiserver/apis k8s.io/code-generator/_examples/apiserver/apis \

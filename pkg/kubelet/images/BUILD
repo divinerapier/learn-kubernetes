@@ -16,7 +16,7 @@ go_library(
         "puller.go",
         "types.go",
     ],
-    importpath = "k8s.io/kubernetes/pkg/kubelet/images",
+    importpath = "github.com/divinerapier/learn-kubernetes/pkg/kubelet/images",
     deps = [
         "//pkg/kubelet/apis/stats/v1alpha1:go_default_library",
         "//pkg/kubelet/container:go_default_library",

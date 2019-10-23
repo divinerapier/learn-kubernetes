@@ -29,10 +29,10 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	clientset "k8s.io/client-go/kubernetes"
 	watchtools "k8s.io/client-go/tools/watch"
-	deploymentutil "k8s.io/kubernetes/pkg/controller/deployment/util"
-	"k8s.io/kubernetes/test/e2e/framework"
-	testutils "k8s.io/kubernetes/test/utils"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	deploymentutil "github.com/divinerapier/learn-kubernetes/pkg/controller/deployment/util"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	testutils "github.com/divinerapier/learn-kubernetes/test/utils"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 // UpdateDeploymentWithRetries updates the specified deployment with retries.

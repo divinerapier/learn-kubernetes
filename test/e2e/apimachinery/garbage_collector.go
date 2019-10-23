@@ -37,12 +37,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apiserver/pkg/storage/names"
 	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/kubernetes/test/e2e/framework"
-	e2emetrics "k8s.io/kubernetes/test/e2e/framework/metrics"
-	e2enode "k8s.io/kubernetes/test/e2e/framework/node"
+	"github.com/divinerapier/learn-kubernetes/test/e2e/framework"
+	e2emetrics "github.com/divinerapier/learn-kubernetes/test/e2e/framework/metrics"
+	e2enode "github.com/divinerapier/learn-kubernetes/test/e2e/framework/node"
 
 	"github.com/onsi/ginkgo"
-	imageutils "k8s.io/kubernetes/test/utils/image"
+	imageutils "github.com/divinerapier/learn-kubernetes/test/utils/image"
 )
 
 // estimateMaximumPods estimates how many pods the cluster can handle
