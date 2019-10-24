@@ -41,6 +41,15 @@ type Executor interface {
 // ServeExec handles requests to execute a command in a container. After
 // creating/receiving the required streams, it delegates the actual execution
 // to the executor.
+//
+// executor: *criAdapter
+// pkg/kubelet/server/streaming/server.go:372
+//
+// runtime: *streamingRuntime
+// pkg/kubelet/dockershim/docker_streaming.go:38
+//
+// exechandler: *NativeExecHandler
+// pkg/kubelet/dockershim/exec.go:61
 func ServeExec(w http.ResponseWriter, req *http.Request, executor Executor, podName string, uid types.UID, container string, cmd []string, streamOpts *Options, idleTimeout, streamCreationTimeout time.Duration, supportedProtocols []string) {
 	ctx, ok := createStreams(req, w, streamOpts, supportedProtocols, idleTimeout, streamCreationTimeout)
 	if !ok {
@@ -49,6 +58,7 @@ func ServeExec(w http.ResponseWriter, req *http.Request, executor Executor, podN
 	}
 	defer ctx.conn.Close()
 
+	// pkg/kubelet/dockershim/docker_streaming.go:47
 	err := executor.ExecInContainer(podName, uid, container, cmd, ctx.stdinStream, ctx.stdoutStream, ctx.stderrStream, ctx.tty, ctx.resizeChan, 0)
 	if err != nil {
 		if exitErr, ok := err.(utilexec.ExitError); ok && exitErr.Exited() {

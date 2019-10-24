@@ -24,16 +24,20 @@ require (
 	github.com/blang/semver v3.5.0+incompatible
 	github.com/caddyserver/caddy v1.0.3
 	github.com/cespare/prettybench v0.0.0-20150116022406-03b8cfe5406c
+	github.com/checkpoint-restore/go-criu v0.0.0-00010101000000-000000000000 // indirect
 	github.com/client9/misspell v0.3.4
 	github.com/cloudflare/cfssl v0.0.0-20180726162950-56268a613adf
 	github.com/clusterhq/flocker-go v0.0.0-20160920122132-2b8b7259d313
 	github.com/container-storage-interface/spec v1.1.0
+	github.com/containerd/console v0.0.0-00010101000000-000000000000 // indirect
+	github.com/containerd/containerd v0.0.0-00010101000000-000000000000 // indirect
 	github.com/containernetworking/cni v0.7.1
 	github.com/coredns/corefile-migration v1.0.2
 	github.com/coreos/etcd v3.3.17+incompatible
 	github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e
 	github.com/coreos/pkg v0.0.0-20180108230652-97fdf19511ea
 	github.com/cpuguy83/go-md2man v1.0.10
+	github.com/cyphar/filepath-securejoin v0.0.0-00010101000000-000000000000 // indirect
 	github.com/davecgh/go-spew v1.1.1
 	github.com/docker/distribution v2.7.1+incompatible
 	github.com/docker/docker v0.7.3-0.20190327010347-be7ac8be2ae0
@@ -42,6 +46,7 @@ require (
 	github.com/docker/libnetwork v0.0.0-20180830151422-a9cd636e3789
 	github.com/elazarl/goproxy v0.0.0-20170405201442-c4fc26588b6e
 	github.com/emicklei/go-restful v2.9.5+incompatible
+	github.com/euank/go-kmsg-parser v0.0.0-00010101000000-000000000000 // indirect
 	github.com/evanphx/json-patch v4.2.0+incompatible
 	github.com/fsnotify/fsnotify v1.4.7
 	github.com/go-bindata/go-bindata v3.1.1+incompatible
@@ -49,29 +54,39 @@ require (
 	github.com/go-openapi/spec v0.19.2
 	github.com/go-openapi/strfmt v0.19.0
 	github.com/go-openapi/validate v0.19.2
+	github.com/go-ozzo/ozzo-validation v0.0.0-00010101000000-000000000000 // indirect
+	github.com/godbus/dbus v0.0.0-00010101000000-000000000000 // indirect
 	github.com/gogo/protobuf v1.2.2-0.20190723190241-65acae22fc9d
 	github.com/golang/groupcache v0.0.0-20160516000752-02826c3e7903
 	github.com/golang/mock v1.2.0
 	github.com/golang/protobuf v1.3.1
 	github.com/google/cadvisor v0.34.0
+	github.com/google/certificate-transparency-go v0.0.0-00010101000000-000000000000 // indirect
 	github.com/google/go-cmp v0.3.0
 	github.com/google/gofuzz v1.0.0
 	github.com/googleapis/gnostic v0.0.0-20170729233727-0c5108395e2d
 	github.com/hashicorp/golang-lru v0.5.1
 	github.com/heketi/heketi v9.0.1-0.20190917153846-c2e2a4ab7ab9+incompatible
 	github.com/json-iterator/go v1.1.7
+	github.com/karrick/godirwalk v0.0.0-00010101000000-000000000000 // indirect
 	github.com/libopenstorage/openstorage v1.0.0
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de
 	github.com/lithammer/dedent v1.1.0
+	github.com/mattn/go-shellwords v0.0.0-00010101000000-000000000000 // indirect
 	github.com/miekg/dns v1.1.4
 	github.com/mindprince/gonvml v0.0.0-20190828220739-9ebdce4bb989 // indirect
+	github.com/mistifyio/go-zfs v0.0.0-00010101000000-000000000000 // indirect
+	github.com/mohae/deepcopy v0.0.0-00010101000000-000000000000 // indirect
+	github.com/morikuni/aec v0.0.0-00010101000000-000000000000 // indirect
 	github.com/mrunalp/fileutils v0.0.0-20171103030105-7d4729fb3618 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
 	github.com/mvdan/xurls v1.1.0
 	github.com/onsi/ginkgo v1.10.1
 	github.com/onsi/gomega v1.7.0
 	github.com/opencontainers/go-digest v1.0.0-rc1
+	github.com/opencontainers/image-spec v0.0.0-00010101000000-000000000000 // indirect
 	github.com/opencontainers/runc v1.0.0-rc9
+	github.com/opencontainers/runtime-spec v0.0.0-00010101000000-000000000000 // indirect
 	github.com/opencontainers/selinux v1.3.1-0.20190929122143-5215b1806f52
 	github.com/pborman/uuid v1.2.0
 	github.com/pkg/errors v0.8.0
@@ -90,6 +105,7 @@ require (
 	github.com/syndtr/gocapability v0.0.0-20180916011248-d98352740cb2 // indirect
 	github.com/thecodeteam/goscaleio v0.1.0
 	github.com/vishvananda/netlink v0.0.0-20171020171820-b2de5d10e38e
+	github.com/vishvananda/netns v0.0.0-00010101000000-000000000000 // indirect
 	github.com/vmware/govmomi v0.20.1
 	golang.org/x/crypto v0.0.0-20190611184440-5c40567a22f8
 	golang.org/x/lint v0.0.0-20190409202823-959b441ac422
@@ -129,7 +145,6 @@ require (
 	k8s.io/kube-scheduler v0.0.0
 	k8s.io/kubectl v0.0.0
 	k8s.io/kubelet v0.0.0
-	github.com/divinerapier/learn-kubernetes v1.16.3
 	k8s.io/legacy-cloud-providers v0.0.0
 	k8s.io/metrics v0.0.0
 	k8s.io/repo-infra v0.0.0-20181204233714-00fe14e3d1a3

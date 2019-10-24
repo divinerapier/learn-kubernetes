@@ -34,15 +34,6 @@ import (
 	"github.com/opencontainers/runc/libcontainer/configs"
 	"k8s.io/klog"
 
-	v1 "k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/api/resource"
-	utilerrors "k8s.io/apimachinery/pkg/util/errors"
-	"k8s.io/apimachinery/pkg/util/sets"
-	utilversion "k8s.io/apimachinery/pkg/util/version"
-	"k8s.io/apimachinery/pkg/util/wait"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/client-go/tools/record"
-	internalapi "k8s.io/cri-api/pkg/apis"
 	kubefeatures "github.com/divinerapier/learn-kubernetes/pkg/features"
 	podresourcesapi "github.com/divinerapier/learn-kubernetes/pkg/kubelet/apis/podresources/v1alpha1"
 	"github.com/divinerapier/learn-kubernetes/pkg/kubelet/cadvisor"
@@ -63,6 +54,15 @@ import (
 	"github.com/divinerapier/learn-kubernetes/pkg/util/oom"
 	"github.com/divinerapier/learn-kubernetes/pkg/util/procfs"
 	utilsysctl "github.com/divinerapier/learn-kubernetes/pkg/util/sysctl"
+	v1 "k8s.io/api/core/v1"
+	"k8s.io/apimachinery/pkg/api/resource"
+	utilerrors "k8s.io/apimachinery/pkg/util/errors"
+	"k8s.io/apimachinery/pkg/util/sets"
+	utilversion "k8s.io/apimachinery/pkg/util/version"
+	"k8s.io/apimachinery/pkg/util/wait"
+	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	"k8s.io/client-go/tools/record"
+	internalapi "k8s.io/cri-api/pkg/apis"
 	utilio "k8s.io/utils/io"
 	utilpath "k8s.io/utils/path"
 )
@@ -809,6 +809,19 @@ func ensureProcessInContainerWithOOMScore(pid int, oomScoreAdj int, manager *fs.
 // It enforces a unified hierarchy for memory and cpu cgroups.
 // On systemd environments, it uses the name=systemd cgroup for the specified pid.
 func getContainer(pid int) (string, error) {
+	// For example:
+	// 12:devices:/user.slice
+	// 11:perf_event:/
+	// 10:net_cls,net_prio:/
+	// 9:memory:/user.slice
+	// 8:freezer:/
+	// 7:cpuset:/
+	// 6:hugetlb:/
+	// 5:rdma:/
+	// 4:cpu,cpuacct:/user.slice
+	// 3:blkio:/user.slice
+	// 2:pids:/user.slice/user-10125.slice
+	// 1:name=systemd:/user.slice/user-10125.slice/session-296.scope
 	cgs, err := cgroups.ParseCgroupFile(fmt.Sprintf("/proc/%d/cgroup", pid))
 	if err != nil {
 		return "", err
